@@ -45,6 +45,28 @@ const aiKeywords = [
   "gpu"
 ];
 
+const bannedConnectors = ["したがって", "一方で", "そして", "これにより", "つまり", "さらに"];
+const bannedVocabulary = [
+  "単なる",
+  "鍵となる",
+  "革新的",
+  "飛躍的",
+  "劇的",
+  "シームレス",
+  "最適化",
+  "本質的"
+];
+
+const articleWritingRules = [
+  `禁止接続詞を使わない: ${bannedConnectors.join(" / ")}`,
+  `禁止語彙を使わない: ${bannedVocabulary.join(" / ")}`,
+  "一文の長さを意図的に揺らし、10字台の短文と50字超の長文を混在させる。",
+  "文末の「です」「ます」を3回以上連続させない。",
+  "抽象論で終わらせず、具体的な数値、固有名詞、体験談のいずれかを1つ以上入れる。",
+  "「結論から言うと」で始めない。",
+  "統計や効果を書く場合、出典がなければ断定せず「目安として」と明記する。"
+];
+
 function decodeEntities(value = "") {
   return value
     .replaceAll("<![CDATA[", "")
@@ -180,6 +202,44 @@ function extractJson(text) {
   return JSON.parse(raw.slice(start, end + 1));
 }
 
+function collectArticleText(article) {
+  return [
+    article.title,
+    article.dek,
+    article.summary,
+    article.whyItMatters,
+    ...(article.details || []).flatMap((item) => [item.heading, item.body]),
+    ...(article.watchPoints || []),
+    ...(article.glossary || []).flatMap((item) => [item.term, item.description]),
+    ...(article.tags || [])
+  ]
+    .filter(Boolean)
+    .join("\n");
+}
+
+function validateWritingRules(article) {
+  const text = collectArticleText(article);
+  const banned = [...bannedConnectors, ...bannedVocabulary, "結論から言うと"];
+  const found = banned.filter((word) => text.includes(word));
+  if (found.length > 0) {
+    throw new Error(`Generated article uses banned wording: ${found.join(", ")}`);
+  }
+
+  const endings = text
+    .split(/[。！？!?]\s*/)
+    .map((sentence) => sentence.trim())
+    .filter(Boolean)
+    .map((sentence) => /(?:です|ます)$/.test(sentence));
+
+  let politeRun = 0;
+  for (const isPoliteEnding of endings) {
+    politeRun = isPoliteEnding ? politeRun + 1 : 0;
+    if (politeRun >= 3) {
+      throw new Error("Generated article ends three or more consecutive sentences with です/ます.");
+    }
+  }
+}
+
 function validateArticle(article, sources) {
   const clean = {
     id: article.id || `ai-news-${today}`,
@@ -216,6 +276,7 @@ function validateArticle(article, sources) {
   if (!Array.isArray(clean.glossary) || clean.glossary.length < 2) {
     throw new Error("Generated article must include glossary terms.");
   }
+  validateWritingRules(clean);
   return clean;
 }
 
@@ -225,7 +286,8 @@ async function generateWithOpenAI(sources) {
   const prompt = {
     date: today,
     instruction:
-      "以下のAI関連ニュース出典をもとに、日本語の詳細な日次解説記事を作成してください。本文は出典の丸写しにせず、事実・背景・影響・次に見る論点を分けて丁寧に説明してください。不確かな推測は避け、各source URLを保持してください。",
+      "以下のAI関連ニュース出典をもとに、日本語の詳細な日次解説記事を作成してください。本文は出典の丸写しにせず、事実・背景・影響・次に見る論点を分けて丁寧に説明してください。不確かな推測は避け、各source URLを保持してください。AIが書いたように見える均質な文体を避け、writingRulesを必ず守ってください。",
+    writingRules: articleWritingRules,
     schema: {
       id: "ai-news-YYYY-MM-DD",
       date: "YYYY-MM-DD",
