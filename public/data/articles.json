@@ -5,6 +5,8 @@
       "id": "ai-news-2026-06-18",
       "date": "2026-06-18",
       "generatedAt": "2026-06-17T17:59:30.000Z",
+      "image": "/assets/ai-ink-hero.png",
+      "imageAlt": "水墨画風の円環と山並みでエージェントAIの運用段階を表したキービジュアル",
       "title": "エージェントAIは、試作から運用の段階に入った",
       "dek": "NVIDIAのロボット研究、OpenAIの公開前評価、Amazon Bedrock GuardrailsのAPI追加を並べると、2026年6月18日のAIニュースは「作る」より「壊さず回す」話に寄っています。",
       "summary": "今日の主役は、派手なモデル発表ではありません。NVIDIA関連の研究では、AIコーディングエージェントを使い、ロボットの把持動作を試行しながら直す流れが示されました。OpenAIはDeployment Simulationを公開し、モデル公開後の失敗を実際の会話に近い形で事前に読む方法を出しています。AWSはAmazon Bedrock GuardrailsのInvokeGuardrailChecks API、Amazon SageMaker AIのコンテナイメージキャッシュ、Amazon Bedrock AgentCoreの継続学習機能を発表しました。細かい。けれど、企業がAIを日常業務に入れる時に詰まりやすいのは、まさにこの細部です。",

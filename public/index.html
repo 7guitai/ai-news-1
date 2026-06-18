@@ -7,7 +7,7 @@
       name="description"
       content="最新のAIニュースを毎日、背景・影響・用語まで丁寧に読み解く日本語ニュースサイト。"
     />
-    <meta name="theme-color" content="#080d14" />
+    <meta name="theme-color" content="#f7f3ea" />
     <title>AI暦 - Daily AI Chronicle</title>
     <link rel="icon" type="image/png" href="/assets/ai-ink-hero.png" />
     <link rel="preload" href="/assets/ai-ink-hero.png" as="image" />
@@ -48,13 +48,13 @@
           <div class="hero-overlay" aria-hidden="true"></div>
           <div class="hero-content">
             <p class="kicker">毎朝更新するAIニュース解説</p>
-            <h1 id="heroTitle">今日のAIを、深く、丁寧に。</h1>
+            <h1 id="heroTitle">今日のAIを、読みやすい記事で追う。</h1>
             <p class="hero-copy">
-              断片的な発表や研究、規制、プロダクト更新を一つの記事に編み直し、何が変わり、誰に影響し、次に何を見るべきかまで読み解きます。
+              企業発表、研究、規制、プロダクト更新を一つの記事に整理。出典リンクと画像を添えて、何が変わり、どこを確認すべきかまで読み解きます。
             </p>
             <div class="hero-actions">
               <a class="primary-action" href="#latest">最新記事を読む</a>
-              <a class="ghost-action" href="#automation">更新方法を見る</a>
+              <a class="ghost-action" href="#briefing">出典と論点を見る</a>
             </div>
           </div>
           <aside class="hero-panel" aria-label="本日の更新状況">
@@ -78,6 +78,13 @@
             <p class="lead" id="articleLead"></p>
 
             <div class="article-meta" id="articleMeta"></div>
+
+            <figure class="article-visual">
+              <img id="articleImage" src="/assets/ai-ink-hero.png" alt="AIニュース記事のキービジュアル" />
+              <figcaption id="articleImageCaption">本日のAIニュースを象徴するキービジュアル</figcaption>
+            </figure>
+
+            <div class="source-strip" id="sourceStrip" aria-label="記事で参照した主なリンク"></div>
 
             <div class="reader-tools" aria-label="記事切り替え">
               <label for="articleSelect">日付を選ぶ</label>

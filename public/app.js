@@ -3,6 +3,8 @@ const fallbackArticles = [
     id: "initial-guide",
     date: "2026-06-18",
     generatedAt: "2026-06-18T00:00:00.000Z",
+    image: "/assets/ai-ink-hero.png",
+    imageAlt: "水墨画風の円環と山並みでAIニュースを表現したキービジュアル",
     title: "AIニュースを毎日読み解くための初回ガイド",
     dek: "このサイトは、公式発表・研究・規制・プロダクト更新を日次で集約し、背景と影響まで含めた日本語記事として公開します。",
     summary:
@@ -55,6 +57,8 @@ const fallbackArticles = [
     ]
   }
 ];
+
+const defaultImage = "/assets/ai-ink-hero.png";
 
 const state = {
   articles: fallbackArticles,
@@ -114,6 +118,8 @@ function renderTicker(article) {
 function renderArticle(index) {
   state.activeIndex = index;
   const article = state.articles[index] || state.articles[0];
+  const articleImage = article.image || defaultImage;
+  const articleImageAlt = article.imageAlt || `${article.title}のキービジュアル`;
 
   document.querySelector("#articleDate").dateTime = article.date;
   document.querySelector("#articleDate").textContent = formatDate(article.date);
@@ -123,6 +129,9 @@ function renderArticle(index) {
   document.querySelector("#whyItMatters").textContent = article.whyItMatters;
   document.querySelector("#generatedAt").textContent = formatDateTime(article.generatedAt || article.date);
   document.querySelector("#sourceCount").textContent = `${article.sources?.length || 0}件の出典をもとに整理`;
+  document.querySelector("#articleImage").src = articleImage;
+  document.querySelector("#articleImage").alt = articleImageAlt;
+  document.querySelector("#articleImageCaption").textContent = articleImageAlt;
 
   const meta = document.querySelector("#articleMeta");
   meta.replaceChildren(
@@ -131,12 +140,34 @@ function renderArticle(index) {
     )
   );
 
+  const sourceStrip = document.querySelector("#sourceStrip");
+  sourceStrip.replaceChildren(
+    ...(article.sources || []).slice(0, 3).map((source, sourceIndex) => {
+      const link = create("a", "source-chip");
+      link.href = source.url;
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.append(create("b", "", `Source ${sourceIndex + 1}`));
+      link.append(create("strong", "", source.title));
+      link.append(create("span", "", `${source.source} / ${source.publishedAt || "日付不明"}`));
+      return link;
+    })
+  );
+
   const details = document.querySelector("#detailsList");
   details.replaceChildren(
-    ...(article.details || []).map((item) => {
+    ...(article.details || []).map((item, detailIndex) => {
+      const relatedSource = article.sources?.[detailIndex];
       const wrap = create("div", "detail-item");
       wrap.append(create("strong", "", item.heading));
       wrap.append(create("p", "", item.body));
+      if (relatedSource?.url) {
+        const sourceLink = create("a", "detail-source", `${relatedSource.source}で確認する`);
+        sourceLink.href = relatedSource.url;
+        sourceLink.target = "_blank";
+        sourceLink.rel = "noopener noreferrer";
+        wrap.append(sourceLink);
+      }
       return wrap;
     })
   );

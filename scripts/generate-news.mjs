@@ -245,6 +245,8 @@ function validateArticle(article, sources) {
     id: article.id || `ai-news-${today}`,
     date: article.date || today,
     generatedAt: new Date().toISOString(),
+    image: article.image || "/assets/ai-ink-hero.png",
+    imageAlt: article.imageAlt || "AIニュースのキービジュアル",
     title: article.title,
     dek: article.dek,
     summary: article.summary,
@@ -295,6 +297,8 @@ async function generateWithOpenAI(sources) {
       dek: "100字前後の導入",
       summary: "まず何が起きたか。300字以上。",
       whyItMatters: "なぜ重要か。300字以上。",
+      image: "/assets/ai-ink-hero.png",
+      imageAlt: "記事内容を表す画像の説明文",
       details: [{ heading: "小見出し", body: "詳しい説明。250字以上。" }],
       watchPoints: ["次に確認すべき論点"],
       glossary: [{ term: "用語", description: "短く平易な説明" }],
@@ -340,6 +344,8 @@ function fallbackArticle(sources) {
     {
       id: `ai-news-${today}`,
       date: today,
+      image: "/assets/ai-ink-hero.png",
+      imageAlt: "AIニュースの自動収集を表すキービジュアル",
       title: "今日のAIニュース総覧",
       dek: `${themes.join("、")}などの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。`,
       summary:
