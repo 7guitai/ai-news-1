@@ -26,7 +26,7 @@ const fallbackArticles = [
       }
     ],
     watchPoints: [
-      "OpenAI APIキーをGitHub Secretsに入れると、本文の詳細度が大きく上がります。",
+      "OpenAI APIキーをGitHub Secretsに入れると、より詳しい記事が生成されます。",
       "フィードURLはscripts/generate-news.mjsで追加・削除できます。",
       "Cloudflare Pagesの出力ディレクトリはpublicに設定します。"
     ],
@@ -158,7 +158,7 @@ function renderArticle(index) {
   document.querySelector("#whyItMatters").textContent = article.whyItMatters;
   document.querySelector("#generatedAt").textContent = formatDateTime(article.generatedAt || article.date);
   document.querySelector("#sourceCount").textContent =
-    `${article.sources?.length || 0}件の出典、約${readingMinutes(article)}分で読める記事`;
+    `出典 ${article.sources?.length || 0}件・読了約 ${readingMinutes(article)}分`;
   document.querySelector("#articleImage").src = articleImage;
   document.querySelector("#articleImage").alt = articleImageAlt;
   document.querySelector("#articleImageCaption").textContent = articleImageAlt;
@@ -333,7 +333,7 @@ function setupShare() {
         }, 1800);
       }
     } catch {
-      button.textContent = "共有を中止しました";
+      button.textContent = "共有できませんでした";
       setTimeout(() => {
         button.textContent = "この記事を共有";
       }, 1800);
