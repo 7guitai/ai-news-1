@@ -1,0 +1,11 @@
+{
+  "name": "ai-koyomi-news",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/validate-data.mjs",
+    "news:update": "node scripts/generate-news.mjs",
+    "validate:data": "node scripts/validate-data.mjs"
+  }
+}

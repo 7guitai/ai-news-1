@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="最新のAIニュースを毎日、背景・影響・用語まで丁寧に読み解く日本語ニュースサイト。"
+    />
+    <meta name="theme-color" content="#080d14" />
+    <title>AI暦 - Daily AI Chronicle</title>
+    <link rel="icon" type="image/png" href="/assets/ai-ink-hero.png" />
+    <link rel="preload" href="/assets/ai-ink-hero.png" as="image" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header" data-elevated="false">
+        <a class="brand" href="#top" aria-label="AI暦のトップへ">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span>
+            <strong>AI暦</strong>
+            <small>Daily AI Chronicle</small>
+          </span>
+        </a>
+        <nav class="desktop-nav" aria-label="主要ナビゲーション">
+          <a href="#latest">最新記事</a>
+          <a href="#briefing">論点</a>
+          <a href="#archive">アーカイブ</a>
+          <a href="#automation">自動更新</a>
+        </nav>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobileNav">
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+
+      <nav id="mobileNav" class="mobile-nav" aria-label="モバイルナビゲーション" hidden>
+        <a href="#latest">最新記事</a>
+        <a href="#briefing">論点</a>
+        <a href="#archive">アーカイブ</a>
+        <a href="#automation">自動更新</a>
+      </nav>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="heroTitle">
+          <div class="hero-media" aria-hidden="true"></div>
+          <div class="hero-overlay" aria-hidden="true"></div>
+          <div class="hero-content">
+            <p class="kicker">毎朝更新するAIニュース解説</p>
+            <h1 id="heroTitle">今日のAIを、深く、丁寧に。</h1>
+            <p class="hero-copy">
+              断片的な発表や研究、規制、プロダクト更新を一つの記事に編み直し、何が変わり、誰に影響し、次に何を見るべきかまで読み解きます。
+            </p>
+            <div class="hero-actions">
+              <a class="primary-action" href="#latest">最新記事を読む</a>
+              <a class="ghost-action" href="#automation">更新方法を見る</a>
+            </div>
+          </div>
+          <aside class="hero-panel" aria-label="本日の更新状況">
+            <span class="panel-label">Latest Run</span>
+            <strong id="generatedAt">読み込み中</strong>
+            <p id="sourceCount">ニュースソースを確認しています。</p>
+          </aside>
+        </section>
+
+        <section class="ticker-band" aria-label="注目トピック">
+          <div class="ticker-track" id="tickerTrack"></div>
+        </section>
+
+        <section id="latest" class="content-grid">
+          <article class="article-card" aria-live="polite">
+            <div class="section-heading">
+              <span>最新記事</span>
+              <time id="articleDate" datetime=""></time>
+            </div>
+            <h2 id="articleTitle">記事を読み込んでいます</h2>
+            <p class="lead" id="articleLead"></p>
+
+            <div class="article-meta" id="articleMeta"></div>
+
+            <div class="reader-tools" aria-label="記事切り替え">
+              <label for="articleSelect">日付を選ぶ</label>
+              <select id="articleSelect"></select>
+            </div>
+
+            <div class="article-body">
+              <section>
+                <h3>まず何が起きたか</h3>
+                <p id="articleSummary"></p>
+              </section>
+              <section>
+                <h3>なぜ重要か</h3>
+                <p id="whyItMatters"></p>
+              </section>
+              <section>
+                <h3>詳しい読み解き</h3>
+                <div id="detailsList" class="detail-list"></div>
+              </section>
+            </div>
+          </article>
+
+          <aside id="briefing" class="briefing-stack">
+            <section class="side-card">
+              <div class="section-heading">
+                <span>今日の論点</span>
+              </div>
+              <ul id="watchPoints" class="clean-list"></ul>
+            </section>
+            <section class="side-card">
+              <div class="section-heading">
+                <span>用語をほどく</span>
+              </div>
+              <dl id="glossary" class="glossary"></dl>
+            </section>
+            <section class="side-card">
+              <div class="section-heading">
+                <span>出典</span>
+              </div>
+              <div id="sources" class="sources"></div>
+            </section>
+          </aside>
+        </section>
+
+        <section id="archive" class="archive-section">
+          <div class="section-heading wide">
+            <span>アーカイブ</span>
+            <p>過去の記事を読み返し、変化の流れを追えます。</p>
+          </div>
+          <div id="archiveGrid" class="archive-grid"></div>
+        </section>
+
+        <section id="automation" class="automation-section">
+          <div>
+            <p class="kicker">Cloudflare Pages ready</p>
+            <h2>毎日の更新はGitHub Actionsで自動化。</h2>
+          </div>
+          <div class="automation-steps">
+            <div>
+              <span>01</span>
+              <strong>RSSを取得</strong>
+              <p>公式ブログや主要AIメディアのフィードを集めます。</p>
+            </div>
+            <div>
+              <span>02</span>
+              <strong>記事を生成</strong>
+              <p>OpenAI APIキーがあれば、背景・影響・用語まで含む日本語記事に整理します。</p>
+            </div>
+            <div>
+              <span>03</span>
+              <strong>Pagesへ反映</strong>
+              <p>生成されたJSONをコミットし、Cloudflare Pagesのデプロイを起動します。</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
