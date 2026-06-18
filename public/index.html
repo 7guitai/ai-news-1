@@ -5,62 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="最新のAIニュースを毎日、背景・影響・用語まで丁寧に読み解く日本語ニュースサイト。"
+      content="AI Nexus Dailyは、国内外のAIニュースを毎日整理し、背景、影響、出典、次に見る論点まで日本語で読めるニュースブリーフです。"
     />
     <meta name="theme-color" content="#f7f3ea" />
-    <title>AI暦 - Daily AI Chronicle</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="AI Nexus Daily" />
+    <meta property="og:title" content="AI Nexus Daily" />
+    <meta
+      property="og:description"
+      content="AIニュースを、出典つきの日本語ブリーフとして毎日整理。研究、規制、クラウド、モデル、企業導入まで追えます。"
+    />
+    <meta property="og:image" content="/assets/ai-ink-hero.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://ai-news-1.pages.dev/" />
+    <link rel="alternate" type="application/rss+xml" title="AI Nexus Daily RSS" href="/feed.xml" />
+    <title>AI Nexus Daily | AIニュースを意思決定に使える1本へ</title>
     <link rel="icon" type="image/png" href="/assets/ai-ink-hero.png" />
     <link rel="preload" href="/assets/ai-ink-hero.png" as="image" />
     <link rel="stylesheet" href="/styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "NewsMediaOrganization",
+        "name": "AI Nexus Daily",
+        "url": "https://ai-news-1.pages.dev/",
+        "description": "AIニュースを出典つきの日本語ブリーフとして毎日整理するニュースサイト。",
+        "publishingPrinciples": "https://ai-news-1.pages.dev/#policy"
+      }
+    </script>
   </head>
   <body>
     <div class="page-shell">
       <header class="site-header" data-elevated="false">
-        <a class="brand" href="#top" aria-label="AI暦のトップへ">
+        <a class="brand" href="#top" aria-label="AI Nexus Dailyのトップへ">
           <span class="brand-mark" aria-hidden="true"></span>
           <span>
-            <strong>AI暦</strong>
-            <small>Daily AI Chronicle</small>
+            <strong>AI Nexus Daily</strong>
+            <small>AI news briefing</small>
           </span>
         </a>
         <nav class="desktop-nav" aria-label="主要ナビゲーション">
-          <a href="#latest">最新記事</a>
+          <a href="#latest">最新</a>
           <a href="#briefing">論点</a>
+          <a href="#explore">検索</a>
           <a href="#archive">アーカイブ</a>
-          <a href="#automation">自動更新</a>
+          <a href="#policy">編集方針</a>
         </nav>
-        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobileNav">
+        <button class="menu-button" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="mobileNav">
           <span></span>
           <span></span>
         </button>
       </header>
 
       <nav id="mobileNav" class="mobile-nav" aria-label="モバイルナビゲーション" hidden>
-        <a href="#latest">最新記事</a>
+        <a href="#latest">最新</a>
         <a href="#briefing">論点</a>
+        <a href="#explore">検索</a>
         <a href="#archive">アーカイブ</a>
-        <a href="#automation">自動更新</a>
+        <a href="#policy">編集方針</a>
       </nav>
 
       <main id="top">
         <section class="hero" aria-labelledby="heroTitle">
           <div class="hero-media" aria-hidden="true"></div>
-          <div class="hero-overlay" aria-hidden="true"></div>
           <div class="hero-content">
-            <p class="kicker">毎朝更新するAIニュース解説</p>
-            <h1 id="heroTitle">今日のAIを、読みやすい記事で追う。</h1>
+            <p class="kicker">毎朝更新するAIニュースブリーフ</p>
+            <h1 id="heroTitle">AIニュースを、意思決定に使える1本へ。</h1>
             <p class="hero-copy">
-              企業発表、研究、規制、プロダクト更新を一つの記事に整理。出典リンクと画像を添えて、何が変わり、どこを確認すべきかまで読み解きます。
+              研究、モデル、規制、クラウド、企業導入を横断して整理。出典、読み時間、確認すべき論点までそろえ、忙しい読者が5分で流れをつかめる形にします。
             </p>
             <div class="hero-actions">
               <a class="primary-action" href="#latest">最新記事を読む</a>
-              <a class="ghost-action" href="#briefing">出典と論点を見る</a>
+              <a class="ghost-action" href="/feed.xml">RSSで購読</a>
             </div>
           </div>
-          <aside class="hero-panel" aria-label="本日の更新状況">
-            <span class="panel-label">Latest Run</span>
+          <aside class="hero-panel" aria-label="本日の更新状態">
+            <span class="panel-label">Latest issue</span>
             <strong id="generatedAt">読み込み中</strong>
             <p id="sourceCount">ニュースソースを確認しています。</p>
+            <div class="trust-row">
+              <span>出典リンク</span>
+              <span>用語解説</span>
+              <span>論点整理</span>
+            </div>
           </aside>
         </section>
 
@@ -71,7 +98,7 @@
         <section id="latest" class="content-grid">
           <article class="article-card" aria-live="polite">
             <div class="section-heading">
-              <span>最新記事</span>
+              <span>Latest briefing</span>
               <time id="articleDate" datetime=""></time>
             </div>
             <h2 id="articleTitle">記事を読み込んでいます</h2>
@@ -86,9 +113,10 @@
 
             <div class="source-strip" id="sourceStrip" aria-label="記事で参照した主なリンク"></div>
 
-            <div class="reader-tools" aria-label="記事切り替え">
-              <label for="articleSelect">日付を選ぶ</label>
+            <div class="reader-tools" aria-label="記事操作">
+              <label for="articleSelect">記事を選ぶ</label>
               <select id="articleSelect"></select>
+              <button class="share-button" id="shareButton" type="button">この記事を共有</button>
             </div>
 
             <div class="article-body">
@@ -129,35 +157,60 @@
           </aside>
         </section>
 
+        <section id="explore" class="explore-section">
+          <div class="section-heading wide">
+            <span>Explore</span>
+            <p>キーワードやタグで記事を絞り込みます。</p>
+          </div>
+          <div class="explore-tools">
+            <label class="search-box">
+              <span>記事を検索</span>
+              <input id="articleSearch" type="search" placeholder="例: OpenAI / エージェント / AWS" autocomplete="off" />
+            </label>
+            <div class="topic-filters" id="topicFilters" aria-label="タグで絞り込み"></div>
+          </div>
+        </section>
+
         <section id="archive" class="archive-section">
           <div class="section-heading wide">
-            <span>アーカイブ</span>
-            <p>過去の記事を読み返し、変化の流れを追えます。</p>
+            <span>Archive</span>
+            <p id="archiveCount">過去の記事を読み返し、AI業界の流れを追えます。</p>
           </div>
           <div id="archiveGrid" class="archive-grid"></div>
         </section>
 
-        <section id="automation" class="automation-section">
+        <section class="newsletter-section" aria-labelledby="newsletterTitle">
           <div>
-            <p class="kicker">Cloudflare Pages ready</p>
-            <h2>毎日の更新はGitHub Actionsで自動化。</h2>
+            <p class="kicker">Production ready</p>
+            <h2 id="newsletterTitle">毎朝の確認先として使えるサイトへ。</h2>
+            <p>
+              RSS、サイトマップ、構造化データ、出典リンク、記事検索を用意しました。メール配信を始める場合も、同じ記事データを流用できます。
+            </p>
           </div>
-          <div class="automation-steps">
-            <div>
-              <span>01</span>
-              <strong>RSSを取得</strong>
-              <p>公式ブログや主要AIメディアのフィードを集めます。</p>
-            </div>
-            <div>
-              <span>02</span>
-              <strong>記事を生成</strong>
-              <p>OpenAI APIキーがあれば、背景・影響・用語まで含む日本語記事に整理します。</p>
-            </div>
-            <div>
-              <span>03</span>
-              <strong>Pagesへ反映</strong>
-              <p>生成されたJSONをコミットし、Cloudflare Pagesのデプロイを起動します。</p>
-            </div>
+          <div class="newsletter-actions">
+            <a class="primary-action" href="/feed.xml">RSSを開く</a>
+            <a class="ghost-action" href="mailto:hello@example.com?subject=AI%20Nexus%20Daily%20%E3%81%AE%E6%9B%B4%E6%96%B0%E9%80%9A%E7%9F%A5%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6">更新通知を相談</a>
+          </div>
+        </section>
+
+        <section id="policy" class="policy-section">
+          <div class="section-heading wide">
+            <span>Editorial policy</span>
+            <p>本番運用で必要な信頼性の説明です。</p>
+          </div>
+          <div class="policy-grid">
+            <article>
+              <strong>出典を残す</strong>
+              <p>各記事には参照したニュース、公式ブログ、研究フィードへのリンクを掲載します。</p>
+            </article>
+            <article>
+              <strong>断定を避ける</strong>
+              <p>未確認の効果や統計は断定しません。出典が弱い数値は「目安として」と明記します。</p>
+            </article>
+            <article>
+              <strong>読者の判断に寄せる</strong>
+              <p>便利さだけでなく、運用負荷、制約、次に確認すべき点を書きます。</p>
+            </article>
           </div>
         </section>
       </main>

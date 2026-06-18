@@ -6,7 +6,7 @@ const fallbackArticles = [
     image: "/assets/ai-ink-hero.png",
     imageAlt: "水墨画風の円環と山並みでAIニュースを表現したキービジュアル",
     title: "AIニュースを毎日読み解くための初回ガイド",
-    dek: "このサイトは、公式発表・研究・規制・プロダクト更新を日次で集約し、背景と影響まで含めた日本語記事として公開します。",
+    dek: "公式発表、研究、規制、プロダクト更新を日次で集約し、背景と影響まで含めた日本語記事として公開します。",
     summary:
       "初回データです。GitHub Actionsのスケジュールを有効化すると、毎日RSSを取得し、OpenAI APIキーがある場合は本文を詳細な解説記事として自動生成します。",
     whyItMatters:
@@ -59,10 +59,13 @@ const fallbackArticles = [
 ];
 
 const defaultImage = "/assets/ai-ink-hero.png";
+const allTopicsLabel = "すべて";
 
 const state = {
   articles: fallbackArticles,
-  activeIndex: 0
+  activeIndex: 0,
+  query: "",
+  topic: allTopicsLabel
 };
 
 const formatDate = (value) =>
@@ -89,6 +92,34 @@ const create = (tag, className, text) => {
   return element;
 };
 
+const articleText = (article) =>
+  [
+    article.title,
+    article.dek,
+    article.summary,
+    article.whyItMatters,
+    ...(article.details || []).flatMap((item) => [item.heading, item.body]),
+    ...(article.watchPoints || []),
+    ...(article.glossary || []).flatMap((item) => [item.term, item.description]),
+    ...(article.tags || []),
+    ...(article.sources || []).flatMap((source) => [source.title, source.source])
+  ]
+    .filter(Boolean)
+    .join(" ")
+    .toLowerCase();
+
+const readingMinutes = (article) => {
+  const compactLength = articleText(article).replace(/\s/g, "").length;
+  return Math.max(1, Math.ceil(compactLength / 650));
+};
+
+const filteredArticles = () =>
+  state.articles.filter((article) => {
+    const matchesQuery = !state.query || articleText(article).includes(state.query.toLowerCase());
+    const matchesTopic = state.topic === allTopicsLabel || (article.tags || []).includes(state.topic);
+    return matchesQuery && matchesTopic;
+  });
+
 async function loadArticles() {
   try {
     const response = await fetch("/data/articles.json", { cache: "no-store" });
@@ -110,9 +141,7 @@ function renderTicker(article) {
     ...(article.sources || []).map((source) => source.source)
   ].filter(Boolean);
   const repeated = [...topics, ...topics, ...topics];
-  track.replaceChildren(
-    ...repeated.map((topic) => create("span", "ticker-pill", topic))
-  );
+  track.replaceChildren(...repeated.map((topic) => create("span", "ticker-pill", topic)));
 }
 
 function renderArticle(index) {
@@ -128,16 +157,19 @@ function renderArticle(index) {
   document.querySelector("#articleSummary").textContent = article.summary;
   document.querySelector("#whyItMatters").textContent = article.whyItMatters;
   document.querySelector("#generatedAt").textContent = formatDateTime(article.generatedAt || article.date);
-  document.querySelector("#sourceCount").textContent = `${article.sources?.length || 0}件の出典をもとに整理`;
+  document.querySelector("#sourceCount").textContent =
+    `${article.sources?.length || 0}件の出典、約${readingMinutes(article)}分で読める記事`;
   document.querySelector("#articleImage").src = articleImage;
   document.querySelector("#articleImage").alt = articleImageAlt;
   document.querySelector("#articleImageCaption").textContent = articleImageAlt;
 
   const meta = document.querySelector("#articleMeta");
   meta.replaceChildren(
-    ...[...(article.tags || []), `出典 ${article.sources?.length || 0}件`].map((item) =>
-      create("span", "meta-pill", item)
-    )
+    ...[
+      ...(article.tags || []),
+      `出典 ${article.sources?.length || 0}件`,
+      `約${readingMinutes(article)}分`
+    ].map((item) => create("span", "meta-pill", item))
   );
 
   const sourceStrip = document.querySelector("#sourceStrip");
@@ -173,9 +205,7 @@ function renderArticle(index) {
   );
 
   const watchPoints = document.querySelector("#watchPoints");
-  watchPoints.replaceChildren(
-    ...(article.watchPoints || []).map((point) => create("li", "", point))
-  );
+  watchPoints.replaceChildren(...(article.watchPoints || []).map((point) => create("li", "", point)));
 
   const glossary = document.querySelector("#glossary");
   glossary.replaceChildren(
@@ -217,10 +247,42 @@ function renderSelectors() {
   });
 }
 
+function renderTopicFilters() {
+  const filters = document.querySelector("#topicFilters");
+  const topics = [
+    allTopicsLabel,
+    ...new Set(state.articles.flatMap((article) => article.tags || []))
+  ];
+  filters.replaceChildren(
+    ...topics.map((topic) => {
+      const button = create("button", "topic-button", topic);
+      button.type = "button";
+      button.dataset.active = String(topic === state.topic);
+      button.addEventListener("click", () => {
+        state.topic = topic;
+        renderTopicFilters();
+        renderArchive();
+      });
+      return button;
+    })
+  );
+}
+
 function renderArchive() {
+  const articles = filteredArticles();
   const grid = document.querySelector("#archiveGrid");
+  document.querySelector("#archiveCount").textContent =
+    `${articles.length}件の記事を表示中。キーワードやタグで絞り込めます。`;
+
+  if (articles.length === 0) {
+    const empty = create("p", "empty-state", "該当する記事がありません。検索語を短くして試してください。");
+    grid.replaceChildren(empty);
+    return;
+  }
+
   grid.replaceChildren(
-    ...state.articles.map((article, index) => {
+    ...articles.map((article) => {
+      const index = state.articles.indexOf(article);
       const card = create("article", "archive-card");
       card.tabIndex = 0;
       card.setAttribute("role", "button");
@@ -228,6 +290,7 @@ function renderArchive() {
       card.append(create("time", "", formatDate(article.date)));
       card.append(create("h3", "", article.title));
       card.append(create("p", "", article.dek));
+      card.append(create("span", "archive-meta", `約${readingMinutes(article)}分 / 出典 ${article.sources?.length || 0}件`));
       const open = () => {
         document.querySelector("#articleSelect").value = String(index);
         renderArticle(index);
@@ -243,6 +306,39 @@ function renderArchive() {
       return card;
     })
   );
+}
+
+function setupSearch() {
+  const input = document.querySelector("#articleSearch");
+  input.addEventListener("input", (event) => {
+    state.query = event.target.value.trim();
+    renderArchive();
+  });
+}
+
+function setupShare() {
+  const button = document.querySelector("#shareButton");
+  button.addEventListener("click", async () => {
+    const article = state.articles[state.activeIndex] || state.articles[0];
+    const url = `${location.origin}${location.pathname}#latest`;
+    const shareData = { title: article.title, text: article.dek, url };
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+      } else {
+        await navigator.clipboard.writeText(url);
+        button.textContent = "リンクをコピーしました";
+        setTimeout(() => {
+          button.textContent = "この記事を共有";
+        }, 1800);
+      }
+    } catch {
+      button.textContent = "共有を中止しました";
+      setTimeout(() => {
+        button.textContent = "この記事を共有";
+      }, 1800);
+    }
+  });
 }
 
 function setupNavigation() {
@@ -272,6 +368,9 @@ function setupNavigation() {
 
 await loadArticles();
 renderSelectors();
+renderTopicFilters();
 renderArchive();
 renderArticle(0);
+setupSearch();
+setupShare();
 setupNavigation();

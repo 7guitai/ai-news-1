@@ -1,36 +1,44 @@
-# AI暦 - Daily AI Chronicle
+# AI Nexus Daily
 
-最新のAI関連ニュースを毎日集め、日本語の解説記事として公開するCloudflare Pages向けサイトです。デザインは、深い紺黒、墨絵、金の円環、薄い罫線を軸にした静かな和風エディトリアルにしています。
+AI Nexus Daily is a Cloudflare Pages-ready Japanese AI news briefing site. It collects AI-related RSS feeds, generates a sourced daily article, and publishes the result as a static site.
 
-## 使い方
+## Production Features
 
-Cloudflare Pagesでは以下を設定してください。
+- Daily AI article data in `public/data/articles.json`
+- Search and tag filtering in the browser
+- Source links, reading time, glossary, and watch points
+- RSS feed, sitemap, and robots.txt generation
+- SEO metadata, Open Graph metadata, and JSON-LD
+- Article writing rules in `ARTICLE_WRITING_RULES.md`
+
+## Cloudflare Pages
 
 - Build command: `npm run build`
 - Build output directory: `public`
 - Node.js version: `22`
 
-日次更新はGitHub Actionsの `.github/workflows/daily-ai-news.yml` が担当します。JST 06:00にRSSを取得し、`public/data/articles.json` を更新してコミットします。Cloudflare PagesをGitHub連携していれば、そのコミットで自動デプロイされます。
+Daily updates are handled by `.github/workflows/daily-ai-news.yml`. The workflow collects RSS sources, updates `public/data/articles.json`, and lets Cloudflare Pages redeploy from GitHub.
 
-## 詳細な記事生成を有効にする
+## Detailed Article Generation
 
-GitHub repository secretsに `OPENAI_API_KEY` を追加してください。必要なら repository variables に `OPENAI_MODEL` も追加できます。未設定の場合もRSSをもとに簡易ダイジェストを生成しますが、背景・影響・用語説明まで踏み込んだ記事にするにはAPIキーが必要です。
+Set `OPENAI_API_KEY` in GitHub repository secrets to enable richer article generation. You can also set `OPENAI_MODEL` as a repository variable.
 
-## ローカル確認
+## Local Checks
 
 ```bash
 npm run validate:data
-npm run news:update
+npm run site:meta
+npm run build
 ```
 
-`npm run news:update` はネットワークに接続してRSSを取得します。生成対象のフィードは [scripts/generate-news.mjs](./scripts/generate-news.mjs) の `defaultFeeds` で編集できます。
+`npm run news:update` fetches RSS feeds and rewrites the article data. It requires network access.
 
-## ファイル構成
+## Key Files
 
-- `public/index.html`: サイト本体
-- `public/styles.css`: デザイン
-- `public/app.js`: 記事表示、アーカイブ、モバイルナビ
-- `public/assets/ai-ink-hero.png`: 生成したヒーロー背景
-- `public/data/articles.json`: 配信される記事データ
-- `scripts/generate-news.mjs`: RSS収集と記事生成
-- `scripts/validate-data.mjs`: Cloudflare Pagesビルド時のデータ検証
+- `public/index.html`: Static page shell
+- `public/styles.css`: Site design
+- `public/app.js`: Article rendering, search, filtering, sharing
+- `public/data/articles.json`: Published article data
+- `scripts/generate-news.mjs`: RSS collection and article generation
+- `scripts/validate-data.mjs`: Article data and writing rule validation
+- `scripts/build-site-meta.mjs`: RSS, sitemap, and robots generation

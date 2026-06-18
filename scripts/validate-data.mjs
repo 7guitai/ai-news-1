@@ -11,8 +11,6 @@ const required = [
   "id",
   "date",
   "generatedAt",
-  "image",
-  "imageAlt",
   "title",
   "dek",
   "summary",

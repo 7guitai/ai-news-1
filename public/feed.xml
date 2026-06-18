@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>AI Nexus Daily</title>
+    <link>https://ai-news-1.pages.dev</link>
+    <description>AIニュースを出典つきの日本語ブリーフとして毎日整理します。</description>
+    <language>ja</language>
+    <lastBuildDate>Wed, 17 Jun 2026 17:59:30 GMT</lastBuildDate>
+    <item>
+      <title>エージェントAIは、試作から運用の段階に入った</title>
+      <link>https://ai-news-1.pages.dev/#latest</link>
+      <guid>https://ai-news-1.pages.dev/#ai-news-2026-06-18</guid>
+      <pubDate>Wed, 17 Jun 2026 17:59:30 GMT</pubDate>
+      <description>NVIDIAのロボット研究、OpenAIの公開前評価、Amazon Bedrock GuardrailsのAPI追加を並べると、2026年6月18日のAIニュースは「作る」より「壊さず回す」話に寄っています。</description>
+    </item>
+  </channel>
+</rss>
