@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-06-19T22:07:11.121Z",
+  "updatedAt": "2026-06-20T22:12:15.573Z",
   "articles": [
+    {
+      "id": "ai-news-2026-06-21",
+      "date": "2026-06-21",
+      "generatedAt": "2026-06-20T22:12:15.572Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19464v1 Announce Type: new Abstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipulate data, install software, and coordinate with peer agents across organizational boundaries must be constrained not just by authentication and access control, but by the full structure of enterprise governance. This includes specifying what agents are permitted and prohibited from doing, what they areobliged to do after certain actions (e.g., notify the CISO), under what conditions a standing obligation may be waived, and which rules take precedence when policies conflict. This governance problem exceeds what current policy engines provide. Systems such as XACML, Rego, and Cedar address only the permit/prohibit subset of this governance structure. They do not prov"
+        },
+        {
+          "heading": "Hidden Anchors in Multi-Agent LLM Deliberation",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19494v1 Announce Type: new Abstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rarely modelled. Such deliberation mirrors how humans reach decisions. As social animals we are pulled both by the group, the herd effect that classical opinion-dynamics models such as DeGroot and Friedkin--Johnsen capture, and by our own internal belief, which they do not. We model multi-agent deliberation as a closed-loop dynamical system in which each agent carries a hidden internal belief, its anchor, that continually pulls its opinion regardless of its neighbours. We show this anchor can be recovered from the deliberation alone, and that it explains a behaviour classical consensus rules forbid: an agent's confidence in the correct answer can climb past where any "
+        },
+        {
+          "heading": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19501v1 Announce Type: new Abstract: Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts into typed alerts, attribution signals, and scenario evidence; and (3) data-health and confidence gates constrain escalation before DeXposure-Claw emits auditable supervisory tickets with rationales. We further develop DeXposure-Bench, a six-axis evaluat"
+        },
+        {
+          "heading": "Emergent Alignment",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19527v1 Announce Type: new Abstract: Can Large Language Models (LLMs) discern when their own outputs are misaligned with human ethics? And can they self-correct? We endow an LLM with a conscience step that reviews its own reasoning and outputs, and we extend the training loss with an alignment component using Direct Preference Optimization (DPO) to steer the model away from non-ethical outputs. The result is an online technique to align models in a wide range of applications: training, fine-tuning, adversarial prompting, and zero-shot learning. It does not require a weaker or stronger judge, relying instead on a frozen copy of itself. In previous work, the Emergent Misalignment scenario showed a range of emergent unethical behaviors from fine-tuning the model to hack code. Instead, we empirically show how to achieve Emergent Alignment: a single high-level introspective questio"
+        },
+        {
+          "heading": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI provides fully managed real-time inference hosting for machine learning models. You deploy a model to a SageMaker endpoint backed by one or more compute instances, and SageMaker handles provisioning and scaling. SageMaker supports multiple endpoint architectures. This post focuses on the two most relevant to generative AI workloads with detailed observability: Single-model endpoints (SME) and Inference component (IC) endpoints."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.19464",
+          "publishedAt": "2026-06-20"
+        },
+        {
+          "title": "Hidden Anchors in Multi-Agent LLM Deliberation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.19494",
+          "publishedAt": "2026-06-20"
+        },
+        {
+          "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.19501",
+          "publishedAt": "2026-06-20"
+        },
+        {
+          "title": "Emergent Alignment",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.19527",
+          "publishedAt": "2026-06-20"
+        },
+        {
+          "title": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "title": "Diffusion Language Models: An Experimental Analysis",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.19475",
+          "publishedAt": "2026-06-20"
+        },
+        {
+          "title": "LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.19509",
+          "publishedAt": "2026-06-20"
+        },
+        {
+          "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
+          "publishedAt": "2026-06-19"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-06-20",
       "date": "2026-06-20",
