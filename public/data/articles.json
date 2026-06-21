@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-06-20T22:12:15.573Z",
+  "updatedAt": "2026-06-21T22:17:02.717Z",
   "articles": [
+    {
+      "id": "ai-news-2026-06-22",
+      "date": "2026-06-22",
+      "generatedAt": "2026-06-21T22:17:02.716Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、MIT Technology Review AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI provides fully managed real-time inference hosting for machine learning models. You deploy a model to a SageMaker endpoint backed by one or more compute instances, and SageMaker handles provisioning and scaling. SageMaker supports multiple endpoint architectures. This post focuses on the two most relevant to generative AI workloads with detailed observability: Single-model endpoints (SME) and Inference component (IC) endpoints."
+        },
+        {
+          "heading": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
+          "body": "AWS Machine Learningから公開された情報です。概要: This post shows how to enable Adobe Marketing Agent for Amazon Quick using a Model Context Protocol (MCP). We walk you through how to configure the integration, authenticate using your Adobe credentials, and get the latest insights in Amazon Quick. The sample workflow returns audience rankings, loyalty segment summaries, journey usage, and conflict recommendations."
+        },
+        {
+          "heading": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+          "body": "MIT Technology Review AIから公開された情報です。概要: Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing the…"
+        },
+        {
+          "heading": "Sam Altman says a whole generation of researchers held AI back by underestimating what scaling could do",
+          "body": "The Decoderから公開された情報です。概要: At a Stanford talk, Sam Altman defended LLM scaling and hit back at skeptics, saying a whole generation of researchers slowed the field by underestimating what scaling could do. He cited OpenAI's recent disproof of a mathematical conjecture as evidence. The article Sam Altman says a whole generation of researchers held AI back by underestimating what scaling could do appeared first on The Decoder ."
+        },
+        {
+          "heading": "AWS says AI agents lack business context and security, launches two services to patch the gaps",
+          "body": "The Decoderから公開された情報です。概要: At its summit in New York, AWS unveiled two new services. Continuum automatically detects, prioritizes, and fixes code vulnerabilities. Context builds a knowledge graph from corporate data to give AI agents the business context they need. Both tackle the same problem: agents that write code fast but get things wrong too often. The article AWS says AI agents lack business context and security, launches two services to patch the gaps appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "MIT Technology Review AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
+          "publishedAt": "2026-06-19"
+        },
+        {
+          "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
+          "publishedAt": "2026-06-19"
+        },
+        {
+          "title": "Sam Altman says a whole generation of researchers held AI back by underestimating what scaling could do",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/sam-altman-says-a-whole-generation-of-researchers-held-ai-back-by-underestimating-what-scaling-could-do/",
+          "publishedAt": "2026-06-21"
+        },
+        {
+          "title": "AWS says AI agents lack business context and security, launches two services to patch the gaps",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/aws-says-ai-agents-lack-business-context-and-security-launches-two-services-to-patch-the-gaps/",
+          "publishedAt": "2026-06-21"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore harness is now generally available: Go from idea to production-grade agent in minutes",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "title": "NYU finance professor Damodaran warns an AI crash could hit harder than the dot-com bust",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/nyu-finance-professor-damodaran-warns-an-ai-crash-could-hit-harder-than-the-dot-com-bust/",
+          "publishedAt": "2026-06-20"
+        },
+        {
+          "title": "Data2Story turns a CSV file into a verified interactive news article using seven AI agents",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/data2story-turns-a-csv-file-into-a-verified-interactive-news-article-using-seven-ai-agents/",
+          "publishedAt": "2026-06-20"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-06-21",
       "date": "2026-06-21",
