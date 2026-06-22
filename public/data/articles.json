@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-06-21T22:17:02.717Z",
+  "updatedAt": "2026-06-22T22:49:04.248Z",
   "articles": [
+    {
+      "id": "ai-news-2026-06-23",
+      "date": "2026-06-23",
+      "generatedAt": "2026-06-22T22:49:04.247Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、The Decoder、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, you will learn how Ampersend built a pay-per-intelligence routing layer on top of Amazon Bedrock AgentCore Payments. AI agents autonomously route tasks to the most effective model, pay per request, and operate within spending budgets. You will also see how the two-hop payment pattern works end-to-end and how to get started with your own implementation."
+        },
+        {
+          "heading": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI provides fully managed real-time inference hosting for machine learning models. You deploy a model to a SageMaker endpoint backed by one or more compute instances, and SageMaker handles provisioning and scaling. SageMaker supports multiple endpoint architectures. This post focuses on the two most relevant to generative AI workloads with detailed observability: Single-model endpoints (SME) and Inference component (IC) endpoints."
+        },
+        {
+          "heading": "Google makes Interactions API the default interface for Gemini models and agents",
+          "body": "The Decoderから公開された情報です。概要: Google Deepmind has made the Interactions API the default interface for Gemini models and agents. It replaces the old generateContent API and uses a simplified schema with typed steps instead of role-based structures. New agent features will only ship through this API going forward. The article Google makes Interactions API the default interface for Gemini models and agents appeared first on The Decoder ."
+        },
+        {
+          "heading": "Three things to watch amid Anthropic’s latest feud with the government",
+          "body": "MIT Technology Review AIから公開された情報です。概要: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI model called Mythos…"
+        },
+        {
+          "heading": "Anthropic and Micron want to co-design AI memory architecture",
+          "body": "The Decoderから公開された情報です。概要: Micron is investing in Anthropic's Series H round and getting a multi-year deal to supply memory for Claude's infrastructure. Anthropic co-founder Tom Brown calls memory critical to training and running Claude. Critics say circular deals like this are inflating a bubble. Micron's stock has surged more than tenfold in a single year. The article Anthropic and Micron want to co-design AI memory architecture appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "The Decoder",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "title": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/",
+          "publishedAt": "2026-06-18"
+        },
+        {
+          "title": "Google makes Interactions API the default interface for Gemini models and agents",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "title": "Three things to watch amid Anthropic’s latest feud with the government",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "title": "Anthropic and Micron want to co-design AI memory architecture",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "title": "Embed the world: Multimodal AI for searchable aerial imagery at scale",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "title": "Running ComfyUI workflows on Amazon SageMaker AI processing jobs",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/running-comfyui-workflows-on-amazon-sagemaker-ai-processing-jobs/",
+          "publishedAt": "2026-06-22"
+        },
+        {
+          "title": "Five Eyes intelligence alliance says frontier AI models could reshape offensive cyber ops in months",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/five-eyes-intelligence-alliance-says-frontier-ai-models-could-reshape-offensive-cyber-ops-in-months/",
+          "publishedAt": "2026-06-22"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-06-22",
       "date": "2026-06-22",
