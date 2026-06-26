@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-06-25T22:22:45.778Z",
+  "updatedAt": "2026-06-26T22:16:54.379Z",
   "articles": [
+    {
+      "id": "ai-news-2026-06-27",
+      "date": "2026-06-27",
+      "generatedAt": "2026-06-26T22:16:54.378Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、OpenAI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.26203v1 Announce Type: new Abstract: As AI agent protocols proliferate, the governance structures shaping their interoperability standards remain empirically underexamined. We introduce an LLM-powered comparative pipeline for large-scale governance discourse analysis, integrating automated annotation, neural topic modeling, and multi-layer network analysis to study socio-technical power structures at scale. We validate it on two contrasting standards for agent interoperability: ERC-8004 (permissionless, on-chain) and Google A2A (corporate-led). Analyzing 4,323 governance participation records, we combine LLM-assisted coding, topic modeling, and multi-layer network analysis to examine how institutional design shapes thematic priorities and community structure. We find that while governance form influences substantive focus, both regimes exhibit comparable levels of participatio"
+        },
+        {
+          "heading": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.26205v1 Announce Type: new Abstract: Patients increasingly seek medication information online, yet safety knowledge for psychiatric drugs is split between regulatory adverse-event records, which are authoritative but abstract, and patient narratives, which are experience-near but unvalidated. Integrating them without conflating evidence and anecdote is especially consequential in psychiatry, where poorly contextualised information can amplify fear, nocebo responses, and non-adherence. Here we develop a provenance-aware, knowledge-graph-based multi-agent framework unifying 466,525 Reddit posts, 60,782 WebMD reviews, and twenty years of U.S. FDA Adverse Event Reporting System records for nine antidepressants. A large-language-model entity-recognition pipeline benchmarked against physician annotations reached highest F1 scores of 0.969 for medications and 0.973 for conditions. Th"
+        },
+        {
+          "heading": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.26298v1 Announce Type: new Abstract: Autonomous AI agents may begin to perform consequential, irreversible actions such as clinical prescribing and production software deployment. This paper observes that human institutions have governed powerful autonomous actors not by monitoring their reasoning but by requiring independently attested evidence at the point of consequential action. We formalise this institutional pattern as a computational governance model for AI agent systems. Under the proposed model, an agent retains full autonomy over planning and reasoning but holds no execution authority over designated high-risk actions. Execution is conditional on preconditions that are each independently attested by a separate authoritative source, cryptographically bound to a declared intent, and evaluated by a deterministic policy. Decisions are recorded in a tamper-evident log ame"
+        },
+        {
+          "heading": "Previewing GPT-5.6 Sol: a next-generation model",
+          "body": "OpenAIから公開された情報です。概要: OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack."
+        },
+        {
+          "heading": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.26173v1 Announce Type: new Abstract: Recent work shows that Large Language Models (LLMs) can act as semantic mutation operators for the evolutionary discovery of programs and proofs. Most current applications focus on static coding benchmarks. We extend this paradigm to algorithmic trading. This domain is uniquely challenging because it is noisy, non-stationary, and highly discontinuous. We present AlgoEvolve, an LLM-driven evolutionary framework that generates, evaluates, and iteratively improves executable trading strategies. These strategies are expressed as Python code and evaluated through a rigorous testing protocol. Across multiple experiments, the system exhibits emergent regime-adaptive strategy logic, including autonomous shifts in trading rules. We further introduce a meta-evolutionary outer loop that evolves the prompts guiding program synthesis in the inner loop. "
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "OpenAI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Agentic Analysis for Agentic Infrastructure: An LLM-Powered Pipeline for Comparative Governance of DAO and Corporate AI Protocols",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.26203",
+          "publishedAt": "2026-06-26"
+        },
+        {
+          "title": "Knowledge-augmented Agentic AI for Mental Health Medication Information Seeking",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.26205",
+          "publishedAt": "2026-06-26"
+        },
+        {
+          "title": "Governing Actions, Not Agents: Institutional Attestation as a Governance Model for Autonomous AI Systems",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.26298",
+          "publishedAt": "2026-06-26"
+        },
+        {
+          "title": "Previewing GPT-5.6 Sol: a next-generation model",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "publishedAt": "2026-06-26"
+        },
+        {
+          "title": "AlgoEvolve: LLM-driven Meta-evolution of Algorithmic Trading Programs",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.26173",
+          "publishedAt": "2026-06-26"
+        },
+        {
+          "title": "Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/optimize-model-training-on-amazon-sagemaker-ai-with-nvidia-blackwell/",
+          "publishedAt": "2026-06-25"
+        },
+        {
+          "title": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-self-service-aws-health-analytics-to-find-actionable-health-insights-with-ai-agents-powered-by-amazon-bedrock/",
+          "publishedAt": "2026-06-25"
+        },
+        {
+          "title": "An AI model programmed nonstop for 19 days on a single MirrorCode task that cost $2,600 to run",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/",
+          "publishedAt": "2026-06-26"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-06-26",
       "date": "2026-06-26",
