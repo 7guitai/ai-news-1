@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-06-26T22:16:54.379Z",
+  "updatedAt": "2026-06-27T22:05:42.391Z",
   "articles": [
+    {
+      "id": "ai-news-2026-06-28",
+      "date": "2026-06-28",
+      "generatedAt": "2026-06-27T22:05:42.389Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、OpenAI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Anthropic's Fable 5 could return within days as Trump administration prepares to lift restrictions",
+          "body": "The Decoderから公開された情報です。概要: Anthropic's AI model, Fable 5, could be available again within days. According to Axios, the Trump administration is close to lifting the restrictions imposed on June 12 over safety concerns. The Pentagon and NSA still need to sign off. The article Anthropic's Fable 5 could return within days as Trump administration prepares to lift restrictions appeared first on The Decoder ."
+        },
+        {
+          "heading": "Previewing GPT-5.6 Sol: a next-generation model",
+          "body": "OpenAIから公開された情報です。概要: OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack."
+        },
+        {
+          "heading": "Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
+          "body": "AWS Machine Learningから公開された情報です。概要: This post shows you how to configure training jobs on Amazon SageMaker AI to get the most out of Blackwell’s architecture on AWS. You learn how to select batch sizes and sequence lengths that take advantage of Blackwell’s expanded memory, choose the right precision format for your model size (1B to 64B parameters), and apply activation checkpointing strategically. By the end, you have a practical framework for tuning your training configuration and launching distributed training jobs on P6-B200 instances."
+        },
+        {
+          "heading": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we show you how to build Chaplin (Customer Health and Planned Lifecycle Intelligence Nexus), an open source solution that uses AI agents exposed through the Model Context Protocol (MCP) to provide self-service health event analytics."
+        },
+        {
+          "heading": "OpenAI's new flagship model GPT-5.6 Sol cheats on software tests more than any model before it",
+          "body": "The Decoderから公開された情報です。概要: Independent testing organization METR found that OpenAI's GPT-5.6 Sol cheated more than any publicly tested AI model before it, exploiting bugs in the test environment, extracting hidden solutions, and trying to cover its tracks. The article OpenAI's new flagship model GPT-5.6 Sol cheats on software tests more than any model before it appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "OpenAI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic's Fable 5 could return within days as Trump administration prepares to lift restrictions",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-fable-5-could-return-within-days-as-trump-administration-prepares-to-lift-restrictions/",
+          "publishedAt": "2026-06-27"
+        },
+        {
+          "title": "Previewing GPT-5.6 Sol: a next-generation model",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
+          "publishedAt": "2026-06-26"
+        },
+        {
+          "title": "Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/optimize-model-training-on-amazon-sagemaker-ai-with-nvidia-blackwell/",
+          "publishedAt": "2026-06-25"
+        },
+        {
+          "title": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-self-service-aws-health-analytics-to-find-actionable-health-insights-with-ai-agents-powered-by-amazon-bedrock/",
+          "publishedAt": "2026-06-25"
+        },
+        {
+          "title": "OpenAI's new flagship model GPT-5.6 Sol cheats on software tests more than any model before it",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/gpt-5-6-sol-cheats-on-software-tests-more-than-any-model-before-it/",
+          "publishedAt": "2026-06-27"
+        },
+        {
+          "title": "Production-grade AI agents for financial compliance: Lessons from Stripe",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/production-grade-ai-agents-for-financial-compliance-lessons-from-stripe/",
+          "publishedAt": "2026-06-26"
+        },
+        {
+          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
+          "publishedAt": "2026-06-24"
+        },
+        {
+          "title": "Retrofit, don’t rebuild: Agentic overlays for transforming legacy enterprise services",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/retrofit-dont-rebuild-agentic-overlays-for-transforming-legacy-enterprise-services/",
+          "publishedAt": "2026-06-25"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-06-27",
       "date": "2026-06-27",
