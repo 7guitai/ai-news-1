@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-06-28T22:04:25.992Z",
+  "updatedAt": "2026-06-29T22:10:46.681Z",
   "articles": [
+    {
+      "id": "ai-news-2026-06-30",
+      "date": "2026-06-30",
+      "generatedAt": "2026-06-29T22:10:46.680Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.27483v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks. Unlike humans who employ \"what-if\" reasoning to evaluate potential plans before commitment, standard agents lack an internal world model to simulate future outcomes. Therefore, we propose to internalize future-aware planning by training a single autoregressive model to verbalize both a prospective state rollout and a plan-conditioned success estimate-a textual analogue of the Q-value. Crucially, we identify a format-capability gap: simply fine-tuning agents on look-ahead traces during post-training leads to superficial mimicry of foresight without genuine predictive grounding. To bridge this gap, we introduce a three-stage training paradigm: (i) World Model Agentic Mid-Training ("
+        },
+        {
+          "heading": "AI-Model Network: Concept, Current State and Future",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.27382v1 Announce Type: new Abstract: While the primary function of computers lies in computation and processing, the core value of the Internet is rooted in sharing and collaboration. Computers create the Internet, and the Internet empowers the value of computers. The rapid development of the Internet, cloud computing, and big data is pushing artificial intelligence into the era of large models (LMs). However, the practical application of LMs is currently hindered by high training costs and deployment complexities, driving a shift toward lightweight, private, and domain-specific models. With the rapid proliferation and wide distribution of heterogeneous models, enabling effective interaction and collaboration among them has emerged as a critical bottleneck that urgently needs to be addressed in LM development. Drawing inspiration from the development of the Internet, this pape"
+        },
+        {
+          "heading": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.27443v1 Announce Type: new Abstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored. Prior work shows that agents prompted with low agreeableness produce adversarial language, while those prompted with high agreeableness become cooperative, but the relationship between communication style and task performance has not been systematically examined across multiple domains. In this work, we investigate whether personality composition matters for multi-agent team performance by manipulating personality traits across frontier LLMs on three task domains: structured coding, open-ended research collaboration, and competitive bargaining. We find that personality effects depend critically on task structure. In coding tasks, low agreeableness leads to large communication shifts t"
+        },
+        {
+          "heading": "ToE: A Hierarchical and Explainable Claim Verification Framework with Dynamic Multi-source Evidence Retrieval and Aggregation",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.27736v1 Announce Type: new Abstract: The rapid spread of fake news poses increasing threats to information ecosystems, especially as AI-generated misinformation under Generative Engine Optimization (GEO) poisoning allows adversarially crafted content to be systematically surfaced by retrieval systems, contaminating LLM reasoning. In this paper, we propose Tree of Evidence (ToE), a hierarchical evidence reasoning framework for automated fact-checking that models each claim as a dynamically expanding argument tree. ToE integrates a reinforcement learning-driven multi-source retrieval agent, an evidence evaluation agent, and an argument tree aggregation algorithm to iteratively decompose, retrieve, and verify claims through an explainable evidence chain. We further provide a theoretical analysis of the retrieval process, deriving a formal error bound that guarantees the learned p"
+        },
+        {
+          "heading": "Deloitte tells its own consultants: AI is coming for the billable hour",
+          "body": "The Decoderから公開された情報です。概要: An internal Deloitte presentation projects that the consulting industry's classic hourly billing model will shrink to a thin sliver of the total market by 2035, replaced by AI agents. \"Our model is toast,\" one consultant summed up the message. McKinsey and BCG are already searching for alternative revenue models. The article Deloitte tells its own consultants: AI is coming for the billable hour appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.27483",
+          "publishedAt": "2026-06-29"
+        },
+        {
+          "title": "AI-Model Network: Concept, Current State and Future",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.27382",
+          "publishedAt": "2026-06-29"
+        },
+        {
+          "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.27443",
+          "publishedAt": "2026-06-29"
+        },
+        {
+          "title": "ToE: A Hierarchical and Explainable Claim Verification Framework with Dynamic Multi-source Evidence Retrieval and Aggregation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.27736",
+          "publishedAt": "2026-06-29"
+        },
+        {
+          "title": "Deloitte tells its own consultants: AI is coming for the billable hour",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
+          "publishedAt": "2026-06-29"
+        },
+        {
+          "title": "DysLexLens: A Low-Resource LLM Framework for Analysing Dyslexic Learners Insights from Online Forums",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.27619",
+          "publishedAt": "2026-06-29"
+        },
+        {
+          "title": "Towards Reliable and Robust LLM Planning: Symbolic Feedback-Driven Iterative Self-Refinement Framework",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.27757",
+          "publishedAt": "2026-06-29"
+        },
+        {
+          "title": "Amazon engineers are reportedly distilling Anthropic models to cut costs before new token-based pricing kicks in",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/amazon-engineers-are-reportedly-distilling-anthropic-models-to-cut-costs-before-new-token-based-pricing-kicks-in/",
+          "publishedAt": "2026-06-29"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-06-29",
       "date": "2026-06-29",
