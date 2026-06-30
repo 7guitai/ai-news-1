@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-06-29T22:10:46.681Z",
+  "updatedAt": "2026-06-30T22:17:01.749Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-01",
+      "date": "2026-07-01",
+      "generatedAt": "2026-06-30T22:17:01.748Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoder、AWS Machine Learning、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Data and Evaluation Closed-Loop for Model Capability Enhancement",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.28471v1 Announce Type: new Abstract: Model capability is the central variable in LLM pre-training, yet is never observed directly: data shapes it prospectively, while evaluation reveals it only retrospectively, compressing samples, prompts, decoding, and scoring rules into one noisy score. Practical optimization runs this backward: a failure is observed first, and the engineer must infer the corpus fix. The two sides speak incompatible vocabularies -- benchmark names and per-sample correctness versus data sources, domains, and quality labels -- so this inference is usually intuition, not method. We close this gap with the \\emph{capability slice}: a group of evaluation samples sharing background condition, task type, solving operation, and output constraint -- precise enough to localize a single weakness yet stable enough to survive aggregation, unlike a benchmark name, too coa"
+        },
+        {
+          "heading": "OpenAI reportedly cut response costs for guest ChatGPT users by more than half",
+          "body": "The Decoderから公開された情報です。概要: According to a report by The Information, OpenAI has cut inference costs for its AI models by more than half. The company applied the optimizations to ChatGPT, where the number of Nvidia GPUs needed dropped to just a few hundred at times. The article OpenAI reportedly cut response costs for guest ChatGPT users by more than half appeared first on The Decoder ."
+        },
+        {
+          "heading": "Implementing resilience patterns with Amazon Bedrock and LLM gateway",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, you will learn five practical patterns for building resilient generative AI applications on AWS, progressing from native Amazon Bedrock features to multi-model orchestration using an LLM gateway. These patterns address real-world challenges such as quota exhaustion during unexpected traffic surges, maximizing availability through geographic distribution of inference, and helping prevent noisy neighbor problems in multi-tenant environments."
+        },
+        {
+          "heading": "How Outpost VFX Uses AWS to Accelerate AI Model Training for Visual Effects",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we explore how Outpost VFX achieved 8x faster training speeds using AWS infrastructure to transform their face replacement workflow, the technical architecture they implemented to overcome single-GPU limitations, and the measurable results achieved through AWS multi-GPU training."
+        },
+        {
+          "heading": "IMCBench: A benchmark for multimodal LLMs in Image-grounded Medical Conversations",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.28556v1 Announce Type: new Abstract: Recent advances in large language models and vision-language models have enabled reasoning over multimodal data, offering opportunities for clinical applications such as decision support and triaging. However, existing medical AI benchmarks are fragmented: some support multi-turn dialogues but lack images, while others provide multimodal inputs but focus on single-turn QA tasks. To address this gap, we introduce IMCBench, an image-grounded, multi-turn medical conversation benchmark that pairs real, publicly available clinical images with synthetic patient profiles to simulate realistic patient-clinician interactions. Each conversation is evaluated across three clinical dimensions: safety, accuracy, and appropriate use of uncertainty in diagnosis. We benchmark eight multimodal frontier models across four model families (Claude, GPT, Nova, an"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Data and Evaluation Closed-Loop for Model Capability Enhancement",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.28471",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "title": "OpenAI reportedly cut response costs for guest ChatGPT users by more than half",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-reportedly-cut-response-costs-for-guest-chatgpt-users-by-more-than-half/",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "title": "Implementing resilience patterns with Amazon Bedrock and LLM gateway",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-resilience-patterns-with-amazon-bedrock-and-llm-gateway/",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "title": "How Outpost VFX Uses AWS to Accelerate AI Model Training for Visual Effects",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-outpost-vfx-uses-aws-to-accelerate-ai-model-training-for-visual-effects/",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "title": "IMCBench: A benchmark for multimodal LLMs in Image-grounded Medical Conversations",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.28556",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "title": "Introducing Claude Sonnet 5 on AWS: Anthropic’s most capable Sonnet model",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-sonnet-5-on-aws-anthropics-most-capable-sonnet-model/",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "title": "Agriculture is ready for AI, but its data isn’t",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+          "publishedAt": "2026-06-30"
+        },
+        {
+          "title": "Recursive Self-Evolving Agents via Held-Out Selection",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.28374",
+          "publishedAt": "2026-06-30"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-06-30",
       "date": "2026-06-30",
