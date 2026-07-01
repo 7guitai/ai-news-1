@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-06-30T22:17:01.749Z",
+  "updatedAt": "2026-07-01T22:19:40.597Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-02",
+      "date": "2026-07-02",
+      "generatedAt": "2026-07-01T22:19:40.596Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Investigating Multi-Agent Deliberation in Law",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.30906v1 Announce Type: new Abstract: Artificial Intelligence is increasingly applied to the field of law, and has the potential to increase access to justice. One particular movement that is gaining traction is that of agentic AI, wherein AI agents, based on Large Language Models (LLMs) can take autonomous actions. In particular, multi-agent approaches in the legal domain remain largely unexplored. In this paper, we investigate multi-agent deliberation methods for legal reasoning tasks using LLMs. We explore multi-agent deliberation (MAD) and introduce two novel multi-agent frameworks inspired by courtroom procedures and legal argumentation. Our experiments on both legal and non-legal benchmarks reveal that multi-agent frameworks achieve comparable overall performance to baseline large language models, but produce significantly distinct answers. Notably, these approaches can s"
+        },
+        {
+          "heading": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
+          "body": "AWS Machine Learningから公開された情報です。概要: We're excited to introduce US-based frontier open-weight models in AWS GovCloud (US). With this release, Amazon Bedrock now supports OpenAI’s open-weight GPT OSS models (120B and 20B) and NVIDIA Nemotron (Nano 9B v2, Nano 12B v2, Nano 30B, Super 120B) models. In this post, we cover these models and their capabilities, the inference options for data residency, the available service tiers and how to get started."
+        },
+        {
+          "heading": "Anthropic's Fable 5 is back worldwide after a two-week government ban over a jailbreak",
+          "body": "The Decoderから公開された情報です。概要: After a two-week ban, the US government is letting Anthropic ship Fable 5 globally again. Amazon researchers had found a jailbreak, but Anthropic says even much smaller models like Claude Haiku 4.5 could pull off the same exploit. A new safety classifier blocks the technique in over 99 percent of cases, though it also flags more harmless requests in the process. The article Anthropic's Fable 5 is back worldwide after a two-week government ban over a jailbreak appeared first on The Decoder ."
+        },
+        {
+          "heading": "What Drives Interactive Improvement from Feedback?",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.30774v1 Announce Type: new Abstract: We study when natural-language feedback produces improvement beyond the gains obtainable from repeated attempts alone. In multi-turn language agent setting, higher final accuracy can reflect useful feedback, but it can also arise from resampling, format correction, or additional test-time computation. To separate these effects, we introduce a controlled student-teacher protocol across Omni-MATH, Codeforces, BBEH Linguini, and ARC-AGI1, evaluating thirteen open-weight models in both student and teacher roles. We compare external feedback, self-feedback, and unguided self-refinement, while varying interaction history, task difficulty, and teacher access to privileged task information. Across settings, we find that multi-turn improvement is often not evidence of feedback use: self-generated feedback adds little beyond unguided self-refinement,"
+        },
+        {
+          "heading": "Contrastive Reflection for Iterative Prompt Optimization",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.30840v1 Announce Type: new Abstract: LLM agents are becoming central to information retrieval: they issue retrieval queries, synthesize answers, and increasingly serve as judges for IR evaluation. Improving the prompts that control these agents is an optimization problem, but in applied IR settings it often looks less like blind search and more like debugging. Engineers need to know which behavior failed, which nearby behavior still worked, what distinguishes the two, and whether a prompt edit improves held-out quality without introducing regressions. We present Contrastive Reflection, an iterative prompt-optimization framework for agentic IR workflows. The framework starts from a task-centric quality definition: QA agents expose retrieval or reasoning traces, and grading agents expose dimension-level scores and rationales. These structured traces are used to identify error-an"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Investigating Multi-Agent Deliberation in Law",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.30906",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "Anthropic's Fable 5 is back worldwide after a two-week government ban over a jailbreak",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-fable-5-is-back-worldwide-after-a-two-week-government-ban-over-a-jailbreak/",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "What Drives Interactive Improvement from Feedback?",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.30774",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "Contrastive Reflection for Iterative Prompt Optimization",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.30840",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "How Can AI Find My Model? A Model-Finding Experimental Study Considering Data Formats, Embeddings, and Retrieval Strategies",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.30846",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn Evidence Accumulation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.30850",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "Beyond expert users: agents should help users construct preferences, not just elicit them",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2606.30863",
+          "publishedAt": "2026-07-01"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-01",
       "date": "2026-07-01",
