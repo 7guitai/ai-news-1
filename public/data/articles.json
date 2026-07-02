@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-01T22:19:40.597Z",
+  "updatedAt": "2026-07-02T22:10:27.139Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-03",
+      "date": "2026-07-03",
+      "generatedAt": "2026-07-02T22:10:27.137Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、MIT Technology Review AI、arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we share best practices for reliable multi-turn RL training. We cover how to build a training environment you can trust, set up an external evaluation, design a reward aligned with the end task, manage what changes once the agent runs for multiple turns, and monitor the metrics that tell you when to iterate."
+        },
+        {
+          "heading": "Teaching AI to run with the turbines",
+          "body": "MIT Technology Review AIから公開された情報です。概要: Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operational…"
+        },
+        {
+          "heading": "Making Failure Safe: A Constrained, Verifiable Agent Framework for Open-Web Data Collection",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.00035v1 Announce Type: new Abstract: LLMs and agents can generate web scrapers from natural-language requirements, but direct generation remains unreliable because of dependency errors, broken selectors, schema mismatches, and heterogeneous page structures. We propose a constrained, verifiable agent framework that shifts LLM output from free-form code to typed JSON collector configurations, combining a six-type collector taxonomy, template and utility-function constraints, static Airflow DAG execution, rule-based quality checking, and structured feedback correction. Experiments on 138 tasks show that the taxonomy supports description-based requirement typing, while confirming that stable instantiation requires completing source, field, and execution constraints beyond the initial description. On 80 independently source-verified tasks, the framework runs with zero execution-sta"
+        },
+        {
+          "heading": "RareDxR1: Autonomous Medical Reasoning for Rare Disease Diagnosis Beyond Human Annotation",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.00147v1 Announce Type: new Abstract: Rare disease differential diagnosis is a critical yet arduous clinical task, requiring physicians to identify precise phenotypes from complex, unstructured patient symptoms and execute intricate reasoning within a vast search space. However, existing AI approaches typically rely on pipeline-based phenotype extraction or retrieval-augmented generation, which suffer from critical information loss due to predefined ontologies, retrieval bottlenecks, and a lack of diagnostic logic. To address these challenges, we introduce RareDxR1, an end-to-end reasoning-centric large language model designed for open-domain rare disease diagnosis directly from unstructured clinical notes. We design a progressive end-to-end training framework by synergizing knowledge internalization with autonomous evolutionary learning, thereby bypassing reliance on structure"
+        },
+        {
+          "heading": "A Contextual-Bandit Oversight Game with Two-Sided Informational Asymmetry",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.00155v1 Announce Type: new Abstract: We study runtime human oversight of an AI agent when private information runs in both directions: the human privately knows her reward function, while the AI privately knows the quality of the action it proposes. This is the kind of asymmetry that arises naturally when an autonomous robot or software agent has inspected a situation its human supervisor cannot directly assess. Building on Cooperative Inverse Reinforcement Learning (CIRL) and the Oversight Game, we introduce a contextual-bandit team game with two-sided asymmetric information and a play/ask/trust/oversee interface. The bandit structure removes physical state transitions and thereby yields exact one-shot characterizations that would remain conjectural in the full POMDP setting, though the common belief remains a dynamically controlled state across rounds. We give two one-shot c"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "MIT Technology Review AI",
+        "arXiv AI"
+      ],
+      "sources": [
+        {
+          "title": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "Teaching AI to run with the turbines",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "Making Failure Safe: A Constrained, Verifiable Agent Framework for Open-Web Data Collection",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.00035",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "RareDxR1: Autonomous Medical Reasoning for Rare Disease Diagnosis Beyond Human Annotation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.00147",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "A Contextual-Bandit Oversight Game with Two-Sided Informational Asymmetry",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.00155",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "Microsoft launches $2.5 billion \"Frontier Company\" to embed 6,000 AI engineers inside enterprise clients",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "AI agents can now complete 16 percent of freelance jobs at pro quality, up from 2.5 percent eight months ago",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago/",
+          "publishedAt": "2026-07-02"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-02",
       "date": "2026-07-02",
