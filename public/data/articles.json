@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-02T22:10:27.139Z",
+  "updatedAt": "2026-07-03T22:07:41.191Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-04",
+      "date": "2026-07-04",
+      "generatedAt": "2026-07-03T22:07:41.190Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.01366v1 Announce Type: new Abstract: Federated learning (FL) research often depends on many small but consequential algorithmic choices: optimizer variants, server aggregation rules, local training schedules, normalization, regularization, and model architecture. These choices are expensive to explore manually and difficult to compare fairly when candidate changes can also alter the FL training or evaluation path. In this work, we present Auto-FL-Research (AFR), a constrained coding-agent workflow for FL algorithmic recipe search. Agents may propose and implement candidate training algorithms, including server aggregation rules, client update schedules, local objectives, and registered model variants, while task profiles fix the mutation surface, compute budget, communication contract, and final model evaluation. Each campaign records candidate scores, runtime, edited files, a"
+        },
+        {
+          "heading": "Beyond Next-Token Prediction: An RLVR Proof of Concept for Tool-Use Agents on Atlassian Workflows",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.01465v1 Announce Type: new Abstract: Large language models are trained to predict the next token, not to act inside a specific API. In niche enterprise SaaS workflows -- where success means hitting the right endpoint with the right nested arguments in the right order -- this objective mismatch shows up as silent failures: dropped required fields, hallucinated tools, or early stops after a single read. We ask whether Reinforcement Learning with Verifiable Rewards (RLVR), applied directly in the target environment, closes the gap. As a proof of concept we build a suite of five synthetic environments emulating the Jira REST v3 and Confluence v2 APIs at schema fidelity; rewards are computed entirely from the tool-call trace, with no live API, no learned judge, and no human label in the loop. Scoring prompted Qwen3-1.7B and Qwen3.5-4B on the same checkers that drive GRPO training, "
+        },
+        {
+          "heading": "UK's AI Security Institute finds standard benchmarks systematically underestimate what AI agents can actually do",
+          "body": "The Decoderから公開された情報です。概要: In a study covering seven benchmarks, the UK's AI Security Institute shows that standard AI evaluations systematically underestimate agent capabilities by capping the compute budget. On software engineering tasks, success rates jumped about 25 percent when the token budget was increased tenfold. Newer models benefit the most. Depending on the token budget, actual progress at the frontier is about 60 percent steeper than previous measurements suggested, according to AISI. The article UK's AI Security Institute finds standard benchmarks systematically underestimate what AI agents can actually do appeared first on The Decoder ."
+        },
+        {
+          "heading": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.01306v1 Announce Type: new Abstract: Counterfactual explanations explain machine learning predictions by identifying minimal input changes that would alter a model's decision. Although many existing methods successfully generate prediction-changing alternatives, they often produce unrealistic or infeasible recommendations due to a lack of explicit mechanisms for incorporating domain knowledge and intervention constraints. Neuro-symbolic AI offers a promising direction by combining data-driven predictive models with symbolic reasoning capable of representing human-understandable rules and feasible actions. This paper presents PACE, a modular neuro-symbolic framework for generating feasibility-aware counterfactual explanations. The framework separates prediction and reasoning into two components: a neural predictive model for classification and a symbolic reasoning layer that en"
+        },
+        {
+          "heading": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.01425v1 Announce Type: new Abstract: Understanding large, complex codebases, especially those with obfuscated structures and incomplete documentation, remains a significant challenge. Existing code summarization solutions often rely on a single language model or coding assistant like Claude Code, and treat source code as flat text, underutilizing the rich interdependencies and hierarchical information within a repository. To address these shortcomings, we propose Agent4cs - a multi-agent framework that summarizes large codebases in a bottom-up fashion, where a summarization agent focuses on producing robust summaries; a keyword-extraction agent proactively identifies critical information from subfolders; and a quality-assurance agent iteratively refines the outputs for readability, coherence, and completeness. Evaluated on 7 frontier models, Agent4cs improves semantic consiste"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.01366",
+          "publishedAt": "2026-07-03"
+        },
+        {
+          "title": "Beyond Next-Token Prediction: An RLVR Proof of Concept for Tool-Use Agents on Atlassian Workflows",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.01465",
+          "publishedAt": "2026-07-03"
+        },
+        {
+          "title": "UK's AI Security Institute finds standard benchmarks systematically underestimate what AI agents can actually do",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/",
+          "publishedAt": "2026-07-03"
+        },
+        {
+          "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.01306",
+          "publishedAt": "2026-07-03"
+        },
+        {
+          "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.01425",
+          "publishedAt": "2026-07-03"
+        },
+        {
+          "title": "CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.01433",
+          "publishedAt": "2026-07-03"
+        },
+        {
+          "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.01436",
+          "publishedAt": "2026-07-03"
+        },
+        {
+          "title": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/",
+          "publishedAt": "2026-07-02"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-03",
       "date": "2026-07-03",
