@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-04T22:01:27.082Z",
+  "updatedAt": "2026-07-05T22:04:34.637Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-06",
+      "date": "2026-07-06",
+      "generatedAt": "2026-07-05T22:04:34.635Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "AI search agents don't fail at searching, they fail at asking the right questions when queries get ambiguous",
+          "body": "The Decoderから公開された情報です。概要: AI search agents rarely fail at multi-step research because of the search itself. Their real problem is not asking the user for clarification when queries are ambiguous. A new benchmark called DiscoBench shows that models searching repeatedly instead of asking follow-up questions actually perform worse, at 51.9 percent, than those that just guess. Even the best model only hits 43 percent overall accuracy. When ambiguity is removed from the queries, accuracy jumps by up to 40 points. The article AI search agents don't fail at searching, they fail at asking the right questions when queries get ambiguous appeared first on The Decoder ."
+        },
+        {
+          "heading": "Baidu's \"Unlimited OCR\" processes dozens of document pages in one pass by treating memory like human forgetting",
+          "body": "The Decoderから公開された情報です。概要: Baidu's Unlimited OCR reads dozens of document pages in a single pass, where previous systems topped out at about ten. A modified attention mechanism keeps memory use flat no matter how many pages the model processes. It currently holds the top spot on the most important OCR benchmark. The article Baidu's \"Unlimited OCR\" processes dozens of document pages in one pass by treating memory like human forgetting appeared first on The Decoder ."
+        },
+        {
+          "heading": "Mistral CEO Mensch says proprietary AI models give labs a front-row seat to your business processes",
+          "body": "The Decoderから公開された情報です。概要: Mistral founder Arthur Mensch warns companies against relying on closed AI models. He claims AI labs are storing more and more customer data and have, in some cases, used it to go after their own customers as competitors. The concern is valid, but Mistral can't really compete with frontier models from OpenAI or Anthropic on performance and is betting heavily on EU sovereignty as its strategic edge. The article Mistral CEO Mensch says proprietary AI models give labs a front-row seat to your business processes appeared first on The Decoder ."
+        },
+        {
+          "heading": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we share best practices for reliable multi-turn RL training. We cover how to build a training environment you can trust, set up an external evaluation, design a reward aligned with the end task, manage what changes once the agent runs for multiple turns, and monitor the metrics that tell you when to iterate."
+        },
+        {
+          "heading": "Teaching AI to run with the turbines",
+          "body": "MIT Technology Review AIから公開された情報です。概要: Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operational…"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "AI search agents don't fail at searching, they fail at asking the right questions when queries get ambiguous",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-search-agents-dont-fail-at-searching-they-fail-at-asking-the-right-questions-when-queries-get-ambiguous/",
+          "publishedAt": "2026-07-05"
+        },
+        {
+          "title": "Baidu's \"Unlimited OCR\" processes dozens of document pages in one pass by treating memory like human forgetting",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/baidus-unlimited-ocr-processes-dozens-of-document-pages-in-one-pass-by-treating-memory-like-human-forgetting/",
+          "publishedAt": "2026-07-05"
+        },
+        {
+          "title": "Mistral CEO Mensch says proprietary AI models give labs a front-row seat to your business processes",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/mistral-ceo-mensch-says-proprietary-ai-models-give-labs-a-front-row-seat-to-your-business-processes/",
+          "publishedAt": "2026-07-05"
+        },
+        {
+          "title": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "Teaching AI to run with the turbines",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+          "publishedAt": "2026-07-02"
+        },
+        {
+          "title": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/",
+          "publishedAt": "2026-07-01"
+        },
+        {
+          "title": "AI private schools sell wealthy US families on personalized learning over traditional education",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-private-schools-sell-wealthy-us-families-on-personalized-learning-over-traditional-education/",
+          "publishedAt": "2026-07-05"
+        },
+        {
+          "title": "Hollywood wants Seedance banned and reportedly also wants to keep using it",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it/",
+          "publishedAt": "2026-07-05"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-05",
       "date": "2026-07-05",
