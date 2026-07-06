@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-07-05T22:04:34.637Z",
+  "updatedAt": "2026-07-06T22:16:01.421Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-07",
+      "date": "2026-07-07",
+      "generatedAt": "2026-07-06T22:16:01.419Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Run MiniMax models on Amazon Bedrock",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we walk through how to get started with MiniMax models on Amazon Bedrock, including the capabilities supported by these models, the service tiers available, how on-demand inference scales to handle your workloads, and the different APIs you can use to access them. Using these models, customers can build agentic applications, long-context document analysis pipelines, and software engineering workflows, all backed by the security and operational guarantees of AWS."
+        },
+        {
+          "heading": "Cloudflare replaces its blanket AI bot block with granular controls for search, training, and agent crawlers",
+          "body": "The Decoderから公開された情報です。概要: Cloudflare is giving all customers granular AI bot controls. Site owners can now manage Search, Training, and Agent bots separately instead of blocking them all at once. Starting September 15, 2026, Training and Agent bots will be blocked by default on ad-supported pages. The article Cloudflare replaces its blanket AI bot block with granular controls for search, training, and agent crawlers appeared first on The Decoder ."
+        },
+        {
+          "heading": "Deploying Multi-Turn RL Infrastructure for Amazon Nova on Amazon SageMaker HyperPod",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, you deploy a two-phase infrastructure for multi-turn RL using Amazon Nova Forge on Amazon SageMaker HyperPod. By the end, you have an event-driven pipeline that starts training when you upload data to Amazon Simple Storage Service (Amazon S3). The training job teaches the model to play Wordle, a placeholder for your own RL task."
+        },
+        {
+          "heading": "Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost",
+          "body": "The Decoderから公開された情報です。概要: Zhipu AI is bringing GLM-5.2 to its ZCode development environment, pitching the model's long-context capabilities for complex coding tasks. New customers get a free five-day trial with up to 5 million tokens per day, and subscribers receive about 1.5 times more token quota through July 2026. The article Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost appeared first on The Decoder ."
+        },
+        {
+          "heading": "GPT-4's dominance lasted a year while today's top models barely survive seven weeks at the top",
+          "body": "The Decoderから公開された情報です。概要: OpenAI's GPT-4 led the Epoch Capabilities Index for about a year, far longer than any model since. Since Claude 3 Opus took the top spot in February 2024, the lead has changed hands 17 times, with a median stay of just seven weeks. Competition is fiercer now, but the capability gains between models are shrinking. The article GPT-4's dominance lasted a year while today's top models barely survive seven weeks at the top appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Run MiniMax models on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-minimax-models-on-amazon-bedrock/",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "Cloudflare replaces its blanket AI bot block with granular controls for search, training, and agent crawlers",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "Deploying Multi-Turn RL Infrastructure for Amazon Nova on Amazon SageMaker HyperPod",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploying-multi-turn-rl-infrastructure-for-amazon-nova-on-amazon-sagemaker-hyperpod/",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "Zhipu AI launches ZCode to challenge Claude Code and OpenAI Codex at a fraction of the cost",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "GPT-4's dominance lasted a year while today's top models barely survive seven weeks at the top",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "Automatically redact PII in images with Amazon Nova",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automatically-redact-pii-in-images-with-amazon-nova/",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "Streaming benchmark and recommendation results to MLflow with Amazon SageMaker AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/streaming-benchmark-and-recommendation-results-to-mlflow-with-amazon-sagemaker-ai/",
+          "publishedAt": "2026-07-06"
+        },
+        {
+          "title": "JADEPUFFER is the first agentic ransomware operation and it exposes old security sins at machine speed",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/jadepuffer-is-the-first-agentic-ransomware-operation-and-it-exposes-old-security-sins-at-machine-speed/",
+          "publishedAt": "2026-07-06"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-06",
       "date": "2026-07-06",
