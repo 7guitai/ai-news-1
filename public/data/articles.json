@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-06T22:16:01.421Z",
+  "updatedAt": "2026-07-07T22:12:12.832Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-08",
+      "date": "2026-07-08",
+      "generatedAt": "2026-07-07T22:12:12.829Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.02686v1 Announce Type: new Abstract: Reinforcement learning agents operating under partial observability must act on incomplete information, making them natural candidates for guidance from small language models (SLMs) that carry broad reasoning priors. Yet integrating SLM guidance into this setting has proven difficult: across all test environments, vanilla uncertainty-gated approaches achieve an overwrite rate at or near zero, meaning the SLM almost never contributes an independent action. We trace this failure to the bare egocentric prompt, which provides insufficient context for genuine reasoning, and identify it as a context problem rather than a capacity problem. We propose ASK+, which supplies the SLM with trajectory-aware context (a partially revealed map, visited positions, and action history) and structured chain-of-thought reasoning, converting it from a passive red"
+        },
+        {
+          "heading": "Object-Centric Environment Modeling for Agentic Tasks",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.02846v1 Announce Type: new Abstract: Large language model (LLM) agents can improve through accumulated experience, but free-form textual memories become difficult to maintain, validate, and reuse as interactions grow. Recent symbolic approaches learn executable skills or programmatic world models, yet often store local procedures or assume simplified dynamics. We propose Object-Centric Environment Modeling (OCM), which organizes experience into an executable object-centric environment model. OCM maintains two connected code bases: object knowledge, which defines environment entities and mechanisms as Python classes, and procedure knowledge, which records reusable interaction patterns that must import and use the object model. OCM works in an online setting: after each episode, OCM reflects on the trajectory, updates both knowledge bases, and verifies that all procedures execut"
+        },
+        {
+          "heading": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.02879v1 Announce Type: new Abstract: Current benchmarks for evaluating large language models (LLMs) in medical calculation are largely based on simplified settings, where each patient case corresponds to a single calculator and the required tool is explicitly specified in the query. However, real clinical scenarios often require multiple calculators for joint evaluation, nested-scale calculation, and fuzzy queries that do not directly specify the target calculator. To this end, we propose a new medical calculation benchmark, MedCalc-Pro, which covers three progressively challenging task settings: single-calculator, multi-calculator, and nested-calculator calculation settings. MedCalc-Pro contains 2,268 real-world clinical cases, covering 77 medical calculators across 14 clinical departments. Meanwhile, to address the limited performance of existing frameworks and methods in co"
+        },
+        {
+          "heading": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.02914v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous safety, helpfulness, and trustworthiness remains a persistent challenge. Conventional refusal-oriented alignment strategies mitigate harmful content generation but systematically fail to serve legitimate user needs, often withholding information that could safely and constructively address the underlying intent of sensitive queries. Building upon the constructive safety paradigm pioneered by Oyster-I, which moves beyond blanket refusal toward thoughtful, response-oriented safety alignment, we identify two critical limitations of its Supervised Fine-Tuning (SFT)-based scheme: insufficient safety generalization to out-of-distribution scenarios and a phenomenon we term safety chain-of-thought (CoT) over-generaliza"
+        },
+        {
+          "heading": "Monitoring discriminative ML models using Amazon SageMaker AI with MLflow",
+          "body": "AWS Machine Learningから公開された情報です。概要: Implementing a data and model monitoring solution is necessary to maintain prediction accuracy and help achieve the best outcome for your machine learning use case. This post shows how you can use open source Evidently together with Amazon SageMaker AI to generate monitoring reports, organize and compare the results in MLflow, scale through pipelines, and trigger drift notifications."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.02686",
+          "publishedAt": "2026-07-07"
+        },
+        {
+          "title": "Object-Centric Environment Modeling for Agentic Tasks",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.02846",
+          "publishedAt": "2026-07-07"
+        },
+        {
+          "title": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.02879",
+          "publishedAt": "2026-07-07"
+        },
+        {
+          "title": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.02914",
+          "publishedAt": "2026-07-07"
+        },
+        {
+          "title": "Monitoring discriminative ML models using Amazon SageMaker AI with MLflow",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-discriminative-ml-models-using-amazon-sagemaker-ai-with-mlflow/",
+          "publishedAt": "2026-07-07"
+        },
+        {
+          "title": "Build an AI-powered AWS support companion with Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-aws-support-companion-with-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-07-07"
+        },
+        {
+          "title": "Claude's hidden inner monologue is now readable thanks to Anthropic's new Jacobian Lens",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/claudes-hidden-inner-monologue-is-now-readable-thanks-to-anthropics-new-jacobian-lens/",
+          "publishedAt": "2026-07-07"
+        },
+        {
+          "title": "iFLYTEK-Embodied-Omni Technical Report",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.02542",
+          "publishedAt": "2026-07-07"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-07",
       "date": "2026-07-07",
