@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-08T22:10:08.645Z",
+  "updatedAt": "2026-07-09T22:24:52.585Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-10",
+      "date": "2026-07-10",
+      "generatedAt": "2026-07-09T22:24:52.583Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、NVIDIA AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.06720v1 Announce Type: new Abstract: Training large language models (LLMs) with extended reasoning has enabled in-context search, in which models iteratively generate, critique, and revise solution attempts. We provide a theoretical analysis of in-context search by modeling it as approximate inference over reasoning traces, where the base model defines a prior and self-reflection provides feedback for posterior updates, and study the resulting inference-time sampling complexity - the number of sequential attempts needed to achieve high success probability. We show that when reflections reliably localize early mistakes, in-context search can yield exponential improvements over the base model, solving problems with exponentially small zero-shot pass rates using only a polynomial number of sequential attempts, whereas when this property fails, conditioning on past attempts offers"
+        },
+        {
+          "heading": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.06624v1 Announce Type: new Abstract: We present AgentLens, a production-assessed benchmark for interactive code agents. Most code-agent benchmarks reduce a run to a single bit -- did the task pass? -- but the people who actually use these agents experience the entire trajectory: how the agent follows instructions, uses its tools, verifies its own work, recovers from mistakes, and talks to them along the way. AgentLens evaluates that whole trajectory. It pairs formal verification, where an objective check exists, with LLM-written trajectory reviews and side-by-side comparisons, so that each run yields a readable explanation of why the score is what it is. This makes AgentLens useful for more than ranking models: we use it to diagnose model behavior, compare successive versions of our own agent, and catch product regressions in a nightly evaluation pipeline. We release the bench"
+        },
+        {
+          "heading": "Cost-Effective Agent Harnesses for Abstract Reasoning and Generalization on ARC-AGI-1",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.06764v1 Announce Type: new Abstract: Recent progress on ARC-AGI-1 from disclosed architectures has come broadly from two regimes: heavy test-time compute over frontier models (evolutionary search, exhaustive sampling, extended chain-of-thought), or benchmark-specific training in which small models are fine-tuned on ARC data, often with task-specialized architectures. We study a third regime: an open-weight model in non-thinking mode (DeepSeek V3.2) under a strict budget, with no ARC-specific fine-tuning. We study what is recoverable through architecture alone, building agentic harnesses that decompose pattern-discovery and program-synthesis stages explicitly. First, we introduce an Explorer-Definer Pipeline that separates pattern discovery from executable transformation synthesis, implemented as a two-stage agent pipeline. Next, we present the Reflective Orchestrator, which au"
+        },
+        {
+          "heading": "Evaluating SageMath-Augmented LLM Agents for Computational and Experimental Mathematics",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.06820v1 Announce Type: new Abstract: Recent advances in AI for Mathematics have focused largely on autoformalization and theorem proving, leaving the role of Computer Algebra Systems (CAS) in agentic LLM workflows underexplored. We propose a ReAct-style agentic setup that combines LLM reasoning with verifiable feedback from SageMath, together with Context7 for the up-to-date documentation. We evaluate this agentic setup across frontier models for solving research-level mathematical problems from the RealMath benchmark in a setting that emulates a computational-mathematics research loop. We also propose a refinement to the RealMath benchmark by introducing a multi-step post-processing procedure and a multi-stage validation pipeline, both of which improve the quality and reliability of the extracted problem set. Our experiments reveal substantial performance gains from SageMath "
+        },
+        {
+          "heading": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.06906v1 Announce Type: new Abstract: Agentic AI development today runs on token maxing: buying capability with tokens -- longer reasoning traces, more turns, wider tool payloads, bigger replayed contexts -- so tokens per task grow faster than task value. Falling per-token prices mask the pattern; total spend rises anyway. We argue the decisive lever against token maxing is the harness: the orchestration layer that assembles context, exposes tools, sequences turns, delegates work, and carries enterprise observability and governance. We isolate it with a controlled swap: 22 locked evaluation tasks, six foundation models (Claude Sonnet 4.6, Gemini 3.1, Gemini Flash 3.5, Qwen 3.6, GLM 5.1, Palmyra X6), changing only the orchestration layer -- a frozen conventional production loop versus the Writer Agent Harness. Holding models constant, the harness cuts blended cost per task 41% ("
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "NVIDIA AI"
+      ],
+      "sources": [
+        {
+          "title": "When Does In-Context Search Help? A Sampling-Complexity Theory of Reflection-Driven Reasoning",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.06720",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "AgentLens: Production-Assessed Trajectory Reviews for Coding Agent Evaluation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.06624",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "Cost-Effective Agent Harnesses for Abstract Reasoning and Generalization on ARC-AGI-1",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.06764",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "Evaluating SageMath-Augmented LLM Agents for Computational and Experimental Mathematics",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.06820",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "The Harness Effect: How Orchestration Design Sets the Token Economics of Enterprise Agentic AI",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.06906",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "Enhancing enterprise inference on Amazon SageMaker HyperPod with data capture, Hugging Face, NVMe, and Route 53 integration",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/enhancing-enterprise-inference-on-amazon-sagemaker-hyperpod-with-data-capture-hugging-face-nvme-and-route-53-integration/",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "LLM-powered reasoning in agent-based modeling",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.06757",
+          "publishedAt": "2026-07-09"
+        },
+        {
+          "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
+          "source": "NVIDIA AI",
+          "url": "https://blogs.nvidia.com/blog/nemotron-langchain-agents-open-stack/",
+          "publishedAt": "2026-07-08"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-09",
       "date": "2026-07-09",
