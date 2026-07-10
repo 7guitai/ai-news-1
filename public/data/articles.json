@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-09T22:24:52.585Z",
+  "updatedAt": "2026-07-10T22:07:01.689Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-11",
+      "date": "2026-07-11",
+      "generatedAt": "2026-07-10T22:07:01.686Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Alignment Plausibility: A New Standard for Assuring AI in Healthcare",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.07766v1 Announce Type: new Abstract: Large language models (LLMs) have become significant providers of mental health support, yet they remain products of an attention economy whose operational and commercial targets favour sustained engagement over the friction that effective psychological support often requires. Developers' safety responses have been largely reactive, addressing the most visible and acute harms while subtler, longer-term patterns of risk (e.g., dependency, boundary erosion, the amplification of distorted beliefs) receive less attention. We contend that making LLMs structurally safe requires alignment organised at three levels that mirror how society assures the safety of human clinical practice: 1) explicit value specification grounded in the codified normative commitments of clinical practice; 2) training that embeds those values in the model; and 3) oversig"
+        },
+        {
+          "heading": "Context Graphs for Proactive Enterprise Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.07721v1 Announce Type: new Abstract: Retrieval-Augmented Generation (RAG) and agentic frameworks have advanced enterprise AI considerably, yet agents remain fundamentally reactive: they wait for a human query before acting. This paper argues that genuine enterprise productivity gains require proactive agents: systems that surface relevant, actionable information to workers before they ask. We propose the Context Graph, a live relational data structure that models enterprise entities, their relationships, and state transitions over time. Built on this graph, we define a Delta Detection Engine that continuously monitors state changes, a Proactivity Scorer that ranks candidate insights by urgency, relevance, and persona-fit, and a Surfacing Layer powered by an LLM that delivers ranked notifications with grounded explanations. We formalize each component, derive a unified Proactiv"
+        },
+        {
+          "heading": "Adversarial Social Epistemology for Assemblies of Humans and Large Language Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.07760v1 Announce Type: new Abstract: We outline an adversarial social epistemology (ASE) for densely interactive communicative landscapes in which public assertions are scaffolded by chains of testimony, inference, institutional certification, and tacit trust. In such landscapes, agents have incentives and affordances to distort, color, omit, fabricate, or strategically under-specify information for private, reputational, rhetorical, or material gains. We argue that these phenomena are not adequately captured by familiar descriptions of epistemic bubbles, echo chambers, or misinformation diffusion. What requires explanation is how communicative agents exploit the commitments and entitlements that normally make scaffolded assertions trustworthy. We provide language that delivers the requisite analysis, outline mechanisms that subvert trust in scaffolded public communications, a"
+        },
+        {
+          "heading": "Deploying quantized models on Amazon SageMaker AI with Unsloth",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure. The patterns use Amazon Elastic Compute Cloud (Amazon EC2) for direct instance access, Amazon SageMaker AI inference endpoints for managed serving, and Amazon Elastic Kubernetes Service (Amazon EKS) or Amazon Elastic Container Service (Amazon ECS) when inference needs to fit into an existing container framework. You also learn operational practices for production deployments."
+        },
+        {
+          "heading": "Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.07761v1 Announce Type: new Abstract: Large language models (LLMs) have emerged as important tools in healthcare, showing growing potential for clinical reasoning and patient care. This survey examines recent progress in medical LLMs, focusing on reasoning applications and requirements. We present a dual-view approach that connects clinical practice with computational methods. On the clinical side, we establish a five-level competency scheme following Miller's Pyramid, progressing from knowledge recall to dynamic case management. On the computational side, we link deductive, inductive, and abductive reasoning patterns to common medical goals and tasks. We also introduce a benchmark dataset spanning five levels of medical reasoning capability and report results on 18 state-of-the-art models, revealing that medical specialist models excel in diagnosis-centric tasks while general "
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Alignment Plausibility: A New Standard for Assuring AI in Healthcare",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.07766",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "Context Graphs for Proactive Enterprise Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.07721",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "Adversarial Social Epistemology for Assemblies of Humans and Large Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.07760",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "Deploying quantized models on Amazon SageMaker AI with Unsloth",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploying-quantized-models-on-amazon-sagemaker-ai-with-unsloth/",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "Aligning Clinical Needs and AI Capabilities: A Survey on LLMs for Medical Reasoning",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.07761",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "Idiobionics: The Unification of Privacy and Intelligent Robotic Prostheses",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.07775",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "VectorizationLLM: Smart Vectorization Based AI Assistant",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.07846",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "GPT-5.6 Sol nearly matches Fable 5 on aggregated benchmarks at one-third the cost",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/gpt-5-6-sol-nearly-matches-fable-5-on-aggregated-benchmarks-at-one-third-the-cost/",
+          "publishedAt": "2026-07-09"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-10",
       "date": "2026-07-10",
