@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-07-10T22:07:01.689Z",
+  "updatedAt": "2026-07-11T21:53:31.728Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-12",
+      "date": "2026-07-12",
+      "generatedAt": "2026-07-11T21:53:31.726Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "China's Orca world model matches specialized robotics systems without ever seeing a single action label",
+          "body": "The Decoderから公開された情報です。概要: The Beijing Academy of Artificial Intelligence has released Orca, a world model that predicts abstract world states instead of tokens or pixels. Trained on 125,000 hours of video without a single action label, Orca matches the specialized π0.5 on five robotics tasks and could help ease the field's chronic data shortage. The article China's Orca world model matches specialized robotics systems without ever seeing a single action label appeared first on The Decoder ."
+        },
+        {
+          "heading": "Terrorist groups are using every major AI chatbot for attack planning and weapons development",
+          "body": "The Decoderから公開された情報です。概要: A Cambridge study found that Boko Haram uses AI chatbots like ChatGPT, Claude, and Gemini to plan attacks, build explosives, and maintain weapons. ISIS operatives have been training the group's commanders on how to bypass safety filters since 2023. Given that the study found safety filters repeatedly failed to prevent misuse, voluntary self-regulation by AI providers clearly isn't enough. The article Terrorist groups are using every major AI chatbot for attack planning and weapons development appeared first on The Decoder ."
+        },
+        {
+          "heading": "Deploying quantized models on Amazon SageMaker AI with Unsloth",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure. The patterns use Amazon Elastic Compute Cloud (Amazon EC2) for direct instance access, Amazon SageMaker AI inference endpoints for managed serving, and Amazon Elastic Kubernetes Service (Amazon EKS) or Amazon Elastic Container Service (Amazon ECS) when inference needs to fit into an existing container framework. You also learn operational practices for production deployments."
+        },
+        {
+          "heading": "OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour",
+          "body": "The Decoderから公開された情報です。概要: OpenAI's GPT-5.6 Sol Ultra produced a proof of the Cycle Double Cover Conjecture in under an hour, using 64 subagents working in parallel. The conjecture had remained unsolved for 50 years. Mathematician Thomas Bloom calls the proof surprisingly elementary but criticizes the lack of citations for known prior work. The bigger question remains: Does AI just recombine existing knowledge, or does it create something new? The article OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour appeared first on The Decoder ."
+        },
+        {
+          "heading": "OpenAI's GPT-5.6 Sol autonomously post-trained the smaller Luna model with a \"fairly underspecified prompt\"",
+          "body": "The Decoderから公開された情報です。概要: According to OpenAI, GPT-5.6 Sol independently fine-tuned the smaller Luna model, triggered by a single \"fairly under-specified prompt.\" In OpenAI's internal RSI benchmark for recursive self-improvement, Sol scores 16.2 points higher than GPT-5.5. OpenAI believes the \"automated researcher\" is within reach. The article OpenAI's GPT-5.6 Sol autonomously post-trained the smaller Luna model with a \"fairly underspecified prompt\" appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "China's Orca world model matches specialized robotics systems without ever seeing a single action label",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/chinas-orca-world-model-matches-specialized-robotics-systems-without-ever-seeing-a-single-action-label/",
+          "publishedAt": "2026-07-11"
+        },
+        {
+          "title": "Terrorist groups are using every major AI chatbot for attack planning and weapons development",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development/",
+          "publishedAt": "2026-07-11"
+        },
+        {
+          "title": "Deploying quantized models on Amazon SageMaker AI with Unsloth",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploying-quantized-models-on-amazon-sagemaker-ai-with-unsloth/",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "OpenAI's GPT-5.6 Sol Ultra reportedly solves a 50-year-old math problem in under an hour",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openais-gpt-5-6-sol-ultra-reportedly-solves-a-50-year-old-math-problem-in-under-an-hour/",
+          "publishedAt": "2026-07-11"
+        },
+        {
+          "title": "OpenAI's GPT-5.6 Sol autonomously post-trained the smaller Luna model with a \"fairly underspecified prompt\"",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openais-gpt-5-6-sol-autonomously-post-trained-the-smaller-luna-model-with-a-fairly-underspecified-prompt/",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "OpenAI staffer maps out which of GPT-5.6 Sol's five reasoning levels fits which task complexity",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-staffer-maps-out-which-of-gpt-5-6-sols-five-reasoning-levels-fits-which-task-complexity/",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "Fine-tune NVIDIA Nemotron 3 models with Amazon SageMaker AI serverless model customization",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-nvidia-nemotron-3-models-with-amazon-sagemaker-ai-serverless-model-customization/",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-stardog-and-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-07-10"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-11",
       "date": "2026-07-11",
