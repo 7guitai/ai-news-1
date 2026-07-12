@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-07-11T21:53:31.728Z",
+  "updatedAt": "2026-07-12T21:54:35.160Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-13",
+      "date": "2026-07-13",
+      "generatedAt": "2026-07-12T21:54:35.157Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms",
+          "body": "The Decoderから公開された情報です。概要: One in four longer social media posts is entirely AI-generated, according to a Pangram analysis. LinkedIn leads with 41 percent of long-form posts flagged as AI-written. The platform made up only a third of all posts scanned but accounted for nearly two-thirds of all detected AI content. Because the detection model tends to flag content conservatively, the real rate could be even higher. The article LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms appeared first on The Decoder ."
+        },
+        {
+          "heading": "Deploying quantized models on Amazon SageMaker AI with Unsloth",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure. The patterns use Amazon Elastic Compute Cloud (Amazon EC2) for direct instance access, Amazon SageMaker AI inference endpoints for managed serving, and Amazon Elastic Kubernetes Service (Amazon EKS) or Amazon Elastic Container Service (Amazon ECS) when inference needs to fit into an existing container framework. You also learn operational practices for production deployments."
+        },
+        {
+          "heading": "Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent",
+          "body": "The Decoderから公開された情報です。概要: Meta pulled a controversial feature from its new Muse Image model after widespread criticism. The feature let users generate AI images of other people by @-mentioning their public Instagram accounts. No consent needed, just a username. Meta admits \"this feature missed the mark\" and shut it down days after announcing it. The article Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent appeared first on The Decoder ."
+        },
+        {
+          "heading": "AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory",
+          "body": "The Decoderから公開された情報です。概要: The AgenticSTS project replaces the ever-growing chat log of AI agents with five separate memory layers. Tested on the card game Slay the Spire 2, the prompt stays at around 5,000 tokens instead of ballooning past 500,000. The agent wins 6 out of 10 games, while competing agents don't win any. The article AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory appeared first on The Decoder ."
+        },
+        {
+          "heading": "Fine-tune NVIDIA Nemotron 3 models with Amazon SageMaker AI serverless model customization",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we explore what makes the Nemotron 3 architecture unique, walk through the fine-tuning techniques available, and show you step-by-step how to get started with serverless customization using SageMaker Studio."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/",
+          "publishedAt": "2026-07-12"
+        },
+        {
+          "title": "Deploying quantized models on Amazon SageMaker AI with Unsloth",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploying-quantized-models-on-amazon-sagemaker-ai-with-unsloth/",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/meta-kills-muse-image-feature-that-let-anyone-generate-ai-photos-of-instagram-users-without-consent/",
+          "publishedAt": "2026-07-12"
+        },
+        {
+          "title": "AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-win-at-slay-the-spire-2-after-researchers-replace-growing-chat-logs-with-structured-memory/",
+          "publishedAt": "2026-07-12"
+        },
+        {
+          "title": "Fine-tune NVIDIA Nemotron 3 models with Amazon SageMaker AI serverless model customization",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-nvidia-nemotron-3-models-with-amazon-sagemaker-ai-serverless-model-customization/",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-stardog-and-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "How KTern.AI built agentic AI for SAP on Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-ktern-ai-built-agentic-ai-for-sap-on-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-07-10"
+        },
+        {
+          "title": "Disaggregated prefill and decode for LLM inference on SageMaker HyperPod",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/disaggregated-prefill-and-decode-for-llm-inference-on-sagemaker-hyperpod/",
+          "publishedAt": "2026-07-10"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-12",
       "date": "2026-07-12",
