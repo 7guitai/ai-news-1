@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-14T22:00:32.958Z",
+  "updatedAt": "2026-07-15T22:04:12.450Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-16",
+      "date": "2026-07-16",
+      "generatedAt": "2026-07-15T22:04:12.447Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "MIT Technology Review AI、arXiv AI、The Decoder、OpenAI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+          "body": "MIT Technology Review AIから公開された情報です。概要: OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its most robust release yet. GPT-Red automates…"
+        },
+        {
+          "heading": "In-Context Reinforcement Learning under Non-Stationarity: A Survey",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.11906v1 Announce Type: new Abstract: The development of decision-pretrained transformers, algorithm distillation, long-context meta-RL, and retrieval-augmented agents has renewed interest in in-context reinforcement learning (ICRL): the ability of a pretrained or fine-tuned decision model to infer latent task rules and improve future behavior from interaction context, without test-time parameter updates. This line of work asks when trial-and-error evidence, rewards, transitions, demonstrations, feedback, or retrieved experience can make learning-like computation happen inside the context window. However, existing surveys of ICRL mainly organize the field around pretraining objectives, architectures, context formats, evaluation protocols, and theoretical mechanisms, while the non-stationary setting remains comparatively underexamined. In changing environments, accumulated conte"
+        },
+        {
+          "heading": "OpenAI is now using AI to attack its own AI, and it's working better than humans ever did",
+          "body": "The Decoderから公開された情報です。概要: OpenAI's internal GPT-Red model finds successful attacks in 84 percent of test scenarios through self-play training. Human red teamers manage just 13 percent. The results feed directly into hardening models like GPT-5.6 Sol. The article OpenAI is now using AI to attack its own AI, and it's working better than humans ever did appeared first on The Decoder ."
+        },
+        {
+          "heading": "The US is advancing AI safety through state and federal action",
+          "body": "OpenAIから公開された情報です。概要: OpenAI outlines a “reverse federalism” approach to AI governance, where state laws help build a national framework for safe, democratic AI."
+        },
+        {
+          "heading": "Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.11948v1 Announce Type: new Abstract: Regulated financial institutions operating under data-residency rules need tenant-owned language models that can run inside the institution's perimeter. This paper combines two related FAOS studies into one mechanism-and-control article. First, it reports a reduced-power proof-of-mechanism study of ontology-amplified distillation: a Qwen3.6-27B student is adapted to the Foundation AgenticOS ontology through supervised fine-tuning on frontier-teacher trajectories and ontology-grounded direct preference optimization (DPO), trained locally on a single Apple M5 Max from 47 synthetic, English-language, cross-domain preference pairs. On 40 held-out Vietnamese financial-domain tasks, the distilled student grounds 36 of 40 tasks (grounded rate 0.90; mean ontology term-coverage r_onto = 0.95 on a metric floored at 0.50), equal to the GPT-5 frontier "
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "MIT Technology Review AI",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "In-Context Reinforcement Learning under Non-Stationarity: A Survey",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.11906",
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "OpenAI is now using AI to attack its own AI, and it's working better than humans ever did",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did/",
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "The US is advancing AI safety through state and federal action",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action",
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "Ontology-Amplified Distillation and Contextuality Auditing for Sovereign Enterprise Language Models: A Combined Proof-of-Mechanism and Negative-Results Method Study",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.11948",
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "GRID: Grammar-Railed Decoding for Enterprise SQL Generation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.11951",
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "Designing Agent-Ready Websites for AI Web Agents: A Framework for Machine Readability, Actionability, and Decision Reliability",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.12056",
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "Multi-agent social intelligence with Strands Agents and Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/multi-agent-social-intelligence-with-strands-agents-and-amazon-bedrock/",
+          "publishedAt": "2026-07-14"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-15",
       "date": "2026-07-15",
