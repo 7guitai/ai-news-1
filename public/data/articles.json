@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-17T21:56:05.630Z",
+  "updatedAt": "2026-07-18T21:53:56.609Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-19",
+      "date": "2026-07-19",
+      "generatedAt": "2026-07-18T21:53:56.606Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、arXiv AI、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "China's new World Artificial Intelligence Cooperation Organization is President Xi's clearest play yet for a parallel AI order",
+          "body": "The Decoderから公開された情報です。概要: At the World AI Conference in Shanghai, Xi Jinping announced 5,000 AI training slots for Global South countries and the launch of the \"World Artificial Intelligence Cooperation Organization.\" Cooperation centers with ASEAN, the African Union, BRICS, and other alliances are planned to follow. China is systematically building a parallel AI governance structure outside Western influence. The article China's new World Artificial Intelligence Cooperation Organization is President Xi's clearest play yet for a parallel AI order appeared first on The Decoder ."
+        },
+        {
+          "heading": "Interpretable Language Model for Closed-Loop Type 1 Diabetes Control",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.14126v1 Announce Type: new Abstract: Type 1 Diabetes (T1D) is a chronic, life-threatening autoimmune condition characterized by the complete destruction of insulin-producing pancreatic beta cells. While Artificial Pancreas Systems (APS) powered by Reinforcement Learning (RL) have shown promise in automating insulin delivery, their ``black-box'' nature makes it hard for patients and doctors to trust them fully. This paper presents LLM-T1D, a promising approach that combines the precision of RL with the clear, human-like reasoning of Large Language Models (LLMs) to create a more transparent and reliable insulin pump controller. By training an expert RL system and distilling its knowledge into fine-tuned LLaMA 3.1 8B and Qwen3 8B models, we developed a controller that not only surpasses the RL system's performance but also explains its decisions in plain, understandable language."
+        },
+        {
+          "heading": "Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost",
+          "body": "The Decoderから公開された情報です。概要: The British AI Security Institute warns that open-weight models like GLM-5.2 and DeepSeek V4-Pro now trail closed frontier models in cyber capabilities by four to seven months. At the start of 2025, the gap was still six to ten months. It also found that safety measures on open models are largely ineffective, leaving defenders less time to prepare. The article Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost appeared first on The Decoder ."
+        },
+        {
+          "heading": "HG-RAG: Hierarchy-Guided Retrieval-Augmented Generation for Structured Knowledge Graphs",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.14095v1 Announce Type: new Abstract: Retrieval Augmented Generation (RAG) has proven to be a widely successful process at improving the quality of outputs from a Large Language Model (LLM) for wider context. However, RAG systems typically retrieve context from flat document stores, which struggles when queries require hierarchical or relational reasoning across structured knowledge. I present HG-RAG (Hierarchy-Guided RAG), a framework that performs graph-traversal over a hierarchical knowledge graph to deliver structured context to a language model. My retrieval pipeline resolves a named entity anchor from the query, then expands context upward through parent nodes, laterally through relational neighbors, and downward through child nodes when needed. I evaluate HG-RAG against a dense retrieval baseline across three world scales (18-800 nodes) with four query types: local fact,"
+        },
+        {
+          "heading": "RegNetAgents: A Multi-Agent Framework for Cross-Network Regulatory Driver Identification in Cancer Genomics",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.14097v1 Announce Type: new Abstract: We introduce RegNetAgents, an AI-oriented multi-agent framework for structured, query-driven regulatory candidate identification across heterogeneous gene regulatory networks. The system enables unified analysis of bulk tumor and single-cell-derived ARACNe networks by integrating TCGA-derived cancer networks with large-scale single-cell regulatory networks from the GREmLN project. For a given focal gene, the framework performs dual-network classification, cancer gene filtering using OncoKB annotations, and mode-of-action (MoA) assignment for tumor-derived regulatory relationships. Candidates are ranked by evidence consistency across networks (Both, TCGA-only, GREmLN-only). The system is implemented as a multi-agent LangGraph DAG workflow, accessible through a unified Python API and Model Context Protocol (MCP) client, operating as a downstr"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "arXiv AI",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "China's new World Artificial Intelligence Cooperation Organization is President Xi's clearest play yet for a parallel AI order",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/chinas-new-world-artificial-intelligence-cooperation-organization-is-president-xis-clearest-play-yet-for-a-parallel-ai-order/",
+          "publishedAt": "2026-07-18"
+        },
+        {
+          "title": "Interpretable Language Model for Closed-Loop Type 1 Diabetes Control",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.14126",
+          "publishedAt": "2026-07-18"
+        },
+        {
+          "title": "Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/",
+          "publishedAt": "2026-07-18"
+        },
+        {
+          "title": "HG-RAG: Hierarchy-Guided Retrieval-Augmented Generation for Structured Knowledge Graphs",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.14095",
+          "publishedAt": "2026-07-18"
+        },
+        {
+          "title": "RegNetAgents: A Multi-Agent Framework for Cross-Network Regulatory Driver Identification in Cancer Genomics",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.14097",
+          "publishedAt": "2026-07-18"
+        },
+        {
+          "title": "Human AI Construction of Bayesian Networks for Operational Decision Support -- A Virtual Survey Approach",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.14141",
+          "publishedAt": "2026-07-18"
+        },
+        {
+          "title": "Capability from Access Structure, Not Scale: Lower Bounds and Pre-Registered Tests for Hybrid Sequence Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.14144",
+          "publishedAt": "2026-07-18"
+        },
+        {
+          "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+          "publishedAt": "2026-07-15"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-18",
       "date": "2026-07-18",
