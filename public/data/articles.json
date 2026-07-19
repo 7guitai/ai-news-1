@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-07-18T21:53:56.609Z",
+  "updatedAt": "2026-07-19T21:56:12.946Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-20",
+      "date": "2026-07-20",
+      "generatedAt": "2026-07-19T21:56:12.943Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "China's new World Artificial Intelligence Cooperation Organization is President Xi's clearest play yet for a parallel AI order",
+          "body": "The Decoderから公開された情報です。概要: At the World AI Conference in Shanghai, Xi Jinping announced 5,000 AI training slots for Global South countries and the launch of the \"World Artificial Intelligence Cooperation Organization.\" Cooperation centers with ASEAN, the African Union, BRICS, and other alliances are planned to follow. China is systematically building a parallel AI governance structure outside Western influence. The article China's new World Artificial Intelligence Cooperation Organization is President Xi's clearest play yet for a parallel AI order appeared first on The Decoder ."
+        },
+        {
+          "heading": "Google Deepmind argues video generators already contain the world models computer vision has been missing",
+          "body": "The Decoderから公開された情報です。概要: Google Deepmind's GenCeption repurposes a video generator for classic vision tasks such as depth estimation and segmentation, matching state-of-the-art systems with far less training data. The model trained almost entirely on synthetic videos. Its results add to the debate over whether video generators already contain a kind of universal world model. The article Google Deepmind argues video generators already contain the world models computer vision has been missing appeared first on The Decoder ."
+        },
+        {
+          "heading": "Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost",
+          "body": "The Decoderから公開された情報です。概要: The British AI Security Institute warns that open-weight models like GLM-5.2 and DeepSeek V4-Pro now trail closed frontier models in cyber capabilities by four to seven months. At the start of 2025, the gap was still six to ten months. It also found that safety measures on open models are largely ineffective, leaving defenders less time to prepare. The article Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost appeared first on The Decoder ."
+        },
+        {
+          "heading": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+          "body": "MIT Technology Review AIから公開された情報です。概要: OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its most robust release yet. GPT-Red automates…"
+        },
+        {
+          "heading": "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\"",
+          "body": "The Decoderから公開された情報です。概要: Alibaba has unveiled Qwen 3.8, a multimodal AI model with 2.4 trillion parameters that the Qwen team says rivals leading models and trails only Fable 5. A preview is available now. The article Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\" appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "China's new World Artificial Intelligence Cooperation Organization is President Xi's clearest play yet for a parallel AI order",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/chinas-new-world-artificial-intelligence-cooperation-organization-is-president-xis-clearest-play-yet-for-a-parallel-ai-order/",
+          "publishedAt": "2026-07-18"
+        },
+        {
+          "title": "Google Deepmind argues video generators already contain the world models computer vision has been missing",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/google-deepmind-argues-video-generators-already-contain-the-world-models-computer-vision-has-been-missing/",
+          "publishedAt": "2026-07-19"
+        },
+        {
+          "title": "Open-weight models now match frontier cyber performance from just four months ago at a fraction of the cost",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/open-weight-models-now-match-frontier-cyber-performance-from-just-four-months-ago-at-a-fraction-of-the-cost/",
+          "publishedAt": "2026-07-18"
+        },
+        {
+          "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
+          "publishedAt": "2026-07-15"
+        },
+        {
+          "title": "Alibaba's Qwen takes on Kimi K3 with open-weight Qwen 3.8, says model is \"second only to Fable 5\"",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/alibabas-qwen-takes-on-kimi-k3-with-open-weight-qwen-3-8-says-model-is-second-only-to-fable-5/",
+          "publishedAt": "2026-07-19"
+        },
+        {
+          "title": "Moonshot's Kimi K3 outperforms Fable 5 in frontend code but lags far behind in complex math",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/moonshots-kimi-k3-outperforms-fable-5-in-frontend-code-but-lags-far-behind-in-complex-math/",
+          "publishedAt": "2026-07-19"
+        },
+        {
+          "title": "AI text detectors struggle when language models mimic an author's style",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-text-detectors-struggle-when-language-models-mimic-an-authors-style/",
+          "publishedAt": "2026-07-19"
+        },
+        {
+          "title": "AI chatbots reading X-rays can be dangerously confident even when they're wrong",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-chatbots-reading-x-rays-can-be-dangerously-confident-even-when-theyre-wrong/",
+          "publishedAt": "2026-07-19"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-19",
       "date": "2026-07-19",
