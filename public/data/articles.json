@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-20T22:02:15.851Z",
+  "updatedAt": "2026-07-21T22:05:21.748Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-22",
+      "date": "2026-07-22",
+      "generatedAt": "2026-07-21T22:05:21.745Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoder、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Some Large Language Models Exhibit Consistent Risk Attitudes",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.16197v1 Announce Type: new Abstract: As artificial intelligence systems are deployed in open-ended, high-stakes settings, a critical dimension remains unmeasured: how perceived risk is translated into action. We test whether large language models (LLMs) exhibit systematic and consistent risk attitudes under uncertainty. We introduce a cross-domain framework that decouples contextual risk belief from categorical decision, and apply it to six representative LLMs and 100 human participants across spatial navigation, clinical triage, and financial allocation tasks. Using regression models, we extract each agents belief-to-decision mapping and quantify risk sensitivity and risk attitude bias. We find that most tested LLMs exhibit (i) robust intra-task consistency, indicating stable mappings from contextual belief to risk decision within a fixed task domain; (ii) cross-domain rank-o"
+        },
+        {
+          "heading": "Xiaomi-Robotics-1 shows that more data beats bigger models when training robots to move",
+          "body": "The Decoderから公開された情報です。概要: Xiaomi trained Xiaomi-Robotics-1 on more than 100,000 hours of motion data collected by people using camera-equipped handheld grippers rather than robots. Adding data improved performance far more than increasing model size. The gains haven't plateaued, though absolute success rates remain low. The article Xiaomi-Robotics-1 shows that more data beats bigger models when training robots to move appeared first on The Decoder ."
+        },
+        {
+          "heading": "Deterministic Replay for AI Agent Systems",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.16200v1 Announce Type: new Abstract: AI agent systems that couple large language models (LLMs) with external tools and APIs are inherently non-deterministic: LLM sampling variance, external API state, CDN infrastructure headers, and execution-environment noise collectively prevent any prior agent run from being faithfully re-executed. Existing observability platforms capture execution logs but cannot reproduce a run in isolation. We present agrepl, a developer-first CLI framework for deterministic replay of agent executions. agrepl intercepts all external interactions at the transport layer via a man-in-the-middle (MITM) proxy, serialises them as structured execution traces, and replays them in a strictly isolated environment with zero outbound network access. We formalise the agent execution model, define the request-key matching function K(s), and prove the determinism invar"
+        },
+        {
+          "heading": "Google ships three new Gemini Flash models but its frontier 3.5 Pro remains lost in training",
+          "body": "The Decoderから公開された情報です。概要: Google is shipping three new Flash models in the Gemini series, including the more efficient 3.6 Flash, which uses up to 65 percent fewer tokens, and a cybersecurity model available only to governments and select partners. But the anticipated flagship, Gemini 3.5 Pro, is still missing, while OpenAI, Anthropic, and Chinese labs are already competing at the frontier level. The article Google ships three new Gemini Flash models but its frontier 3.5 Pro remains lost in training appeared first on The Decoder ."
+        },
+        {
+          "heading": "Design and Validation of a Lightweight 1D CNN for Affective Touch Classification in Soft Plush Companions",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.16196v1 Announce Type: new Abstract: Soft, sensorized companions offer a physically safe and emotionally intuitive interface for socially assistive technologies, yet their deformability and multichannel tactile sensing complicate the robust interpretation of human affect. This study presents a complete open-source MATLAB-based framework for the development and validation of compact deep learning models for affective touch recognition in soft interactive companions. As a primary contribution, a diverse FAIR-compliant dataset of 1326 labelled gesture sequences collected from 25 participants spanning children, teenagers, and adults is made publicly available, providing a reusable resource for future research in affective touch recognition. Through systematic architecture and hyperparameter exploration across 468 CNN models, the study identifies compact dilated one-dimensional con"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "title": "Some Large Language Models Exhibit Consistent Risk Attitudes",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.16197",
+          "publishedAt": "2026-07-21"
+        },
+        {
+          "title": "Xiaomi-Robotics-1 shows that more data beats bigger models when training robots to move",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/xiaomi-robotics-1-shows-that-more-data-beats-bigger-models-when-training-robots-to-move/",
+          "publishedAt": "2026-07-21"
+        },
+        {
+          "title": "Deterministic Replay for AI Agent Systems",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.16200",
+          "publishedAt": "2026-07-21"
+        },
+        {
+          "title": "Google ships three new Gemini Flash models but its frontier 3.5 Pro remains lost in training",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/google-ships-three-new-gemini-flash-models-but-its-frontier-3-5-pro-remains-lost-in-training/",
+          "publishedAt": "2026-07-21"
+        },
+        {
+          "title": "Design and Validation of a Lightweight 1D CNN for Affective Touch Classification in Soft Plush Companions",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.16196",
+          "publishedAt": "2026-07-21"
+        },
+        {
+          "title": "PlanFlip: Attacking Multi-Agent LLM Systems via Planning-Phase Prompt Injection",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.16199",
+          "publishedAt": "2026-07-21"
+        },
+        {
+          "title": "Democratizing AI with Small Language Models: Structured Benchmarking and Parameter-Efficient Fine-Tuning for Local Deployment",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.16202",
+          "publishedAt": "2026-07-21"
+        },
+        {
+          "title": "Safety and alignment in an era of long-horizon models",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+          "publishedAt": "2026-07-20"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-21",
       "date": "2026-07-21",
