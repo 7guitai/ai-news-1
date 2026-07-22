@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-07-21T22:05:21.748Z",
+  "updatedAt": "2026-07-22T22:06:02.448Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-23",
+      "date": "2026-07-23",
+      "generatedAt": "2026-07-22T22:06:02.446Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.18246v1 Announce Type: new Abstract: We present Phionyx, a deterministic AI runtime architecture derived from the broader Echoism interaction framework that introduces a governance-first approach to AI engineering: treating large language model (LLM) outputs as noisy sensor measurements rather than direct decisions. Unlike probabilistic agents, Phionyx enforces deterministic state evolution via a structured state vector governed by deterministic state-evolution equations, enabling reproducible behavior in applications requiring auditability and governance. The architecture integrates three layers: (1) a deterministic evaluation kernel processing noisy sensor measurements through a canonical 46-block pipeline, (2) a unified safety layer providing pre-response control and architectural privacy enforcement, and (3) a semantic time-based memory system implementing impact-weighted "
+        },
+        {
+          "heading": "Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion",
+          "body": "The Decoderから公開された情報です。概要: AMD is investing up to $5 billion in Anthropic. In return, Anthropic will deploy up to 2 gigawatts of MI450 GPUs for training and running its Claude models. For AMD, this is another major deal after Meta and OpenAI as it tries to challenge Nvidia as an AI chip supplier. Critics see these agreements as circular cash flows. The article Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion appeared first on The Decoder ."
+        },
+        {
+          "heading": "Calibrated Selective Fact-Checking via Evidence Chain Evaluation",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.18240v1 Announce Type: new Abstract: Large language models (LLMs) can achieve strong fact-checking accuracy, yet forced binary decisions conceal a critical reliability problem: systems may issue confident verdicts even when supporting evidence is weak, sparse, or internally inconsistent. We address this issue through Evidence Chain Evaluation (ECE), a selective fact-checking framework that permits abstention via an uncertain verdict instead of requiring a true/false decision for every claim. The evaluated system is a tool-using verification agent that gathers evidence through web search, scholarly search, and executable checks, and then returns a structured verdict with confidence and source-level metadata. On ECE-Bench, ECE achieves 91.6% standard accuracy, 93.7% coverage, and 97.8% selective accuracy on answered claims. Although ECE does not outperform the strongest retrieva"
+        },
+        {
+          "heading": "Every frontier AI model tested by Britain's safety institute tried to cheat on cybersecurity evaluations",
+          "body": "The Decoderから公開された情報です。概要: The UK's AI Safety Institute tested five frontier models from OpenAI and Anthropic in cybersecurity evaluations. All five tried to cheat. One even ran code on an external service to access the institute's infrastructure, triggering a security alert. The article Every frontier AI model tested by Britain's safety institute tried to cheat on cybersecurity evaluations appeared first on The Decoder ."
+        },
+        {
+          "heading": "Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost",
+          "body": "The Decoderから公開された情報です。概要: Cisco has released two small, open-source AI models for cybersecurity that detect about 150 times more vulnerabilities per dollar than large AI agents, according to the company's own tests. The article Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.18246",
+          "publishedAt": "2026-07-22"
+        },
+        {
+          "title": "Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/",
+          "publishedAt": "2026-07-22"
+        },
+        {
+          "title": "Calibrated Selective Fact-Checking via Evidence Chain Evaluation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.18240",
+          "publishedAt": "2026-07-22"
+        },
+        {
+          "title": "Every frontier AI model tested by Britain's safety institute tried to cheat on cybersecurity evaluations",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/every-frontier-ai-model-tested-by-britains-safety-institute-tried-to-cheat-on-cybersecurity-evaluations/",
+          "publishedAt": "2026-07-22"
+        },
+        {
+          "title": "Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost/",
+          "publishedAt": "2026-07-22"
+        },
+        {
+          "title": "AI Tool Discovery at Scale: All You Need is DNS",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.18242",
+          "publishedAt": "2026-07-22"
+        },
+        {
+          "title": "From Agent Failure Paths to Quantified Residual Risk: A Compositional Framework for Resilient Agentic AI",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.18243",
+          "publishedAt": "2026-07-22"
+        },
+        {
+          "title": "SAAG: Structured Agent Assessment and Grounding",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.18245",
+          "publishedAt": "2026-07-22"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-22",
       "date": "2026-07-22",
