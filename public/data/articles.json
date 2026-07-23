@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-22T22:06:02.448Z",
+  "updatedAt": "2026-07-23T22:07:19.724Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-24",
+      "date": "2026-07-24",
+      "generatedAt": "2026-07-23T22:07:19.721Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.19351v1 Announce Type: new Abstract: LLM-based multi-agent systems (LLM-MAS) are increasingly deployed in safety-critical applications, where adversaries inject malicious instructions through inter-agent communication to propagate harmful behaviors. Unlike static threats, these attacks are doubly dynamic: adversaries refine injection strategies against deployed defenses while normal-agent behavior drifts with system expansion. Existing defenses treat deployment as a closed-world problem and degrade rapidly once either distribution shifts beyond training coverage. We propose OpenEvoShield, a co-evolutionary continual defense framework for LLM-MAS. An asymmetric rate controller (M1) decouples fast attack-side and slow normal-side learning rates from dual drift signals. A normal-boundary updater (M2) maintains a dynamic behavioral boundary at the slow rate, while an EWC-regulariz"
+        },
+        {
+          "heading": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we explore how Jefferies overcame these challenges with a solution built on Strands Agents, an agent harness SDK for building AI agents that can reason, plan, and act by orchestrating calls to foundation models (FMs) and external tools. The solution uses large language models (LLMs), Amazon Bedrock, and Amazon Bedrock Knowledge Bases. It also uses Model Context Protocol (MCP), an open standard that helps AI agents securely connect to diverse data sources and tools through a unified interface. We cover the solution overview, the rationale for selecting the underlying technology stack, lessons learned, and the business impact the solution created at Jefferies."
+        },
+        {
+          "heading": "Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.19353v1 Announce Type: new Abstract: Confidential computing is becoming a practical deployment requirement for AI inference workloads that process sensitive inputs or protect proprietary model assets. However, the performance cost of enabling confidential execution for GPU-accelerated large language model serving remains workload dependent and operationally important. This paper presents a benchmark study comparing standard non-confidential execution with confidential computing mode on a single NVIDIA H100 80GB GPU hosted in an Intel TDX confidential instance. The evaluation uses two representative language models, Mistral-7B v0.1 and Qwen3-30B-A3B, and measures time to first token, end-to-end request latency, per-request token generation throughput, global token throughput, and closed-loop request throughput under increasing concurrency. In fixed request-rate experiments, con"
+        },
+        {
+          "heading": "NEXUS: Structured Runtime Safety for Tool-Using LLM Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.19356v1 Announce Type: new Abstract: Tool-using LLM agents increasingly execute high-impact actions, making runtime safety monitoring essential. We present NEXUS (Neural EXecution Utility and Safety), a structured-plan safety monitor that applies a formal intervention policy to select among four actions: allow, block, request confirmation, or request revision. NEXUS combines deterministic safety rules, argument-level inspection, and a calibrated logistic-regression risk score for graded escalation. On a 128-instance synthetic benchmark, NEXUS achieves an F1 score of 0.949 and a 4-class intervention accuracy of 0.6406, outperforming rule-only intervention selection by 27.3 percentage points. It also improves over rule-only on R-Judge (F1 = 0.861 vs. 0.849), matches rule-only on AgentHarm due to threat-model limits, and achieves 0% ASR at 99% control allow on IPI. On the rule-bl"
+        },
+        {
+          "heading": "Stochastic Primal-Dual Decoding for Multiobjective Generative Recommender Systems",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.19357v1 Announce Type: new Abstract: Recent advances in recommender systems (RS) have shown substantial performance gains through generative modelling. In practice, recommendation often involves constructing slates -- ordered lists of items -- that must satisfy multiple objectives beyond relevance, such as constraints defined over item attributes or fairness constraints. Existing multiobjective approaches either rely on post-processing techniques designed for non-generative settings, or incorporate auxiliary objectives directly into model training. The former does not explicitly account for the sequential nature of generative RS, while the latter is often impractical in large-scale systems. We propose a lightweight, inference-time decoding layer that augments autoregressive generative RS to support multiobjective slate generation without modifying or retraining the underlying "
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.19351",
+          "publishedAt": "2026-07-23"
+        },
+        {
+          "title": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/",
+          "publishedAt": "2026-07-23"
+        },
+        {
+          "title": "Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.19353",
+          "publishedAt": "2026-07-23"
+        },
+        {
+          "title": "NEXUS: Structured Runtime Safety for Tool-Using LLM Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.19356",
+          "publishedAt": "2026-07-23"
+        },
+        {
+          "title": "Stochastic Primal-Dual Decoding for Multiobjective Generative Recommender Systems",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.19357",
+          "publishedAt": "2026-07-23"
+        },
+        {
+          "title": "Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/",
+          "publishedAt": "2026-07-22"
+        },
+        {
+          "title": "Flux 3 generates videos with native audio up to 20 seconds long, a first for Black Forest Labs",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/flux-3-generates-videos-with-native-audio-up-to-20-seconds-long-a-first-for-black-forest-labs/",
+          "publishedAt": "2026-07-23"
+        },
+        {
+          "title": "Poolside's Laguna S 2.1 is a small open-weight coding model that punches well above its size",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/",
+          "publishedAt": "2026-07-23"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-23",
       "date": "2026-07-23",
