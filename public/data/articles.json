@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-23T22:07:19.724Z",
+  "updatedAt": "2026-07-24T22:07:01.481Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-25",
+      "date": "2026-07-25",
+      "generatedAt": "2026-07-24T22:07:01.478Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.20467v1 Announce Type: new Abstract: While parallel decoding is central to the efficiency of Diffusion Large Language Models (dLLMs), current strategies are often hindered by overly conservative confidence thresholds. These thresholds, necessitated by the Joint Probability Dependence Error (JPDE), result in redundant denoising iterations and suboptimal inference speeds. To overcome this, we propose DC-Leap, a training-free framework that enables reliable acceleration of dLLMs in the moderate-confidence regime. DC-Leap introduces a Dynamic Contiguous Verification strategy that integrates strictly-ordered causal constraints into the parallel decoding process. By progressively validating token dependencies, this mechanism effectively neutralizes the JPDE, enabling reliable acceleration with comparable performance. Furthermore, DC-Leap incorporates the draft-guided decoding mechan"
+        },
+        {
+          "heading": "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.20468v1 Announce Type: new Abstract: AI agents are increasingly used to automate research and development tasks, yet existing benchmarks typically evaluate them on prescribed workflows or narrow action spaces. Even nominally open-ended tasks can often be solved by retrieving a well-known recipe and tuning a few hyperparameters, making it unclear whether strong results reflect genuine optimization or memorized solutions. We introduce InferenceBench, where an agent must deploy an OpenAI-compatible inference server and optimize the speed of LLM inference. Each agent receives a target LLM, one H100 GPU, an optimization scenario, and a wall-clock time budget of two hours. Three optimization scenarios isolate distinct bottlenecks of inference (prefill latency, decode latency, and concurrent request throughput) and a fourth balances all three at the same time. Across 15 frontier agen"
+        },
+        {
+          "heading": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
+          "body": "AWS Machine Learningから公開された情報です。概要: This post covers Opus 5’s improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock. See the documentation for Claude Platform on AWS."
+        },
+        {
+          "heading": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
+          "body": "AWS Machine Learningから公開された情報です。概要: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock. Learn how to select a model, run inference through the Responses API on the bedrock-mantle endpoint, reduce cost with prompt caching, connect the OpenAI Codex coding agent, and plan for quotas and scaling."
+        },
+        {
+          "heading": "ClickGuard: Detecting and Spoiling Clickbait News with Informativeness Measures and Large Language Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.20463v1 Announce Type: new Abstract: This paper presents an AI-driven browser extension that identifies clickbait to help users avoid misleading Internet articles. Moving beyond traditional detection, the application employs a hybrid machine learning architecture that combines transformer-based embeddings with linguistically motivated features and a custom \"baitness\" score. After evaluating various natural language processing techniques -- from classic vectorizers to large language model (LLM) embeddings -- an XGBoost-based model was developed that achieves an F1-score of 91% on the open combined dataset. Most importantly, the tool can warn users before and after they access a clickbait article. After opening an article, the user receives a percentage score indicating the likelihood that it is clickbait. The prediction is explained based on the analyzed metrics, including thos"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.20467",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "title": "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.20468",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "title": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "title": "ClickGuard: Detecting and Spoiling Clickbait News with Informativeness Measures and Large Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.20463",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "title": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/",
+          "publishedAt": "2026-07-23"
+        },
+        {
+          "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "title": "AINTMA: Agentic AI Architecture for Autonomous Test Management with Generative Intelligence, Secure Cloud Communication and Adaptive Quality Analytics",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.20452",
+          "publishedAt": "2026-07-24"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-24",
       "date": "2026-07-24",
