@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-07-25T21:58:44.199Z",
+  "updatedAt": "2026-07-26T22:01:15.043Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-27",
+      "date": "2026-07-27",
+      "generatedAt": "2026-07-26T22:01:15.040Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
+          "body": "AWS Machine Learningから公開された情報です。概要: This post covers Opus 5’s improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock. See the documentation for Claude Platform on AWS."
+        },
+        {
+          "heading": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
+          "body": "AWS Machine Learningから公開された情報です。概要: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock. Learn how to select a model, run inference through the Responses API on the bedrock-mantle endpoint, reduce cost with prompt caching, connect the OpenAI Codex coding agent, and plan for quotas and scaling."
+        },
+        {
+          "heading": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we explore how Jefferies overcame these challenges with a solution built on Strands Agents, an agent harness SDK for building AI agents that can reason, plan, and act by orchestrating calls to foundation models (FMs) and external tools. The solution uses large language models (LLMs), Amazon Bedrock, and Amazon Bedrock Knowledge Bases. It also uses Model Context Protocol (MCP), an open standard that helps AI agents securely connect to diverse data sources and tools through a unified interface. We cover the solution overview, the rationale for selecting the underlying technology stack, lessons learned, and the business impact the solution created at Jefferies."
+        },
+        {
+          "heading": "Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
+          "body": "The Decoderから公開された情報です。概要: Cursor asked its upgraded agent swarm and its predecessor to rebuild SQLite in Rust using only the documentation, with no source code or internet access. Every configuration of the new system, which separates planners from workers, eventually scored 100 percent on the test suite. The old swarm choked on merge conflicts of its own making. The article Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work appeared first on The Decoder ."
+        },
+        {
+          "heading": "Hundreds asked ChatGPT for poison and bioweapon recipes and some got step-by-step high school level guides",
+          "body": "The Decoderから公開された情報です。概要: In summer 2025, OpenAI internally flagged GPT-5 as high-risk because it helped users create biological hazards, but downgraded the model's risk rating that fall. According to the Wall Street Journal, some users got step-by-step instructions for making poisons and biological weapons. Hundreds asked for that kind of information. The article Hundreds asked ChatGPT for poison and bioweapon recipes and some got step-by-step high school level guides appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "title": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/",
+          "publishedAt": "2026-07-24"
+        },
+        {
+          "title": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/",
+          "publishedAt": "2026-07-23"
+        },
+        {
+          "title": "Cursor's agent swarm suggests cheaper models can handle most coding when frontier models plan the work",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/cursors-agent-swarm-suggests-cheaper-models-can-handle-most-coding-when-frontier-models-plan-the-work/",
+          "publishedAt": "2026-07-26"
+        },
+        {
+          "title": "Hundreds asked ChatGPT for poison and bioweapon recipes and some got step-by-step high school level guides",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides/",
+          "publishedAt": "2026-07-26"
+        },
+        {
+          "title": "US reportedly favors selective bans over blanket restrictions on Chinese open weight models citing security concerns",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns/",
+          "publishedAt": "2026-07-26"
+        },
+        {
+          "title": "New reports reveal the extent of OpenAI's loss of control during the autonomous hack on Hugging Face",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face/",
+          "publishedAt": "2026-07-25"
+        },
+        {
+          "title": "Opus 5 may have solved browser-based prompt injection, the biggest security flaw haunting AI agents",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents/",
+          "publishedAt": "2026-07-25"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-26",
       "date": "2026-07-26",
