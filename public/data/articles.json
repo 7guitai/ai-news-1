@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-07-27T22:10:40.377Z",
+  "updatedAt": "2026-07-28T22:06:14.807Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-29",
+      "date": "2026-07-29",
+      "generatedAt": "2026-07-28T22:06:14.798Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.22555v1 Announce Type: new Abstract: Medical diagnosis is a multi-stage process: extract facts, consult knowledge, generate a differential analysis, and select the best diagnosis with explanations. Frontier LLMs are strong generalists, but single-shot prompting often yields brittle diagnostic reasoning. We present the DeepLens Diagnosis Agent, a five-stage harnessing pipeline (combining model capabilities with disciplined process constraints) centered on a small medical reasoning model (JSL Medical Small 7B v2) and retrieval-augmented generation (RAG). The pipeline enforces structured clinical extraction, disciplined retrieval, constrained candidate generation, explicit evidence triangulation, and an auditable final decision. On the 915-case DiagnosisArena benchmark, the agent achieved 60.14% top-1 diagnostic accuracy, the highest among small and medium-sized models. The same "
+        },
+        {
+          "heading": "MIITA: Memory-Induced Inference-Time Adaptation for Continual Learning with Small Language Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.22556v1 Announce Type: new Abstract: Continual learning (CL) is essential for small language models (SLMs) to adapt to evolving real-world needs in resource-constrained deployments. However, directly updating their limited parameter space causes catastrophic forgetting. While memory-based methods naturally address this by decoupling knowledge retention from parameters, existing approaches designed for large language models (LLMs) rely on abundant storage and strong in-context reasoning that SLMs lack. To address these challenges, we propose MIITA, a Memory-Induced Inference-Time Adaptation framework for supervised CL under constrained storage. MIITA stores supervised experiences as compact correction-direction prototypes with semantic anchors, and retrieves them at inference time using semantic and uncertainty-based cues. The retrieved directions are applied through gated temp"
+        },
+        {
+          "heading": "SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.22562v1 Announce Type: new Abstract: Managing long-context dependencies remains a primary bottleneck in LLM agents, as redundant and irrelevant information can degrade multi-step reasoning. Strategic Forgetting for Agent Memory Systems (SF-AMS) is proposed as a framework for maintaining compact high-utility memory by modeling the long-term importance of memory units. SF-AMS replaces static retrieval and heuristic decay with a utility-driven survival mechanism that updates memory importance from usage redundancy and temporal signals, inducing a hierarchical memory structure that prioritizes stable entity-consistent information while filtering noise. On top of this, Composite Importance Scoring integrates semantic and entity level signals to improve retrieval robustness. Experiments on LoCoMo and LongMemEval-s show consistent gains over strong state of the art baselines includin"
+        },
+        {
+          "heading": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.22544v1 Announce Type: new Abstract: Visual counterfactual explanations aim to answer \"what minimal change to this image would flip the model's prediction?\", and are increasingly important as vision models are deployed in safety-critical domains (e.g., medicine). Existing diffusion-based methods can produce realistic edits, but they rely on external classifiers that must work reliably on noisy images, which makes them fragile and hard to deploy for robust explanations. We introduce C-VCE, a new diffusion framework that builds the classifier directly into the generative model via a concept bottleneck layer, so that counterfactuals are guided by human-interpretable features (concepts) instead of a separate noise robust classifier that works with pixel-level edits. Our model lets users to toggle on/off semantic concepts during sampling, then minimally adjusts relevant image regio"
+        },
+        {
+          "heading": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.22548v1 Announce Type: new Abstract: Data centers and their compute nodes require accurate and flexible digital twins capable of modeling the complex interplay of workloads, environmental parameters, and physical metrics. Current machine learning approaches for HPC and its telemetry typically rely on a static subset of anonymous, fixed-position sensor variables tailored to single tasks. Consequently, these models become obsolete when target tasks change or sensor metrics vary. We propose SeT-Diff, the first foundational model for compute node telemetry and time-series. Unlike rigid architectures, our diffusion-based approach conditions the generative process on each sensor's semantic description, decoupling the system dynamics from the structure of the dataset. Experiments on a real-world supercomputer dataset demonstrate a Mean Absolute Error (MAE) of 0.0470 on reconstruction"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "DeepLens Diagnosis Agent: Agentic Workflow Design Lets a Small Reasoning Model Compete with Frontier LLMs",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.22555",
+          "publishedAt": "2026-07-28"
+        },
+        {
+          "title": "MIITA: Memory-Induced Inference-Time Adaptation for Continual Learning with Small Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.22556",
+          "publishedAt": "2026-07-28"
+        },
+        {
+          "title": "SF-AMS: Strategic Forgetting for Structured Memory in LLM Agent",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.22562",
+          "publishedAt": "2026-07-28"
+        },
+        {
+          "title": "Concept-based Visual Counterfactual Explanations with Diffusion Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.22544",
+          "publishedAt": "2026-07-28"
+        },
+        {
+          "title": "SeT-Diff: Towards Semantic Foundation Models for HPC Telemetry and Time-Series",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.22548",
+          "publishedAt": "2026-07-28"
+        },
+        {
+          "title": "Same Question, Different Answers: Evaluating LLM Reliability Beyond Accuracy",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.22554",
+          "publishedAt": "2026-07-28"
+        },
+        {
+          "title": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
+          "publishedAt": "2026-07-27"
+        },
+        {
+          "title": "Anthropic says its Mythos model found vulnerabilities in cryptographic algorithms that secure the internet",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/",
+          "publishedAt": "2026-07-28"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-28",
       "date": "2026-07-28",
