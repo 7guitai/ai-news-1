@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-28T22:06:14.807Z",
+  "updatedAt": "2026-07-29T22:02:51.040Z",
   "articles": [
+    {
+      "id": "ai-news-2026-07-30",
+      "date": "2026-07-30",
+      "generatedAt": "2026-07-29T22:02:51.038Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、OpenAI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.24762v1 Announce Type: new Abstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolution, and normalization. Optimizing these kernels is one of the most direct ways to reduce latency and cost, but it has traditionally required expert engineers to hand-write low-level GPU code. Agentic systems built on large language models (LLMs) can now generate and optimize kernels with far less human effort, yet existing tools are largely evaluated on randomly generated tensors and isolated kernels, emit standalone CUDA code that developers must manually reintegrate, mostly target only LLM PyTorch models, and offer limited support for inspecting and debugging results. We present Kernel Forge, an open-source, end-to-end agentic harness that accepts any unmodifie"
+        },
+        {
+          "heading": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.24769v1 Announce Type: new Abstract: With the growing capabilities of frontier models, AI alignment becomes increasingly critical in high-risk deployment settings. While recent work has empirically demonstrated in-context scheming -- the covert pursuit of misaligned objectives while feigning alignment -- in frontier language models, most work has been performed exclusively in English, leaving a major gap in multilingual safety. We apply Petri, an open-source automated auditing framework, to Qwen3-30B-A3B to evaluate deceptive and scheming behaviors across multiple languages. Our findings suggest that scheming scores are inversely correlated with the estimated pretraining language coverage, with low-resource languages averaging 34.2\\% higher scores compared to high-resource languages on a five-category scheming index. Furthermore, we find that the effect of estimated pretrainin"
+        },
+        {
+          "heading": "PATHFinder Agent for Tailored Prenatal Care",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.24768v1 Announce Type: new Abstract: Prenatal care is an important preventive service designed to improve outcomes for pregnant individuals. The American College of Obstetricians and Gynecologists (ACOG) recently introduced guidelines advocating tailored prenatal care, called PATH (Plan for Tailored Healthcare). We present PATHFinder Agent(Planner for Appropriate Tailored Healthcare), an end-to-end conversational agentic system that gathers patient health and social context through structured dialogue, curates individualized prenatal care plans aligned with PATH guidelines, and surfaces community resources from Michigan 211. The system features a four-stage workflow spanning patient intake, dynamic interaction, plan synthesis, and clinician oversight. We evaluate frontier large language models (LLMs) on expert-curated rubrics across five clinical dimensions, finding that GPT-5"
+        },
+        {
+          "heading": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+          "body": "OpenAIから公開された情報です。概要: GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar."
+        },
+        {
+          "heading": "Google's Lyria 3.5 music model now lets users edit individual track sections without starting over",
+          "body": "The Decoderから公開された情報です。概要: Google released Lyria 3.5, its new music generation model, and built it into Google Flow Music. The model generates tracks between 30 seconds and 3 minutes long. A new feature called \"Selective Section Painting\" lets users edit specific sections of a track. Google still hasn't shared any details about the training data. The article Google's Lyria 3.5 music model now lets users edit individual track sections without starting over appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "OpenAI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.24762",
+          "publishedAt": "2026-07-29"
+        },
+        {
+          "title": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.24769",
+          "publishedAt": "2026-07-29"
+        },
+        {
+          "title": "PATHFinder Agent for Tailored Prenatal Care",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.24768",
+          "publishedAt": "2026-07-29"
+        },
+        {
+          "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+          "publishedAt": "2026-07-29"
+        },
+        {
+          "title": "Google's Lyria 3.5 music model now lets users edit individual track sections without starting over",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/googles-lyria-3-5-music-model-now-lets-users-edit-individual-track-sections-without-starting-over/",
+          "publishedAt": "2026-07-29"
+        },
+        {
+          "title": "Do Models Fake Alignment Without Clear Consequences?",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.24758",
+          "publishedAt": "2026-07-29"
+        },
+        {
+          "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.24759",
+          "publishedAt": "2026-07-29"
+        },
+        {
+          "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.24764",
+          "publishedAt": "2026-07-29"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-07-29",
       "date": "2026-07-29",
