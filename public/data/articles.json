@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-07-31T22:07:59.838Z",
+  "updatedAt": "2026-08-01T21:58:58.184Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-02",
+      "date": "2026-08-02",
+      "generatedAt": "2026-08-01T21:58:58.181Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "MIT Technology Review AI、The Decoder、OpenAI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+          "body": "MIT Technology Review AIから公開された情報です。概要: It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…"
+        },
+        {
+          "heading": "German court rules AI music generator Suno violated copyrights, rejects fair use defense",
+          "body": "The Decoderから公開された情報です。概要: A Munich court ruled that AI music generator Suno violated copyrights through both training and output. The court found six songs reproducibly stored in Suno's models and rejected both Germany's text-and-data-mining exception and the US fair use defense. The ruling isn't final, and several key questions remain open. The article German court rules AI music generator Suno violated copyrights, rejects fair use defense appeared first on The Decoder ."
+        },
+        {
+          "heading": "OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
+          "body": "The Decoderから公開された情報です。概要: OpenAI is building a new model family called \"Astra\" that would let multiple agents tackle complex problems together for hours or even days. CEO Sam Altman has already demoed Astra to policymakers in Washington. OpenAI hasn't decided whether to release it as GPT-6 or a new GPT-5 variant. The article OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions appeared first on The Decoder ."
+        },
+        {
+          "heading": "Advancing responsible AI across Europe",
+          "body": "OpenAIから公開された情報です。概要: OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances."
+        },
+        {
+          "heading": "Inference meta-monitoring for Amazon SageMaker AI endpoints with Amazon Quick",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to build an inference meta-monitoring system for Amazon SageMaker AI endpoints using Amazon Quick. This governance layer sits above production ML inference pipelines to continuously track prediction and data quality, detect drift, integrate delayed ground truth, and surface automated performance dashboards."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "MIT Technology Review AI",
+        "The Decoder",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+          "publishedAt": "2026-07-30"
+        },
+        {
+          "title": "German court rules AI music generator Suno violated copyrights, rejects fair use defense",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/",
+          "publishedAt": "2026-08-01"
+        },
+        {
+          "title": "OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/",
+          "publishedAt": "2026-08-01"
+        },
+        {
+          "title": "Advancing responsible AI across Europe",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+          "publishedAt": "2026-07-31"
+        },
+        {
+          "title": "Inference meta-monitoring for Amazon SageMaker AI endpoints with Amazon Quick",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/inference-meta-monitoring-for-amazon-sagemaker-ai-endpoints-with-amazon-quick/",
+          "publishedAt": "2026-07-30"
+        },
+        {
+          "title": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+          "publishedAt": "2026-07-30"
+        },
+        {
+          "title": "AI coding agents can modernize research software but can't judge if the science is right",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/",
+          "publishedAt": "2026-08-01"
+        },
+        {
+          "title": "ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/",
+          "publishedAt": "2026-08-01"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-01",
       "date": "2026-08-01",
