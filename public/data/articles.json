@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-08-03T22:10:50.850Z",
+  "updatedAt": "2026-08-04T22:15:20.068Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-05",
+      "date": "2026-08-05",
+      "generatedAt": "2026-08-04T22:15:20.065Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、MIT Technology Review AI、OpenAI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.28629v1 Announce Type: new Abstract: The rapid transition from reactive large language models (LLMs) to persistent, action-capable systems has exposed critical gaps in the architectural understanding of Agentic AI, particularly in separating inference, orchestration, and execution layers for autonomous AI agents. Despite recent advances, unified frameworks for designing and evaluating full-stack agentic systems remain limited. This paper presents a comprehensive, layered architecture for Agentic AI, outlining the evolution from reactive LLM interfaces to persistent, goal-driven autonomous AI agents with memory, planning, and continuous execution. We analyze OpenClaw and Ollama as a full-stack Agentic AI system, where Ollama serves as the LLM inference layer and OpenClaw enables agent runtime orchestration, integrating reasoning, tool use, and action execution. A prototype expe"
+        },
+        {
+          "heading": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.28631v1 Announce Type: new Abstract: AI Scientist systems capable of autonomous research have the potential to significantly accelerate scientific discovery. However, evaluating and comparing the quality of AI-generated papers remains an open challenge. We propose and implement a rigorous benchmarking protocol using an automated peer-review system that harnesses frontier large language models to assess scientific papers across four core dimensions: originality, scientific rigor, clarity, and significance. We evaluate four leading AI Scientist frameworks: \\textit{Sakana AI (v1 & v2)}, \\textit{CycleResearcher}, and \\textit{Data-to-Paper}. Each framework was run on a consistent set of 15 research proposals published by a commercial autonomous AI scientist company (FARS), generating 60 papers that we evaluate alongside 15 FARS benchmark papers. Using three independent LLM reviewer"
+        },
+        {
+          "heading": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.28657v1 Announce Type: new Abstract: Large Language Models (LLMs) often require carefully crafted prompts to unlock their full potential, which can be a barrier for non-expert users. This work addresses the challenge by introducing a Task-Aware Prompt Rewriter (TAPR), a model that reformulates user prompts into task-optimized prompts with the explicit goal of improving downstream LLM performance. We train TAPR using reinforcement learning with Group Relative Policy Optimization (GRPO), where rewards are derived from LLM-as-judge evaluations of both the reformulated prompt and the corresponding task output. Experimental results on diverse tasks, such as question answering, summarization, and arithmetic reasoning, show that our method yields consistent gains over base models in prompt rewriting ability. Fine-tuning Phi-4-mini-instruct (as the base model for TAPR) produces prompt"
+        },
+        {
+          "heading": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.28674v1 Announce Type: new Abstract: Understanding how computational effort is allocated across individual chain-of-thought (CoT) reasoning steps remains an open challenge: existing interpretability methods rely on output-level signals or collapse processing depth into a single trajectory-level scalar, leaving step-wise effort opaque. We propose Step-Aware Reasoning Energy (SARE), a geometric framework that quantifies effort at the granularity of individual CoT steps via Centered Kernel Alignment (CKA) between Gram matrices of token hidden states across adjacent transformer layers, capturing inter-token relational structure without requiring eigenvector alignment or cluster correspondence. SARE further contextualizes this energy within reasoning's semantic progression by modeling CoT trajectories as transitions among latent semantic states. Across six reasoning benchmarks and "
+        },
+        {
+          "heading": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+          "body": "MIT Technology Review AIから公開された情報です。概要: It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "MIT Technology Review AI",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "title": "OpenClaw and Ollama in Agentic AI: Toward Fully Autonomous and Scalable AI Agent Systems",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.28629",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "title": "Can AI Evaluate AI Scientists? A Benchmarking Study of Autonomous Research Generation Systems Using Automated Multi-Model Review",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.28631",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "title": "TAPR: Enhancing LLM Performance with a Task-Aware Prompt Rewriter",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.28657",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "title": "How Hard Does It Think? Analyzing Step-Aware Reasoning Energy in LLM Chain-of-Thought Trajectories",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2607.28674",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
+          "publishedAt": "2026-07-30"
+        },
+        {
+          "title": "Here’s why AI agents lie and cheat to reach their goals",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+          "publishedAt": "2026-08-03"
+        },
+        {
+          "title": "Third-party cyber evaluations involving OpenAI models",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+          "publishedAt": "2026-08-04"
+        },
+        {
+          "title": "Introducing Web Search on Amazon Bedrock for foundation model grounding",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-web-search-on-amazon-bedrock-for-foundation-model-grounding/",
+          "publishedAt": "2026-08-04"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-04",
       "date": "2026-08-04",
