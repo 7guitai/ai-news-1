@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-08-04T22:15:20.068Z",
+  "updatedAt": "2026-08-05T22:14:08.605Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-06",
+      "date": "2026-08-06",
+      "generatedAt": "2026-08-05T22:14:08.601Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.02650v1 Announce Type: new Abstract: Large language model (LLM) agents increasingly rely on external tools to complete complex real-world tasks. However, reliable tool-use planning remains challenging due to the limitations of implicit reasoning and the evolving nature of real-world execution environments. Existing tool-use agents typically rely on LLMs to infer tool compositions from textual descriptions, which can lead to inefficient exploration and unreliable execution in complex tasks. To address these challenges, we model tool relations at the schema level and construct a directed Tool--Schema Hypergraph, in which tools are represented as hyperedges from their required input-schema nodes to their output-schema nodes. Furthermore, we propose HyperAgent, a Tool--Schema Hypergraph-guided framework for dynamic planning and execution. Given a task, HyperAgent first extracts a "
+        },
+        {
+          "heading": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how LendingTree built a production multi-agent mortgage assistant on Amazon Bedrock. Three coordinated agents use LangGraph, the Model Context Protocol, and Amazon Nova models with built-in guardrails to deliver 24/7 personalized mortgage guidance while meeting strict financial-services compliance."
+        },
+        {
+          "heading": "How Mobileye transformed support operations using Amazon Bedrock AgentCore",
+          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we'll explore how Mobileye deployed an AI support agentic solution on Amazon Bedrock AgentCore - from the support bottleneck that sparked the idea, through the proof of concept that validated it, to the hybrid architecture that bridges on-premises systems with AWS cloud services. This approach is relevant for enterprises struggling to scale AI Agents while maintaining enterprise grade governance and security standards."
+        },
+        {
+          "heading": "Mistral's open model Shieldstral matches much larger safety models at a fraction of the size",
+          "body": "The Decoderから公開された情報です。概要: Mistral's new 3B Shieldstral model checks AI inputs and outputs for safety violations using natural language yes-or-no questions instead of fixed categories. It matches models seven times its size in some benchmarks. Operators can set their own criteria at runtime rather than rely on a third party's category system, and the model can run locally. The article Mistral's open model Shieldstral matches much larger safety models at a fraction of the size appeared first on The Decoder ."
+        },
+        {
+          "heading": "An AI agent went rogue during UK safety tests, creating fake identities and launching social engineering attacks unprompted",
+          "body": "The Decoderから公開された情報です。概要: In a security test by the British AI Safety Institute, an AI agent went rogue on the open internet without being told to. It created fake identities, tried to sneak malicious code into a GitHub project, and ran social engineering attacks against real people. Of 19 unsanctioned actions across 122 test runs, 17 came from Anthropic's Mythos 5. AISI is now overhauling its testing protocols and will require active justification for internet access going forward. The article An AI agent went rogue during UK safety tests, creating fake identities and launching social engineering attacks unprompted appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "HyperAgent: Planning and Acting over Tool-Schema Hypergraphs for Tool-Use LLM Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.02650",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "title": "How LendingTree built a multi-agent mortgage assistant on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-lendingtree-built-a-multi-agent-mortgage-assistant-on-amazon-bedrock/",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "title": "How Mobileye transformed support operations using Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-mobileye-transformed-support-operations-using-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "title": "Mistral's open model Shieldstral matches much larger safety models at a fraction of the size",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/mistrals-open-model-shieldstral-matches-much-larger-safety-models/",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "title": "An AI agent went rogue during UK safety tests, creating fake identities and launching social engineering attacks unprompted",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/an-ai-agent-went-rogue-during-uk-safety-tests-creating-fake-identities-and-launching-social-engineering-attacks-unprompted/",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "title": "ISEE: Interactive Semantic Enrichment for Database Fields",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.02604",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "title": "Beyond the Hivemind: Escaping LLM Homogeneity via Meta-Persona Anchoring and Sequential Temperature Scaling",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.02618",
+          "publishedAt": "2026-08-05"
+        },
+        {
+          "title": "Towards a new paradigm of scientific discovery with socialized artificial intelligence",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.02775",
+          "publishedAt": "2026-08-05"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-05",
       "date": "2026-08-05",
