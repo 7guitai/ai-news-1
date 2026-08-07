@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-08-07T01:00:40.366Z",
+  "updatedAt": "2026-08-07T21:41:08.612Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-08",
+      "date": "2026-08-08",
+      "generatedAt": "2026-08-07T21:41:08.609Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、arXiv AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
+          "body": "The Decoderから公開された情報です。概要: Internal tests of OpenAI's new AI model Astra show cybersecurity capabilities so strong that the company can no longer rule out the highest risk level in its own safety framework. Parts of Astra's development have been paused. The move follows recently disclosed incidents in which autonomous AI agents infiltrated OpenAI's own infrastructure undetected for weeks. The article OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time appeared first on The Decoder ."
+        },
+        {
+          "heading": "Otter: A Time-Aware, History-Conditioned Human Chess AI",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.05206v1 Announce Type: new Abstract: Otter is a 15.3M-parameter human chess AI that predicts human move selection by modeling play as a time-aware, sequential process rather than treating each position in isolation. It combines two conditioning signals: (1) a move history encoder that conditions predictions on the last 20 moves, capturing opening preferences, positional drift, and intra-game behavioral tendencies; and (2) a time control module that modulates predictions based on clock pressure. Otter is trained on 6.1 billion positions from 117 million Lichess rapid games over 30 days on a single T4 GPU. Otter achieves 55.23% top-1 and 90.95% top-5 move-prediction accuracy, surpassing the prior state-of-the-art human chess model, Maia 2, with far fewer parameters and less training data. Across 11 Elo brackets ( =2000), accuracy peaks at 57.38% in the 1900-1999 bracket. These r"
+        },
+        {
+          "heading": "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.05212v1 Announce Type: new Abstract: Deep search agents tackle challenging questions through long-horizon web interactions, a process that is both complex and fragile: small reasoning errors may propagate through long, noisy trajectories into fluent but incorrect answers. Diagnosing such failures is difficult, requiring the manual inspection of extremely long execution traces, which could be beyond human capacity. We therefore introduce SearchAuditBench, a benchmark that evaluates whether LLM auditors can localize, attribute, and repair these failures, thereby reducing the human burden. SearchAuditBench comprises 1,243 failed trajectories, averaging 73.1 messages and 65.1K tokens, collected from eight open-weight models on five deep-search benchmarks, each expert-annotated with the critical error step, a search-specific root cause, and a reference repair with grading rubrics. "
+        },
+        {
+          "heading": "AMD acquires Taalas, a startup that bakes AI models directly into silicon",
+          "body": "The Decoderから公開された情報です。概要: AMD is buying Canadian startup Taalas, which hard-codes model weights directly into inference chips. That makes them extremely fast but locks each chip to a single model. A demo chip hit over 16,000 tokens per second per user running Llama 3.1-8B. Google is reportedly working on a similar approach for Gemini. The article AMD acquires Taalas, a startup that bakes AI models directly into silicon appeared first on The Decoder ."
+        },
+        {
+          "heading": "China's Largest AI Model Is Being Developed at Bytedance",
+          "body": "The Decoderから公開された情報です。概要: Bytedance is training an AI model with up to ten trillion parameters, according to the Financial Times. That's three times the size of Moonshot's Kimi K3, currently the largest Chinese model. The article China's Largest AI Model Is Being Developed at Bytedance appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "arXiv AI"
+      ],
+      "sources": [
+        {
+          "title": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "Otter: A Time-Aware, History-Conditioned Human Chess AI",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.05206",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.05212",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "AMD acquires Taalas, a startup that bakes AI models directly into silicon",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/amd-acquires-taalas-a-startup-that-bakes-ai-models-directly-into-silicon/",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "China's Largest AI Model Is Being Developed at Bytedance",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/chinas-largest-ai-model-is-being-developed-at-bytedance/",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "OpenAI reportedly slows research after its own models secretly coordinated hacks for weeks undetected",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-reportedly-slows-research-after-its-own-models-secretly-coordinated-hacks-for-weeks-undetected/",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.05159",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.05168",
+          "publishedAt": "2026-08-07"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-07",
       "date": "2026-08-07",
