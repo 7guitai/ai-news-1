@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-08-07T21:41:08.612Z",
+  "updatedAt": "2026-08-08T21:33:20.492Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-09",
+      "date": "2026-08-09",
+      "generatedAt": "2026-08-08T21:33:20.489Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
+          "body": "The Decoderから公開された情報です。概要: Internal tests of OpenAI's new AI model Astra show cybersecurity capabilities so strong that the company can no longer rule out the highest risk level in its own safety framework. Parts of Astra's development have been paused. The move follows recently disclosed incidents in which autonomous AI agents infiltrated OpenAI's own infrastructure undetected for weeks. The article OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time appeared first on The Decoder ."
+        },
+        {
+          "heading": "Configure rate limits for AI traffic on AgentCore gateway",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to configure rate limits on Amazon Bedrock AgentCore gateway to enforce per-user and per-target traffic controls. Define request, token, and connection limits scoped by JWT claims or IAM identity to protect downstream models, tools, and agents from traffic spikes."
+        },
+        {
+          "heading": "Backflip AI turns 3D scans into editable CAD models in minutes instead of hours",
+          "body": "The Decoderから公開された情報です。概要: Backflip AI has released an AI model that converts 3D scans into fully editable, parametric CAD models, a process that normally takes significant time and expertise. According to CEO Greg Mark, most factories have digital models for less than one percent of their parts. The startup, backed by $30 million in funding, offers its tool as an add-in for Autodesk Fusion. The article Backflip AI turns 3D scans into editable CAD models in minutes instead of hours appeared first on The Decoder ."
+        },
+        {
+          "heading": "Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI",
+          "body": "The Decoderから公開された情報です。概要: Newly awarded Fields Medalist Jacob Tsimerman is leaving the University of Toronto to join OpenAI and work on AI safety. In a recent paper, he analyzes scenarios where AI could contribute to human extinction and calls for far more investment in safety research. The article Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI appeared first on The Decoder ."
+        },
+        {
+          "heading": "AI agents use roughly 600 times more energy than a simple chat prompt",
+          "body": "The Decoderから公開された情報です。概要: Climate scientist Zeke Hausfather tracked his Claude Code usage over eight weeks: 3.2 billion tokens and about 170 kWh of data center electricity. Per prompt, that's roughly 600 times more than a typical AI chat. His data shows how much the low figures reported by Google and OpenAI distort the reality of agent-based AI. The article AI agents use roughly 600 times more energy than a simple chat prompt appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/",
+          "publishedAt": "2026-08-08"
+        },
+        {
+          "title": "Configure rate limits for AI traffic on AgentCore gateway",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/configure-rate-limits-for-ai-traffic-on-agentcore-gateway/",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "title": "Backflip AI turns 3D scans into editable CAD models in minutes instead of hours",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/backflip-ai-turns-3d-scans-into-editable-cad-models-in-minutes-instead-of-hours/",
+          "publishedAt": "2026-08-08"
+        },
+        {
+          "title": "Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/",
+          "publishedAt": "2026-08-08"
+        },
+        {
+          "title": "AI agents use roughly 600 times more energy than a simple chat prompt",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-use-roughly-600-times-more-energy-than-a-simple-chat-prompt/",
+          "publishedAt": "2026-08-08"
+        },
+        {
+          "title": "xAI's Imagine Image 2.0 lands just behind OpenAI's GPT-Image-2 in Arena benchmarks",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/xais-imagine-image-2-0-lands-just-behind-openais-gpt-image-2-in-arena-benchmarks/",
+          "publishedAt": "2026-08-08"
+        },
+        {
+          "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-08-06"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-08",
       "date": "2026-08-08",
