@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-08-08T21:33:20.492Z",
+  "updatedAt": "2026-08-09T21:34:59.492Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-10",
+      "date": "2026-08-10",
+      "generatedAt": "2026-08-09T21:34:59.489Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Google's DiffusionGemma proves you don't need to train from scratch to build a text diffusion model",
+          "body": "The Decoderから公開された情報です。概要: Instead of training a new model from scratch, Google DeepMind retrofitted Gemma 4 into a diffusion model using less than 10 percent of the original training budget. DiffusionGemma generates 256 tokens in parallel instead of one at a time, hitting about 1,500 tokens per second. Quality still trails the original autoregressive model in benchmarks, especially on reasoning tasks. The article Google's DiffusionGemma proves you don't need to train from scratch to build a text diffusion model appeared first on The Decoder ."
+        },
+        {
+          "heading": "Google dismantles Deepmind and bets on a fresh start as Hassabis heads for the exit",
+          "body": "The Decoderから公開された情報です。概要: Google Deepmind is losing its autonomy, and founder Demis Hassabis may leave the AI lab for good in the coming months. AI researcher Koray Kavukcuoglu will take over day-to-day operations without the CEO title, and all Gemini development is moving to the Bay Area. Internally, Google is apparently struggling with serious problems training frontier models, even as its cloud business generates billions. The question is whether the company is deliberately betting on infrastructure or simply can't catch the leaders. The article Google dismantles Deepmind and bets on a fresh start as Hassabis heads for the exit appeared first on The Decoder ."
+        },
+        {
+          "heading": "Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
+          "body": "The Decoderから公開された情報です。概要: Deepmind's new weather AI forecasts tropical cyclones about a day further ahead than leading operational models, matching a decade of progress in traditional weather forecasting. Code and model weights are open-source on GitHub. The article Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time appeared first on The Decoder ."
+        },
+        {
+          "heading": "Configure rate limits for AI traffic on AgentCore gateway",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to configure rate limits on Amazon Bedrock AgentCore gateway to enforce per-user and per-target traffic controls. Define request, token, and connection limits scoped by JWT claims or IAM identity to protect downstream models, tools, and agents from traffic spikes."
+        },
+        {
+          "heading": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+          "body": "AWS Machine Learningから公開された情報です。概要: TReNDS, a research center at Georgia State University, built an agentic AI pipeline on Amazon Bedrock and the open-source Strands Agents SDK that automatically investigates production errors in real time, reducing root-cause analysis from 15 to 30 minutes of manual work to under 60 seconds."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Google's DiffusionGemma proves you don't need to train from scratch to build a text diffusion model",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/googles-diffusiongemma-proves-you-dont-need-to-train-from-scratch-to-build-a-text-diffusion-model/",
+          "publishedAt": "2026-08-09"
+        },
+        {
+          "title": "Google dismantles Deepmind and bets on a fresh start as Hassabis heads for the exit",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/google-dismantles-deepmind-and-bets-on-a-fresh-start-as-hassabis-heads-for-the-exit/",
+          "publishedAt": "2026-08-09"
+        },
+        {
+          "title": "Google Deepmind's WeatherNext predicts cyclone tracks and intensity at the same time",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/google-deepminds-weathernext-predicts-cyclone-tracks-and-intensity-at-the-same-time/",
+          "publishedAt": "2026-08-09"
+        },
+        {
+          "title": "Configure rate limits for AI traffic on AgentCore gateway",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/configure-rate-limits-for-ai-traffic-on-agentcore-gateway/",
+          "publishedAt": "2026-08-06"
+        },
+        {
+          "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/",
+          "publishedAt": "2026-08-07"
+        },
+        {
+          "title": "Scammers are enrolling fake students at US community colleges and using AI to collect financial aid",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/scammers-are-enrolling-fake-students-at-us-community-colleges-and-using-ai-to-collect-financial-aid/",
+          "publishedAt": "2026-08-09"
+        },
+        {
+          "title": "AI is flooding Britain's employment courts with lawsuits",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-is-flooding-britains-employment-courts-with-lawsuits/",
+          "publishedAt": "2026-08-09"
+        },
+        {
+          "title": "AI's energy appetite drives Nvidia and Amazon to pour billions into massive power infrastructure",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infrastructure/",
+          "publishedAt": "2026-08-09"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-09",
       "date": "2026-08-09",
