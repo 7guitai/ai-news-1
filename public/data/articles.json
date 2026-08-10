@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-08-09T21:34:59.492Z",
+  "updatedAt": "2026-08-10T21:43:53.087Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-11",
+      "date": "2026-08-11",
+      "generatedAt": "2026-08-10T21:43:53.084Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.06474v1 Announce Type: new Abstract: Large language models increasingly generate complete websites from natural-language descriptions, and reinforcement learning has become a central approach to closing their remaining functional gap. This training regime is bottlenecked by reward design. Hand-authored browser scripts are executable yet costly to write for open-ended requirements, while VLM and GUI-agent graders scale but may issue verdicts before observing the decisive state. We propose WebGrader, a self-evolving programmatic grader that autonomously derives the required interaction flows from each website request, represents each flow as an executable Flow Contract, and uses its execution outcome as an RL reward. WebGrader materializes the generated project in a live browser, grounds target actions against the source code and live DOM, and collects visual, DOM, response, and"
+        },
+        {
+          "heading": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.06402v1 Announce Type: new Abstract: Community detection is a fundamental task in graph analytics that aims to identify cohesive groups of entities with similar behaviors or interests. Classic objective-driven methods struggle with complex graph structures, while deep-learning approaches improve performance at the expense of interpretability and rely on labeled data and training. Large language models (LLMs), with strong reasoning capabilities and world knowledge, are promising for interpretable, label-free community detection. To leverage these strengths, we propose LUCID, an LLM-guided, interpretable, training-free, and unsupervised community detection method. Inspired by phase-transition kinetics in natural systems, where complex structures emerge through initialization, merging, refinement, and selection, LUCID is designed as a four-stage pipeline. Within this pipeline, th"
+        },
+        {
+          "heading": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.06501v1 Announce Type: new Abstract: Creative capabilities of MLLMs matter in design, communication, education, and human--AI collaboration, yet remain difficult to evaluate because explicit targets and reward signals are scarce compared with accuracy-oriented tasks. Cross-concept understanding is a core cognitive capacity underlying receptive creativity. It enables a perceiver to recover intended meaning from non-obvious but meaningful conceptual relations. We operationalize item construction as cross-concept encoding and model inference as cross-concept decoding. We introduce C4, a cognition-inspired evaluation framework for Chengyu (Chinese idiom)-based Cross-Concept Creativity. Its encoding component maps target slots to imageable substitute concepts along bridge paths in a manually annotated and third-party-reviewed cross-concept network, enabling batch generation with ex"
+        },
+        {
+          "heading": "Old OCR text cripples language model training, and FineBooks wants to fix that at scale",
+          "body": "The Decoderから公開された情報です。概要: The FineBooks project from Hugging Face and EleutherAI tested 14 open-source OCR models on more than 2,000 historical book pages. The top model, dots.mocr, hits 97.6 percent character accuracy at under two dollars per thousand pages. That's good enough for AI training data, but not yet for scholarly transcriptions, the team says. The article Old OCR text cripples language model training, and FineBooks wants to fix that at scale appeared first on The Decoder ."
+        },
+        {
+          "heading": "Meta returns to open models with Zuckerberg's plan to out-copy China and sell compute by auction",
+          "body": "The Decoderから公開された情報です。概要: Meta has released Muse Glimmer, the first open model from its new Superintelligence Labs. It's a 30B agent model that runs on consumer hardware once the weights are compressed, needing less than 20 GB of memory. In an accompanying essay, Mark Zuckerberg mounts an aggressive defense of distilling other labs' models and calls for fewer restrictions on US labs, a direct counterpunch at OpenAI and Anthropic. An open-weight version of Muse Spark 1.2 should follow soon, according to the Wall Street Journal. The article Meta returns to open models with Zuckerberg's plan to out-copy China and sell compute by auction appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "WebGrader: Training LLMs for Web Development with Self-Evolving Programmatic Grader",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.06474",
+          "publishedAt": "2026-08-10"
+        },
+        {
+          "title": "Interpretable Unsupervised Community Detection with LLM-Symbolized Structured Processes",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.06402",
+          "publishedAt": "2026-08-10"
+        },
+        {
+          "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.06501",
+          "publishedAt": "2026-08-10"
+        },
+        {
+          "title": "Old OCR text cripples language model training, and FineBooks wants to fix that at scale",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/old-ocr-text-cripples-language-model-training-and-finebooks-wants-to-fix-that-at-scale/",
+          "publishedAt": "2026-08-10"
+        },
+        {
+          "title": "Meta returns to open models with Zuckerberg's plan to out-copy China and sell compute by auction",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/meta-returns-to-open-models-with-zuckerbergs-plan-to-out-copy-china-and-sell-compute-by-auction/",
+          "publishedAt": "2026-08-10"
+        },
+        {
+          "title": "Learning to Predict Middle-Layer Attention in MLLMs for Visual Token Prunin",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.06411",
+          "publishedAt": "2026-08-10"
+        },
+        {
+          "title": "OpenAI launches GPT-5.6-Cyber to help defenders find vulnerabilities before attackers do",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-launches-gpt-5-6-cyber-to-help-defenders-find-vulnerabilities-before-attackers-do/",
+          "publishedAt": "2026-08-10"
+        },
+        {
+          "title": "How nOps shipped FinOps agents 75% faster with Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-nops-shipped-finops-agents-75-faster-with-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-08-10"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-10",
       "date": "2026-08-10",
