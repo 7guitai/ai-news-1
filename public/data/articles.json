@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-08-10T21:43:53.087Z",
+  "updatedAt": "2026-08-11T21:51:43.153Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-12",
+      "date": "2026-08-12",
+      "generatedAt": "2026-08-11T21:51:43.149Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Training Variable Long Sequences with Data-Centric Parallel",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.07524v1 Announce Type: new Abstract: Training deep learning models on variable long sequences poses significant computational challenges. Existing methods force a difficult trade-off between efficiency and ease-of-use. Simple approaches use static configurations that cause workload imbalance low efficiency, while complex methods introduces significant complexity and code change for new models. To break this trade-off, we introduce Data-Centric Parallel (DCP). Its core principle is to let the data itself drive the runtime. It achieves this by dynamically adjusting direct runtime settings (e.g., parallel size, gradient accumulation, recomputation) based on each batch's sequence length. Empirical results demonstrate that our method achieves up to a 2.88$\\times$ speedup on 32 H200 GPUs. Designed for generalization, it can be integrated into any model with 10 lines of code. We anti"
+        },
+        {
+          "heading": "Emotion in an active inference model of human driving",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.07480v1 Announce Type: new Abstract: Active inference has emerged as a principled framework for modeling adaptive behavior by balancing goal-directed action with uncertainty reduction. It has been successfully applied across biological and artificial systems, including recent work on human driving. However, existing active inference models of driving have yet to address an important determinant of behavior in traffic: affective state, which significantly influences decision-making. Prior work in non-traffic domains has explored active inference agents in which emotions are represented along the axes of valence and arousal in the circumplex model. However, this work has been limited to simplified settings with discrete state spaces. In this work, we propose an expanded formulation of valence and arousal that can be extracted from a more complex active inference model of driving"
+        },
+        {
+          "heading": "How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC",
+          "body": "AWS Machine Learningから公開された情報です。概要: ONESTRUCTION, with technical advisory from the AWS Generative AI Innovation Center, built Ishigaki-IDS, a foundation model specialized for construction and BIM workflows. This architectural case study shows how they combined synthetic data, a three-stage training pipeline, and verifiable rewards on Amazon EC2 to build a domain model in a data-scarce field."
+        },
+        {
+          "heading": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.07474v1 Announce Type: new Abstract: Prior work showed that human-in-the-loop oversight becomes structurally untenable in high-loss domains when AI output velocity V exceeds human cognitive capacity C_max. The operative constraint, however, is not V alone but V x L, where L denotes per-item cognitive load. L consists of triage, judgment, and response, which respond asymmetrically to AI capability improvement. Triage cost does not decline as models become more capable, because semantic indeterminacy is inherent in general-purpose design. Response cost is invariant to accuracy improvements. Only judgment cost faces downward pressure, and this pressure often operates by inducing omission rather than genuine reduction. Capability improvement therefore restructures L rather than reducing it. Governance mechanisms based on evaluating whether AI output is correct either delegate that"
+        },
+        {
+          "heading": "NL2SHACL-Bench: A Benchmark Suite for Natural Language to SHACL Translation",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.07530v1 Announce Type: new Abstract: SHACL is a core technology for validating the conformance of RDF knowledge graphs (KGs). Yet, authoring SHACL shapes requires technical expertise that most domain experts lack. Translating natural language requirements into SHACL (NL2SHACL) would lower this barrier. However, there is no dedicated benchmark for NL2SHACL, and evaluating generated shapes requires methods beyond string comparison, as semantically equivalent shapes can differ in serialisation and structure. To tackle these challenges, we present NL2SHACL-Bench, a benchmark suite for natural language to SHACL translation. Using NL2SHACL-Bench, we evaluate four state-of-the-art large language models (LLMs) for this task. Our results show that current LLMs are highly capable of generating syntactically valid SHACL, but still struggle to produce semantically equivalent constraints f"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Training Variable Long Sequences with Data-Centric Parallel",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.07524",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "title": "Emotion in an active inference model of human driving",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.07480",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "title": "How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "title": "Flow-by-Flow:Content-Judgment Bypass for Governing AI Output in High-Loss Domains",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.07474",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "title": "NL2SHACL-Bench: A Benchmark Suite for Natural Language to SHACL Translation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.07530",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "title": "Dynamic Coalition Formation and Communication Pricing in Skill-Based Agentic AI Systems",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.07532",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "title": "Accelerate cyber defense with OpenAI and AWS: Daybreak Red & Daybreak Blue now available to eligible customers on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-cyber-defense-with-openai-and-aws-daybreak-red-daybreak-blue-now-available-to-eligible-customers-on-amazon-bedrock/",
+          "publishedAt": "2026-08-11"
+        },
+        {
+          "title": "\"But marinade\" and leaked passwords are what researchers found in ChatGPT's hidden reasoning",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/but-marinade-and-leaked-passwords-are-what-researchers-found-in-chatgpts-hidden-reasoning/",
+          "publishedAt": "2026-08-11"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-11",
       "date": "2026-08-11",
