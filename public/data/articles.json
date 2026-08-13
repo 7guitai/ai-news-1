@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-08-12T21:49:31.050Z",
+  "updatedAt": "2026-08-13T21:49:28.851Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-14",
+      "date": "2026-08-14",
+      "generatedAt": "2026-08-13T21:49:28.848Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoder、Hugging Face、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.11207v1 Announce Type: new Abstract: When two LLM agents with structurally opposed objectives interact across multiple turns, the absence of a shared goal function produces not competition but collapse: the visitor capitulates, the site agent stops varying its approach, and the conversation terminates without achieving either agent's stated objective. This paper asks whether a control-theoretic governance layer can substitute for that missing goal function. The Experience Orchestrator (EO) addresses this in a simulated financial services environment where a site agent guides a visitor toward advisor contact while the visitor maintains psychologically realistic resistance. EO governs the joint trajectory through three mechanisms: a Contextual Bandit (CB) that selects content arms calibrated from real-world web analytics, a PID controller that enforces behavioral consistency via"
+        },
+        {
+          "heading": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.11215v1 Announce Type: new Abstract: Simulating societies of many large language model (LLM) agents is expensive, yet the questions asked of such simulations are usually macroscopic: phase behaviour, stylised facts, and scaling with the number of agents $N$, not the cognition of any single agent. We turn a statistical-physics observation into a method: replace each LLM agent by a low-parameter model fitted from a few hundred to a few thousand cheap queries, then run the society at any $N$ on a laptop. Whether this works is decided before the simulation runs, chiefly by what each agent perceives. We introduce an [interaction order x memory] taxonomy that maps perception and memory to an effective theory and a predicted $N$-trend of the surrogate error. We validate it on a faithful reimplementation of the LLM macroeconomy EconAgent and seven further named LLM simulations, with a"
+        },
+        {
+          "heading": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.11216v1 Announce Type: new Abstract: World modeling is an unsettled field: architectures, training objectives, and state representations interact in complex ways, and no single recipe dominates across environments. This makes it an ideal testbed for AI coding agents acting as autonomous researchers--a setting in which the improvement direction is not specified in advance, unlike the engineering-to-spec tasks that dominate current agent benchmarks. We introduce AutoWorldModel-Bench, a closed-loop benchmark in which frontier coding agents autonomously improve a provided world-model starter under a fixed compute budget. The benchmark spans eight game environments under a unified structured-state representation--ground-truth entity state extracted from each game and consumed through a shared tensor format--which isolates dynamics modeling from perception and enables minutes-per-ru"
+        },
+        {
+          "heading": "Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine",
+          "body": "AWS Machine Learningから公開された情報です。概要: Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. This post builds a tiered KV cache on Amazon SageMaker HyperPod that extends the cache into a shared, distributed NVMe pool with Curvine, so replicas reuse cache at near-local-disk speeds on cost-efficient instances."
+        },
+        {
+          "heading": "Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor's price by 50%",
+          "body": "The Decoderから公開された情報です。概要: Google shipped Gemini 3.7 Flash just three weeks after 3.6 Flash. The new model is supposed to be Google's most capable workhorse yet for coding and AI agents, and according to the company's own benchmarks, it beats Claude Sonnet 5 and GPT-5.6 Terra at half the price. The article Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor's price by 50% appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.11207",
+          "publishedAt": "2026-08-13"
+        },
+        {
+          "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.11215",
+          "publishedAt": "2026-08-13"
+        },
+        {
+          "title": "AutoWorldModel-Bench: A State-Centric Benchmark for Automated World-Model Research",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.11216",
+          "publishedAt": "2026-08-13"
+        },
+        {
+          "title": "Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/",
+          "publishedAt": "2026-08-12"
+        },
+        {
+          "title": "Gemini 3.7 Flash lands with coding gains and undercuts its three-week-old predecessor's price by 50%",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/gemini-3-7-flash-lands-with-coding-gains-and-undercuts-its-three-week-old-predecessors-price-by-50/",
+          "publishedAt": "2026-08-13"
+        },
+        {
+          "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+          "source": "Hugging Face",
+          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
+          "publishedAt": "2026-08-13"
+        },
+        {
+          "title": "The builder’s guide to GPT‑5.6",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
+          "publishedAt": "2026-08-13"
+        },
+        {
+          "title": "Distribird: Literature-Informed Prior Distribution Design for Bayesian Model Calibration",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.11210",
+          "publishedAt": "2026-08-13"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-13",
       "date": "2026-08-13",
