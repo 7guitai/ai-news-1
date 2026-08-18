@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-08-17T21:27:52.308Z",
+  "updatedAt": "2026-08-18T21:26:49.662Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-19",
+      "date": "2026-08-19",
+      "generatedAt": "2026-08-18T21:26:49.653Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、MIT Technology Review AI、AWS Machine Learning、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "The Unwritten Benchmark: A New Challenge for Multimodal Machine Learning in Abstract Perceptual Reasoning",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.14558v1 Announce Type: new Abstract: Current multimodal models have demonstrated remarkable proficiency in recognizing static visual and auditory content. However, their capacity for abstract perceptual reasoning, inferring unseen information from dynamic, generative processes, remains a critical and underexplored frontier. In this paper, we introduce The Unwritten Benchmark, a new challenge designed to probe this abstract perceptual and cognitive ability. We define the core task as acousto-kinematic word inference: models must decipher words, across 3 different writing styles, being written solely from the audio of pen scratches and the video of hand movements, without any visible ink trace. Our evaluation results reveal a profound gap between human and machine performance: while human participants achieve high ordered letter accuracy (over 80%), leading Multimodal Machine Le"
+        },
+        {
+          "heading": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.14562v1 Announce Type: new Abstract: AI governance is shifting from voluntary ethics to enforceable, risk-based regulation, yet cross-jurisdictional divergence creates compliance uncertainty for operators of high-stakes AI. We present a comparative matrix for the EU, US, and China that maps (i) risk classification triggers, (ii) binding obligations, (iii) enforcement and accountability mechanisms, and (iv) the degree to which FAIR principles are operationalised in practice. We stress-test the matrix on three high-impact domains: Electroencephalography (EEG)-guided rehabilitation robotics, AI-enabled debt collection in prospective Central Bank Digital Currency (CBDC) ecosystems, and AI-driven allocation of scarce Graphics Processing Unit (GPU) resources in emerging AI Factory infrastructures. Using primary legal texts and implementation evidence, we identify three recurring gap"
+        },
+        {
+          "heading": "AI’s recursive self-improvement might not come so quickly after all",
+          "body": "MIT Technology Review AIから公開された情報です。概要: The AI industry’s boldest promise right now is that AI will soon improve itself, with almost no need for human oversight. LLMs can already write code, generate synthetic data for training, and optimize the computer chips they run on. Forecasts of explosive AI progress predict that what researchers call recursive self-improvement is on the horizon. …"
+        },
+        {
+          "heading": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.14552v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly evaluated and used in medicine, but clinical usefulness depends on answer accuracy and whether confidence tracks evidence quality and uncertainty. We developed a controlled, psychophysics-inspired clinical benchmark to test diagnostic choice and confidence behavior in a medical LLM. The benchmark focused on probable Alzheimer-type neurocognitive disorder (AT-NCD) versus depression-related cognitive impairment (DRCI). We generated 45 synthetic vignettes varying evidence strength, conflicting evidence, and missing information. Each vignette was presented under three prompt variants, yielding 135 trials. In a pilot run with gpt-4.1-nano, all trials produced valid structured outputs. Across forced-choice trials, diagnostic accuracy was 93.5%, mean confidence was 78.4%, and AUROC2 was 0.876. Confiden"
+        },
+        {
+          "heading": "Position: Evaluations of AI Moral Reasoning Still Miss Half of the Picture",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.14566v1 Announce Type: new Abstract: Recent work on evaluating the moral competence of large language models (LLMs) has focused primarily on what we call the moral value problem, i.e., whether model outputs align with human moral values. In contrast, the moral norm problem, i.e., whether models can identify and correctly apply context-sensitive moral norms, remains underexplored. We posit that this imbalance stems from the field's reliance on descriptive ethics frameworks, such as Moral Foundations Theory and Kohlberg's stages of moral development, which emphasize value representation over normative application. We review existing benchmarks and evaluation methods, and show that they cluster heavily around the value problem, while discussion regarding normative ethics remains underrepresented. We identify three crucial gaps: (i) the absence of high-quality ground-truth data fo"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "MIT Technology Review AI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "The Unwritten Benchmark: A New Challenge for Multimodal Machine Learning in Abstract Perceptual Reasoning",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.14558",
+          "publishedAt": "2026-08-18"
+        },
+        {
+          "title": "Global AI Regulations for FAIR and Ethics in High-Risk Use Cases: A Comparative Review",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.14562",
+          "publishedAt": "2026-08-18"
+        },
+        {
+          "title": "AI’s recursive self-improvement might not come so quickly after all",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+          "publishedAt": "2026-08-18"
+        },
+        {
+          "title": "Large Language Models Show Metacognitive Sensitivity in Medical Reasoning",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.14552",
+          "publishedAt": "2026-08-18"
+        },
+        {
+          "title": "Position: Evaluations of AI Moral Reasoning Still Miss Half of the Picture",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.14566",
+          "publishedAt": "2026-08-18"
+        },
+        {
+          "title": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/",
+          "publishedAt": "2026-08-17"
+        },
+        {
+          "title": "Strengthening democratic oversight in national security",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+          "publishedAt": "2026-08-18"
+        },
+        {
+          "title": "Amazon Bedrock AgentCore payments is now generally available: Enabling agents to transact safely and autonomously at scale",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/",
+          "publishedAt": "2026-08-18"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-18",
       "date": "2026-08-18",
@@ -6059,109 +6162,6 @@
           "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
-          "publishedAt": "2026-06-19"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-06-20",
-      "date": "2026-06-20",
-      "generatedAt": "2026-06-19T22:07:11.120Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learning、MIT Technology Review AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Deontic Policies for Runtime Governance of Agentic AI Systems",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19464v1 Announce Type: new Abstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipulate data, install software, and coordinate with peer agents across organizational boundaries must be constrained not just by authentication and access control, but by the full structure of enterprise governance. This includes specifying what agents are permitted and prohibited from doing, what they areobliged to do after certain actions (e.g., notify the CISO), under what conditions a standing obligation may be waived, and which rules take precedence when policies conflict. This governance problem exceeds what current policy engines provide. Systems such as XACML, Rego, and Cedar address only the permit/prohibit subset of this governance structure. They do not prov"
-        },
-        {
-          "heading": "Hidden Anchors in Multi-Agent LLM Deliberation",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19494v1 Announce Type: new Abstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rarely modelled. Such deliberation mirrors how humans reach decisions. As social animals we are pulled both by the group, the herd effect that classical opinion-dynamics models such as DeGroot and Friedkin--Johnsen capture, and by our own internal belief, which they do not. We model multi-agent deliberation as a closed-loop dynamical system in which each agent carries a hidden internal belief, its anchor, that continually pulls its opinion regardless of its neighbours. We show this anchor can be recovered from the deliberation alone, and that it explains a behaviour classical consensus rules forbid: an agent's confidence in the correct answer can climb past where any "
-        },
-        {
-          "heading": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19501v1 Announce Type: new Abstract: Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts into typed alerts, attribution signals, and scenario evidence; and (3) data-health and confidence gates constrain escalation before DeXposure-Claw emits auditable supervisory tickets with rationales. We further develop DeXposure-Bench, a six-axis evaluat"
-        },
-        {
-          "heading": "Emergent Alignment",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19527v1 Announce Type: new Abstract: Can Large Language Models (LLMs) discern when their own outputs are misaligned with human ethics? And can they self-correct? We endow an LLM with a conscience step that reviews its own reasoning and outputs, and we extend the training loss with an alignment component using Direct Preference Optimization (DPO) to steer the model away from non-ethical outputs. The result is an online technique to align models in a wide range of applications: training, fine-tuning, adversarial prompting, and zero-shot learning. It does not require a weaker or stronger judge, relying instead on a frozen copy of itself. In previous work, the Emergent Misalignment scenario showed a range of emergent unethical behaviors from fine-tuning the model to hack code. Instead, we empirically show how to achieve Emergent Alignment: a single high-level introspective questio"
-        },
-        {
-          "heading": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
-          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI provides fully managed real-time inference hosting for machine learning models. You deploy a model to a SageMaker endpoint backed by one or more compute instances, and SageMaker handles provisioning and scaling. SageMaker supports multiple endpoint architectures. This post focuses on the two most relevant to generative AI workloads with detailed observability: Single-model endpoints (SME) and Inference component (IC) endpoints."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.19464",
-          "publishedAt": "2026-06-19"
-        },
-        {
-          "title": "Hidden Anchors in Multi-Agent LLM Deliberation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.19494",
-          "publishedAt": "2026-06-19"
-        },
-        {
-          "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.19501",
-          "publishedAt": "2026-06-19"
-        },
-        {
-          "title": "Emergent Alignment",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.19527",
-          "publishedAt": "2026-06-19"
-        },
-        {
-          "title": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/",
-          "publishedAt": "2026-06-18"
-        },
-        {
-          "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
-          "publishedAt": "2026-06-19"
-        },
-        {
-          "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
-          "publishedAt": "2026-06-19"
-        },
-        {
-          "title": "OpenAI researchers show small doses of \"beneficial trait\" training make AI models broadly safer and harder to manipulate",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-researchers-show-small-doses-of-beneficial-trait-training-make-ai-models-broadly-safer-and-harder-to-manipulate/",
           "publishedAt": "2026-06-19"
         }
       ]
