@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-08-18T21:26:49.662Z",
+  "updatedAt": "2026-08-19T21:27:22.427Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-20",
+      "date": "2026-08-20",
+      "generatedAt": "2026-08-19T21:27:22.422Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、OpenAI、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.16891v1 Announce Type: new Abstract: Agentic AI systems request tool actions that can modify files, send messages, launch jobs, or change workflow state. This shifts the safety problem from harmful text generation to harmful operational side effects. Prompt-level governance can shape model behavior, but it does not create an execution boundary. We introduce Aegis, a runtime governance system that treats model outputs as action proposals and mediates them through a trusted decision layer before tool execution. The model proposes; the trusted runtime decides. Aegis evaluates proposals against active policy state, resolves provenance server-side, fails closed under uncertainty, and routes selected cases through Senate-style settlement, a quorum- based non-unilateral authorization path. We evaluate Aegis on a repeated sandbox corpus spanning five run families, 42 tasks, three cond"
+        },
+        {
+          "heading": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.17067v1 Announce Type: new Abstract: As text-to-image generative models advance, they raise critical safety concerns, particularly the generation of Not-Safe-For-Work (NSFW) content such as violence and nudity, further exacerbated by red-teaming adversarial attacks. Existing defenses predominantly operate under white-box assumptions, relying on text encoder optimization, weight editing, or inference-time intervention, and fundamentally cannot scale to proprietary models. Black-box alternatives based on LLM prompt rewriting offer broader applicability, yet fail in a critical regime we identify as the \\textit{benign adversarial} problem: prompts that are linguistically safe but still trigger harmful generation due to the model's learned data distribution. We propose DiSCO, a zero-shot, strictly black-box defense that operates entirely at the prompt level as a plug-and-play modul"
+        },
+        {
+          "heading": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.16890v1 Announce Type: new Abstract: Clinical trial programming -- transforming study protocols into analysis-ready datasets under CDISC standards -- is a bottleneck in regulatory submissions, yet LLM-based code generation fails catastrophically on this task: across 11 single-shot attempts with five frontier models, none produces a valid subject-level analysis dataset. We introduce GxP-Agent, a multi-agent system that encodes regulatory process ordering as a directed acyclic graph (DAG), decomposing monolithic dataset generation into 15 domain-specific nodes executed by worker agents with pharmaverse skill context, validation gates, and conditional retry. On CDISC-Bench, a new execution-based benchmark built from the FDA pilot submission CDISCPilot01 (254 subjects, 49 ground-truth ADSL variables), GxP-Agent with Claude Sonnet 4.6 achieves 100% structural match (49/49 variables"
+        },
+        {
+          "heading": "Offering Zero Data Retention for frontier models",
+          "body": "OpenAIから公開された情報です。概要: OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy."
+        },
+        {
+          "heading": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.16956v1 Announce Type: new Abstract: API buyers purchase a dated contract, not a model name alone: the contract includes the requested and served model, reasoning-effort term or its omission, output rail, service product, prompt, and price schedule. We study the reasoning-effort term through a registered paired contrast of Sonnet 5 with explicit high effort against the same model with effort omitted, using 30 AIME 2026 items and five calls per item. Every paid attempt was assigned one frozen terminal category, and inference resampled items while retaining their repeated calls. Mean delivered cost was \\$0.01031 per call higher under the explicit-high contract than under the omitted contract [+\\$0.00204, +\\$0.01974]. The corresponding accuracy contrast was +0.0133 [-0.0267, +0.0467]; we did not detect an accuracy difference, and the interval permits a gain of up to 4.67 percenta"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "OpenAI",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "Runtime Governance for Agentic AI: Action-Boundary Control with Trusted Provenance and Fail-Closed Execution",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.16891",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "title": "DiSCO: Defending text-to-image generation through distribution-guided contrastive prompt optimization",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.17067",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "title": "GxP-Agent: Process-DAG Topology for Reliable Clinical Trial Programming with LLM Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.16890",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "title": "Offering Zero Data Retention for frontier models",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "title": "The Price of Thinking: Reasoning Effort as a Model-Specific API Contract",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.16956",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "title": "FedPref: Federated Preference Learning for Structured Radiology Report Extraction",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.16971",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "title": "SkillEffect: Checked Lowering for Memory-Bounded Agent Tools",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.17007",
+          "publishedAt": "2026-08-19"
+        },
+        {
+          "title": "AI’s recursive self-improvement might not come so quickly after all",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+          "publishedAt": "2026-08-18"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-19",
       "date": "2026-08-19",
@@ -6061,108 +6164,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/data2story-turns-a-csv-file-into-a-verified-interactive-news-article-using-seven-ai-agents/",
           "publishedAt": "2026-06-20"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-06-21",
-      "date": "2026-06-21",
-      "generatedAt": "2026-06-20T22:12:15.572Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Deontic Policies for Runtime Governance of Agentic AI Systems",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19464v1 Announce Type: new Abstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipulate data, install software, and coordinate with peer agents across organizational boundaries must be constrained not just by authentication and access control, but by the full structure of enterprise governance. This includes specifying what agents are permitted and prohibited from doing, what they areobliged to do after certain actions (e.g., notify the CISO), under what conditions a standing obligation may be waived, and which rules take precedence when policies conflict. This governance problem exceeds what current policy engines provide. Systems such as XACML, Rego, and Cedar address only the permit/prohibit subset of this governance structure. They do not prov"
-        },
-        {
-          "heading": "Hidden Anchors in Multi-Agent LLM Deliberation",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19494v1 Announce Type: new Abstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rarely modelled. Such deliberation mirrors how humans reach decisions. As social animals we are pulled both by the group, the herd effect that classical opinion-dynamics models such as DeGroot and Friedkin--Johnsen capture, and by our own internal belief, which they do not. We model multi-agent deliberation as a closed-loop dynamical system in which each agent carries a hidden internal belief, its anchor, that continually pulls its opinion regardless of its neighbours. We show this anchor can be recovered from the deliberation alone, and that it explains a behaviour classical consensus rules forbid: an agent's confidence in the correct answer can climb past where any "
-        },
-        {
-          "heading": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19501v1 Announce Type: new Abstract: Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts into typed alerts, attribution signals, and scenario evidence; and (3) data-health and confidence gates constrain escalation before DeXposure-Claw emits auditable supervisory tickets with rationales. We further develop DeXposure-Bench, a six-axis evaluat"
-        },
-        {
-          "heading": "Emergent Alignment",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.19527v1 Announce Type: new Abstract: Can Large Language Models (LLMs) discern when their own outputs are misaligned with human ethics? And can they self-correct? We endow an LLM with a conscience step that reviews its own reasoning and outputs, and we extend the training loss with an alignment component using Direct Preference Optimization (DPO) to steer the model away from non-ethical outputs. The result is an online technique to align models in a wide range of applications: training, fine-tuning, adversarial prompting, and zero-shot learning. It does not require a weaker or stronger judge, relying instead on a frozen copy of itself. In previous work, the Emergent Misalignment scenario showed a range of emergent unethical behaviors from fine-tuning the model to hack code. Instead, we empirically show how to achieve Emergent Alignment: a single high-level introspective questio"
-        },
-        {
-          "heading": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
-          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI provides fully managed real-time inference hosting for machine learning models. You deploy a model to a SageMaker endpoint backed by one or more compute instances, and SageMaker handles provisioning and scaling. SageMaker supports multiple endpoint architectures. This post focuses on the two most relevant to generative AI workloads with detailed observability: Single-model endpoints (SME) and Inference component (IC) endpoints."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Deontic Policies for Runtime Governance of Agentic AI Systems",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.19464",
-          "publishedAt": "2026-06-20"
-        },
-        {
-          "title": "Hidden Anchors in Multi-Agent LLM Deliberation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.19494",
-          "publishedAt": "2026-06-20"
-        },
-        {
-          "title": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.19501",
-          "publishedAt": "2026-06-20"
-        },
-        {
-          "title": "Emergent Alignment",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.19527",
-          "publishedAt": "2026-06-20"
-        },
-        {
-          "title": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/",
-          "publishedAt": "2026-06-18"
-        },
-        {
-          "title": "Diffusion Language Models: An Experimental Analysis",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.19475",
-          "publishedAt": "2026-06-20"
-        },
-        {
-          "title": "LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.19509",
-          "publishedAt": "2026-06-20"
-        },
-        {
-          "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
-          "publishedAt": "2026-06-19"
         }
       ]
     }
