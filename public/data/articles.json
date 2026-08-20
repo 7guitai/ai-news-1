@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-08-19T21:27:22.427Z",
+  "updatedAt": "2026-08-20T21:30:29.837Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-21",
+      "date": "2026-08-21",
+      "generatedAt": "2026-08-20T21:30:29.833Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "LLMs could write like humans but post-training guardrails make their text detectable",
+          "body": "The Decoderから公開された情報です。概要: LLMs don't write in a recognizable style because they can't do better. Post-training and safety guardrails sharply narrow their expressive range, argues Pangram CTO Bradley Emi. Base models without these constraints already write with far more variety. The article LLMs could write like humans but post-training guardrails make their text detectable appeared first on The Decoder ."
+        },
+        {
+          "heading": "China now has its own AI circular financing scheme",
+          "body": "The Decoderから公開された情報です。概要: Unitree Robotics rose 460 percent in its Shanghai IPO, hitting a valuation of around $50 billion. But an FT report shows much of the demand for its robots comes from state-backed training centers that buy the machines and sell the resulting data back to the manufacturers, a circular business model that echoes the Nvidia criticism in the US. The article China now has its own AI circular financing scheme appeared first on The Decoder ."
+        },
+        {
+          "heading": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.18080v1 Announce Type: new Abstract: We present a review on the applications of large language models (LLMs) in health, e.g., social media analysis, clinical conversational agents, therapy support tools, prompt engineering, multimodal learning, and ethical considerations. We integrate findings from interdisciplinary studies utilizing diverse data sources such as social media posts, electronic medical records, and multimodal inputs to enable early detection of depression, suicide risk assessment, personalized therapy support, and psychoeducational content generation. Our review highlights advancements in LLM models and annotation strategies that enhance interpretability and clinical relevance, while we also emphasize the critical role of prompt engineering for domain adaptation. We also discuss emerging multimodal fusion techniques integrating text, speech, and sensor data for "
+        },
+        {
+          "heading": "Position: Current Model Cards Are Insufficient for Downstream Governance of Open-Weight Foundation Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.18086v1 Announce Type: new Abstract: The growth of open-weight foundation models (OWFMs) has prompted the AI community to re-evaluate strategies for effective downstream governance. Although model cards have been widely adopted as transparency artifacts in model repositories, existing frameworks often fail to adequately inform downstream developers and users about the distinct safety challenges posed by OWFMs. This position paper analyzes 500 model cards hosted on Hugging Face and argues that effective governance of OWFMs requires a multi-layered approach integrating three complementary components: (i) model cards, (ii) acceptable use policies (AUPs), and (iii) licenses. To motivate this claim, we identify a safety gap left by existing regulatory approaches, including model heritage, alignment provenance, and empirically observed behaviors, through an analysis of model cards w"
+        },
+        {
+          "heading": "Position: Multi-Agent Systems Should Prioritize Concurrency Control",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.18092v1 Announce Type: new Abstract: LLM-based multi-agent systems (MAS) promise scalable collaboration, yet adding agents often reduces reliability. This position paper argues that many MAS failures are fundamentally concurrency control problems: agents concurrently read and write shared state, and long LLM inference windows amplify the risk of stale reads, lost updates, and inconsistent outcomes. Failure modes commonly attributed to coordination or communication breakdowns can be mapped directly onto classical concurrency anomalies. We contend that MAS frameworks should address these failures through explicit concurrency control mechanisms: conflict detection, isolation guarantees, and structured access to shared resources. Concurrency control should be a first-class design concern, not an afterthought."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "arXiv AI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "LLMs could write like humans but post-training guardrails make their text detectable",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/llms-could-write-like-humans-but-post-training-guardrails-make-their-text-detectable/",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "title": "China now has its own AI circular financing scheme",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/china-now-has-its-own-ai-circular-financing-scheme/",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "title": "Large Language Models in Mental Health: A Systematic Review of Applications, Innovations, and Ethical Challenges",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.18080",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "title": "Position: Current Model Cards Are Insufficient for Downstream Governance of Open-Weight Foundation Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.18086",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "title": "Position: Multi-Agent Systems Should Prioritize Concurrency Control",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.18092",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 2: Data preparation and model building with Amazon SageMaker Canvas",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-2-data-preparation-and-model-building-with-amazon-sagemaker-canvas/",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "title": "Scaling agentic AI: Enterprise patterns without vendor lock-in",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-agentic-ai-enterprise-patterns-without-vendor-lock-in/",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-08-20"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-20",
       "date": "2026-08-20",
@@ -6061,109 +6164,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/five-eyes-intelligence-alliance-says-frontier-ai-models-could-reshape-offensive-cyber-ops-in-months/",
           "publishedAt": "2026-06-22"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-06-22",
-      "date": "2026-06-22",
-      "generatedAt": "2026-06-21T22:17:02.716Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "AWS Machine Learning、MIT Technology Review AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
-          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI provides fully managed real-time inference hosting for machine learning models. You deploy a model to a SageMaker endpoint backed by one or more compute instances, and SageMaker handles provisioning and scaling. SageMaker supports multiple endpoint architectures. This post focuses on the two most relevant to generative AI workloads with detailed observability: Single-model endpoints (SME) and Inference component (IC) endpoints."
-        },
-        {
-          "heading": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
-          "body": "AWS Machine Learningから公開された情報です。概要: This post shows how to enable Adobe Marketing Agent for Amazon Quick using a Model Context Protocol (MCP). We walk you through how to configure the integration, authenticate using your Adobe credentials, and get the latest insights in Amazon Quick. The sample workflow returns audience rankings, loyalty segment summaries, journey usage, and conflict recommendations."
-        },
-        {
-          "heading": "A startup claims it broke through a bottleneck that’s holding back LLMs",
-          "body": "MIT Technology Review AIから公開された情報です。概要: Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim. It announced that it had solved a mathematical bottleneck that had been holding back large language models for almost a decade. The details were thin, and many people were unconvinced. But Subquadratic has started to bring the receipts, sharing the…"
-        },
-        {
-          "heading": "Sam Altman says a whole generation of researchers held AI back by underestimating what scaling could do",
-          "body": "The Decoderから公開された情報です。概要: At a Stanford talk, Sam Altman defended LLM scaling and hit back at skeptics, saying a whole generation of researchers slowed the field by underestimating what scaling could do. He cited OpenAI's recent disproof of a mathematical conjecture as evidence. The article Sam Altman says a whole generation of researchers held AI back by underestimating what scaling could do appeared first on The Decoder ."
-        },
-        {
-          "heading": "AWS says AI agents lack business context and security, launches two services to patch the gaps",
-          "body": "The Decoderから公開された情報です。概要: At its summit in New York, AWS unveiled two new services. Continuum automatically detects, prioritizes, and fixes code vulnerabilities. Context builds a knowledge graph from corporate data to give AI agents the business context they need. Both tackle the same problem: agents that write code fast but get things wrong too often. The article AWS says AI agents lack business context and security, launches two services to patch the gaps appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "AWS Machine Learning",
-        "MIT Technology Review AI",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/",
-          "publishedAt": "2026-06-18"
-        },
-        {
-          "title": "Accelerate campaign workflow with insights from Adobe Marketing Agent for Amazon Quick",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-campaign-workflow-with-insights-from-adobe-marketing-agent-for-amazon-quick/",
-          "publishedAt": "2026-06-19"
-        },
-        {
-          "title": "A startup claims it broke through a bottleneck that’s holding back LLMs",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/",
-          "publishedAt": "2026-06-19"
-        },
-        {
-          "title": "Sam Altman says a whole generation of researchers held AI back by underestimating what scaling could do",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/sam-altman-says-a-whole-generation-of-researchers-held-ai-back-by-underestimating-what-scaling-could-do/",
-          "publishedAt": "2026-06-21"
-        },
-        {
-          "title": "AWS says AI agents lack business context and security, launches two services to patch the gaps",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/aws-says-ai-agents-lack-business-context-and-security-launches-two-services-to-patch-the-gaps/",
-          "publishedAt": "2026-06-21"
-        },
-        {
-          "title": "Amazon Bedrock AgentCore harness is now generally available: Go from idea to production-grade agent in minutes",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-is-now-generally-available-go-from-idea-to-production-grade-agent-in-minutes/",
-          "publishedAt": "2026-06-18"
-        },
-        {
-          "title": "NYU finance professor Damodaran warns an AI crash could hit harder than the dot-com bust",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/nyu-finance-professor-damodaran-warns-an-ai-crash-could-hit-harder-than-the-dot-com-bust/",
-          "publishedAt": "2026-06-20"
-        },
-        {
-          "title": "Data2Story turns a CSV file into a verified interactive news article using seven AI agents",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/data2story-turns-a-csv-file-into-a-verified-interactive-news-article-using-seven-ai-agents/",
-          "publishedAt": "2026-06-20"
         }
       ]
     }
