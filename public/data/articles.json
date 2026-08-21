@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-08-20T21:30:29.837Z",
+  "updatedAt": "2026-08-21T21:27:09.586Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-22",
+      "date": "2026-08-22",
+      "generatedAt": "2026-08-21T21:27:09.581Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、arXiv AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+          "body": "AWS Machine Learningから公開された情報です。概要: Give your AI agents governed, auditable access to enterprise tools without consolidating infrastructure. This post walks through a four-scope maturity model (Connect, Control, Catalog, and Harden) for building a governed tool gateway with Amazon Bedrock AgentCore, advancing only when real governance pain demands it."
+        },
+        {
+          "heading": "Active Inference as Context Acquisition for AI Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.19202v1 Announce Type: new Abstract: Interactive AI agents must acquire the right context as efficiently as possible. When a user omits a constraint, preference, file, or task variable, an agent can proceed with a default assumption or spend tokens on a clarifying question, retrieval call, tool call, or prompt trial. We formulate this tradeoff as active inference for context acquisition. An inner inference step updates beliefs over a latent task state, and an outer decision selects the next context action, task action, or stop action to minimize expected free energy under cost. In deterministic settings, the epistemic term reduces to expected information gain, optionally normalized by token cost. We instantiate the framework in Optimal Question Asking (OQA), with exact posteriors and a dynamic programming oracle, and benchmark frontier language models on binary and multiway ca"
+        },
+        {
+          "heading": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.19299v1 Announce Type: new Abstract: Air traffic control (ATC) communication is a safety-critical dialogue that remains largely human-driven even as other parts of air traffic management have been semi-automated. In this article, we experimentally evaluate whether large language models (LLMs) can generate operationally realistic ATC transmissions. An experimental general-aviation flight flying over the San Francisco \"Bay Tour\" route is hand-transcribed and used as ground truth (P0). Through a pilot-in-the-loop process we design five prompt structures (P1-P5) of increasing constraint and embed them in a stateful multi-turn pipeline, where the model plays ATC to a fixed pilot transcript while conditioning on the accumulating dialogue history. Across nine open- and closed-source LLMs we vary the prompt, the presence of a worked transcript from a different experimental flight as a"
+        },
+        {
+          "heading": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+          "body": "AWS Machine Learningから公開された情報です。概要: The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-to-Gold data pipeline lifecycle, compressing new-source onboarding from weeks to hours while keeping data governance and compliance controls inline."
+        },
+        {
+          "heading": "Outcome Monitors: Recovery Affordances for Silent Tool Failures",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.19303v1 Announce Type: new Abstract: When a tool call times out, the agent sees the failure and can route around it. A cached error page or negative price can instead arrive in the expected format and be consumed as fact. We introduce Outcome Monitors, which detect violations of outcome contracts mined from task-disjoint traces or derived from public schemas. On a violation, the monitor preserves the result and issues a nonbinding receipt naming the violated property and public recovery tools. In frozen, prespecified evaluations with injected failures, Outcome Monitors raise ToolMaze completion from 10.9% to 28.1% across four models in two provider families and replicate in a third. In tau-bench retail, completion improves by 14.0 and 12.0 points on two tiers. In separate ToolMaze controls, removing the recovery-tool list eliminates the measured gain and restoring it recovers "
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "arXiv AI"
+      ],
+      "sources": [
+        {
+          "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "title": "Active Inference as Context Acquisition for AI Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.19202",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "title": "Air Traffic Control Using Large Language Models: Prompt Engineering, Architecture, and Evaluation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.19299",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "title": "Outcome Monitors: Recovery Affordances for Silent Tool Failures",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.19303",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "title": "Beyond Imitation: Filtering On-Policy Distillation by Reasoning Progress",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.19408",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "title": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 2: Data preparation and model building with Amazon SageMaker Canvas",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-2-data-preparation-and-model-building-with-amazon-sagemaker-canvas/",
+          "publishedAt": "2026-08-20"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-21",
       "date": "2026-08-21",
@@ -6061,109 +6163,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/",
           "publishedAt": "2026-06-23"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-06-23",
-      "date": "2026-06-23",
-      "generatedAt": "2026-06-22T22:49:04.247Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "AWS Machine Learning、The Decoder、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
-          "body": "AWS Machine Learningから公開された情報です。概要: In this post, you will learn how Ampersend built a pay-per-intelligence routing layer on top of Amazon Bedrock AgentCore Payments. AI agents autonomously route tasks to the most effective model, pay per request, and operate within spending budgets. You will also see how the two-hop payment pattern works end-to-end and how to get started with your own implementation."
-        },
-        {
-          "heading": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
-          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI provides fully managed real-time inference hosting for machine learning models. You deploy a model to a SageMaker endpoint backed by one or more compute instances, and SageMaker handles provisioning and scaling. SageMaker supports multiple endpoint architectures. This post focuses on the two most relevant to generative AI workloads with detailed observability: Single-model endpoints (SME) and Inference component (IC) endpoints."
-        },
-        {
-          "heading": "Google makes Interactions API the default interface for Gemini models and agents",
-          "body": "The Decoderから公開された情報です。概要: Google Deepmind has made the Interactions API the default interface for Gemini models and agents. It replaces the old generateContent API and uses a simplified schema with typed steps instead of role-based structures. New agent features will only ship through this API going forward. The article Google makes Interactions API the default interface for Gemini models and agents appeared first on The Decoder ."
-        },
-        {
-          "heading": "Three things to watch amid Anthropic’s latest feud with the government",
-          "body": "MIT Technology Review AIから公開された情報です。概要: This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. For those of you enjoying your summer unaware of Anthropic’s latest feud with the US government, here’s a recap: In April the company said it had built an AI model called Mythos…"
-        },
-        {
-          "heading": "Anthropic and Micron want to co-design AI memory architecture",
-          "body": "The Decoderから公開された情報です。概要: Micron is investing in Anthropic's Series H round and getting a multi-year deal to supply memory for Claude's infrastructure. Anthropic co-founder Tom Brown calls memory critical to training and running Claude. Critics say circular deals like this are inflating a bubble. Micron's stock has surged more than tenfold in a single year. The article Anthropic and Micron want to co-design AI memory architecture appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "AWS Machine Learning",
-        "The Decoder",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "Building pay-per-intelligence for AI agents: How Ampersend uses Amazon Bedrock AgentCore Payments",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-pay-per-intelligence-for-ai-agents-how-ampersend-uses-amazon-bedrock-agentcore-payments/",
-          "publishedAt": "2026-06-22"
-        },
-        {
-          "title": "Monitor and debug generative AI inference with SageMaker detailed metrics and Insights dashboard on CloudWatch",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/monitor-and-debug-generative-ai-inference-with-sagemaker-detailed-metrics-and-insights-dashboard-on-cloudwatch/",
-          "publishedAt": "2026-06-18"
-        },
-        {
-          "title": "Google makes Interactions API the default interface for Gemini models and agents",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/google-makes-interactions-api-the-default-interface-for-gemini-models-and-agents/",
-          "publishedAt": "2026-06-22"
-        },
-        {
-          "title": "Three things to watch amid Anthropic’s latest feud with the government",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/06/22/1139424/three-things-to-watch-amid-anthropics-latest-feud-with-the-government/",
-          "publishedAt": "2026-06-22"
-        },
-        {
-          "title": "Anthropic and Micron want to co-design AI memory architecture",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-and-micron-want-to-co-design-ai-memory-architecture/",
-          "publishedAt": "2026-06-22"
-        },
-        {
-          "title": "Embed the world: Multimodal AI for searchable aerial imagery at scale",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/embed-the-world-multimodal-ai-for-searchable-aerial-imagery-at-scale/",
-          "publishedAt": "2026-06-22"
-        },
-        {
-          "title": "Running ComfyUI workflows on Amazon SageMaker AI processing jobs",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/running-comfyui-workflows-on-amazon-sagemaker-ai-processing-jobs/",
-          "publishedAt": "2026-06-22"
-        },
-        {
-          "title": "Five Eyes intelligence alliance says frontier AI models could reshape offensive cyber ops in months",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/five-eyes-intelligence-alliance-says-frontier-ai-models-could-reshape-offensive-cyber-ops-in-months/",
-          "publishedAt": "2026-06-22"
         }
       ]
     }
