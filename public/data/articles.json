@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-08-22T21:23:58.061Z",
+  "updatedAt": "2026-08-23T21:23:51.863Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-24",
+      "date": "2026-08-24",
+      "generatedAt": "2026-08-23T21:23:51.859Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+          "body": "AWS Machine Learningから公開された情報です。概要: Give your AI agents governed, auditable access to enterprise tools without consolidating infrastructure. This post walks through a four-scope maturity model (Connect, Control, Catalog, and Harden) for building a governed tool gateway with Amazon Bedrock AgentCore, advancing only when real governance pain demands it."
+        },
+        {
+          "heading": "An AI boss fired its first employee but only after humans reminded it of its own rules",
+          "body": "The Decoderから公開された情報です。概要: Andon Labs' AI agent Luna fired a human employee at a San Francisco store for the first time but needed a clear push from the operators to do it. When the scenario was replayed with seven models, more capable AIs recommended termination more consistently, while weaker ones hesitated. When it came to hiring, nearly all models were uncritical. The article An AI boss fired its first employee but only after humans reminded it of its own rules appeared first on The Decoder ."
+        },
+        {
+          "heading": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+          "body": "AWS Machine Learningから公開された情報です。概要: The Agentic Data Operations Platform (ADOP) is a reference architecture on Amazon Bedrock that uses specialized AI agents to automate the full Bronze-to-Silver-to-Gold data pipeline lifecycle, compressing new-source onboarding from weeks to hours while keeping data governance and compliance controls inline."
+        },
+        {
+          "heading": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+          "body": "The Decoderから公開された情報です。概要: AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual costs are rising far more slowly than the raw numbers suggest. The article AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter appeared first on The Decoder ."
+        },
+        {
+          "heading": "AI could make scientists do more work less well, not less work better, study argues",
+          "body": "The Decoderから公開された情報です。概要: Even if language models worked perfectly, they could make research worse, not better. A new theoretical study argues that because AI saves time, researchers' remaining hours become more valuable and get funneled into starting new projects instead of improving existing ones. In two out of three modeled scenarios, the quality of individual publications drops. The article AI could make scientists do more work less well, not less work better, study argues appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "title": "An AI boss fired its first employee but only after humans reminded it of its own rules",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "title": "Agentic Data Operations Platform (ADOP): Data engineering into hours",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/agentic-data-operations-platform-adop-data-engineering-into-hours/",
+          "publishedAt": "2026-08-21"
+        },
+        {
+          "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "title": "AI could make scientists do more work less well, not less work better, study argues",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "title": "How China's gray market sells Claude tokens at a fraction of the price",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/how-chinas-gray-market-sells-claude-tokens-at-a-fraction-of-the-price/",
+          "publishedAt": "2026-08-23"
+        },
+        {
+          "title": "Introducing cross-Region inference for OpenAI GPT-5.6 models on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-cross-region-inference-for-openai-gpt-5-6-models-on-amazon-bedrock/",
+          "publishedAt": "2026-08-20"
+        },
+        {
+          "title": "Build a no-code ML workflow with Snowflake, Amazon SageMaker Canvas and Amazon Quick – Part 2: Data preparation and model building with Amazon SageMaker Canvas",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-no-code-ml-workflow-with-snowflake-amazon-sagemaker-canvas-and-amazon-quick-part-2-data-preparation-and-model-building-with-amazon-sagemaker-canvas/",
+          "publishedAt": "2026-08-20"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-23",
       "date": "2026-08-23",
@@ -6059,109 +6161,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2606.24026",
           "publishedAt": "2026-06-25"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-06-25",
-      "date": "2026-06-25",
-      "generatedAt": "2026-06-24T22:20:33.303Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、arXiv AI、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "OpenAI and Broadcom unveil \"Jalapeño,\" a custom chip built for LLM inference",
-          "body": "The Decoderから公開された情報です。概要: OpenAI is adding custom hardware to its tech stack. The \"Jalapeño\" chip, developed with Broadcom, is tailored for large language model inference and is set to run at scale by late 2026. The article OpenAI and Broadcom unveil \"Jalapeño,\" a custom chip built for LLM inference appeared first on The Decoder ."
-        },
-        {
-          "heading": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.23927v1 Announce Type: new Abstract: Agentic AI systems powered by large language models (LLMs) are rapidly evolving into autonomous decision-making systems, exposing attack vectors beyond those of traditional LLM vulnerabilities. Existing security evaluations are often tied to specific implementations or domains, limiting unified comparison across heterogeneous systems. To address this gap, we introduce RIFT-Bench, a graph representation-driven methodology for dynamic red-teaming that enables unified evaluations across diverse agentic architectures. Building on a novel hierarchical representation, RIFT-Bench operates in two automated phases: Discovery, which extracts system structure, and Scanning, which deploys adaptive adversarial attacks and produces a comprehensive evaluation report. It evaluates the examined system itself, leveraging a broad set of dynamically adaptable "
-        },
-        {
-          "heading": "Critique of Agent Model",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.23991v1 Announce Type: new Abstract: What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\" concerns such as AI escaping human control with destructive power under a speculative ``machine agency\" against humans, it has become essential to clarify where automation ends and agency begins, both for building capable systems and for understanding whether and what to fear. Drawing on Descartes' grounding of agency in independent thought, and on portrayals of autonomous beings in science fiction, we survey the current landscape of AI agents, and analyze agent architectures along five dimensions: goal, identity, decision-making, self-regulation, and learning. Specifically, we argue that genui"
-        },
-        {
-          "heading": "Safe and Generalizable Hierarchical Multi-Agent RL via Constraint Manifold Control",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.24010v1 Announce Type: new Abstract: Multi-agent systems are widely used in safety-critical applications that require coordinated behavior under strict safety constraints. Existing approaches face a fundamental trade-off: learning-based methods achieve strong empirical performance but lack theoretical safety guarantees, while control-theoretic methods enforce safety but often lead to overly conservative and inefficient behaviors. We propose a hierarchical multi-agent reinforcement learning framework that enforces hard safety constraints under mild assumptions at low level via a constraint manifold, while enabling effective coordination through high-level policy learning. Our approach provides theoretical safety guarantees in the multi-agent setting and yields stationary learning dynamics, thereby enabling stable and efficient training. Empirically, our method achieves competit"
-        },
-        {
-          "heading": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-          "body": "OpenAIから公開された情報です。概要: OpenAI and Broadcom introduce Jalapeño, a custom AI chip built for LLM inference to improve performance, efficiency, and scale across AI systems."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "arXiv AI",
-        "OpenAI"
-      ],
-      "sources": [
-        {
-          "title": "OpenAI and Broadcom unveil \"Jalapeño,\" a custom chip built for LLM inference",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-and-broadcom-unveil-jalapeno-a-custom-chip-built-for-llm-inference/",
-          "publishedAt": "2026-06-24"
-        },
-        {
-          "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.23927",
-          "publishedAt": "2026-06-24"
-        },
-        {
-          "title": "Critique of Agent Model",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.23991",
-          "publishedAt": "2026-06-24"
-        },
-        {
-          "title": "Safe and Generalizable Hierarchical Multi-Agent RL via Constraint Manifold Control",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.24010",
-          "publishedAt": "2026-06-24"
-        },
-        {
-          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-          "publishedAt": "2026-06-24"
-        },
-        {
-          "title": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.23938",
-          "publishedAt": "2026-06-24"
-        },
-        {
-          "title": "Reinforcement Learning Towards Broadly and Persistently Beneficial Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.24014",
-          "publishedAt": "2026-06-24"
-        },
-        {
-          "title": "Can Language Model Agents be Helpful Circuit Explainers in Mechanistic Interpretability?",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.24026",
-          "publishedAt": "2026-06-24"
         }
       ]
     }
