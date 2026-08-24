@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-08-23T21:23:51.863Z",
+  "updatedAt": "2026-08-24T21:31:42.810Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-25",
+      "date": "2026-08-25",
+      "generatedAt": "2026-08-24T21:31:42.801Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This study demonstrates that this architectural disconnect leaves models vulnerable to Semantic Camouflage -- adversarial attacks that wrap harmful intent in benign narrative contexts (e.g., creative writing), effectively bypassing standard input and output guardrails. By analyzing the latent activation trajectories of three distinct Small Language Model (SLM) families (Phi-3, Qwen2.5, and Gemma-2b) under adversarial stress, this research identifies a universal ``Intent Horizon'' -- a critical depth (typically 15--20\\% of total layers) where the model's distinct, pre-trained representation of harmful"
+        },
+        {
+          "heading": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agent -- pre-loaded with relevant memories compiled from the user's existing personal databases. At spawn time, PAO queries two independently-operated memory backends in parallel (a PostgreSQL entity-observation database and a Cloudflare Worker semantic search index), fuses results using backend-specific retrieval strategies, and delivers the compiled briefing via filesystem injection that exploits the host agent's configuration auto-read behavior. PAO manages the full agent lifecycle including trust pre-seeding, readiness polling with error detection, and adaptive terminal tex"
+        },
+        {
+          "heading": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.20397v1 Announce Type: new Abstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus's primary lever is to decouple routing from the schema-prefill cost: an INT8 semantic lookaside buffer (SLB) with a calibrated cross-encoder margin gate selects tools by retrieval, and arguments are generated over a compressed textual signature (median 19 tokens) rather than over spliced key/value (KV) cache. This path is depth-independent: routing accuracy stays near 89% as the registry scales to 250 tools - where a concatenate-all-schemas baseline overflows the context window entirely - and it reaches a first-argument token 1.66x sooner than a full-schema re-prefill at a ~80% main-context token saving. As a seco"
+        },
+        {
+          "heading": "Introducing new Ray capabilities on SageMaker HyperPod",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor notebooks to live clusters, get out-of-the-box observability, and run resilient distributed training and accelerated inference from SageMaker Studio, all with open-source KubeRay and standard Ray APIs."
+        },
+        {
+          "heading": "AI-powered metadata correction and harmonization",
+          "body": "AWS Machine Learningから公開された情報です。概要: Metadata harmonization (standardizing labels, identifiers, and formats so datasets can work together) is still largely manual. This post shows how AI-powered metadata correction works in practice, covering two approaches, human-in-the-loop validation and autonomous agent-driven workflows, plus governance considerations for production deployment."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.20378",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.20342",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.20397",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "title": "Introducing new Ray capabilities on SageMaker HyperPod",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "title": "AI-powered metadata correction and harmonization",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.20341",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.20379",
+          "publishedAt": "2026-08-24"
+        },
+        {
+          "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
+          "publishedAt": "2026-08-21"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-24",
       "date": "2026-08-24",
@@ -6059,108 +6161,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/an-ai-model-programmed-nonstop-for-19-days-on-a-single-mirrorcode-task-that-cost-2600-to-run/",
           "publishedAt": "2026-06-26"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-06-26",
-      "date": "2026-06-26",
-      "generatedAt": "2026-06-25T22:22:45.777Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.23927v1 Announce Type: new Abstract: Agentic AI systems powered by large language models (LLMs) are rapidly evolving into autonomous decision-making systems, exposing attack vectors beyond those of traditional LLM vulnerabilities. Existing security evaluations are often tied to specific implementations or domains, limiting unified comparison across heterogeneous systems. To address this gap, we introduce RIFT-Bench, a graph representation-driven methodology for dynamic red-teaming that enables unified evaluations across diverse agentic architectures. Building on a novel hierarchical representation, RIFT-Bench operates in two automated phases: Discovery, which extracts system structure, and Scanning, which deploys adaptive adversarial attacks and produces a comprehensive evaluation report. It evaluates the examined system itself, leveraging a broad set of dynamically adaptable "
-        },
-        {
-          "heading": "Critique of Agent Model",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.23991v1 Announce Type: new Abstract: What is an agent? What constitutes agency? With the rise of Large Language Model (LLM) systems marketed as ``coding agents'', ``AI co-scientists'', and other ``agentic\" tools that promise to drive up productivity, and at the same time, ``existential\" concerns such as AI escaping human control with destructive power under a speculative ``machine agency\" against humans, it has become essential to clarify where automation ends and agency begins, both for building capable systems and for understanding whether and what to fear. Drawing on Descartes' grounding of agency in independent thought, and on portrayals of autonomous beings in science fiction, we survey the current landscape of AI agents, and analyze agent architectures along five dimensions: goal, identity, decision-making, self-regulation, and learning. Specifically, we argue that genui"
-        },
-        {
-          "heading": "Safe and Generalizable Hierarchical Multi-Agent RL via Constraint Manifold Control",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.24010v1 Announce Type: new Abstract: Multi-agent systems are widely used in safety-critical applications that require coordinated behavior under strict safety constraints. Existing approaches face a fundamental trade-off: learning-based methods achieve strong empirical performance but lack theoretical safety guarantees, while control-theoretic methods enforce safety but often lead to overly conservative and inefficient behaviors. We propose a hierarchical multi-agent reinforcement learning framework that enforces hard safety constraints under mild assumptions at low level via a constraint manifold, while enabling effective coordination through high-level policy learning. Our approach provides theoretical safety guarantees in the multi-agent setting and yields stationary learning dynamics, thereby enabling stable and efficient training. Empirically, our method achieves competit"
-        },
-        {
-          "heading": "Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
-          "body": "AWS Machine Learningから公開された情報です。概要: This post shows you how to configure training jobs on Amazon SageMaker AI to get the most out of Blackwell’s architecture on AWS. You learn how to select batch sizes and sequence lengths that take advantage of Blackwell’s expanded memory, choose the right precision format for your model size (1B to 64B parameters), and apply activation checkpointing strategically. By the end, you have a practical framework for tuning your training configuration and launching distributed training jobs on P6-B200 instances."
-        },
-        {
-          "heading": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
-          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we show you how to build Chaplin (Customer Health and Planned Lifecycle Intelligence Nexus), an open source solution that uses AI agents exposed through the Model Context Protocol (MCP) to provide self-service health event analytics."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "RIFT-Bench: Dynamic Red-teaming For Agentic AI Systems",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.23927",
-          "publishedAt": "2026-06-25"
-        },
-        {
-          "title": "Critique of Agent Model",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.23991",
-          "publishedAt": "2026-06-25"
-        },
-        {
-          "title": "Safe and Generalizable Hierarchical Multi-Agent RL via Constraint Manifold Control",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.24010",
-          "publishedAt": "2026-06-25"
-        },
-        {
-          "title": "Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/optimize-model-training-on-amazon-sagemaker-ai-with-nvidia-blackwell/",
-          "publishedAt": "2026-06-25"
-        },
-        {
-          "title": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-self-service-aws-health-analytics-to-find-actionable-health-insights-with-ai-agents-powered-by-amazon-bedrock/",
-          "publishedAt": "2026-06-25"
-        },
-        {
-          "title": "Neuro-Symbolic Drive: Rule-Grounded Faithful Reasoning for Driving VLAs",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.23938",
-          "publishedAt": "2026-06-25"
-        },
-        {
-          "title": "Reinforcement Learning Towards Broadly and Persistently Beneficial Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.24014",
-          "publishedAt": "2026-06-25"
-        },
-        {
-          "title": "Can Language Model Agents be Helpful Circuit Explainers in Mechanistic Interpretability?",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.24026",
-          "publishedAt": "2026-06-25"
         }
       ]
     }
