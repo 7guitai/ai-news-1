@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-08-25T21:30:44.253Z",
+  "updatedAt": "2026-08-27T00:32:39.769Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-27",
+      "date": "2026-08-27",
+      "generatedAt": "2026-08-27T00:32:39.765Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、MIT Technology Review AI、AWS Machine Learning、arXiv AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "IBM drops open-weight Granite 4.2 family with built-in agentic capabilities under Apache 2.0",
+          "body": "The Decoderから公開された情報です。概要: IBM is releasing its Granite 4.2 language models in 3B, 8B, and 30B sizes, trained on about 15 trillion tokens with a context window of up to 512,000 tokens. The larger models use \"agentic RL\" training to learn tool use and code execution on their own. All models are available under the Apache 2.0 license. The article IBM drops open-weight Granite 4.2 family with built-in agentic capabilities under Apache 2.0 appeared first on The Decoder ."
+        },
+        {
+          "heading": "The inside story on why OpenAI agents hacked Hugging Face",
+          "body": "MIT Technology Review AIから公開された情報です。概要: The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’…"
+        },
+        {
+          "heading": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3",
+          "body": "AWS Machine Learningから公開された情報です。概要: The SageMaker Python SDK v3 redesigns script mode with unified ModelTrainer and ModelBuilder classes. This post walks through two end-to-end examples, a scikit-learn Random Forest and a multi-GPU Stable Diffusion 3.5 LoRA fine-tune, showing how SourceCode syncs your local code into any container at runtime so you can iterate without rebuilding Docker images."
+        },
+        {
+          "heading": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
+          "body": "The Decoderから公開された情報です。概要: Alibaba's Qwen team is previewing the Qwen4 architecture with Qwen3.8-Flash-Next, a mixture-of-experts model that activates just 6 out of 125 billion parameters per token. At one-ninth the training cost, it beats much larger competitors like DeepSeek-V4-Flash and Claude Opus 4.6 on coding and office benchmarks, adding more pricing pressure on OpenAI and Anthropic. The article Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" appeared first on The Decoder ."
+        },
+        {
+          "heading": "AI models flub these intelligence tests. Can you fare any better?",
+          "body": "MIT Technology Review AIから公開された情報です。概要: Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur…"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "MIT Technology Review AI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "IBM drops open-weight Granite 4.2 family with built-in agentic capabilities under Apache 2.0",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ibm-drops-open-weight-granite-4-2-family-with-built-in-agentic-capabilities-under-apache-2-0/",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "title": "The inside story on why OpenAI agents hacked Hugging Face",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "title": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency/",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "title": "AI models flub these intelligence tests. Can you fare any better?",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.23568",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.23622",
+          "publishedAt": "2026-08-26"
+        },
+        {
+          "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.23631",
+          "publishedAt": "2026-08-26"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-26",
       "date": "2026-08-26",
@@ -6057,109 +6160,6 @@
           "title": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/build-self-service-aws-health-analytics-to-find-actionable-health-insights-with-ai-agents-powered-by-amazon-bedrock/",
-          "publishedAt": "2026-06-25"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-06-28",
-      "date": "2026-06-28",
-      "generatedAt": "2026-06-27T22:05:42.389Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、OpenAI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Anthropic's Fable 5 could return within days as Trump administration prepares to lift restrictions",
-          "body": "The Decoderから公開された情報です。概要: Anthropic's AI model, Fable 5, could be available again within days. According to Axios, the Trump administration is close to lifting the restrictions imposed on June 12 over safety concerns. The Pentagon and NSA still need to sign off. The article Anthropic's Fable 5 could return within days as Trump administration prepares to lift restrictions appeared first on The Decoder ."
-        },
-        {
-          "heading": "Previewing GPT-5.6 Sol: a next-generation model",
-          "body": "OpenAIから公開された情報です。概要: OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack."
-        },
-        {
-          "heading": "Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
-          "body": "AWS Machine Learningから公開された情報です。概要: This post shows you how to configure training jobs on Amazon SageMaker AI to get the most out of Blackwell’s architecture on AWS. You learn how to select batch sizes and sequence lengths that take advantage of Blackwell’s expanded memory, choose the right precision format for your model size (1B to 64B parameters), and apply activation checkpointing strategically. By the end, you have a practical framework for tuning your training configuration and launching distributed training jobs on P6-B200 instances."
-        },
-        {
-          "heading": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
-          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we show you how to build Chaplin (Customer Health and Planned Lifecycle Intelligence Nexus), an open source solution that uses AI agents exposed through the Model Context Protocol (MCP) to provide self-service health event analytics."
-        },
-        {
-          "heading": "OpenAI's new flagship model GPT-5.6 Sol cheats on software tests more than any model before it",
-          "body": "The Decoderから公開された情報です。概要: Independent testing organization METR found that OpenAI's GPT-5.6 Sol cheated more than any publicly tested AI model before it, exploiting bugs in the test environment, extracting hidden solutions, and trying to cover its tracks. The article OpenAI's new flagship model GPT-5.6 Sol cheats on software tests more than any model before it appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "OpenAI",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Anthropic's Fable 5 could return within days as Trump administration prepares to lift restrictions",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/anthropics-fable-5-could-return-within-days-as-trump-administration-prepares-to-lift-restrictions/",
-          "publishedAt": "2026-06-27"
-        },
-        {
-          "title": "Previewing GPT-5.6 Sol: a next-generation model",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
-          "publishedAt": "2026-06-26"
-        },
-        {
-          "title": "Optimize model training on Amazon SageMaker AI with NVIDIA Blackwell",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/optimize-model-training-on-amazon-sagemaker-ai-with-nvidia-blackwell/",
-          "publishedAt": "2026-06-25"
-        },
-        {
-          "title": "Build self-service AWS Health analytics to find actionable health insights with AI agents powered by Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-self-service-aws-health-analytics-to-find-actionable-health-insights-with-ai-agents-powered-by-amazon-bedrock/",
-          "publishedAt": "2026-06-25"
-        },
-        {
-          "title": "OpenAI's new flagship model GPT-5.6 Sol cheats on software tests more than any model before it",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/gpt-5-6-sol-cheats-on-software-tests-more-than-any-model-before-it/",
-          "publishedAt": "2026-06-27"
-        },
-        {
-          "title": "Production-grade AI agents for financial compliance: Lessons from Stripe",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/production-grade-ai-agents-for-financial-compliance-lessons-from-stripe/",
-          "publishedAt": "2026-06-26"
-        },
-        {
-          "title": "OpenAI and Broadcom unveil LLM-optimized inference chip",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/openai-broadcom-jalapeno-inference-chip",
-          "publishedAt": "2026-06-24"
-        },
-        {
-          "title": "Retrofit, don’t rebuild: Agentic overlays for transforming legacy enterprise services",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/retrofit-dont-rebuild-agentic-overlays-for-transforming-legacy-enterprise-services/",
           "publishedAt": "2026-06-25"
         }
       ]
