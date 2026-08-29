@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-08-28T05:08:49.211Z",
+  "updatedAt": "2026-08-29T03:05:57.472Z",
   "articles": [
+    {
+      "id": "ai-news-2026-08-29",
+      "date": "2026-08-29",
+      "generatedAt": "2026-08-29T03:05:57.468Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a plausible extension because they separate data interpretation, guideline checking, and final explanation. This revised feasibility study preserves the original standalone-versus-agentic comparison while making the main clinical findings more explicit. Using the retained local eICU Demo artifact set (2,353 ICU stays; 8.1\\% mortality), XGBoost achieved an AUROC of 0.855 (95\\% CI 0.796--0.906) and an AUPRC of 0.332 (95\\% CI 0.217--0.494). On a stratified 38-case explanation subset, the standalone LLM produced 1 explanation with explicit outcome leakage, whereas the four-step agentic pipeline produ"
+        },
+        {
+          "heading": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Conventional BPHM approaches, including physics-based models and task-centric deep learning methods, face challenges in computational efficiency and parameterization, cross-domain generalization, dependence on extensive labeled run-to-failure data, and model interpretability. Recent Large Models (LMs), built upon Transformer architectures and self-supervised pre-training, offer a transformative new paradigm to overcome these long-standing bottlenecks. This review provides the first comprehensive survey of LM applications in BPHM, systematically examining how these models address challenges in the field. We begin by elucidating the foundationa"
+        },
+        {
+          "heading": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.26114v1 Announce Type: new Abstract: Calculation-intensive financial question answering requires exact reasoning over structured rates, temporal conditions, numerical formulas, and rule-based constraints. Although Large Language Models (LLMs) perform strongly on natural language tasks, they often produce numerically incorrect yet plausible answers when solving multi-step financial calculations. To address this limitation, we introduce CIFQA (Calculation-Intensive Financial Query Answering), a deterministic tool-grounded multi-agent LLM framework for financial question answering. CIFQA separates language understanding from numerical execution by assigning specialized agents to query interpretation, routing, parameter extraction, computation planning, and response generation, while deterministic Python-based tools perform financial calculations and rule application. We instantia"
+        },
+        {
+          "heading": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting."
+        },
+        {
+          "heading": "AI benchmarks have a trust problem and Google wants to fix it",
+          "body": "The Decoderから公開された情報です。概要: Google Deepmind is testing a double-blind evaluation of a frontier AI model for the first time. Cryptographic protection through Confidential Space is meant to keep Google from seeing the test questions and keep evaluators from seeing the model weights. The pilot project with the Singapore AI Safety Institute uses a Gemini Flash Lite and could set a new standard for tamper-proof AI benchmarks. The article AI benchmarks have a trust problem and Google wants to fix it appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.26109",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.26111",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.26114",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "title": "AI benchmarks have a trust problem and Google wants to fix it",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it/",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.26113",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "title": "The Accuracy-Efficiency Paradox Quantifying Net Energy Loss in on-Device Energy Forecasting",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.26134",
+          "publishedAt": "2026-08-28"
+        },
+        {
+          "title": "LLMs for Academic Workflows: An Evaluation of Literature Reviews Generated with Short and Long Context Windows of LLMs",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.26145",
+          "publishedAt": "2026-08-28"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-08-28",
       "date": "2026-08-28",
@@ -6059,108 +6162,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2606.28374",
           "publishedAt": "2026-06-30"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-06-30",
-      "date": "2026-06-30",
-      "generatedAt": "2026-06-29T22:10:46.680Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.27483v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capability in sequential decision-making, yet they remains fundamentally reactive in long-horizon tasks. Unlike humans who employ \"what-if\" reasoning to evaluate potential plans before commitment, standard agents lack an internal world model to simulate future outcomes. Therefore, we propose to internalize future-aware planning by training a single autoregressive model to verbalize both a prospective state rollout and a plan-conditioned success estimate-a textual analogue of the Q-value. Crucially, we identify a format-capability gap: simply fine-tuning agents on look-ahead traces during post-training leads to superficial mimicry of foresight without genuine predictive grounding. To bridge this gap, we introduce a three-stage training paradigm: (i) World Model Agentic Mid-Training ("
-        },
-        {
-          "heading": "AI-Model Network: Concept, Current State and Future",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.27382v1 Announce Type: new Abstract: While the primary function of computers lies in computation and processing, the core value of the Internet is rooted in sharing and collaboration. Computers create the Internet, and the Internet empowers the value of computers. The rapid development of the Internet, cloud computing, and big data is pushing artificial intelligence into the era of large models (LMs). However, the practical application of LMs is currently hindered by high training costs and deployment complexities, driving a shift toward lightweight, private, and domain-specific models. With the rapid proliferation and wide distribution of heterogeneous models, enabling effective interaction and collaboration among them has emerged as a critical bottleneck that urgently needs to be addressed in LM development. Drawing inspiration from the development of the Internet, this pape"
-        },
-        {
-          "heading": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.27443v1 Announce Type: new Abstract: Personality prompting shapes how large language models communicate, yet whether these behavioral shifts affect objective task outcomes remains under-explored. Prior work shows that agents prompted with low agreeableness produce adversarial language, while those prompted with high agreeableness become cooperative, but the relationship between communication style and task performance has not been systematically examined across multiple domains. In this work, we investigate whether personality composition matters for multi-agent team performance by manipulating personality traits across frontier LLMs on three task domains: structured coding, open-ended research collaboration, and competitive bargaining. We find that personality effects depend critically on task structure. In coding tasks, low agreeableness leads to large communication shifts t"
-        },
-        {
-          "heading": "ToE: A Hierarchical and Explainable Claim Verification Framework with Dynamic Multi-source Evidence Retrieval and Aggregation",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2606.27736v1 Announce Type: new Abstract: The rapid spread of fake news poses increasing threats to information ecosystems, especially as AI-generated misinformation under Generative Engine Optimization (GEO) poisoning allows adversarially crafted content to be systematically surfaced by retrieval systems, contaminating LLM reasoning. In this paper, we propose Tree of Evidence (ToE), a hierarchical evidence reasoning framework for automated fact-checking that models each claim as a dynamically expanding argument tree. ToE integrates a reinforcement learning-driven multi-source retrieval agent, an evidence evaluation agent, and an argument tree aggregation algorithm to iteratively decompose, retrieve, and verify claims through an explainable evidence chain. We further provide a theoretical analysis of the retrieval process, deriving a formal error bound that guarantees the learned p"
-        },
-        {
-          "heading": "Deloitte tells its own consultants: AI is coming for the billable hour",
-          "body": "The Decoderから公開された情報です。概要: An internal Deloitte presentation projects that the consulting industry's classic hourly billing model will shrink to a thin sliver of the total market by 2035, replaced by AI agents. \"Our model is toast,\" one consultant summed up the message. McKinsey and BCG are already searching for alternative revenue models. The article Deloitte tells its own consultants: AI is coming for the billable hour appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "Internalizing the Future: A Unified Agentic Training Paradigm for World Model Planning",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.27483",
-          "publishedAt": "2026-06-29"
-        },
-        {
-          "title": "AI-Model Network: Concept, Current State and Future",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.27382",
-          "publishedAt": "2026-06-29"
-        },
-        {
-          "title": "When Does Personality Composition Matter for Multi-Agent LLM Teams?",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.27443",
-          "publishedAt": "2026-06-29"
-        },
-        {
-          "title": "ToE: A Hierarchical and Explainable Claim Verification Framework with Dynamic Multi-source Evidence Retrieval and Aggregation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.27736",
-          "publishedAt": "2026-06-29"
-        },
-        {
-          "title": "Deloitte tells its own consultants: AI is coming for the billable hour",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/deloitte-tells-its-own-consultants-ai-is-coming-for-the-billable-hour/",
-          "publishedAt": "2026-06-29"
-        },
-        {
-          "title": "DysLexLens: A Low-Resource LLM Framework for Analysing Dyslexic Learners Insights from Online Forums",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.27619",
-          "publishedAt": "2026-06-29"
-        },
-        {
-          "title": "Towards Reliable and Robust LLM Planning: Symbolic Feedback-Driven Iterative Self-Refinement Framework",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2606.27757",
-          "publishedAt": "2026-06-29"
-        },
-        {
-          "title": "Amazon engineers are reportedly distilling Anthropic models to cut costs before new token-based pricing kicks in",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/amazon-engineers-are-reportedly-distilling-anthropic-models-to-cut-costs-before-new-token-based-pricing-kicks-in/",
-          "publishedAt": "2026-06-29"
         }
       ]
     }
