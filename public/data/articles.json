@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-09-01T00:27:01.429Z",
+  "updatedAt": "2026-09-01T23:07:30.060Z",
   "articles": [
+    {
+      "id": "ai-news-2026-09-02",
+      "date": "2026-09-02",
+      "generatedAt": "2026-09-01T23:07:30.056Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Paper Pilot: A Human-in-the-Loop Expert System for Evidence-Traceable Scientific Manuscript Generation in Applied Sciences",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.28596v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly embedded in scientific workflows for literature analysis, drafting, and review. Existing systems advance autonomous discovery and manuscript generation, but do not resolve the governance problem that arises when ideas, methods, results, and claims propagate through AI-assisted workflows without mandatory human approval or artifact-level traceability. This paper proposes Paper Pilot, a human-in-the-loop expert system for evidence-traceable scientific manuscript generation in applied sciences. It adapts the Collaborative Agent Reasoning Engineering (CARE) methodology to manuscript development through manuscript-owner approval gates, explicit no-pass criteria, claim classification, audit logging, advisory LLM review, and evidence-locked revision control. The framework defines eight approval ga"
+        },
+        {
+          "heading": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.28590v1 Announce Type: new Abstract: Large Language Model (LLM) agents have shown promise for automating data-science workflows, yet their end-to-end performance depends critically on the agent harness that represents tasks, manages execution state, constrains output artifacts, and provides evaluation feedback. Existing data-science agents often leave this harness implicit, making results difficult to reproduce, compare, and attribute across heterogeneous tasks. We introduce DS-Lighting, a unified harness toolkit that makes harness design explicit for data-science automation. DS-Lighting decomposes the harness into four reusable layers: data, workflow, execution, and evaluation, and represents diverse agents as executable operator programs that support both predefined pipelines and adaptive search. We further integrate multiple open-source data-science benchmarks into an MLE-B"
+        },
+        {
+          "heading": "A collective capability boundary in frontier large language models on guideline-conformant and case-specific oncology decision-making",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.28592v1 Announce Type: new Abstract: Large language models (LLMs) achieve high scores on medical knowledge examinations, yet real-world oncology is not a knowledge test--it is a sequence of guideline-pathway choices, escalation judgments, and commitments under uncertainty. Existing benchmarks largely measure factual recall, leaving open whether frontier LLMs share decision-path blind spots that combining models cannot fix. We built the Oncology Decision Boundary Benchmark (ODBB)--2,005 oncology decision points across NCCN guidelines and colorectal cancer cases--and evaluated nine frontier LLMs (four closed-source, five open-weight families) released between June 2025 and April 2026. A fully deterministic scorer (zero LLM inference) classified outputs into 14 failure types, independently validated by two oncologists (Cohen's weighted $\\kappa$ = 0.939 and 0.790) on a 225-item st"
+        },
+        {
+          "heading": "Statutory AI: Aligning Large Language Models With Legal Norms",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.28593v1 Announce Type: new Abstract: With the increasing development of AI regulatory frameworks, ensuring that artificial intelligence systems, particularly generative models, operate in accordance with legal and ethical standards has become a critical priority. Existing proposals for AI alignment and value-guided behavior, however, face some limitations. Approaches such as Constitutional AI depend on human supervision, while broad normative frameworks like the Good-for-Humanity (GfH) principle may be overly general and ambiguous to provide actionable governance guidance. To overcome these limitations, we propose a hybrid approach called Statutory AI that employs pre-existing human-authored principles drawn from specific themes within a legal corpus. Specifically, Statutory AI uses legal texts as a constitutional framework, enabling AI systems to autonomously critique and rev"
+        },
+        {
+          "heading": "The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.28597v1 Announce Type: new Abstract: Online surveys are a foundational data collection instrument in a variety of fields, with attention checks serving as critical guardians of response quality. However, the rapid emergence of agentic AI (goal directed systems powered by a large language model (LLM) brain and/or a multimodal processing unit with tool-augmented capabilities) raises new questions about the robustness of these safeguards. We investigate how well agentic AI architectures can complete web-based surveys and pass standard attention checks. We evaluate a single-agent architecture capable of multimodal input processing and tool-based web interaction on a controlled survey sandbox. We analyze the problem from two perspectives. From an attack perspective, we demonstrate how structural vulnerabilities such as exposed DOM metadata and predictable option encoding allow agen"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Paper Pilot: A Human-in-the-Loop Expert System for Evidence-Traceable Scientific Manuscript Generation in Applied Sciences",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.28596",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "title": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.28590",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "title": "A collective capability boundary in frontier large language models on guideline-conformant and case-specific oncology decision-making",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.28592",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "title": "Statutory AI: Aligning Large Language Models With Legal Norms",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.28593",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "title": "The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2608.28597",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less/",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "title": "Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-how-jamf-built-real-time-spend-enforcement-for-amazon-bedrock/",
+          "publishedAt": "2026-09-01"
+        },
+        {
+          "title": "Introducing Claude Fable 5.1 on AWS",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/",
+          "publishedAt": "2026-09-01"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-01",
       "date": "2026-09-01",
@@ -6058,109 +6161,6 @@
           "source": "MIT Technology Review AI",
           "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
           "publishedAt": "2026-06-30"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-07-04",
-      "date": "2026-07-04",
-      "generatedAt": "2026-07-03T22:07:41.190Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.01366v1 Announce Type: new Abstract: Federated learning (FL) research often depends on many small but consequential algorithmic choices: optimizer variants, server aggregation rules, local training schedules, normalization, regularization, and model architecture. These choices are expensive to explore manually and difficult to compare fairly when candidate changes can also alter the FL training or evaluation path. In this work, we present Auto-FL-Research (AFR), a constrained coding-agent workflow for FL algorithmic recipe search. Agents may propose and implement candidate training algorithms, including server aggregation rules, client update schedules, local objectives, and registered model variants, while task profiles fix the mutation surface, compute budget, communication contract, and final model evaluation. Each campaign records candidate scores, runtime, edited files, a"
-        },
-        {
-          "heading": "Beyond Next-Token Prediction: An RLVR Proof of Concept for Tool-Use Agents on Atlassian Workflows",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.01465v1 Announce Type: new Abstract: Large language models are trained to predict the next token, not to act inside a specific API. In niche enterprise SaaS workflows -- where success means hitting the right endpoint with the right nested arguments in the right order -- this objective mismatch shows up as silent failures: dropped required fields, hallucinated tools, or early stops after a single read. We ask whether Reinforcement Learning with Verifiable Rewards (RLVR), applied directly in the target environment, closes the gap. As a proof of concept we build a suite of five synthetic environments emulating the Jira REST v3 and Confluence v2 APIs at schema fidelity; rewards are computed entirely from the tool-call trace, with no live API, no learned judge, and no human label in the loop. Scoring prompted Qwen3-1.7B and Qwen3.5-4B on the same checkers that drive GRPO training, "
-        },
-        {
-          "heading": "UK's AI Security Institute finds standard benchmarks systematically underestimate what AI agents can actually do",
-          "body": "The Decoderから公開された情報です。概要: In a study covering seven benchmarks, the UK's AI Security Institute shows that standard AI evaluations systematically underestimate agent capabilities by capping the compute budget. On software engineering tasks, success rates jumped about 25 percent when the token budget was increased tenfold. Newer models benefit the most. Depending on the token budget, actual progress at the frontier is about 60 percent steeper than previous measurements suggested, according to AISI. The article UK's AI Security Institute finds standard benchmarks systematically underestimate what AI agents can actually do appeared first on The Decoder ."
-        },
-        {
-          "heading": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.01306v1 Announce Type: new Abstract: Counterfactual explanations explain machine learning predictions by identifying minimal input changes that would alter a model's decision. Although many existing methods successfully generate prediction-changing alternatives, they often produce unrealistic or infeasible recommendations due to a lack of explicit mechanisms for incorporating domain knowledge and intervention constraints. Neuro-symbolic AI offers a promising direction by combining data-driven predictive models with symbolic reasoning capable of representing human-understandable rules and feasible actions. This paper presents PACE, a modular neuro-symbolic framework for generating feasibility-aware counterfactual explanations. The framework separates prediction and reasoning into two components: a neural predictive model for classification and a symbolic reasoning layer that en"
-        },
-        {
-          "heading": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.01425v1 Announce Type: new Abstract: Understanding large, complex codebases, especially those with obfuscated structures and incomplete documentation, remains a significant challenge. Existing code summarization solutions often rely on a single language model or coding assistant like Claude Code, and treat source code as flat text, underutilizing the rich interdependencies and hierarchical information within a repository. To address these shortcomings, we propose Agent4cs - a multi-agent framework that summarizes large codebases in a bottom-up fashion, where a summarization agent focuses on producing robust summaries; a keyword-extraction agent proactively identifies critical information from subfolders; and a quality-assurance agent iteratively refines the outputs for readability, coherence, and completeness. Evaluated on 7 frontier models, Agent4cs improves semantic consiste"
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "The Decoder",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Auto-FL-Research: Agentic Search for Federated Learning Algorithms",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.01366",
-          "publishedAt": "2026-07-03"
-        },
-        {
-          "title": "Beyond Next-Token Prediction: An RLVR Proof of Concept for Tool-Use Agents on Atlassian Workflows",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.01465",
-          "publishedAt": "2026-07-03"
-        },
-        {
-          "title": "UK's AI Security Institute finds standard benchmarks systematically underestimate what AI agents can actually do",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/",
-          "publishedAt": "2026-07-03"
-        },
-        {
-          "title": "PACE: A Neuro-Symbolic Framework for Plausible and Actionable Counterfactual Explanations",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.01306",
-          "publishedAt": "2026-07-03"
-        },
-        {
-          "title": "Agent4cs: A Multi-agent System for Code Summarization in Large Hierarchical Codebases",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.01425",
-          "publishedAt": "2026-07-03"
-        },
-        {
-          "title": "CreativityNeuro: Steering Language Model Weights to Improve Divergent Thinking and Reduce Mode Collapse",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.01433",
-          "publishedAt": "2026-07-03"
-        },
-        {
-          "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.01436",
-          "publishedAt": "2026-07-03"
-        },
-        {
-          "title": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/",
-          "publishedAt": "2026-07-02"
         }
       ]
     }
