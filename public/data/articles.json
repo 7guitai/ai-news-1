@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-09-01T23:07:30.060Z",
+  "updatedAt": "2026-09-02T23:06:05.975Z",
   "articles": [
+    {
+      "id": "ai-news-2026-09-03",
+      "date": "2026-09-03",
+      "generatedAt": "2026-09-02T23:06:05.970Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.00015v1 Announce Type: new Abstract: AI agents powered by large language models are evolving from isolated assistants into heterogeneous systems in which multiple agents, planners, controllers, and execution backends operate over the same user or enterprise environment. In such settings, safety becomes a system-level action-governance problem: deciding whether concrete agent-generated actions should be committed before they modify shared state. Existing safeguards cover prompts, tool calls, GUI actions, and agent-local behavior, but often leave enforcement fragmented, obscure risks that emerge across multi-step action flows, and provide limited support for auditability and policy evolution. We present OpenAgentFlow, a control-plane/action-plane architecture that enforces safety at the action-commit boundary. It normalizes pending GUI actions, API calls, tool calls, and LLM-gen"
+        },
+        {
+          "heading": "World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos",
+          "body": "The Decoderから公開された情報です。概要: World Labs, co-founded by AI researcher Fei-Fei Li, has announced Atlas, a world model that generates, reconstructs, and simulates 3D scenes from just a few images. The company claims it beats specialized models by anchoring all inputs in 3D space rather than processing them as flat sequences. Atlas can also generate robot training data entirely in simulation. The article World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos appeared first on The Decoder ."
+        },
+        {
+          "heading": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.00002v1 Announce Type: new Abstract: World models enable language-model agents to predict environment dynamics and plan before acting. In text environments, the model must learn symbolic action effects from serialized state descriptions, but the role of serialization structure remains underexplored. We present HyperWorld, a controlled study of state serialization for learned textual world models. We compare raw observations with three symbolic serializations of the same ground-truth state: independent sentences, pairwise triples, and entity-centered hyperedge units that group multiple related facts around entities and relations. All variants use the same training objective: given a state and an action, predict symbolic effects or judge the action infeasible. Across model scales, data budgets, and in-distribution and out-of-distribution test worlds, hyperedge serialization give"
+        },
+        {
+          "heading": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.00012v1 Announce Type: new Abstract: Long-horizon tasks remain uncommon in large language model (LLM) evaluation, and for a reason: when each step depends on the last, per-step accuracy that looks excellent in isolation decays catastrophically, as errors cascade and the end-to-end failure probability grows sharply with length. Existing agentic benchmarks report end-to-end success but confound this state-tracking difficulty with instruction interpretation, give no control group that isolates it, and are vulnerable to shortcuts such as a hallucinated final answer, so they cannot say why a long run fails. Whether an LLM can carry exact intermediate state across many tool calls at all is itself not well established. We test this cleanly by having the model compute a cryptographic hash, MD5, step by step: a sequence of $196$ dependent tool calls over $64$ rounds while it carries fo"
+        },
+        {
+          "heading": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
+          "body": "AWS Machine Learningから公開された情報です。概要: Australian teams can now access OpenAI GPT-5.6 Sol, Terra, and Luna models on Amazon Bedrock with global cross-Region inference from the Asia Pacific (Sydney) and Asia Pacific (Melbourne) Regions. This post shows how to invoke the models, use prompt caching, set up Codex with OpenID Connect authentication, and monitor usage with Amazon CloudWatch."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "OpenAgentFlow: Enabling System-Wide Safety Boundaries for Heterogeneous AI Agent Fleets",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.00015",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "World Labs unveils Atlas, a single AI model that generates, reconstructs, and simulates 3D worlds from just a few photos",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/world-labs-unveils-atlas-a-single-ai-model-that-generates-reconstructs-and-simulates-3d-worlds-from-just-a-few-photos/",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "HyperWorld: Hypergraph-Structured State Serialization Improves Learned Textual World Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.00002",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Long-Horizon State Tracking in LLMs: Executing MD5 through a Deep Sequence of Dependent Tool Calls",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.00012",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Modernizing and scaling support operations with generative AI on AWS",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/modernizing-and-scaling-support-operations-with-generative-ai-on-aws/",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "US Department of Justice backs fair use for AI training in landmark copyright case",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/us-department-of-justice-backs-fair-use-for-ai-training-in-landmark-copyright-case/",
+          "publishedAt": "2026-09-02"
+        },
+        {
+          "title": "Gemini 3.8 Flash is Google's third budget model in six weeks while frontier models remain MIA",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/gemini-3-8-flash-is-googles-third-budget-model-in-six-weeks-while-frontier-models-remain-mia/",
+          "publishedAt": "2026-09-02"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-02",
       "date": "2026-09-02",
@@ -6058,109 +6161,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/hollywood-wants-seedance-banned-and-reportedly-also-wants-to-keep-using-it/",
           "publishedAt": "2026-07-05"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-07-05",
-      "date": "2026-07-05",
-      "generatedAt": "2026-07-04T22:01:27.080Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore",
-          "body": "The Decoderから公開された情報です。概要: Greg Brockman admits ChatGPT's plugins, heavily marketed in 2023, failed \"because the models weren't ready.\" Instead of app extensions, he sees the future in an invisible, context-aware agent. But OpenAI's own Codex is still light-years from that vision. The article OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore appeared first on The Decoder ."
-        },
-        {
-          "heading": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI",
-          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we share best practices for reliable multi-turn RL training. We cover how to build a training environment you can trust, set up an external evaluation, design a reward aligned with the end task, manage what changes once the agent runs for multiple turns, and monitor the metrics that tell you when to iterate."
-        },
-        {
-          "heading": "Teaching AI to run with the turbines",
-          "body": "MIT Technology Review AIから公開された情報です。概要: Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, operational continuity, and safety are paramount, AI is becoming a core operating layer. With its sprawling industrial systems and constant stream of operational…"
-        },
-        {
-          "heading": "Mistral's open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code",
-          "body": "The Decoderから公開された情報です。概要: Mistral AI released Leanstral 1.5, an open-source model for formal verification in Lean 4. Beyond math, the model found five previously unknown bugs while scanning 57 open-source repositories. The article Mistral's open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code appeared first on The Decoder ."
-        },
-        {
-          "heading": "Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents",
-          "body": "The Decoderから公開された情報です。概要: Microsoft reportedly plans to merge its consumer and enterprise Copilot apps into a single app in August. Rarely used features like Copilot Podcasts are getting cut, and new AI agents called \"AutoPilot\" will handle tasks in the background for an extra fee. The article Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "OpenAI cofounder envisions \"almost no interface\" future where nobody learns software anymore",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-cofounder-envisions-almost-no-interface-future-where-nobody-learns-software-anymore/",
-          "publishedAt": "2026-07-04"
-        },
-        {
-          "title": "Best practices for multi-turn reinforcement learning in Amazon SageMaker AI",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/best-practices-for-multi-turn-reinforcement-learning-in-amazon-sagemaker-ai/",
-          "publishedAt": "2026-07-02"
-        },
-        {
-          "title": "Teaching AI to run with the turbines",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
-          "publishedAt": "2026-07-02"
-        },
-        {
-          "title": "Mistral's open-source Leanstral 1.5 aces formal math benchmarks and catches real bugs in code",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/",
-          "publishedAt": "2026-07-04"
-        },
-        {
-          "title": "Microsoft follows Anthropic and OpenAI into the AI super app race with overhauled Copilot and AutoPilot agents",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/",
-          "publishedAt": "2026-07-03"
-        },
-        {
-          "title": "Run NVIDIA Nemotron and OpenAI GPT OSS models on Amazon Bedrock in AWS GovCloud (US)",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/run-nvidia-nemotron-and-openai-gpt-oss-models-on-amazon-bedrock-in-aws-govcloud-us/",
-          "publishedAt": "2026-07-01"
-        },
-        {
-          "title": "Anthropic developer shares prompting tips for Fable 5 that focus on finding your own blind spots first",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-developer-shares-prompting-tips-for-fable-5-that-focus-on-finding-your-own-blind-spots-first/",
-          "publishedAt": "2026-07-04"
-        },
-        {
-          "title": "Agriculture is ready for AI, but its data isn’t",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
-          "publishedAt": "2026-06-30"
         }
       ]
     }
