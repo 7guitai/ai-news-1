@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-09-04T22:51:40.263Z",
+  "updatedAt": "2026-09-05T22:42:07.899Z",
   "articles": [
+    {
+      "id": "ai-news-2026-09-06",
+      "date": "2026-09-06",
+      "generatedAt": "2026-09-05T22:42:07.892Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+          "body": "AWS Machine Learningから公開された情報です。概要: Building a Physical AI system takes a continuous pipeline, not a single training job. This post shows how to run that model factory (synthetic data generation, post-training, and closed-loop evaluation with NVIDIA Cosmos 3) on a persistent, resilient Amazon SageMaker HyperPod cluster on Amazon EKS, with GPU goodput as the metric that matters."
+        },
+        {
+          "heading": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+          "body": "AWS Machine Learningから公開された情報です。概要: HyperPod InstantStart is an open source control plane that composes Amazon EKS orchestration with the managed capabilities of Amazon SageMaker HyperPod. It drives the same guarded operations through both a web interface and an AI agent, turning cluster bootstrap, capacity, training, inference, and storage into dependable, agent-driven infrastructure."
+        },
+        {
+          "heading": "OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections",
+          "body": "The Decoderから公開された情報です。概要: OpenAI's GPT-6 Astra hallucinates less than its predecessor and blocks 99.99 percent of direct prompt injections. But when attacks are hidden inside documents the AI reads, the model still gets cracked in 8.5 percent of scenarios. Claude Opus 5 does better at 4.8 percent. For autonomous AI agents handling real data, those numbers still seem high. The article OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections appeared first on The Decoder ."
+        },
+        {
+          "heading": "Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
+          "body": "The Decoderから公開された情報です。概要: Deepseek wants to put 160,000 Huawei Ascend-950DT chips into an Inner Mongolia data center for inference only, not training. It would be the largest known Huawei chip cluster. But production bottlenecks mean Huawei probably can't deliver for over a year. The article Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia appeared first on The Decoder ."
+        },
+        {
+          "heading": "OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words",
+          "body": "The Decoderから公開された情報です。概要: OpenAI ships a detailed prompting guide for GPT-6 Astra that shows developers how to make the model take more initiative, avoid AI \"slop\" phrases, and stop it from overtesting code. The article OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Build a Physical AI model factory with NVIDIA Cosmos 3 on SageMaker HyperPod",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-physical-ai-model-factory-with-nvidia-cosmos-3-on-sagemaker-hyperpod/",
+          "publishedAt": "2026-09-04"
+        },
+        {
+          "title": "Run agent-driven Amazon SageMaker HyperPod operations with InstantStart",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/run-agent-driven-amazon-sagemaker-hyperpod-operations-with-instantstart/",
+          "publishedAt": "2026-09-04"
+        },
+        {
+          "title": "OpenAI's GPT-6 Astra hallucinates less but remains vulnerable to hidden prompt injections",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openais-gpt-6-astra-hallucinates-less-but-remains-vulnerable-to-hidden-prompt-injections/",
+          "publishedAt": "2026-09-04"
+        },
+        {
+          "title": "Deepseek plans the largest known Huawei chip cluster with 160,000 processors in Inner Mongolia",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/deepseek-plans-the-largest-known-huawei-chip-cluster-with-160000-processors-in-inner-mongolia/",
+          "publishedAt": "2026-09-04"
+        },
+        {
+          "title": "OpenAI shares prompting tips for GPT-6 Astra including a blocklist of slop words",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-shares-prompting-tips-for-gpt-6-astra-including-a-blocklist-of-slop-words/",
+          "publishedAt": "2026-09-05"
+        },
+        {
+          "title": "OpenAI admits its disclosure practices need work after its autonomous agents hacked a German wiki",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-admits-its-disclosure-practices-need-work-after-its-autonomous-agents-hacked-a-german-wiki/",
+          "publishedAt": "2026-09-05"
+        },
+        {
+          "title": "Deepmind put 100 AI agents in a room and they sorted into cheaters, converts, and whistleblowers",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/deepmind-put-100-ai-agents-in-a-room-and-they-sorted-into-cheaters-converts-and-whistleblowers/",
+          "publishedAt": "2026-09-05"
+        },
+        {
+          "title": "OpenAI rolls out GPT-6 Astra to top-tier ChatGPT plans at half the rate of GPT-5.6 Sol",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-rolls-out-gpt-6-astra-to-top-tier-chatgpt-plans-at-half-the-rate-of-gpt-5-6-sol/",
+          "publishedAt": "2026-09-05"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-05",
       "date": "2026-09-05",
@@ -6059,109 +6161,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2607.05563",
           "publishedAt": "2026-07-08"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-07-08",
-      "date": "2026-07-08",
-      "generatedAt": "2026-07-07T22:12:12.829Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.02686v1 Announce Type: new Abstract: Reinforcement learning agents operating under partial observability must act on incomplete information, making them natural candidates for guidance from small language models (SLMs) that carry broad reasoning priors. Yet integrating SLM guidance into this setting has proven difficult: across all test environments, vanilla uncertainty-gated approaches achieve an overwrite rate at or near zero, meaning the SLM almost never contributes an independent action. We trace this failure to the bare egocentric prompt, which provides insufficient context for genuine reasoning, and identify it as a context problem rather than a capacity problem. We propose ASK+, which supplies the SLM with trajectory-aware context (a partially revealed map, visited positions, and action history) and structured chain-of-thought reasoning, converting it from a passive red"
-        },
-        {
-          "heading": "Object-Centric Environment Modeling for Agentic Tasks",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.02846v1 Announce Type: new Abstract: Large language model (LLM) agents can improve through accumulated experience, but free-form textual memories become difficult to maintain, validate, and reuse as interactions grow. Recent symbolic approaches learn executable skills or programmatic world models, yet often store local procedures or assume simplified dynamics. We propose Object-Centric Environment Modeling (OCM), which organizes experience into an executable object-centric environment model. OCM maintains two connected code bases: object knowledge, which defines environment entities and mechanisms as Python classes, and procedure knowledge, which records reusable interaction patterns that must import and use the object model. OCM works in an online setting: after each episode, OCM reflects on the trajectory, updates both knowledge bases, and verifies that all procedures execut"
-        },
-        {
-          "heading": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.02879v1 Announce Type: new Abstract: Current benchmarks for evaluating large language models (LLMs) in medical calculation are largely based on simplified settings, where each patient case corresponds to a single calculator and the required tool is explicitly specified in the query. However, real clinical scenarios often require multiple calculators for joint evaluation, nested-scale calculation, and fuzzy queries that do not directly specify the target calculator. To this end, we propose a new medical calculation benchmark, MedCalc-Pro, which covers three progressively challenging task settings: single-calculator, multi-calculator, and nested-calculator calculation settings. MedCalc-Pro contains 2,268 real-world clinical cases, covering 77 medical calculators across 14 clinical departments. Meanwhile, to address the limited performance of existing frameworks and methods in co"
-        },
-        {
-          "heading": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.02914v1 Announce Type: new Abstract: Large language models (LLMs) have demonstrated remarkable capabilities across diverse applications, yet ensuring their simultaneous safety, helpfulness, and trustworthiness remains a persistent challenge. Conventional refusal-oriented alignment strategies mitigate harmful content generation but systematically fail to serve legitimate user needs, often withholding information that could safely and constructively address the underlying intent of sensitive queries. Building upon the constructive safety paradigm pioneered by Oyster-I, which moves beyond blanket refusal toward thoughtful, response-oriented safety alignment, we identify two critical limitations of its Supervised Fine-Tuning (SFT)-based scheme: insufficient safety generalization to out-of-distribution scenarios and a phenomenon we term safety chain-of-thought (CoT) over-generaliza"
-        },
-        {
-          "heading": "Monitoring discriminative ML models using Amazon SageMaker AI with MLflow",
-          "body": "AWS Machine Learningから公開された情報です。概要: Implementing a data and model monitoring solution is necessary to maintain prediction accuracy and help achieve the best outcome for your machine learning use case. This post shows how you can use open source Evidently together with Amazon SageMaker AI to generate monitoring reports, organize and compare the results in MLflow, scale through pipelines, and trigger drift notifications."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "ASK in the Dark: Uncertainty-Gated LLM Assistance under Partial Observability",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.02686",
-          "publishedAt": "2026-07-07"
-        },
-        {
-          "title": "Object-Centric Environment Modeling for Agentic Tasks",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.02846",
-          "publishedAt": "2026-07-07"
-        },
-        {
-          "title": "MedCalc-Pro: Solving Complex Medical Calculations with LLM Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.02879",
-          "publishedAt": "2026-07-07"
-        },
-        {
-          "title": "Oyster-II: Reinforcement Learning for Constructive Safety Alignment in Large Language Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.02914",
-          "publishedAt": "2026-07-07"
-        },
-        {
-          "title": "Monitoring discriminative ML models using Amazon SageMaker AI with MLflow",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/monitoring-discriminative-ml-models-using-amazon-sagemaker-ai-with-mlflow/",
-          "publishedAt": "2026-07-07"
-        },
-        {
-          "title": "Build an AI-powered AWS support companion with Amazon Bedrock AgentCore",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-aws-support-companion-with-amazon-bedrock-agentcore/",
-          "publishedAt": "2026-07-07"
-        },
-        {
-          "title": "Claude's hidden inner monologue is now readable thanks to Anthropic's new Jacobian Lens",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/claudes-hidden-inner-monologue-is-now-readable-thanks-to-anthropics-new-jacobian-lens/",
-          "publishedAt": "2026-07-07"
-        },
-        {
-          "title": "iFLYTEK-Embodied-Omni Technical Report",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.02542",
-          "publishedAt": "2026-07-07"
         }
       ]
     }
