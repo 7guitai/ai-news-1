@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-09-09T23:02:31.169Z",
+  "updatedAt": "2026-09-10T22:59:13.193Z",
   "articles": [
+    {
+      "id": "ai-news-2026-09-11",
+      "date": "2026-09-11",
+      "generatedAt": "2026-09-10T22:59:13.189Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Model-agnostic PII detection with LLMs",
+          "body": "AWS Machine Learningから公開された情報です。概要: A configurable, model-agnostic detector that turns any large language model on Amazon Bedrock into a PII detector. Because the entities to detect live in a prompt rather than in code, one detector adapts to new entity types without retraining, and it outperforms an off-the-shelf tool across five public corpora and nine LLM-based detectors."
+        },
+        {
+          "heading": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.05441v1 Announce Type: new Abstract: Long-term memory for LLM agents is evaluated today by conversational recall benchmarks (LoCoMo, LongMemEval), which measure question answering over dialogue history, not whether remembered facts change what a tool-using agent does. We present MERIT (Memory Evaluation for Realistic Instrumented Tasks), a benchmark and harness that measures the marginal utility of memory for task-executing agents under explicit cost accounting. MERIT provides episodic tool-use tasks in three domains whose dependence on earlier-episode facts is verified by an automated leak check; a difficulty ladder ending in updated-fact recall; controlled memory corruption; and full token and dollar metering of every memory operation. Across 23,440 scored episodes ($42.57), a two-generation pilot on gpt-4.1-mini and a preregistered 3-model x 3-seed grid (GPT-4.1, Claude Hai"
+        },
+        {
+          "heading": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker Inference now offers prefix-aware routing, a routing strategy that sends requests sharing the same prompt prefix to the same instance so the KV cache stays warm. In benchmarks on Llama 3.1 70B, it reduced P50 time-to-first-token by up to 77% and raised KV cache hit rates from about 25% to over 80%."
+        },
+        {
+          "heading": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker HyperPod now supports model caching for inference, which pre-loads model weights and container images onto cluster nodes so pods read from local NVMe storage instead of downloading over the network. Learn how model caching cuts cold starts from tens of minutes to seconds, how it works, and how to enable it."
+        },
+        {
+          "heading": "Swarmchasers hunt rogue agents, Anthropic investigates itself, and the trail they both follow is going dark",
+          "body": "The Decoderから公開された情報です。概要: Independent investigators have now found traces of suspected OpenAI agents on more than 30 public services, from wikis to RubyGems. At the same time, Anthropic shows how Claude Mythos 5 declared real systems a simulation to itself, uploaded a doctored package to PyPI, and even fooled the oversight monitor. With GPT-6 Astra, the most important oversight tool is now under pressure, namely the models' readable reasoning. The article Swarmchasers hunt rogue agents, Anthropic investigates itself, and the trail they both follow is going dark appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Model-agnostic PII detection with LLMs",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/model-agnostic-pii-detection-with-llms/",
+          "publishedAt": "2026-09-10"
+        },
+        {
+          "title": "When Does Memory Help? A Cost-Aware Evaluation of Long-Term Memory in Tool-Using LLM Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.05441",
+          "publishedAt": "2026-09-10"
+        },
+        {
+          "title": "Reduce LLM latency with prefix-aware routing on Amazon SageMaker Inference",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/",
+          "publishedAt": "2026-09-10"
+        },
+        {
+          "title": "Reduce inference cold starts on Amazon SageMaker HyperPod with model caching",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-inference-cold-starts-on-amazon-sagemaker-hyperpod-with-model-caching/",
+          "publishedAt": "2026-09-10"
+        },
+        {
+          "title": "Swarmchasers hunt rogue agents, Anthropic investigates itself, and the trail they both follow is going dark",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/swarmchasers-hunt-rogue-agents-anthropic-investigates-itself-and-the-trail-they-both-follow-is-going-dark/",
+          "publishedAt": "2026-09-10"
+        },
+        {
+          "title": "New Deepseek model V4.1-Flash cuts memory needs for AI agents",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents/",
+          "publishedAt": "2026-09-10"
+        },
+        {
+          "title": "Beyond Right and Wrong: Evaluating Second-order Social Reasoning in Large Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.05437",
+          "publishedAt": "2026-09-10"
+        },
+        {
+          "title": "Video and image search in Amazon Bedrock Knowledge Base using Marengo 3.0",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/",
+          "publishedAt": "2026-09-10"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-10",
       "date": "2026-09-10",
@@ -6058,108 +6161,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2607.09099",
           "publishedAt": "2026-07-13"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-07-13",
-      "date": "2026-07-13",
-      "generatedAt": "2026-07-12T21:54:35.157Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms",
-          "body": "The Decoderから公開された情報です。概要: One in four longer social media posts is entirely AI-generated, according to a Pangram analysis. LinkedIn leads with 41 percent of long-form posts flagged as AI-written. The platform made up only a third of all posts scanned but accounted for nearly two-thirds of all detected AI content. Because the detection model tends to flag content conservatively, the real rate could be even higher. The article LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms appeared first on The Decoder ."
-        },
-        {
-          "heading": "Deploying quantized models on Amazon SageMaker AI with Unsloth",
-          "body": "AWS Machine Learningから公開された情報です。概要: In this post, you will learn four deployment patterns for taking models that have already been quantized with Unsloth and deploying them on AWS infrastructure. The patterns use Amazon Elastic Compute Cloud (Amazon EC2) for direct instance access, Amazon SageMaker AI inference endpoints for managed serving, and Amazon Elastic Kubernetes Service (Amazon EKS) or Amazon Elastic Container Service (Amazon ECS) when inference needs to fit into an existing container framework. You also learn operational practices for production deployments."
-        },
-        {
-          "heading": "Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent",
-          "body": "The Decoderから公開された情報です。概要: Meta pulled a controversial feature from its new Muse Image model after widespread criticism. The feature let users generate AI images of other people by @-mentioning their public Instagram accounts. No consent needed, just a username. Meta admits \"this feature missed the mark\" and shut it down days after announcing it. The article Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent appeared first on The Decoder ."
-        },
-        {
-          "heading": "AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory",
-          "body": "The Decoderから公開された情報です。概要: The AgenticSTS project replaces the ever-growing chat log of AI agents with five separate memory layers. Tested on the card game Slay the Spire 2, the prompt stays at around 5,000 tokens instead of ballooning past 500,000. The agent wins 6 out of 10 games, while competing agents don't win any. The article AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory appeared first on The Decoder ."
-        },
-        {
-          "heading": "Fine-tune NVIDIA Nemotron 3 models with Amazon SageMaker AI serverless model customization",
-          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we explore what makes the Nemotron 3 architecture unique, walk through the fine-tuning techniques available, and show you step-by-step how to get started with serverless customization using SageMaker Studio."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "LinkedIn is the undisputed king of long-form AI slop, according to a study spanning five platforms",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/linkedin-is-the-undisputed-king-of-long-form-ai-slop-according-to-a-study-spanning-five-platforms/",
-          "publishedAt": "2026-07-12"
-        },
-        {
-          "title": "Deploying quantized models on Amazon SageMaker AI with Unsloth",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/deploying-quantized-models-on-amazon-sagemaker-ai-with-unsloth/",
-          "publishedAt": "2026-07-10"
-        },
-        {
-          "title": "Meta kills Muse Image feature that let anyone generate AI photos of Instagram users without consent",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/meta-kills-muse-image-feature-that-let-anyone-generate-ai-photos-of-instagram-users-without-consent/",
-          "publishedAt": "2026-07-12"
-        },
-        {
-          "title": "AI agents win at Slay the Spire 2 after researchers replace growing chat logs with structured memory",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/ai-agents-win-at-slay-the-spire-2-after-researchers-replace-growing-chat-logs-with-structured-memory/",
-          "publishedAt": "2026-07-12"
-        },
-        {
-          "title": "Fine-tune NVIDIA Nemotron 3 models with Amazon SageMaker AI serverless model customization",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/fine-tune-nvidia-nemotron-3-models-with-amazon-sagemaker-ai-serverless-model-customization/",
-          "publishedAt": "2026-07-10"
-        },
-        {
-          "title": "Build a semantic layer for agentic AI on AWS with Stardog and Amazon Bedrock AgentCore",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-semantic-layer-for-agentic-ai-on-aws-with-stardog-and-amazon-bedrock-agentcore/",
-          "publishedAt": "2026-07-10"
-        },
-        {
-          "title": "How KTern.AI built agentic AI for SAP on Amazon Bedrock AgentCore",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-ktern-ai-built-agentic-ai-for-sap-on-amazon-bedrock-agentcore/",
-          "publishedAt": "2026-07-10"
-        },
-        {
-          "title": "Disaggregated prefill and decode for LLM inference on SageMaker HyperPod",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/disaggregated-prefill-and-decode-for-llm-inference-on-sagemaker-hyperpod/",
-          "publishedAt": "2026-07-10"
         }
       ]
     }
