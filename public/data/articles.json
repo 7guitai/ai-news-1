@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-09-13T22:59:30.948Z",
+  "updatedAt": "2026-09-14T23:43:16.200Z",
   "articles": [
+    {
+      "id": "ai-news-2026-09-15",
+      "date": "2026-09-15",
+      "generatedAt": "2026-09-14T23:43:16.197Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AI、Google AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
+          "body": "The Decoderから公開された情報です。概要: The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, including general tool use and office work. The article Iris-mini and Iris-pro are the strongest open-weight search agents in their class appeared first on The Decoder ."
+        },
+        {
+          "heading": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
+          "body": "AWS Machine Learningから公開された情報です。概要: Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must."
+        },
+        {
+          "heading": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
+          "body": "The Decoderから公開された情報です。概要: Sam Altman is doubling down on slowing AI development. OpenAI now runs safety checks before major training runs, and according to The Information, the company has been talking with Anthropic and Google for months about joint self-regulation. The article Sam Altman calls for pacing AI development but promises rapid progress will continue appeared first on The Decoder ."
+        },
+        {
+          "heading": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design decisions and practical lessons for builders deploying Code Interpreter in production."
+        },
+        {
+          "heading": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a portal, configuring GitHub and Slack 3LO targets, and the end-user consent flow, and shows how to review activity in AWS CloudTrail."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/",
+          "publishedAt": "2026-09-13"
+        },
+        {
+          "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/",
+          "publishedAt": "2026-09-14"
+        },
+        {
+          "title": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/",
+          "publishedAt": "2026-09-14"
+        },
+        {
+          "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
+          "publishedAt": "2026-09-14"
+        },
+        {
+          "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-09-14"
+        },
+        {
+          "title": "The AI industry has taken a doomer turn. What now?",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
+          "publishedAt": "2026-09-14"
+        },
+        {
+          "title": "OpenAI has hundreds of contract workers reading your ChatGPT conversations",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/",
+          "publishedAt": "2026-09-14"
+        },
+        {
+          "title": "DevFest is back",
+          "source": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+          "publishedAt": "2026-09-14"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-14",
       "date": "2026-09-14",
@@ -6057,109 +6160,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/just-like-deepseek-chinas-kimi-k3-is-forcing-western-ai-labs-to-question-their-compute-advantage/",
           "publishedAt": "2026-07-17"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-07-17",
-      "date": "2026-07-17",
-      "generatedAt": "2026-07-16T22:05:22.351Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、MIT Technology Review AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.13172v1 Announce Type: new Abstract: We address the problem of safely training an agent policy and deploying a good and safe policy, in settings where the environment dynamics are unknown and no suitable reward function is available. In the context of safety-critical environments, we consider traditional reinforcement learning impractical and resort to the resource of human input. We introduce DROPJ, a human-centred method for both safe training and deployment. We first learn a world model (a learned simulator) from a dataset of prior real-world trajectories. A human then plays the game in this learned simulator to extract several informative simulated trajectories. From these, we sample pairs of simulated trajectory segments and elicit from a human their preference over these segments, as well as a reason (justification) for their choice. We then train a reward model from the"
-        },
-        {
-          "heading": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.13049v1 Announce Type: new Abstract: Foundation models have given robots a sophisticated brain for complex decision-making, yet deploying that intelligence into a physical platform still demands tedious, expert-driven calibration. This deployment gap, the robot's spinal cord, remains a primary bottleneck to scalable Embodied AI. Hence, we propose SPINE (Scalable Physical Integration with ageNtic Expertise): an agentic framework for systematically debugging and deploying bimanual robots with minimal robotics expertise. SPINE's harness comprises two orchestrated multi-agent workflows: a profile builder that creates robot-specific context, and a debugger that cycles through diagnosis, repair, and validation until teleoperation works. Across seven DOBOT X-Trainer debugging scenarios, a robotics novice using SPINE outperformed human operators using Claude Code with the same referen"
-        },
-        {
-          "heading": "Improving Molecular Property Prediction in Small Language Models Using Graph-based Tools",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.13115v1 Announce Type: new Abstract: Small language models (SLMs) have shown promise for zero-shot molecular property prediction from SMILES strings, yet they often suffer from structural blindness because sequence representations under-specify key graph-topological cues. We propose a modular Context-Augmented Prompting framework that enables agentic tool use at inference time: a trained GNN expert model provides a predictive hint with confidence, and a GNN extracts an instance-specific explanatory subgraph (e.g., a subgraph SMILES and an accompanying explanatory paragraph). We evaluate three commonly used SLMs on MUTAG and Tox21 under five prompting configurations ranging from SMILES-only to using all available tools at hand. Across two datasets, enriching prompts with graph-derived context yields substantial accuracy gains, often exceeding 25% relative improvement and up to "
-        },
-        {
-          "heading": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
-          "body": "MIT Technology Review AIから公開された情報です。概要: OpenAI has built an LLM super-hacker called GPT-Red that it uses as a sparring partner to help its other models boost their defenses against cyberattacks. Last week the company released the latest version of its flagship LLM, GPT-5.6. OpenAI says that training it against GPT-Red made the model its most robust release yet. GPT-Red automates…"
-        },
-        {
-          "heading": "Building a restaurant telephony AI host with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic",
-          "body": "AWS Machine Learningから公開された情報です。概要: In this post, we show you how to build a voice ordering system that answers a phone number and takes the order from greeting to confirmation. The system uses Amazon Bedrock AgentCore to host and run the agent and Amazon Nova 2 Sonic for real-time speech, connected to a restaurant backend through the Model Context Protocol (MCP). The walkthrough covers deploying the full stack with AWS Cloud Development Kit (AWS CDK) and bridging a phone call into the agent through a Session Initiation Protocol (SIP) gateway on Amazon Elastic Container Service (Amazon ECS) and AWS Fargate. It also warms the agent session while the phone is still ringing, so the caller never hears dead air."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "MIT Technology Review AI",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Learning Safe Agent Behaviour from Human Preferences and Justifications via World Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.13172",
-          "publishedAt": "2026-07-16"
-        },
-        {
-          "title": "SPINE: Bridging the Cyber-Physical Gap with Agentic AI",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.13049",
-          "publishedAt": "2026-07-16"
-        },
-        {
-          "title": "Improving Molecular Property Prediction in Small Language Models Using Graph-based Tools",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.13115",
-          "publishedAt": "2026-07-16"
-        },
-        {
-          "title": "Meet GPT-Red: an LLM super-hacker OpenAI built to make its models safer",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/07/15/1140514/meet-gpt-red-an-llm-super-hacker-openai-built-to-make-its-models-safer/",
-          "publishedAt": "2026-07-15"
-        },
-        {
-          "title": "Building a restaurant telephony AI host with Amazon Bedrock AgentCore and Amazon Nova 2 Sonic",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-a-restaurant-telephony-ai-host-with-amazon-bedrock-agentcore-and-amazon-nova-2-sonic/",
-          "publishedAt": "2026-07-16"
-        },
-        {
-          "title": "Gemma 4 gets a stealth update that fixes tool calling bugs and truncated responses under the same name",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/gemma-4-gets-a-stealth-update-that-fixes-tool-calling-bugs-and-truncated-responses-under-the-same-name/",
-          "publishedAt": "2026-07-16"
-        },
-        {
-          "title": "OriginBlame: Record- and Token-Level Data Provenance for AI Training Datasets",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.13037",
-          "publishedAt": "2026-07-16"
-        },
-        {
-          "title": "Interventional Grounding Audits: Black-Box Premise-Dependency Tests for LLM Chain-of-Thought via Predicate Substitution",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.13069",
-          "publishedAt": "2026-07-16"
         }
       ]
     }
