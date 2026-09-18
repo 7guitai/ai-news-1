@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-09-17T23:26:21.630Z",
+  "updatedAt": "2026-09-18T23:07:09.070Z",
   "articles": [
+    {
+      "id": "ai-news-2026-09-19",
+      "date": "2026-09-19",
+      "generatedAt": "2026-09-18T23:07:09.066Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.19203v1 Announce Type: new Abstract: AI applications have shifted from single, monolithic foundation models (FM) to compound agentic systems. Yet today's stacks remain fragmented: even as protocols (e.g., MCP, A2A) ease tool/agent connectivity, each framework embeds an implicit runtime for state, memory, budgets, and guardrails, making behavior non-portable and governance brittle. It mirrors computing before operating systems, when every program re-implemented basic services. This position paper argues that the field now needs a Foundation Model Operating System (FMOS) -- a system layer that virtualizes FM interactions analogous to how virtual machines abstract physical hardware, giving applications the illusion of dedicated, trustworthy FM instances with effectively unbounded capabilities. Internally, the FMOS orchestrates knowledge across memory tiers, model selection and re"
+        },
+        {
+          "heading": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.19244v1 Announce Type: new Abstract: Conversational LLM agents increasingly rely on Web search, yet the end-to-end lifecycle of agentic search remains poorly understood. We present the first study of Web search across four major conversational platforms (ChatGPT, Claude, Grok, and DeepSeek), combining real-world user interactions (invivo) with controlled experiments using the same platform's models by their APIs (invitro). We investigate the quality of agentic decisions to invoke Web search, their strategies to formulate queries, the potential domain preferences in the search results they receive, and the choices they make when transforming search results into grounded responses. We find that Web-search decisions vary substantially across platforms and models, while more frequent Web-search invocation does not necessarily yield better response quality. We further show that con"
+        },
+        {
+          "heading": "MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.19391v1 Announce Type: new Abstract: LLM coding agents now generate complex programs at a scale that makes thorough human review increasingly difficult, raising the risk of safety and security failures. Common approaches, including fuzz testing, static analysis, and LLM-as-a-Verifier, can detect many failures but struggle to cover all possible edge cases. Formal verification addresses this by providing machine-checkable guarantees over specified properties, but traditionally demands substantial manual specification and proof engineering. We introduce a unified multi-agent framework, MAGS, that generates executable programs with formal safety guarantees, using Dafny as a verification-aware intermediate representation where safety properties can be mechanically checked. MAGS formalizes and freezes human-audited APIs and safety requirements, translates generated code into Dafny, "
+        },
+        {
+          "heading": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+          "body": "AWS Machine Learningから公開された情報です。概要: Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanced knowledge retrieval while reducing infrastructure management. The framework-agnostic pattern applies across healthcare, financial services, and manufacturing."
+        },
+        {
+          "heading": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+          "body": "AWS Machine Learningから公開された情報です。概要: Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.19203",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.19244",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.19391",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "Visible chains of thought are a safety advantage for AI, but that transparency is slipping away",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/visible-chains-of-thought-are-a-safety-advantage-for-ai-but-that-transparency-is-slipping-away/",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.19180",
+          "publishedAt": "2026-09-18"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-18",
       "date": "2026-09-18",
@@ -6057,109 +6160,6 @@
           "title": "Safety and alignment in an era of long-horizon models",
           "source": "OpenAI",
           "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-          "publishedAt": "2026-07-20"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-07-21",
-      "date": "2026-07-21",
-      "generatedAt": "2026-07-20T22:02:15.848Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、The Decoder、OpenAI、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Cura 1T: Specialized Model for Agentic Healthcare",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.15314v1 Announce Type: new Abstract: Healthcare spans high-stakes communication, expert reasoning, and workflow execution, yet specialized LLMs that cover these use cases together remain limited. A healthcare model must handle patient consultation, clinical reasoning over text and images, interactive diagnosis, and electronic health record (EHR) tool use. These capabilities fail in different ways, and a narrow update for one task can degrade another. We present Cura 1T, a healthcare-specialized LLM trained through a human-gated self-evolution loop. In each evolution round, a training agent plans a target capability, trains the model, evaluates benchmark trajectories, and refines the data mixture from observed failures. This data-centered loop improves the model through targeted synthetic and curated examples rather than a single generic medical-data update. Across the healthca"
-        },
-        {
-          "heading": "Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back",
-          "body": "The Decoderから公開された情報です。概要: Hugging Face reports an attack on parts of its production infrastructure that was allegedly carried out entirely by an autonomous AI agent system. The attack spanned thousands of actions controlled by an agent framework. During forensic analysis, commercial AI models actually got in the way of the defenders because their safety guardrails couldn't tell exploit data from real attacks. The article Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back appeared first on The Decoder ."
-        },
-        {
-          "heading": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.15280v1 Announce Type: new Abstract: Sequential diagnosis requires balancing diagnostic accuracy against resource costs through iterative information gathering. Existing Large Language Model (LLM) approaches exhibit a critical knowledge-reasoning gap: despite encoding extensive medical knowledge, they struggle to reason systematically under cost constraints, often resorting to excessive testing. We propose GraphDx, a knowledge-enhanced framework with two core innovations. First, we design an automated pipeline that leverages LLMs to construct Medical Diagnosis Knowledge Graphs (MDKGs) with quantized typicality, action-centric topology, and dual-objective attributes for both diagnostic relevance and cost-sensitivity. Second, we introduce three collaborative agents (Perception, Reasoning, and Decision) where the Perception and Decision Agents handle language understanding and ge"
-        },
-        {
-          "heading": "Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.15281v1 Announce Type: new Abstract: Causal and intervention-based question answering is fundamental to advancing large language models (LLMs) toward reasoning beyond surface-level correlations and understanding underlying causal mechanisms. However, existing LLM-based methods often rely on implicit language-level reasoning, resulting in opaque causal assumptions, unverifiable reasoning paths, and fragile predictions under complex interventions, particularly in context-free settings. In this paper, we propose an explicit and auditable causal reasoning framework for context-free intervention-based question answering. Our method formulates causal inference as structured reasoning over an explicit causal graph through four modular stages, rather than implicit end-to-end prediction. A key innovation is a target-aware causal graph construction strategy that treats the target variab"
-        },
-        {
-          "heading": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.15367v1 Announce Type: new Abstract: Desktop voice assistants are still dominated by cloud pipelines that ship raw audio off the machine and expose a fixed set of skills. We describe AnovaX, a small local-first assistant that runs entirely on the user's computer and treats the desktop itself as its action surface. A single Python process wires together a wake-word gate, a speech pipeline, an LLM planner (Gemini) that emits a JSON plan of tool calls, a whitelist-and-denylist safety layer, a multi-agent orchestrator that translates each plan into typed child agents on a bounded thread pool, and an adaptive recovery loop that takes over whenever a core step fails. Every tool corresponds to a specialized agent class (AppAgent, TypingAgent, BrowserAgent and six others) with its own timeout, retry policy, and shared-resource locks. A recursive MetaAgent lets the planner delegate a s"
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "The Decoder",
-        "OpenAI"
-      ],
-      "sources": [
-        {
-          "title": "Cura 1T: Specialized Model for Agentic Healthcare",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.15314",
-          "publishedAt": "2026-07-20"
-        },
-        {
-          "title": "Hugging Face says an AI agent hacked its infrastructure, and it used AI to fight back",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back/",
-          "publishedAt": "2026-07-20"
-        },
-        {
-          "title": "GraphDx: A Cost-Aware Knowledge-Enhanced Multi-Agent Framework for Sequential Diagnosis",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.15280",
-          "publishedAt": "2026-07-20"
-        },
-        {
-          "title": "Causal-Audit: Explicit and Auditable Graph-based Reasoning via Target-Aware Causal Chain Construction",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.15281",
-          "publishedAt": "2026-07-20"
-        },
-        {
-          "title": "AnovaX: A Local, Multi-Agent Voice Assistant with LLM Planning, Typed Executors, and Adaptive Recovery",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.15367",
-          "publishedAt": "2026-07-20"
-        },
-        {
-          "title": "Safety and alignment in an era of long-horizon models",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-          "publishedAt": "2026-07-20"
-        },
-        {
-          "title": "AI is more likely than humans to form biases when hiring",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/07/20/1140655/ai-biases-hiring-humans/",
-          "publishedAt": "2026-07-20"
-        },
-        {
-          "title": "DrawingVQA: A Real-World Benchmark for Multi-Depth Visual-Textual Reasoning on Construction Drawings",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.15418",
           "publishedAt": "2026-07-20"
         }
       ]
