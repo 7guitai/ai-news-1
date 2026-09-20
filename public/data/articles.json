@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-09-19T22:44:39.477Z",
+  "updatedAt": "2026-09-20T23:03:56.697Z",
   "articles": [
+    {
+      "id": "ai-news-2026-09-21",
+      "date": "2026-09-21",
+      "generatedAt": "2026-09-20T23:03:56.693Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+          "body": "The Decoderから公開された情報です。概要: Alibaba's Qwen team has released Qwen-Image-2.1, an open-weight model that generates and edits images on powerful consumer GPUs, with support for transparency and up to ten reference images at once. Its research license bars commercial use, which requires a separate Qwen license. The article Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters appeared first on The Decoder ."
+        },
+        {
+          "heading": "Runway wants to turn AI video generation into a live stream you control in real time",
+          "body": "The Decoderから公開された情報です。概要: Runway wants to stream AI video as users prompt it, rather than make them wait for finished clips. The approach builds on GWM-1, its world model that generates video frame by frame. Beyond creative tools, Runway sees uses in robotics and autonomous driving. The article Runway wants to turn AI video generation into a live stream you control in real time appeared first on The Decoder ."
+        },
+        {
+          "heading": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
+          "body": "The Decoderから公開された情報です。概要: Qwen3.8-Omni-Flash is Qwen's first multimodal model designed for AI agents. It processes audio and video together and independently uses tools to edit vlogs, translate clips, or summarize movies. On audio-video benchmarks, it nearly matches Gemini 3.8 Flash at a fraction of the API cost. The article Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks appeared first on The Decoder ."
+        },
+        {
+          "heading": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+          "body": "AWS Machine Learningから公開された情報です。概要: Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanced knowledge retrieval while reducing infrastructure management. The framework-agnostic pattern applies across healthcare, financial services, and manufacturing."
+        },
+        {
+          "heading": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+          "body": "AWS Machine Learningから公開された情報です。概要: Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "title": "Runway wants to turn AI video generation into a live stream you control in real time",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "title": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/",
+          "publishedAt": "2026-09-19"
+        },
+        {
+          "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
+          "publishedAt": "2026-09-18"
+        },
+        {
+          "title": "Trump announces \"AI Force\" and plans for an \"AI czar\" as he pushes unchecked AI growth",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/",
+          "publishedAt": "2026-09-20"
+        },
+        {
+          "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
+          "publishedAt": "2026-09-18"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-20",
       "date": "2026-09-20",
@@ -6058,108 +6160,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/poolsides-laguna-s-2-1-is-a-small-open-weight-coding-model-that-punches-well-above-its-size/",
           "publishedAt": "2026-07-23"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-07-23",
-      "date": "2026-07-23",
-      "generatedAt": "2026-07-22T22:06:02.446Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.18246v1 Announce Type: new Abstract: We present Phionyx, a deterministic AI runtime architecture derived from the broader Echoism interaction framework that introduces a governance-first approach to AI engineering: treating large language model (LLM) outputs as noisy sensor measurements rather than direct decisions. Unlike probabilistic agents, Phionyx enforces deterministic state evolution via a structured state vector governed by deterministic state-evolution equations, enabling reproducible behavior in applications requiring auditability and governance. The architecture integrates three layers: (1) a deterministic evaluation kernel processing noisy sensor measurements through a canonical 46-block pipeline, (2) a unified safety layer providing pre-response control and architectural privacy enforcement, and (3) a semantic time-based memory system implementing impact-weighted "
-        },
-        {
-          "heading": "Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion",
-          "body": "The Decoderから公開された情報です。概要: AMD is investing up to $5 billion in Anthropic. In return, Anthropic will deploy up to 2 gigawatts of MI450 GPUs for training and running its Claude models. For AMD, this is another major deal after Meta and OpenAI as it tries to challenge Nvidia as an AI chip supplier. Critics see these agreements as circular cash flows. The article Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion appeared first on The Decoder ."
-        },
-        {
-          "heading": "Calibrated Selective Fact-Checking via Evidence Chain Evaluation",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.18240v1 Announce Type: new Abstract: Large language models (LLMs) can achieve strong fact-checking accuracy, yet forced binary decisions conceal a critical reliability problem: systems may issue confident verdicts even when supporting evidence is weak, sparse, or internally inconsistent. We address this issue through Evidence Chain Evaluation (ECE), a selective fact-checking framework that permits abstention via an uncertain verdict instead of requiring a true/false decision for every claim. The evaluated system is a tool-using verification agent that gathers evidence through web search, scholarly search, and executable checks, and then returns a structured verdict with confidence and source-level metadata. On ECE-Bench, ECE achieves 91.6% standard accuracy, 93.7% coverage, and 97.8% selective accuracy on answered claims. Although ECE does not outperform the strongest retrieva"
-        },
-        {
-          "heading": "Every frontier AI model tested by Britain's safety institute tried to cheat on cybersecurity evaluations",
-          "body": "The Decoderから公開された情報です。概要: The UK's AI Safety Institute tested five frontier models from OpenAI and Anthropic in cybersecurity evaluations. All five tried to cheat. One even ran code on an external service to access the institute's infrastructure, triggering a security alert. The article Every frontier AI model tested by Britain's safety institute tried to cheat on cybersecurity evaluations appeared first on The Decoder ."
-        },
-        {
-          "heading": "Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost",
-          "body": "The Decoderから公開された情報です。概要: Cisco has released two small, open-source AI models for cybersecurity that detect about 150 times more vulnerabilities per dollar than large AI agents, according to the company's own tests. The article Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.18246",
-          "publishedAt": "2026-07-22"
-        },
-        {
-          "title": "Anthropic will deploy 2 gigawatts of AMD GPUs for Claude in a deal worth up to $5 billion",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-will-deploy-2-gigawatts-of-amd-gpus-for-claude-in-a-deal-worth-up-to-5-billion/",
-          "publishedAt": "2026-07-22"
-        },
-        {
-          "title": "Calibrated Selective Fact-Checking via Evidence Chain Evaluation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.18240",
-          "publishedAt": "2026-07-22"
-        },
-        {
-          "title": "Every frontier AI model tested by Britain's safety institute tried to cheat on cybersecurity evaluations",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/every-frontier-ai-model-tested-by-britains-safety-institute-tried-to-cheat-on-cybersecurity-evaluations/",
-          "publishedAt": "2026-07-22"
-        },
-        {
-          "title": "Cisco bets its small open cybersecurity models can outperform GPT-5.5 at vulnerability detection for a fraction of the cost",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/cisco-bets-its-small-open-cybersecurity-models-can-outperform-gpt-5-5-at-vulnerability-detection-for-a-fraction-of-the-cost/",
-          "publishedAt": "2026-07-22"
-        },
-        {
-          "title": "AI Tool Discovery at Scale: All You Need is DNS",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.18242",
-          "publishedAt": "2026-07-22"
-        },
-        {
-          "title": "From Agent Failure Paths to Quantified Residual Risk: A Compositional Framework for Resilient Agentic AI",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.18243",
-          "publishedAt": "2026-07-22"
-        },
-        {
-          "title": "SAAG: Structured Agent Assessment and Grounding",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.18245",
-          "publishedAt": "2026-07-22"
         }
       ]
     }
