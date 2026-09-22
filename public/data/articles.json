@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-09-21T23:54:43.927Z",
+  "updatedAt": "2026-09-22T23:31:41.529Z",
   "articles": [
+    {
+      "id": "ai-news-2026-09-23",
+      "date": "2026-09-23",
+      "generatedAt": "2026-09-22T23:31:41.525Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoder、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly relevant token among many irrelevant ones. We call this failure mode mean dilution and propose RBS-Attention, a training-free sparse-prefill method with two complementary selection branches. A centroid base branch captures average relevance, while a rescue branch uses the maximum key-block radius and its prompt-, layer-, and head-dependent distribution to identify blocks at risk of underestimation. Independently thresholding the two branches and combining their masks controls the contribution of rescue blocks while preserving regular block-sparse FlashAttention execution. On H100 GPUs, RBS-Attention "
+        },
+        {
+          "heading": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt DINOv3 Vision Transformer (ViT) models to underwater SAS ATR using a three-stage parameter-efficient framework. Stage 1 uses Low-Rank Adaptation (LoRA) while freezing the ViT backbone, bridging the gap between natural-image pretraining and underwater acoustic propagation. Stage 2 uses hard-negative mining to strengthen the decision boundary against acoustic mimics, including rocks and sediment formations resembling man-made targets. Stage 3 uses Supervised Contrastive Learning (SupCon) to separate target and clutter representations. We evaluate at-sea SAS data using a mission-level geographic split, compare all ar"
+        },
+        {
+          "heading": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.21139v1 Announce Type: new Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framework using CeNN-inspired cellular-recurrent layers with bounded local processing, compact recurrent memory, routing, fusion, and accept-or-rollback validation. Three implementations are studied: Integrated Memory, MemoryFusion, and PDelta3-GDN2-CLVR+Local32. Strict PDelta3 conversion accepts a layer only when representation and NLL criteria pass fixed thresholds. On SmolLM2-135M, layers 0-2 are accepted with cumulative $\\Delta\\mathrm{NLL}=+0.01209$, while layer 3 is rejected despite acceptable NLL because representation fidelity fails. On Qwen3.5-0.8B, full-attention layers 3, 7, and 11 are accepted with final $\\De"
+        },
+        {
+          "heading": "Claude Opus 5.5 is now available on AWS",
+          "body": "AWS Machine Learningから公開された情報です。概要: Claude Opus 5.5, Anthropic's most capable Opus model for agentic coding, knowledge work, and long-running tasks, is now available on Amazon Bedrock and Claude Platform on AWS. This post covers what's new in Opus 5.5, practical guidance, and how to start building with the model on Amazon Bedrock."
+        },
+        {
+          "heading": "Xiaomi's affordable flagship AI leads the open models, and Anthropic says Claude helped get it there",
+          "body": "The Decoderから公開された情報です。概要: With MiMo-V2.6-Pro, Xiaomi moves to the top of the openly available AI models and drastically undercuts the competition on price. What makes that possible is massive reinforcement learning that cost $2.62 million. But the success comes with a catch: Anthropic accuses the company of siphoning off training data from Claude. The article Xiaomi's affordable flagship AI leads the open models, and Anthropic says Claude helped get it there appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.20971",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.21061",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "title": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.21139",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "title": "Claude Opus 5.5 is now available on AWS",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/claude-opus-5-5-is-now-available-on-aws/",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "title": "Xiaomi's affordable flagship AI leads the open models, and Anthropic says Claude helped get it there",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/xiaomis-affordable-flagship-ai-leads-the-open-models-and-anthropic-says-claude-helped-get-it-there/",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "title": "OpenAI says its internal model solved over 100 long-standing math problems after just a month of training",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-says-its-internal-model-solved-over-100-long-standing-math-problems-after-just-a-month-of-training/",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.21113",
+          "publishedAt": "2026-09-22"
+        },
+        {
+          "title": "Priorities and principles for effective third party assessments",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/priorities-principles-third-party-assessments",
+          "publishedAt": "2026-09-22"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-22",
       "date": "2026-09-22",
@@ -6056,109 +6159,6 @@
           "title": "Microsoft's open-weight AI push is so obviously an Azure play it hurts",
           "source": "The Decoder",
           "url": "https://the-decoder.com/microsofts-open-weight-ai-push-is-so-obviously-an-azure-play-it-hurts/",
-          "publishedAt": "2026-07-24"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-07-25",
-      "date": "2026-07-25",
-      "generatedAt": "2026-07-24T22:07:01.478Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.20467v1 Announce Type: new Abstract: While parallel decoding is central to the efficiency of Diffusion Large Language Models (dLLMs), current strategies are often hindered by overly conservative confidence thresholds. These thresholds, necessitated by the Joint Probability Dependence Error (JPDE), result in redundant denoising iterations and suboptimal inference speeds. To overcome this, we propose DC-Leap, a training-free framework that enables reliable acceleration of dLLMs in the moderate-confidence regime. DC-Leap introduces a Dynamic Contiguous Verification strategy that integrates strictly-ordered causal constraints into the parallel decoding process. By progressively validating token dependencies, this mechanism effectively neutralizes the JPDE, enabling reliable acceleration with comparable performance. Furthermore, DC-Leap incorporates the draft-guided decoding mechan"
-        },
-        {
-          "heading": "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.20468v1 Announce Type: new Abstract: AI agents are increasingly used to automate research and development tasks, yet existing benchmarks typically evaluate them on prescribed workflows or narrow action spaces. Even nominally open-ended tasks can often be solved by retrieving a well-known recipe and tuning a few hyperparameters, making it unclear whether strong results reflect genuine optimization or memorized solutions. We introduce InferenceBench, where an agent must deploy an OpenAI-compatible inference server and optimize the speed of LLM inference. Each agent receives a target LLM, one H100 GPU, an optimization scenario, and a wall-clock time budget of two hours. Three optimization scenarios isolate distinct bottlenecks of inference (prefill latency, decode latency, and concurrent request throughput) and a fourth balances all three at the same time. Across 15 frontier agen"
-        },
-        {
-          "heading": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
-          "body": "AWS Machine Learningから公開された情報です。概要: This post covers Opus 5’s improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock. See the documentation for Claude Platform on AWS."
-        },
-        {
-          "heading": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
-          "body": "AWS Machine Learningから公開された情報です。概要: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock. Learn how to select a model, run inference through the Responses API on the bedrock-mantle endpoint, reduce cost with prompt caching, connect the OpenAI Codex coding agent, and plan for quotas and scaling."
-        },
-        {
-          "heading": "ClickGuard: Detecting and Spoiling Clickbait News with Informativeness Measures and Large Language Models",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.20463v1 Announce Type: new Abstract: This paper presents an AI-driven browser extension that identifies clickbait to help users avoid misleading Internet articles. Moving beyond traditional detection, the application employs a hybrid machine learning architecture that combines transformer-based embeddings with linguistically motivated features and a custom \"baitness\" score. After evaluating various natural language processing techniques -- from classic vectorizers to large language model (LLM) embeddings -- an XGBoost-based model was developed that achieves an F1-score of 91% on the open combined dataset. Most importantly, the tool can warn users before and after they access a clickbait article. After opening an article, the user receives a percentage score indicating the likelihood that it is clickbait. The prediction is explained based on the analyzed metrics, including thos"
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "DC-Leap: Training-Free Acceleration of dLLMs via Draft-Guided Contiguous Leaping Decoding",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.20467",
-          "publishedAt": "2026-07-24"
-        },
-        {
-          "title": "InferenceBench: A Benchmark for Open-Ended LLM Inference Optimization by AI Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.20468",
-          "publishedAt": "2026-07-24"
-        },
-        {
-          "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/",
-          "publishedAt": "2026-07-24"
-        },
-        {
-          "title": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/",
-          "publishedAt": "2026-07-24"
-        },
-        {
-          "title": "ClickGuard: Detecting and Spoiling Clickbait News with Informativeness Measures and Large Language Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.20463",
-          "publishedAt": "2026-07-24"
-        },
-        {
-          "title": "Building trade assistant: How Jefferies optimized front office trading operations with AI",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-trade-assistant-how-jefferies-optimized-front-office-trading-operations-with-ai/",
-          "publishedAt": "2026-07-23"
-        },
-        {
-          "title": "German AI consortium releases Soofi S, an open 30B model that tops benchmarks in both English and German",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
-          "publishedAt": "2026-07-24"
-        },
-        {
-          "title": "AINTMA: Agentic AI Architecture for Autonomous Test Management with Generative Intelligence, Secure Cloud Communication and Adaptive Quality Analytics",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.20452",
           "publishedAt": "2026-07-24"
         }
       ]
