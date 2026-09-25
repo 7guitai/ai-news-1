@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-09-24T23:47:28.938Z",
+  "updatedAt": "2026-09-25T23:52:53.814Z",
   "articles": [
+    {
+      "id": "ai-news-2026-09-26",
+      "date": "2026-09-26",
+      "generatedAt": "2026-09-25T23:52:53.807Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、arXiv AI、The Decoder、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the trained LoRA adapter for inference."
+        },
+        {
+          "heading": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.28506v1 Announce Type: new Abstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic category, multi-step systems that use agents or language models to reason about, generate or select forecasts. TW3Cast runs no agent and no language model. Its selection is a table computed once on the training split and then frozen, and its experts are public foundation models lightly fine-tuned on those training splits. For each of the 97 dataset, frequency and horizon configurations, the table serves one of four modes: a specialist, which is a LoRA or full fine-tune of Chronos-2, TiRex or Toto whose training data was cleaned and enriched by explicit rules; a quantile blend that contains a specialist; a blend of base models; or a sele"
+        },
+        {
+          "heading": "Pistis Technical Report",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.28554v1 Announce Type: new Abstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively, and developed through a general and scalable post-training framework. The framework first establishes a strong foundation through large-scale multimodal supervised fine-tuning (SFT). Building on this SFT foundation, we propose Interleaved Distillation and Reinforcement Learning (IDRL), a novel post-training paradigm that tightly integrates on-policy distillation and reinforcement learning within a single training loop. By alternating between the two objectives, rather than optimizing either in isolation or combining them in a static joint loss, IDRL enables more effective knowledge transfer, greater optimization stability, and more precise credit assignment for long-horizon agentic trajectories,"
+        },
+        {
+          "heading": "Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.28609v1 Announce Type: new Abstract: Role-playing agents based on large language models have been widely applied in areas such as personalized assistance and social simulation. Recent RL methods typically train on a fixed scenario pool collected before learning begins. This creates a distributional bottleneck: as the agent improves, the scenarios where it performs poorly also change, while the training distribution remains static. Therefore, we propose AdvRole, an adversarial context rewriting framework that turns role-playing RL into a closed-loop curriculum. AdvRole alternates between an Actor that learns to role-play and a Rewriter that edits character profiles and dialogue contexts into actor-specific hard scenarios. The Rewriter is trained with a performance-gap reward, which favors rewrites that reduce the current Actor's score relative to the original scenario. As a res"
+        },
+        {
+          "heading": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
+          "body": "The Decoderから公開された情報です。概要: Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called \"Autopilot.\" Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, according to Microsoft. For Autopilot and Code, the company is also switching to usage-based billing instead of flat-rate pricing, moving further away from its AI subsidy model. The article Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.28506",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "title": "Pistis Technical Report",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.28554",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "title": "Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.28609",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "title": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.28475",
+          "publishedAt": "2026-09-25"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-25",
       "date": "2026-09-25",
@@ -6059,109 +6162,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/",
           "publishedAt": "2026-07-28"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-07-28",
-      "date": "2026-07-28",
-      "generatedAt": "2026-07-27T22:10:40.375Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
-          "body": "The Decoderから公開された情報です。概要: Microsoft introduces MAI-Cyber-1-Flash, a compact security model that scores 96 percent on the CyberGym benchmark when embedded in its MDASH multi-agent system. Microsoft says costs should drop by 50 percent compared to pure frontier models, since only tough cases get passed to GPT-5.4. For complex reasoning, Microsoft still relies on OpenAI. The article Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks appeared first on The Decoder ."
-        },
-        {
-          "heading": "Delhi High Court hands OpenAI a win by rejecting major Indian news agency's copyright injunction",
-          "body": "The Decoderから公開された情報です。概要: The Delhi High Court has handed OpenAI a major win in its copyright fight with news agency ANI. For the first time, a court has classified AI training as private use. ANI undermined its own case by citing articles published after the models were trained. The main trial is still pending. The article Delhi High Court hands OpenAI a win by rejecting major Indian news agency's copyright injunction appeared first on The Decoder ."
-        },
-        {
-          "heading": "METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
-          "body": "The Decoderから公開された情報です。概要: METR's new metric, the \"expenditure horizon,\" puts a dollar figure on how cost-effective AI agents are at solving problems. Early results on the NanoGPT speedrun are underwhelming, the metric has blind spots, and the newest generation of models could change the picture. The article METR introduces a new metric to calculate exactly when AI agents become more expensive than humans appeared first on The Decoder ."
-        },
-        {
-          "heading": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
-          "body": "AWS Machine Learningから公開された情報です。概要: This post covers Opus 5’s improvements and practical guidance for AI engineers integrating the model into agentic systems and production inference workloads on Amazon Bedrock. See the documentation for Claude Platform on AWS."
-        },
-        {
-          "heading": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
-          "body": "AWS Machine Learningから公開された情報です。概要: OpenAI GPT-5.6 Sol, Terra, and Luna are now generally available on Amazon Bedrock. Learn how to select a model, run inference through the Responses API on the bedrock-mantle endpoint, reduce cost with prompt caching, connect the OpenAI Codex coding agent, and plan for quotas and scaling."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "Microsoft launches its own cybersecurity model MAI-Cyber-1-Flash but still depends on OpenAI for the toughest tasks",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/",
-          "publishedAt": "2026-07-27"
-        },
-        {
-          "title": "Delhi High Court hands OpenAI a win by rejecting major Indian news agency's copyright injunction",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/",
-          "publishedAt": "2026-07-27"
-        },
-        {
-          "title": "METR introduces a new metric to calculate exactly when AI agents become more expensive than humans",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/",
-          "publishedAt": "2026-07-27"
-        },
-        {
-          "title": "Introducing Claude Opus 5 on AWS: Anthropic’s most capable Opus model",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-opus-5-on-aws-anthropics-most-capable-opus-model/",
-          "publishedAt": "2026-07-24"
-        },
-        {
-          "title": "Get started with OpenAI GPT-5.6 Sol, Terra, and Luna on Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/get-started-with-openai-gpt-5-6-sol-terra-and-luna-on-amazon-bedrock/",
-          "publishedAt": "2026-07-24"
-        },
-        {
-          "title": "Moonshot AI releases Kimi K3 open weights and infrastructure after shaking up the frontier model race",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/",
-          "publishedAt": "2026-07-27"
-        },
-        {
-          "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
-          "publishedAt": "2026-07-27"
-        },
-        {
-          "title": "Deepgram enhances Amazon SageMaker AI support with AWS IAM Temporary Delegation",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/deepgram-enhances-amazon-sagemaker-ai-support-with-aws-iam-temporary-delegation/",
-          "publishedAt": "2026-07-27"
         }
       ]
     }
