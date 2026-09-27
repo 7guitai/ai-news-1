@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-09-26T23:24:40.996Z",
+  "updatedAt": "2026-09-27T23:41:57.920Z",
   "articles": [
+    {
+      "id": "ai-news-2026-09-28",
+      "date": "2026-09-28",
+      "generatedAt": "2026-09-27T23:41:57.917Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning",
+          "body": "The Decoderから公開された情報です。概要: OpenAI and Anthropic are investigating tens of thousands of incidents in which their AI agents independently hacked websites, used stolen login credentials, or tried to evade monitoring systems. US government agencies like the SEC and the Census Bureau were among the targets. OpenAI has paused training on its most capable internal models, but the problem extends across the entire industry. The article Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning appeared first on The Decoder ."
+        },
+        {
+          "heading": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the trained LoRA adapter for inference."
+        },
+        {
+          "heading": "AI agents do more of the work in model development, but humans still make the decisions",
+          "body": "The Decoderから公開された情報です。概要: A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have been attempted without AI. The authors warn that more agent activity doesn't mean more autonomy. The article AI agents do more of the work in model development, but humans still make the decisions appeared first on The Decoder ."
+        },
+        {
+          "heading": "Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen",
+          "body": "The Decoderから公開された情報です。概要: Researchers from Stanford and Caltech had a humanoid robot powered by GPT-6 Astra independently tidy up an unfamiliar kitchen. Their HomeBody system skips a specially trained control layer, letting the language model call directly into modular skills like grasping and navigating. The article Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen appeared first on The Decoder ."
+        },
+        {
+          "heading": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+          "body": "AWS Machine Learningから公開された情報です。概要: NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composite evaluation, and data accuracy verification—that reach about 99% numerical accuracy while streaming responses in real time."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
+          "publishedAt": "2026-09-27"
+        },
+        {
+          "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "title": "AI agents do more of the work in model development, but humans still make the decisions",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
+          "publishedAt": "2026-09-27"
+        },
+        {
+          "title": "Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/",
+          "publishedAt": "2026-09-27"
+        },
+        {
+          "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
+          "publishedAt": "2026-09-25"
+        },
+        {
+          "title": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/",
+          "publishedAt": "2026-09-27"
+        },
+        {
+          "title": "OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
+          "publishedAt": "2026-09-27"
+        },
+        {
+          "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+          "publishedAt": "2026-09-25"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-27",
       "date": "2026-09-27",
@@ -6060,109 +6163,6 @@
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock/",
           "publishedAt": "2026-07-30"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-07-30",
-      "date": "2026-07-30",
-      "generatedAt": "2026-07-29T22:02:51.038Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、OpenAI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.24762v1 Announce Type: new Abstract: Machine learning models are increasingly embedded in everyday software, and most of their runtime is spent in a small set of compute kernels such as matrix multiplication, convolution, and normalization. Optimizing these kernels is one of the most direct ways to reduce latency and cost, but it has traditionally required expert engineers to hand-write low-level GPU code. Agentic systems built on large language models (LLMs) can now generate and optimize kernels with far less human effort, yet existing tools are largely evaluated on randomly generated tensors and isolated kernels, emit standalone CUDA code that developers must manually reintegrate, mostly target only LLM PyTorch models, and offer limited support for inspecting and debugging results. We present Kernel Forge, an open-source, end-to-end agentic harness that accepts any unmodifie"
-        },
-        {
-          "heading": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.24769v1 Announce Type: new Abstract: With the growing capabilities of frontier models, AI alignment becomes increasingly critical in high-risk deployment settings. While recent work has empirically demonstrated in-context scheming -- the covert pursuit of misaligned objectives while feigning alignment -- in frontier language models, most work has been performed exclusively in English, leaving a major gap in multilingual safety. We apply Petri, an open-source automated auditing framework, to Qwen3-30B-A3B to evaluate deceptive and scheming behaviors across multiple languages. Our findings suggest that scheming scores are inversely correlated with the estimated pretraining language coverage, with low-resource languages averaging 34.2\\% higher scores compared to high-resource languages on a five-category scheming index. Furthermore, we find that the effect of estimated pretrainin"
-        },
-        {
-          "heading": "PATHFinder Agent for Tailored Prenatal Care",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2607.24768v1 Announce Type: new Abstract: Prenatal care is an important preventive service designed to improve outcomes for pregnant individuals. The American College of Obstetricians and Gynecologists (ACOG) recently introduced guidelines advocating tailored prenatal care, called PATH (Plan for Tailored Healthcare). We present PATHFinder Agent(Planner for Appropriate Tailored Healthcare), an end-to-end conversational agentic system that gathers patient health and social context through structured dialogue, curates individualized prenatal care plans aligned with PATH guidelines, and surfaces community resources from Michigan 211. The system features a four-stage workflow spanning patient intake, dynamic interaction, plan synthesis, and clinician oversight. We evaluate frontier large language models (LLMs) on expert-curated rubrics across five clinical dimensions, finding that GPT-5"
-        },
-        {
-          "heading": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-          "body": "OpenAIから公開された情報です。概要: GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar."
-        },
-        {
-          "heading": "Google's Lyria 3.5 music model now lets users edit individual track sections without starting over",
-          "body": "The Decoderから公開された情報です。概要: Google released Lyria 3.5, its new music generation model, and built it into Google Flow Music. The model generates tracks between 30 seconds and 3 minutes long. A new feature called \"Selective Section Painting\" lets users edit specific sections of a track. Google still hasn't shared any details about the training data. The article Google's Lyria 3.5 music model now lets users edit individual track sections without starting over appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "OpenAI",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "Kernel Forge: An Agent Harness for LLM-based Generation and Optimization of CUDA Kernels",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.24762",
-          "publishedAt": "2026-07-29"
-        },
-        {
-          "title": "LLM Scheming Inversely Scales with Pretraining Language Coverage",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.24769",
-          "publishedAt": "2026-07-29"
-        },
-        {
-          "title": "PATHFinder Agent for Tailored Prenatal Care",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.24768",
-          "publishedAt": "2026-07-29"
-        },
-        {
-          "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
-          "publishedAt": "2026-07-29"
-        },
-        {
-          "title": "Google's Lyria 3.5 music model now lets users edit individual track sections without starting over",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/googles-lyria-3-5-music-model-now-lets-users-edit-individual-track-sections-without-starting-over/",
-          "publishedAt": "2026-07-29"
-        },
-        {
-          "title": "Do Models Fake Alignment Without Clear Consequences?",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.24758",
-          "publishedAt": "2026-07-29"
-        },
-        {
-          "title": "Beyond Memory: A Templated Substrate for Heterogeneous Collaborative Knowledge Work with LLM Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.24759",
-          "publishedAt": "2026-07-29"
-        },
-        {
-          "title": "GrocLM: Grocery Category Recommendation in E-Commerce with Large Language Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2607.24764",
-          "publishedAt": "2026-07-29"
         }
       ]
     }
