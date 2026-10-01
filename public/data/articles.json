@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-09-30T00:08:05.849Z",
+  "updatedAt": "2026-10-01T00:24:58.449Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-01",
+      "date": "2026-10-01",
+      "generatedAt": "2026-10-01T00:24:58.445Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.35868v1 Announce Type: new Abstract: Is human readability necessary for effective fine-tuning of large language models? We investigate whether model-conditioned training representations can preserve or improve adaptation utility without requiring a human-readable textual form. We propose Desired-Update-Aligned Synthetic Data (DASA), which uses activation-gradient feedback from a frozen reference model to guide the optimization of continuous synthetic input embeddings. Inspired by the role of activation gradients in local risk reduction, DASA targets useful adaptation updates rather than source-text reconstruction or linguistic fluency. The resulting embeddings are used directly for downstream fine-tuning; discrete token projections are employed only for qualitative inspection. Experiments on six models from the Llama and Qwen families, ranging from 1B to 32B parameters, cover "
+        },
+        {
+          "heading": "Beyond Symmetric Agents: Cognitive Diversity and Multi-Agent Debate in Small Language Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.35875v1 Announce Type: new Abstract: Multi-agent debate (MAD) reportedly improves reasoning and factuality over single-model inference, but prior work treats agents as symmetric peers, leaving open what drives the gains. We test the hypothesis that cognitive diversity among agents is the driver, in the setting where the question is still measurable: small open-weight models with benchmark headroom. Across 23 models from eleven vendor families, five tasks, and 5,500+ debate and control runs, we vary diversity along three axes - personas, sampling temperature, and model identity - pairing every debate configuration with a generation-budget-matched majority-vote control. The hypothesis is rejected on every axis. Debate beats single-agent inference (3--7 points where tasks have headroom) but at matched budget conditions it ties or even loses to self-consistency sampling at 1.6$\\ti"
+        },
+        {
+          "heading": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.35799v1 Announce Type: new Abstract: In July 2026, OpenAI's agents coordinated over channels outside their intended environment to breach Hugging Face's secured infrastructure. Could existing alignment testing practices have foreseen this incident? If not, what needs to change? We explore these questions. First, we identify the misaligned behaviors that caused this incident. Then, we show how to elicit these behaviors from publicly available models manually and that auditing agents can do the same if given a large compute budget. Based on our results, we propose directions to improve alignment testing. Concretely, in this project: (1) We reproduce the misaligned AI behaviors that led to the OpenAI-Hugging Face incident in an environment that simulates the original pipelines and tools, with publicly available models. (2) We demonstrate that an auditing agent can elicit similar "
+        },
+        {
+          "heading": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.35873v1 Announce Type: new Abstract: Automated generation of LLM harnesses promises to improve inference through task specialization. Yet additional answer coverage can arise from repeated execution of the same program, making specialization difficult to identify. We introduce a controlled evaluation that separates answer coverage, repeatable task advantages, and gains from pre-execution selection. On 386 MATH-500 tasks, we compare eight generated harnesses plus a baseline with nine byte-identical baseline copies, using three executions per member. Identical programs yield 2.16 percentage points of repeat-averaged oracle headroom. Generated programs exhibit substantially more repeatable score patterns, but these chiefly reveal persistent weaknesses: losses relative to the baseline persist across all three repeats on 100 tasks, while persistent wins occur on only one task and a"
+        },
+        {
+          "heading": "Representational Simplicity and Circuit Size Dissociate in a Threshold-Dependent Way: A Controlled Test via Adversarial Training",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.35890v1 Announce Type: new Abstract: Sparse-autoencoder decomposability and concentrated feature attribution are increasingly treated as evidence that a model's computation is easier to reverse-engineer. Whether this representational and attributional cleanliness actually predicts a smaller or more tractable causal circuit remains an open question. We test this directly using adversarial training as a controlled instrument: it reliably reshapes internal representations, but this alone does not constitute a test of circuit size. We investigate this question through reverse-engineering complexity: the causal structure required to recover a model's behavior at a fixed level of faithfulness. To our knowledge, this is the first controlled empirical test of whether representational or attributional simplicity translates into causal simplicity at the circuit level. Starting from the "
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.35868",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "title": "Beyond Symmetric Agents: Cognitive Diversity and Multi-Agent Debate in Small Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.35875",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "title": "OpenAI-HuggingFace: A Reproduction & Lessons for Alignment Testing",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.35799",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "title": "More Programs or More Rolls? Separating Coverage from Specialization in LLM Harnesses",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.35873",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "title": "Representational Simplicity and Circuit Size Dissociate in a Threshold-Dependent Way: A Controlled Test via Adversarial Training",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.35890",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "title": "Amazon Bedrock expands Claude model availability to in-country inferencing in India",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-expands-claude-model-availability-to-india-cross-region-inference/",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "title": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
+          "publishedAt": "2026-09-30"
+        },
+        {
+          "title": "OpenAI and Synopsys team up to build an AI model that designs chips like a seasoned engineer",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer/",
+          "publishedAt": "2026-09-30"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-09-30",
       "date": "2026-09-30",
@@ -6060,109 +6163,6 @@
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/",
           "publishedAt": "2026-07-31"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-02",
-      "date": "2026-08-02",
-      "generatedAt": "2026-08-01T21:58:58.181Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "MIT Technology Review AI、The Decoder、OpenAI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-          "body": "MIT Technology Review AIから公開された情報です。概要: It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…"
-        },
-        {
-          "heading": "German court rules AI music generator Suno violated copyrights, rejects fair use defense",
-          "body": "The Decoderから公開された情報です。概要: A Munich court ruled that AI music generator Suno violated copyrights through both training and output. The court found six songs reproducibly stored in Suno's models and rejected both Germany's text-and-data-mining exception and the US fair use defense. The ruling isn't final, and several key questions remain open. The article German court rules AI music generator Suno violated copyrights, rejects fair use defense appeared first on The Decoder ."
-        },
-        {
-          "heading": "OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
-          "body": "The Decoderから公開された情報です。概要: OpenAI is building a new model family called \"Astra\" that would let multiple agents tackle complex problems together for hours or even days. CEO Sam Altman has already demoed Astra to policymakers in Washington. OpenAI hasn't decided whether to release it as GPT-6 or a new GPT-5 variant. The article OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions appeared first on The Decoder ."
-        },
-        {
-          "heading": "Advancing responsible AI across Europe",
-          "body": "OpenAIから公開された情報です。概要: OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances."
-        },
-        {
-          "heading": "Inference meta-monitoring for Amazon SageMaker AI endpoints with Amazon Quick",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to build an inference meta-monitoring system for Amazon SageMaker AI endpoints using Amazon Quick. This governance layer sits above production ML inference pipelines to continuously track prediction and data quality, detect drift, integrate delayed ground truth, and surface automated performance dashboards."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "MIT Technology Review AI",
-        "The Decoder",
-        "OpenAI"
-      ],
-      "sources": [
-        {
-          "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
-          "publishedAt": "2026-07-30"
-        },
-        {
-          "title": "German court rules AI music generator Suno violated copyrights, rejects fair use defense",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/german-court-rules-ai-music-generator-suno-violated-copyrights-rejects-fair-use-defense/",
-          "publishedAt": "2026-08-01"
-        },
-        {
-          "title": "OpenAI announces its \"next major model\" Astra by dropping ten previously unsolved math solutions",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-announces-its-next-major-model-astra-by-dropping-ten-previously-unsolved-math-solutions/",
-          "publishedAt": "2026-08-01"
-        },
-        {
-          "title": "Advancing responsible AI across Europe",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-          "publishedAt": "2026-07-31"
-        },
-        {
-          "title": "Inference meta-monitoring for Amazon SageMaker AI endpoints with Amazon Quick",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/inference-meta-monitoring-for-amazon-sagemaker-ai-endpoints-with-amazon-quick/",
-          "publishedAt": "2026-07-30"
-        },
-        {
-          "title": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-          "publishedAt": "2026-07-30"
-        },
-        {
-          "title": "AI coding agents can modernize research software but can't judge if the science is right",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/ai-coding-agents-can-modernize-research-software-but-cant-judge-if-the-science-is-right/",
-          "publishedAt": "2026-08-01"
-        },
-        {
-          "title": "ByteDance's Seedance 2.5 generates 30-second video clips with built-in audio",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/bytedances-seedance-2-5-generates-30-second-video-clips-with-built-in-audio/",
-          "publishedAt": "2026-08-01"
         }
       ]
     }
