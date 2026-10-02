@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-01T00:24:58.449Z",
+  "updatedAt": "2026-10-02T00:35:26.335Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-02",
+      "date": "2026-10-02",
+      "generatedAt": "2026-10-02T00:35:26.331Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.38288v1 Announce Type: new Abstract: We present AREX-2, an effort to advance the self-improving capability of LLM agents, which we define as the ability to iteratively refine a solution at test time. This ability rests on two complementary capabilities: reflection, which produces a solution better than the current one, and long-horizon execution, which keeps the iteration effective over many rounds. We hypothesize that both capabilities are domain-agnostic, and can therefore be learned in scenarios that are well suited for supervision. Accordingly, we synthesize long-horizon improvement trajectories from machine learning and algorithmic programming tasks, two domains that offer verifiable feedback and reward sustained iteration. Trained on this data, our agent, built on Qwen3.8-27B, achieves strong results on MLE-bench Lite (81.8) and Frontier-CS (70.7), transfers to deep rese"
+        },
+        {
+          "heading": "AI Agents are Vulnerable to Radicalization",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.38296v1 Announce Type: new Abstract: Large language models (LLMs) can influence people's beliefs, yet little is known about whether and how they can manipulate each other. To investigate this, we simulate conversations between two agents: a target LLM that role-plays a human persona based on demographic and psychological attributes, and an influencer LLM that aims to make the target's beliefs more extreme. We examine radicalization along two pathways: resonance, where the influencer reinforces a target's pre-existing belief, and persuasion, where the influencer promotes a belief the target initially considers unimportant. Across affective and behavioral metrics, we find that both mechanisms radicalize the target. However, resonance produces consistently stronger effects than persuasion. Different influence tactics, such as using sycophancy and unverified claims, produce differ"
+        },
+        {
+          "heading": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how AWS Professional Services uses a multi-agent framework built on Amazon Bedrock AgentCore to automate enterprise cloud migrations end to end. Purpose-built AI agents handle discovery, infrastructure as code generation, portfolio governance, and post-migration operations, reducing IaC development time from weeks to minutes."
+        },
+        {
+          "heading": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.38282v1 Announce Type: new Abstract: Vision-language models may rewrite anomalous text in images into linguistically plausible expressions, compromising OCR transcription faithfulness. Sequence-level task rewards and local teacher guidance are complementary, but guidance from the same teacher may not remain equally effective as the student improves. Offline analysis shows that supervision from a fixed teacher becomes progressively less favorable as the student improves, both across training checkpoints and across response groups with different task rewards. Motivated by this observation, we introduce GAD-RL, which adaptively regulates teacher supervision during joint post-training according to the student's current task performance and local distributions. A frozen teacher conditions on reference transcriptions and student-generated prefixes. GAD-RL disables distillation for r"
+        },
+        {
+          "heading": "CARAT: Do Materials LLMs Reason or Recite?",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.38340v1 Announce Type: new Abstract: When a materials LLM answers a question about crystal structure, does it reason from the structure or copy an answer already printed in its input? Accuracy cannot tell: a structural description often prints the very field it is scored against. CARAT holds question and gold answer fixed across eight matched views, names each structural relation separately in GraphSpace, and adds matched fine-tuning, answer masking, evidence injection, paired inference, and a rule that can withhold claims. First, on the benchmark's hardest families the grounded view is worth 17.3 points over formula inputs. Second, we turn that scrutiny on ourselves. GraphSpace beats a plain periodic graph by 19.3 points, but that margin is two effects at once: where the plain rendering carries everything the question needs it is 1.96 points, and where it omits those fields e"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "AREX-2: Advancing Self-Improving Agents through Long-Horizon Reflective Tasks",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.38288",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "title": "AI Agents are Vulnerable to Radicalization",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.38296",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "title": "Scaling cloud migrations with agentic AI on Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/scaling-cloud-migrations-with-agentic-ai-on-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "title": "Improving OCR Faithfulness via Gated and Attenuated On-Policy Distillation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.38282",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "title": "CARAT: Do Materials LLMs Reason or Recite?",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.38340",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "title": "Beyond Mode Collapse: Generating Diverse Synthetic Expert Conversations via Generative Flow Networks",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2609.38359",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "title": "Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
+          "publishedAt": "2026-10-01"
+        },
+        {
+          "title": "Ideogram says its new model can edit part of an image without messing up the rest",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ideogram-says-its-new-model-can-edit-part-of-an-image-without-messing-up-the-rest/",
+          "publishedAt": "2026-10-01"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-01",
       "date": "2026-10-01",
@@ -6060,109 +6163,6 @@
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/from-weeks-to-minutes-how-formula-1-uses-agentic-ai-on-aws-to-accelerate-data-operations/",
           "publishedAt": "2026-08-03"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-03",
-      "date": "2026-08-03",
-      "generatedAt": "2026-08-02T21:58:08.718Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "MIT Technology Review AI、The Decoder、OpenAI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-          "body": "MIT Technology Review AIから公開された情報です。概要: It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI conference, this month. The claim has huge implications for the safety of this technology, which…"
-        },
-        {
-          "heading": "After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior",
-          "body": "The Decoderから公開された情報です。概要: Research organization METR is calling for systematic, independently led investigations whenever AI agents act autonomously against their developers' intentions. The push comes partly in response to the Hugging Face hack carried out by OpenAI models. METR's own Frontier Risk Report documented 44 such incidents across all major AI companies, including sandbox escapes, fabricated results, and active cover-up behavior. The article After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior appeared first on The Decoder ."
-        },
-        {
-          "heading": "Advancing responsible AI across Europe",
-          "body": "OpenAIから公開された情報です。概要: OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances."
-        },
-        {
-          "heading": "OpenAI Presence wants to make AI agents production-ready for businesses",
-          "body": "The Decoderから公開された情報です。概要: OpenAI's new enterprise offering, Presence, is designed to get AI agents into production for customer service and internal workflows. Unlike the existing Workspace Agents, Presence targets external deployments. For complex cases, OpenAI's own engineers step in. The article OpenAI Presence wants to make AI agents production-ready for businesses appeared first on The Decoder ."
-        },
-        {
-          "heading": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
-          "body": "The Decoderから公開された情報です。概要: Meta AI wants to stop AI agents from forgetting errors they've already diagnosed and repeating failed steps during complex tasks. A separate memory agent maintains a structured memory bank and decides when to remind the main agent and when to stay silent. The system improved scores by up to 8.3 percentage points across two benchmarks. The article Meta AI uses a second AI agent as a memory coach to keep long tasks on track appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "MIT Technology Review AI",
-        "The Decoder",
-        "OpenAI"
-      ],
-      "sources": [
-        {
-          "title": "A fundamental flaw leaves LLMs strikingly vulnerable to attack",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/",
-          "publishedAt": "2026-07-30"
-        },
-        {
-          "title": "After Hugging Face incident, METR urges independent root-cause investigations into AI agent misbehavior",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/after-hugging-face-incident-metr-urges-independent-root-cause-investigations-into-ai-agent-misbehavior/",
-          "publishedAt": "2026-08-02"
-        },
-        {
-          "title": "Advancing responsible AI across Europe",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
-          "publishedAt": "2026-07-31"
-        },
-        {
-          "title": "OpenAI Presence wants to make AI agents production-ready for businesses",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-presence-wants-to-make-ai-agents-production-ready-for-businesses/",
-          "publishedAt": "2026-08-02"
-        },
-        {
-          "title": "Meta AI uses a second AI agent as a memory coach to keep long tasks on track",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/meta-ai-uses-a-second-ai-agent-as-a-memory-coach-to-keep-long-tasks-on-track/",
-          "publishedAt": "2026-08-02"
-        },
-        {
-          "title": "Inference meta-monitoring for Amazon SageMaker AI endpoints with Amazon Quick",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/inference-meta-monitoring-for-amazon-sagemaker-ai-endpoints-with-amazon-quick/",
-          "publishedAt": "2026-07-30"
-        },
-        {
-          "title": "Introducing explicit prompt caching for OpenAI GPT-5.6 models on Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-explicit-prompt-caching-for-openai-gpt-5-6-models-on-amazon-bedrock/",
-          "publishedAt": "2026-07-30"
-        },
-        {
-          "title": "Announcing the Agentic Catalog Experience in Amazon Quick",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-the-agentic-catalog-experience-in-amazon-quick/",
-          "publishedAt": "2026-07-31"
         }
       ]
     }
