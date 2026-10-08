@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-10-07T00:28:05.068Z",
+  "updatedAt": "2026-10-08T00:48:16.699Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-08",
+      "date": "2026-10-08",
+      "generatedAt": "2026-10-08T00:48:16.695Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.06910v1 Announce Type: new Abstract: Recent advances in Large Language Models (LLMs) have demonstrated remarkable capabilities in web front-end execution, with browser-based game generation emerging as a particularly prominent frontier. While previous efforts frequently rely on complex multi-turn workflows or focus on static game evaluation benchmarks, this work targets direct end-to-end real-world game synthesis driven by coding agents. However, generating complex games directly from sparse user queries often forces coding agents to make underspecified assumptions, yielding incomplete mechanics, disconnected gameplay flows, and limited visual aesthetics. To resolve this issue, this paper presents GameGo, a scalable framework that systematically transforms brief game seeds into comprehensive Product Requirements Documents grounded in industry game-development practices. To ret"
+        },
+        {
+          "heading": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.06923v1 Announce Type: new Abstract: Artificial intelligence has advanced individual radiotherapy tasks, yet these capabilities remain separated across clinical stages, software environments and data modalities. This fragmentation contrasts with the longitudinal radiotherapy workflow from treatment decision-making through follow-up. Here we present RadOnc-Agent, an agentic artificial-intelligence framework that formalizes radiotherapy into four clinical phases and provides 26 callable functions through a conversational interface. A large-language-model controller maps clinical intent to schema-constrained calls, preserves patient and workflow context, and routes requests to specialist services. We evaluated system execution using 2,600 single-function requests (7,800 repeat executions), 200 prespecified synthetic cross-stage scenarios spanning four phases (600 executions), and"
+        },
+        {
+          "heading": "Principles that Guide, Actions that Inform: Agent Evolution via Knowledge Abstraction",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.06964v1 Announce Type: new Abstract: Large language model (LLM) agents have demonstrated strong capabilities in interactive environments, yet their ability to continually evolve from experience remains limited. Although fine-tuning enables adaptation, its dependence on parameter access and high computational costs restrict its flexibility, especially for large-scale and closed-source LLMs. External memory offers an alternative by allowing agents to accumulate experience without modifying model parameters. However, existing methods mainly focus on experience representation and organization, while the acquired knowledge remains tightly coupled with specific tasks and contexts, limiting generalization. A key challenge is how to transform concrete interactions into abstract and reusable knowledge that guides future decisions beyond individual experiences. To address this challenge"
+        },
+        {
+          "heading": "AegisFlow: A Multi-Agent Agentic AI Framework for Autonomous Remediation and Self-Healing in Fragile Data Ecosystems",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.06971v1 Announce Type: new Abstract: Traditional data pipelines are notoriously brittle, often failing due to upstream schema drift, API contract changes, or website DOM modifications. Present observability tools only raise alerts but for human engineers, resulting in a high Mean Time to Repair (MTTR) and operational fatigue. In this paper we propose AegisFlow (Agentic Engine for Intelligent Self-healing and Graph-driven Operations for Workload remediation), a novel agentic framework that closes the loop between detection and resolution. AegisFlow uses a Watchdog agent to collect runtime telemetry and has a Repair agent to automatically create, test and deploy code patches based on Large Language Models (LLMs). The framework presents the non-intrusive execution model called Parallel Shadow Patching, a non-intrusive execution model based on the Monitor, Analyze, Plan, Execute, "
+        },
+        {
+          "heading": "Introducing Claude Haiku 5.5 on AWS",
+          "body": "AWS Machine Learningから公開された情報です。概要: Claude Haiku 5.5 is now available on Amazon Bedrock and Claude Platform on AWS. According to Anthropic, it is the fastest, most efficient model in the Claude 5.5 family, built for subagents and high-volume, cost-sensitive work, and costs around 75% less than Claude Haiku 4.5 for most tasks. This post covers its improvements and how to get started."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "GAMEGO: Training Game-Dev Agents with Synthetic Trajectories Anchored in Real-World Assets",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.06910",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "title": "RadOnc-Agent: An LLM-Orchestrated Framework for AI Workflows Across the Radiotherapy Care Pathway",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.06923",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "title": "Principles that Guide, Actions that Inform: Agent Evolution via Knowledge Abstraction",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.06964",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "title": "AegisFlow: A Multi-Agent Agentic AI Framework for Autonomous Remediation and Self-Healing in Fragile Data Ecosystems",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.06971",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "title": "Introducing Claude Haiku 5.5 on AWS",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-haiku-5-5-on-aws/",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "title": "Beyond hours saved: Building the business case for agentic automation",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/beyond-hours-saved-building-the-business-case-for-agentic-automation/",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "title": "How Qlik built grounded, enterprise-scale AI with Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-qlik-built-grounded-enterprise-scale-ai-with-amazon-bedrock/",
+          "publishedAt": "2026-10-07"
+        },
+        {
+          "title": "Text2Dashboard: A Governed Agent Architecture for Natural-Language Dashboard Generation over Enterprise DataBrain",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.06914",
+          "publishedAt": "2026-10-07"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-07",
       "date": "2026-10-07",
@@ -6062,108 +6164,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/ais-energy-appetite-drives-nvidia-and-amazon-to-pour-billions-into-massive-power-infrastructure/",
           "publishedAt": "2026-08-09"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-09",
-      "date": "2026-08-09",
-      "generatedAt": "2026-08-08T21:33:20.489Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
-          "body": "The Decoderから公開された情報です。概要: Internal tests of OpenAI's new AI model Astra show cybersecurity capabilities so strong that the company can no longer rule out the highest risk level in its own safety framework. Parts of Astra's development have been paused. The move follows recently disclosed incidents in which autonomous AI agents infiltrated OpenAI's own infrastructure undetected for weeks. The article OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time appeared first on The Decoder ."
-        },
-        {
-          "heading": "Configure rate limits for AI traffic on AgentCore gateway",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to configure rate limits on Amazon Bedrock AgentCore gateway to enforce per-user and per-target traffic controls. Define request, token, and connection limits scoped by JWT claims or IAM identity to protect downstream models, tools, and agents from traffic spikes."
-        },
-        {
-          "heading": "Backflip AI turns 3D scans into editable CAD models in minutes instead of hours",
-          "body": "The Decoderから公開された情報です。概要: Backflip AI has released an AI model that converts 3D scans into fully editable, parametric CAD models, a process that normally takes significant time and expertise. According to CEO Greg Mark, most factories have digital models for less than one percent of their parts. The startup, backed by $30 million in funding, offers its tool as an add-in for Autodesk Fusion. The article Backflip AI turns 3D scans into editable CAD models in minutes instead of hours appeared first on The Decoder ."
-        },
-        {
-          "heading": "Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI",
-          "body": "The Decoderから公開された情報です。概要: Newly awarded Fields Medalist Jacob Tsimerman is leaving the University of Toronto to join OpenAI and work on AI safety. In a recent paper, he analyzes scenarios where AI could contribute to human extinction and calls for far more investment in safety research. The article Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI appeared first on The Decoder ."
-        },
-        {
-          "heading": "AI agents use roughly 600 times more energy than a simple chat prompt",
-          "body": "The Decoderから公開された情報です。概要: Climate scientist Zeke Hausfather tracked his Claude Code usage over eight weeks: 3.2 billion tokens and about 170 kWh of data center electricity. Per prompt, that's roughly 600 times more than a typical AI chat. His data shows how much the low figures reported by Google and OpenAI distort the reality of agent-based AI. The article AI agents use roughly 600 times more energy than a simple chat prompt appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "OpenAI flags its new Astra model as potentially reaching the highest cybersecurity risk level for the first time",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-flags-its-new-astra-model-as-potentially-reaching-the-highest-cybersecurity-risk-level-for-the-first-time/",
-          "publishedAt": "2026-08-08"
-        },
-        {
-          "title": "Configure rate limits for AI traffic on AgentCore gateway",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/configure-rate-limits-for-ai-traffic-on-agentcore-gateway/",
-          "publishedAt": "2026-08-06"
-        },
-        {
-          "title": "Backflip AI turns 3D scans into editable CAD models in minutes instead of hours",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/backflip-ai-turns-3d-scans-into-editable-cad-models-in-minutes-instead-of-hours/",
-          "publishedAt": "2026-08-08"
-        },
-        {
-          "title": "Fields Medalist who published a paper on AI-driven human extinction now works for OpenAI",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/fields-medalist-who-published-a-paper-on-ai-driven-human-extinction-now-works-for-openai/",
-          "publishedAt": "2026-08-08"
-        },
-        {
-          "title": "AI agents use roughly 600 times more energy than a simple chat prompt",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/ai-agents-use-roughly-600-times-more-energy-than-a-simple-chat-prompt/",
-          "publishedAt": "2026-08-08"
-        },
-        {
-          "title": "xAI's Imagine Image 2.0 lands just behind OpenAI's GPT-Image-2 in Arena benchmarks",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/xais-imagine-image-2-0-lands-just-behind-openais-gpt-image-2-in-arena-benchmarks/",
-          "publishedAt": "2026-08-08"
-        },
-        {
-          "title": "How TReNDS automates root-cause analysis with Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-trends-automates-root-cause-analysis-with-amazon-bedrock/",
-          "publishedAt": "2026-08-07"
-        },
-        {
-          "title": "Securing AI agents with temporal policies in Amazon Bedrock AgentCore",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/securing-ai-agents-with-temporal-policies-in-amazon-bedrock-agentcore/",
-          "publishedAt": "2026-08-06"
         }
       ]
     }
