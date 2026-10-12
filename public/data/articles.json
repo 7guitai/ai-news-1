@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-11T00:09:03.757Z",
+  "updatedAt": "2026-10-12T00:17:37.021Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-12",
+      "date": "2026-10-12",
+      "generatedAt": "2026-10-12T00:17:37.018Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "AI agents overstate their results and remain far from autonomous research, study finds",
+          "body": "The Decoderから公開された情報です。概要: Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from methods researchers already knew. The models' biggest weakness is still their inability to critically question their own results. The article AI agents overstate their results and remain far from autonomous research, study finds appeared first on The Decoder ."
+        },
+        {
+          "heading": "Microsoft's Nadella bows to Trump's language diktat on \"Super Intelligence\" and uses it to attack OpenAI and Anthropic",
+          "body": "The Decoderから公開された情報です。概要: Microsoft CEO Satya Nadella now calls artificial intelligence \"super intelligence\" instead of artificial intelligence, falling in line with Trump's preferred language. In his latest blog post, he frames AI models as insider security threats, taking yet another shot at OpenAI and Anthropic. The real motive is business: Microsoft risks falling behind as AI labs turn their models into the primary computer interface. The article Microsoft's Nadella bows to Trump's language diktat on \"Super Intelligence\" and uses it to attack OpenAI and Anthropic appeared first on The Decoder ."
+        },
+        {
+          "heading": "Odyssey-3 is a new generative world model that you can try for free",
+          "body": "The Decoderから公開された情報です。概要: Odyssey is making its world model Odyssey-3 available as a public research preview. The 14-billion-parameter model generates interactive environments from text prompts in real time and can reportedly control robots, drones, and even GTA V. Odyssey claims top scores on physics benchmarks, though the methodology behind those results has limits. The article Odyssey-3 is a new generative world model that you can try for free appeared first on The Decoder ."
+        },
+        {
+          "heading": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon Bedrock AgentCore payments gives AI agents a managed way to pay for services on demand, with spending limits enforced by the infrastructure. See how Incarna's agents pay BlockRun for model inference one request at a time over x402, cutting the work of adding x402 payment support from months to days."
+        },
+        {
+          "heading": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+          "body": "The Decoderから公開された情報です。概要: Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. The article AI agent teams waste massive tokens for barely measurable quality gains, research finds appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "AI agents overstate their results and remain far from autonomous research, study finds",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
+          "publishedAt": "2026-10-11"
+        },
+        {
+          "title": "Microsoft's Nadella bows to Trump's language diktat on \"Super Intelligence\" and uses it to attack OpenAI and Anthropic",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/microsofts-nadella-bows-to-trumps-language-diktat-on-super-intelligence-and-uses-it-to-attack-openai-and-anthropic/",
+          "publishedAt": "2026-10-11"
+        },
+        {
+          "title": "Odyssey-3 is a new generative world model that you can try for free",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/odyssey-3-is-a-new-generative-world-model-that-you-can-try-for-free/",
+          "publishedAt": "2026-10-11"
+        },
+        {
+          "title": "Pay-per-inference for AI agents: How BlockRun and Incarna use Amazon Bedrock AgentCore payments",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/pay-per-inference-for-ai-agents-how-blockrun-and-incarna-use-amazon-bedrock-agentcore-payments/",
+          "publishedAt": "2026-10-08"
+        },
+        {
+          "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
+          "publishedAt": "2026-10-11"
+        },
+        {
+          "title": "ICYMI: What landed for AI builders in September 2026",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-september-2026/",
+          "publishedAt": "2026-10-09"
+        },
+        {
+          "title": "Cheaper AI tokens are driving more demand, and that's Jensen Huang's best-case scenario",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario/",
+          "publishedAt": "2026-10-11"
+        },
+        {
+          "title": "We’re putting too much faith in AI’s ability to say no",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
+          "publishedAt": "2026-10-09"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-11",
       "date": "2026-10-11",
@@ -6062,109 +6165,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2608.11210",
           "publishedAt": "2026-08-13"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-13",
-      "date": "2026-08-13",
-      "generatedAt": "2026-08-12T21:49:31.047Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.09998v1 Announce Type: new Abstract: Artificial Intelligence (AI) and Machine Learning (ML) have become powerful tools for supporting and automating complex human tasks. Despite their benefits, growing attention has been directed toward their environmental implications, primarily due to their high energy demands and associated carbon emissions. This concern is particularly relevant in light of the increasing deployment of large-scale models, especially Deep Learning (DL) architectures, which provide advanced predictive capabilities but require substantial computational resources. This paper presents a systematic review of research on Green AI, Green DL, and optimization techniques aimed at reducing the environmental impact of AI models. In addition, we examine and compare several carbon measurement tools for estimating emissions generated by AI algorithms. To complement the re"
-        },
-        {
-          "heading": "Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine",
-          "body": "AWS Machine Learningから公開された情報です。概要: Running large language model inference at scale forces a KV cache trade-off: oversized GPU instances or slow time-to-first-token. This post builds a tiered KV cache on Amazon SageMaker HyperPod that extends the cache into a shared, distributed NVMe pool with Curvine, so replicas reuse cache at near-local-disk speeds on cost-efficient instances."
-        },
-        {
-          "heading": "CHORUS: Complementary Experts for High-Coverage Testbench Stimulus Generation",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.10090v1 Announce Type: new Abstract: Large language models (LLMs) have advanced code generation, where executable feedback provides a more reliable learning signal than textual imitation alone. Hardware verification is an important application of code generation and accounts for a substantial fraction of modern chip design effort, with high-coverage testbench stimulus generation as a key task. We present CHORUS, a post-training framework that pushes performance beyond what a conventional supervised fine-tuning (SFT)-to-reinforcement learning (RL) pipeline achieves. CHORUS builds on two observations. First, staged SFT produces behaviorally diverse checkpoints, and dense-reward RL turns them into strong experts with comparable aggregate performance but distinct task-level strengths. Second, these complementary strengths can be exploited through either training-free model merging"
-        },
-        {
-          "heading": "SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
-          "body": "The Decoderから公開された情報です。概要: xAI's Grok 4.6 scores 61 points on the Artificial Analysis Intelligence Index, tying GPT-5.6 Sol and trailing only Anthropic's Claude Opus 5. On agentic tasks, it completes complex workflows in about 53 steps where Claude Opus 5 needs 103, at a price more than 60 percent lower. The article SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price appeared first on The Decoder ."
-        },
-        {
-          "heading": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.09949v1 Announce Type: new Abstract: This study evaluates the application of Large Language Models (LLMs) in complex biological systems, evolving from data analysis to autonomous, AI-guided experimentation. The framework is driven by data from a 49-channel phytosensor network, encompassing multispectral, electrochemical, and dielectric modalities. To enhance accessibility, the system provides real-time natural-language interpretation for both specialists and non-experts. However, its core advantage lies in the transition from human-in-the-loop analysis to autonomous control. Processing biophysical data, the LLM evaluates plant physiology and triggers hardware actuators to optimize microclimates, execute phenotyping protocols, or induce controlled stress scenarios. This closed-loop architecture establishes a direct AI-biology interface, enabling data-driven exploration of compl"
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "Towards Sustainable Artificial Intelligence: A Comprehensive Review and Comparative Analysis of Deep Learning Models' Carbon Footprint",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.09998",
-          "publishedAt": "2026-08-12"
-        },
-        {
-          "title": "Tiered KV cache for large LLMs on Amazon SageMaker HyperPod with Curvine",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/tiered-kv-cache-for-large-llms-on-amazon-sagemaker-hyperpod-with-curvine/",
-          "publishedAt": "2026-08-12"
-        },
-        {
-          "title": "CHORUS: Complementary Experts for High-Coverage Testbench Stimulus Generation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.10090",
-          "publishedAt": "2026-08-12"
-        },
-        {
-          "title": "SpaceXAI's Grok 4.6 matches OpenAI's best model and undercuts it on price",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/spacexais-grok-4-6-matches-openais-best-model-and-undercuts-it-on-price/",
-          "publishedAt": "2026-08-12"
-        },
-        {
-          "title": "Closed-Loop LLM Co-Pilots for Digital Agriculture",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.09949",
-          "publishedAt": "2026-08-12"
-        },
-        {
-          "title": "SPOTting the Future: Lookahead Explanations for Deep Reinforcement Learning",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.09967",
-          "publishedAt": "2026-08-12"
-        },
-        {
-          "title": "How ONESTRUCTION built the Ishigaki-IDS foundation model with AWS GenAIIC",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-onestruction-built-the-ishigaki-ids-foundation-model-with-aws-genaiic/",
-          "publishedAt": "2026-08-11"
-        },
-        {
-          "title": "Researchers can now reverse-engineer LLM prompts from output text with near-perfect accuracy",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/researchers-can-now-reverse-engineer-llm-prompts-from-output-text-with-near-perfect-accuracy/",
-          "publishedAt": "2026-08-12"
         }
       ]
     }
