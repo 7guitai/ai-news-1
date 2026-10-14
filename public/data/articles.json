@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-13T02:28:15.545Z",
+  "updatedAt": "2026-10-14T00:11:44.343Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-14",
+      "date": "2026-10-14",
+      "generatedAt": "2026-10-14T00:11:44.340Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.12493v1 Announce Type: new Abstract: Explainable Artificial Intelligence (XAI) tools have often been presented as methods to increase trust in machine learning models by making aspects of their algorithms more human-understandable. However, evidence accumulated over the last decade points to an overall failure of this objective, instead promoting overreliance on incorrect predictions, which can subsequently lead to algorithmic aversion. Rather, XAI appears to function primarily as a debugging tool, useful for obtaining anecdotal insights into, for example, features learned by the model. One of the main issues underlying this limitation is that XAI methods often oversimplify the inner workings of the model, resulting in misalignment between the explanation and the model itself - a behavior referred to as unfaithfulness or infidelity. Faithfulness can be interpreted as the degre"
+        },
+        {
+          "heading": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.12596v1 Announce Type: new Abstract: Agentic large language models now tackle complex tasks, yet strategic reasoning over long horizons is under-studied: most agentic benchmarks are short and episodic, and performance on long tasks is hard to dissect into stored knowledge, reasoning and luck. We introduce SpireBench, in which models play the complete commercial deck-builder Slay the Spire (StS), where early decisions decide long-term success. Across 20 large language models (LLMs) at the game's highest difficulty, frontier models beat heuristic baselines and match the average human player but remain far behind experts. This gap widens as the run lengthens: the strongest models win the first act as often as experts, then fall behind. What separates strong models from weak is how well they play each fight; all of them misjudge risk over a run, preserving health rather than spend"
+        },
+        {
+          "heading": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.12655v1 Announce Type: new Abstract: LLM agents can execute increasingly complex tasks, but effective assistance also requires aligning their actions with goals and constraints that users may leave unstated. We study this problem as interactive intent alignment through clarification. Yet clarification is useful only when the agent can turn the answer into better decisions. As training changes how the agent handles incomplete information and uses additional answers, the same clarification can become more or less useful. We introduce CLEAT (CLarification through valuE-guided Agent co-Training), a framework that co-trains a clarification-value controller and the task policy from shared interaction outcomes. We formulate residual query value to measure the task utility gained by asking rather than proceeding under the current policy, and estimate it through paired rollouts from th"
+        },
+        {
+          "heading": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to deploy decision models with llama.cpp on Amazon SageMaker AI. This technical how-to serves OpenAI-compatible chat completions with the AWS Deep Learning Container for llama.cpp, then extends the runtime with SemIf to return probabilities over declared options on CPU or GPU."
+        },
+        {
+          "heading": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI",
+          "body": "AWS Machine Learningから公開された情報です。概要: AWS engineers share kernel optimizations for fused Mixture-of-Experts (MoE) models on Amazon SageMaker AI: Swap-AB for WGMMA utilization, Triton backend routing for FP8 quantization, and eliminating Triton JIT recompilation. Together they deliver up to 10% higher throughput and up to 9% faster Time to First Token on H200 GPUs."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "AWS Machine Learning",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.12493",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "title": "SpireBench: Evaluating Long-Horizon Strategic Play of Agentic Models with Slay the Spire",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.12596",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "title": "CLEAT: Learning Value-Guided Clarification for Interactive Agents",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.12655",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "title": "Deploy decision models with llama.cpp on Amazon SageMaker AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-decision-models-with-llama-cpp-on-amazon-sagemaker-ai/",
+          "publishedAt": "2026-10-12"
+        },
+        {
+          "title": "Mixture-of-Experts kernel engineering on Amazon SageMaker AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/mixture-of-experts-kernel-engineering-on-amazon-sagemaker-ai/",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "title": "Anthropic study warns that small AI models could soon replicate across everyday devices",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-study-warns-that-small-ai-models-could-soon-replicate-across-everyday-devices/",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.12536",
+          "publishedAt": "2026-10-13"
+        },
+        {
+          "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.12593",
+          "publishedAt": "2026-10-13"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-13",
       "date": "2026-10-13",
@@ -6061,109 +6164,6 @@
           "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
-          "publishedAt": "2026-08-14"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-15",
-      "date": "2026-08-15",
-      "generatedAt": "2026-08-14T21:27:21.161Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
-          "body": "The Decoderから公開された情報です。概要: AI agents using Claude Opus 4.8 and GPT-5.6 Sol were given six days, $3,000 in API credits, and GPU access to independently write AI research papers. The original authors of unpublished NeurIPS papers rated the results as \"Reject.\" According to the study, conducted with Princeton and the UK AI Security Institute, frontier models can handle the full research engineering process but fall short on research judgment, creative problem-solving, and the ability to abandon failed approaches. The article Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach appeared first on The Decoder ."
-        },
-        {
-          "heading": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.12368v1 Announce Type: new Abstract: Agreement with human judgments is a common proxy for evaluating the alignment of large language models (LLMs). Yet agreement in final labels does not show that human annotators and models rely on the same moral grounds. Two agents may reach the same judgment while appealing to different principles, contextual assumptions, or interpretations of the situation. We test this distinction using a curated 500-item ETHICS-derived benchmark spanning five domains of moral judgment, with new human annotator and LLM annotations of both final labels and supporting rationales. Across frontier and open model families, agreement with human annotator majority labels is often high. However, rationale-level analysis reveals systematic divergence in the moral grounds expressed by human annotators and models. In particular, models redistribute attention across "
-        },
-        {
-          "heading": "Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.12385v1 Announce Type: new Abstract: As large language models serve more requests, cumulative inference cost is becoming increasingly important relative to one-time training cost. The two inference phases stress hardware differently: prompt prefill is parallel and typically compute-bound, whereas autoregressive decode is sequential and often memory-bandwidth-bound. Conventional width or depth scaling increases both costs together because every added layer is evaluated in both phases. We ask whether additional learned computation can instead be allocated to continuation prediction while preserving the prompt-wide primary computation and a single persistent key-value (KV) cache. We introduce the Dual-Flow Transformer. Its primary flow is a complete causal language model that processes the prompt and writes the KV cache. The auxiliary flow is omitted during prompt processing and "
-        },
-        {
-          "heading": "Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license",
-          "body": "The Decoderから公開された情報です。概要: Alibaba's AI team Qwen has released new open model weights under the Apache 2.0 license with Qwen 3.8. The dense 27-billion-parameter model is designed to outperform the larger Qwen 3.7 Plus in coding and office tasks and natively processes up to 262,000 tokens of context. With this release, Qwen is targeting developers building local and agent-based applications. The article Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license appeared first on The Decoder ."
-        },
-        {
-          "heading": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore runtime to build a multi-agent workflow where each specialized agent uses the model best suited to its job. This post also shows how to get token-level observability from SageMaker endpoints that Strands Agents does not instrument by default."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "arXiv AI",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Study contradicts Anthropic and OpenAI claims that autonomous AI research is within reach",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/study-contradicts-anthropic-and-openai-claims-that-autonomous-ai-research-is-within-reach/",
-          "publishedAt": "2026-08-14"
-        },
-        {
-          "title": "Agreement Is Not Alignment: Divergent Moral Grounds in Human and LLM Ethical Judgments",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.12368",
-          "publishedAt": "2026-08-14"
-        },
-        {
-          "title": "Dual-Flow Transformers: Decoupling the Primary Prefill Path from Additional Decode Computation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.12385",
-          "publishedAt": "2026-08-14"
-        },
-        {
-          "title": "Alibaba's Qwen team releases Qwen 3.8 models with open weights under the Apache 2.0 license",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/alibabas-qwen-team-releases-qwen-3-8-models-with-open-weights-under-the-apache-2-0-license/",
-          "publishedAt": "2026-08-14"
-        },
-        {
-          "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
-          "publishedAt": "2026-08-14"
-        },
-        {
-          "title": "Zhipu AI releases GLM-5.3, claims it's the strongest open-weights coding model",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/zhipu-ai-releases-glm-5-3-claims-its-the-strongest-open-weights-coding-model/",
-          "publishedAt": "2026-08-14"
-        },
-        {
-          "title": "Diagnostic Foundation for Evaluating LLMs' Research Integrity as Co-Scientists",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.12345",
-          "publishedAt": "2026-08-14"
-        },
-        {
-          "title": "Multi-Agent Scheduling with LLM-Assisted Contract Net Negotiation for Stream Processing in Mobile Edge Computing",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.12371",
           "publishedAt": "2026-08-14"
         }
       ]
