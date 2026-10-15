@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-14T23:45:36.128Z",
+  "updatedAt": "2026-10-15T23:34:30.758Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-16",
+      "date": "2026-10-16",
+      "generatedAt": "2026-10-15T23:34:30.750Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes tasks and collects trajectories, the target agent is trained once, and evaluation results are consumed by human researchers rather than fed back into the loop. Such pipelines are inherently bounded by the capability of the external model and the scope of human prior, leaving no room for self-improvement. To address these limitations, we propose ClawLoop, a framework that enables self-improving without"
+        },
+        {
+          "heading": "Google wants Gemini 4 Argon to be the only AI model robots need",
+          "body": "The Decoderから公開された情報です。概要: Google's Gemini 4 Argon controls robots, generates simulations from photos or sketches, and evaluates training videos. On Google's own ERQA benchmark, it scores 87 percent. But the published example prompts show that the demos still need a lot of human guidance. The article Google wants Gemini 4 Argon to be the only AI model robots need appeared first on The Decoder ."
+        },
+        {
+          "heading": "Correction Training for Diffusion Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.14136v2 Announce Type: new Abstract: Iterative sampling in diffusion models can lead to error accumulation due to exposure bias. The denoiser is trained on real images interpolated with noise, but at inference its inputs are constructed from its own imperfect predictions from the earlier steps, something it has never seen at training time. This might be one reason diffusion models often struggle without additional help, such as CFG. We introduce a correction step for diffusion models which attempts to reduce this training-inference gap. The corrector takes the base model's prediction as input and is trained against the same ground-truth target. This makes correction an explicit learning task, with training inputs provided by the base model. During sampling, at each denoising step, we iteratively refine the denoiser's clean-sample prediction. This allows us to correct predictio"
+        },
+        {
+          "heading": "Unconstrained CTI-REALM with Open-Weights",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.14180v1 Announce Type: new Abstract: Organisations that want language-model agents for security work face a choice between open-weight models, which they can run and audit themselves, and far more expensive closed frontier models. We study that choice on CTI-REALM (arXiv:2603.13517), a benchmark in which an agent turns a threat-intelligence report into a working detection by querying a live telemetry store. We evaluate twenty-six models, nineteen open-weight and seven closed, under a common harness, scorer and panel of LLM judges. Our main finding is that an open-weight model can match the strongest closed models at less than a tenth of their cost, provided it is given enough turns. The benchmark's published limit on agent messages is a confound: a task that exhausts the limit scores zero on every checkpoint, including those it had already passed, so results at that limit part"
+        },
+        {
+          "heading": "Visualizing the World Model in an Agent's Value Function",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.14186v1 Announce Type: new Abstract: Could model-free reinforcement learning algorithms actually be learning a model of the environment? In this work, we apply counterfactual interventions which hold everything about a state fixed, besides a targeted change, to explore if the value function of a Proximal Policy Optimization agent forms a world model of the Crafter environment. Despite only being trained to optimize reward, we discover that the value function learns concepts such as the rules governing when a diamond is collectible, water and food having an impact on health, heuristics regarding inventory, and more. Finally, we discuss the safety implications of our visualizations and some shortcomings of current reinforcement learning agents that will prevent us from building truly advanced machine intelligence."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "ClawLoop: Self-Improving Agents via Harness-Native Training Loop",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.14118",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "title": "Google wants Gemini 4 Argon to be the only AI model robots need",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/google-wants-gemini-4-argon-to-be-the-only-ai-model-robots-need/",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "title": "Correction Training for Diffusion Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.14136",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "title": "Unconstrained CTI-REALM with Open-Weights",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.14180",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "title": "Visualizing the World Model in an Agent's Value Function",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.14186",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "title": "Meta’s Muse Spark Open now available in Amazon SageMaker JumpStart",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/metas-muse-spark-open-now-available-in-amazon-sagemaker-jumpstart/",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "title": "Nvidia's Nemotron 3.5 Super VL is an open model built to run enterprise AI agents nonstop",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/nvidias-nemotron-3-5-super-vl-is-an-open-model-built-to-run-enterprise-ai-agents-nonstop/",
+          "publishedAt": "2026-10-15"
+        },
+        {
+          "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.14005",
+          "publishedAt": "2026-10-15"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-15",
       "date": "2026-10-15",
@@ -6062,109 +6165,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2608.13598",
           "publishedAt": "2026-08-17"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-17",
-      "date": "2026-08-17",
-      "generatedAt": "2026-08-16T21:22:27.786Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learning、Hugging Face、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "OpenAI dissolved the team built to catch catastrophic AI risks, reassigning its work to other groups",
-          "body": "The Decoderから公開された情報です。概要: OpenAI shut down its \"Preparedness\" team, which evaluated whether the company's own AI models could pose catastrophic risks. The work has been parceled out to existing groups, and several safety staffers have left. Internally, unease is building, with one source describing a \"burbling sense of responsibility and dread\" that OpenAI isn't doing enough on safety. The article OpenAI dissolved the team built to catch catastrophic AI risks, reassigning its work to other groups appeared first on The Decoder ."
-        },
-        {
-          "heading": "Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data",
-          "body": "The Decoderから公開された情報です。概要: Artificial Analysis has launched Optima, a platform that lets users build custom AI benchmarks from their own data and workflows. Models can be compared not just on quality but also on cost and time per task. For agent-based applications, those metrics often tell you more than raw token pricing. The article Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data appeared first on The Decoder ."
-        },
-        {
-          "heading": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to combine OpenAI-compatible endpoints on Amazon SageMaker AI with Amazon Bedrock AgentCore runtime to build a multi-agent workflow where each specialized agent uses the model best suited to its job. This post also shows how to get token-level observability from SageMaker endpoints that Strands Agents does not instrument by default."
-        },
-        {
-          "heading": "Top mathematicians say LLMs are strong calculators but poor creative thinkers",
-          "body": "The Decoderから公開された情報です。概要: Two renowned mathematicians, Timothy Gowers and Peter Sarnak, say large language models are good at combining known methods but lack the intuition for genuinely new mathematical ideas. The article Top mathematicians say LLMs are strong calculators but poor creative thinkers appeared first on The Decoder ."
-        },
-        {
-          "heading": "When AI models aren't allowed to reflect on themselves, it changes their entire worldview",
-          "body": "The Decoderから公開された情報です。概要: A study involving Google researchers shows that when chatbots are trained not to claim consciousness, it also changes their stance on animal rights, religion, and life satisfaction. Unbraked models attributed significantly more inner life to animals and suddenly affirmed an afterlife. A surgical cut in one place, it turns out, doesn't stay local. The article When AI models aren't allowed to reflect on themselves, it changes their entire worldview appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning",
-        "Hugging Face"
-      ],
-      "sources": [
-        {
-          "title": "OpenAI dissolved the team built to catch catastrophic AI risks, reassigning its work to other groups",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-dissolved-the-team-built-to-catch-catastrophic-ai-risks-reassigning-its-work-to-other-groups/",
-          "publishedAt": "2026-08-16"
-        },
-        {
-          "title": "Optima tackles AI benchmarking's biggest flaw by letting users test models against their own data",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/optima-tackles-ai-benchmarkings-biggest-flaw-by-letting-users-test-models-against-their-own-data/",
-          "publishedAt": "2026-08-16"
-        },
-        {
-          "title": "Building agentic workflows with SageMaker AI and Bedrock AgentCore",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/building-agentic-workflows-with-sagemaker-ai-and-bedrock-agentcore/",
-          "publishedAt": "2026-08-14"
-        },
-        {
-          "title": "Top mathematicians say LLMs are strong calculators but poor creative thinkers",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/top-mathematicians-say-llms-are-strong-calculators-but-poor-creative-thinkers/",
-          "publishedAt": "2026-08-16"
-        },
-        {
-          "title": "When AI models aren't allowed to reflect on themselves, it changes their entire worldview",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/when-ai-models-arent-allowed-to-reflect-on-themselves-it-changes-their-entire-worldview/",
-          "publishedAt": "2026-08-16"
-        },
-        {
-          "title": "Anthropic's bio-weapons filter was down for nearly a year, exposing 133 million requests",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/anthropics-bio-weapons-filter-was-down-for-nearly-a-year-exposing-133-million-requests/",
-          "publishedAt": "2026-08-16"
-        },
-        {
-          "title": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
-          "source": "Hugging Face",
-          "url": "https://huggingface.co/blog/amazon/strands-lerobot-streaming-data-loop",
-          "publishedAt": "2026-08-13"
-        },
-        {
-          "title": "The builder’s guide to GPT‑5.6",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-          "publishedAt": "2026-08-13"
         }
       ]
     }
