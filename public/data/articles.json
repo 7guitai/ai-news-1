@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-15T23:34:30.758Z",
+  "updatedAt": "2026-10-16T23:18:53.910Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-17",
+      "date": "2026-10-17",
+      "generatedAt": "2026-10-16T23:18:53.907Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+          "body": "AWS Machine Learningから公開された情報です。概要: Reflection AI's Beam is an open-weight model for agentic coding and long-horizon tasks. This post shows how to deploy Beam on AWS: start with an Amazon SageMaker JumpStart real-time endpoint, or use Amazon SageMaker HyperPod Inference with JumpStart, SGLang, or vLLM for Kubernetes-native control over distributed GPU infrastructure."
+        },
+        {
+          "heading": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.20665v1 Announce Type: new Abstract: Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls take time. In continuously changing environments, an otherwise correct action may arrive too late. We introduce RealtimeBench, with 180 tasks across six game types, to evaluate agents while games continue running during inference. Paired evaluations show that GPT-6.1-sol outperforms the faster Jev when games are paused, but falls behind when they keep running. We propose Two-Timescale Offline Recursive Self-Improvement (TORSI): a slow teacher studies failures and tests corrections in paused games between attempts, then writes reusable instructions for a fast student. The student acts without teacher calls during gameplay, and validation scores determine which updates are adopted. Two rounds raise Jev's average test score from 13.51 to 24.19 o"
+        },
+        {
+          "heading": "China plans to tighten export controls on open-weight models and 23 key AI technologies",
+          "body": "The Decoderから公開された情報です。概要: China plans to restrict exports of 23 key AI technologies, including model weights, source code, and training methods for systems hitting 10^26 FLOPs or 2 trillion parameters. A fast-track rule will still clear open-source releases as soon as they are registered, but the move will likely push Western companies to double down on US open-weight models over Chinese alternatives. The article China plans to tighten export controls on open-weight models and 23 key AI technologies appeared first on The Decoder ."
+        },
+        {
+          "heading": "Is AI interpretability close to a breakthrough? A new essay has researchers divided",
+          "body": "The Decoderから公開された情報です。概要: Neural networks may be much easier to read than researchers assumed, with about 90 percent of neurons serving a clear function. That would be big news for AI safety research, since deception or dangerous behavior could be spotted directly in a model's circuits. Researchers are still debating whether the thesis holds up. The article Is AI interpretability close to a breakthrough? A new essay has researchers divided appeared first on The Decoder ."
+        },
+        {
+          "heading": "Anthropic gives METR inside access to audit its AI models and safety practices",
+          "body": "The Decoderから公開された情報です。概要: Anthropic has given a team from the nonprofit METR inside access to review its AI models and safety practices, the company announced. The article Anthropic gives METR inside access to audit its AI models and safety practices appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Introducing Reflection Beam: an open-weight model for agentic coding on AWS",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-reflection-beam-an-open-weight-model-for-agentic-coding-on-aws/",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.20665",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "title": "China plans to tighten export controls on open-weight models and 23 key AI technologies",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies/",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "title": "Is AI interpretability close to a breakthrough? A new essay has researchers divided",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/is-ai-interpretability-close-to-a-breakthrough-a-new-essay-has-researchers-divided/",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "title": "Anthropic gives METR inside access to audit its AI models and safety practices",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-gives-metr-inside-access-to-audit-its-ai-models-and-safety-practices/",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "title": "Evaluating Model Capabilities After Benchmark Saturation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.20667",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "title": "AlphaDiana: A Measurement System for Agents in Verifiable Reasoning Tasks",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.20675",
+          "publishedAt": "2026-10-16"
+        },
+        {
+          "title": "Counterfactual Neighborhood Risk Fields: Evidence-Grounded Selective Safety for Vision-Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.20679",
+          "publishedAt": "2026-10-16"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-16",
       "date": "2026-10-16",
@@ -6063,108 +6166,6 @@
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-payments-is-now-generally-available-enabling-agents-to-transact-safely-and-autonomously-at-scale/",
           "publishedAt": "2026-08-18"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-18",
-      "date": "2026-08-18",
-      "generatedAt": "2026-08-17T21:27:52.304Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.13565v1 Announce Type: new Abstract: Mixture-of-Experts (MoE) architectures scale large language models (LLMs) while preserving computational efficiency through sparse activation. Despite their widespread adoption, the relative importance of individual MoE layers remains insufficiently characterized, particularly for model compression. This paper presents a systematic layer-wise sensitivity analysis of the Qwen3.6-35B-A3B model (40 MoE layers, 256 experts per layer, top-8 routing) using magnitude-based expert masking on the XLCoST cross-lingual code translation benchmark. We conduct a multi-phase study spanning 100, 300, and 500 prompt evaluation scales across three H100 GPU servers. Our central finding is that layer sensitivity is strongly depth-dependent: early layers (0-9) and middle layers (10-29) are highly fragile to expert masking, while late layers (30-39), and especia"
-        },
-        {
-          "heading": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.13574v1 Announce Type: new Abstract: LLM agents increasingly operate as execution systems that invoke tools, modify local state, use persistent memory, and interact with external protocols. These capabilities make agents useful, but they also introduce risks related to over-privileged actions, weak auditability, prompt injection, tool poisoning, and uncontrolled side effects. This paper presents Agentao, a governed local-first runtime for tool-using LLM agents. Agentao separates model-generated action proposals from host-authorized execution through a layered architecture consisting of host-facing surfaces, a host contract, a runtime core, a permission-mediated tool system, and supporting subsystems for memory, replay, plugins, skills, sub-agents, and protocol integration. We describe the motivation, threat model, design goals, governance model, execution pipeline, and structu"
-        },
-        {
-          "heading": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
-          "body": "AWS Machine Learningから公開された情報です。概要: NVIDIA Nemotron 3.5 Lightning, an open model built for high-volume agentic workloads, is now available in Amazon SageMaker JumpStart. This post shows how to deploy the 30B Mixture-of-Experts model (3B active), which delivers up to 4x higher throughput and up to 30% faster task completion for always-on agents."
-        },
-        {
-          "heading": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.13564v1 Announce Type: new Abstract: Evaluating language-model agents at scale increasingly relies on a second language model as an automatic judge, because the gold signal, an executable environment reward, is expensive, slow, or unavailable at deployment time. Such a judge is a reward-free proxy whose value depends on whether it can be trusted, yet existing judges either hand-write the scoring rubric, as in G-Eval, or fine-tune the judge's weights, and both tend to credit fluent but unsuccessful trajectories as successes. We instead induce the text of an agent-judging rubric from a small set of ground-truth-labeled trajectories, grounding it in true outcomes. We present RubricForge, which evolves a judge rubric by reflective evolution against labeled trajectories to maximize agreement with the environment reward, freezes it, and applies it to held-out trajectories in one mod"
-        },
-        {
-          "heading": "Modular Cognitive Architecture Emerges in Large Language Models",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.13567v1 Announce Type: new Abstract: The human brain exhibits a striking degree of functional specialization, with distinct networks supporting language, formal reasoning, reasoning about other minds, and reasoning about the physical world. Is this modular organization a fundamental principle of how intelligent systems must be built, or an evolutionary accident specific to biological brains? Here, we test whether a similar organization emerges in Large Language Models--another class of intelligent systems created through a very different optimization process. Using circuit analyses across N=46 tasks spanning four cognitive domains (language, formal reasoning, social reasoning, physical reasoning), we find that LLMs develop a modular architecture that mirrors the human brain: tasks drawing on the same network in humans recruit overlapping neurons in LLMs, whereas tasks drawing "
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Depth-Aware Sensitivity Analysis of Mixture-of-Experts Models via Magnitude-Based Expert Masking",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.13565",
-          "publishedAt": "2026-08-17"
-        },
-        {
-          "title": "Agentao: A Governed Local-First Runtime for Tool-Using LLM Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.13574",
-          "publishedAt": "2026-08-17"
-        },
-        {
-          "title": "NVIDIA Nemotron 3.5 Lightning now available in Amazon SageMaker JumpStart",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/nvidia-nemotron-3-5-lightning-now-available-in-amazon-sagemaker-jumpstart/",
-          "publishedAt": "2026-08-17"
-        },
-        {
-          "title": "Inducing Reward-Free Judging Rubrics that Reduce Over-Crediting in Agent Evaluation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.13564",
-          "publishedAt": "2026-08-17"
-        },
-        {
-          "title": "Modular Cognitive Architecture Emerges in Large Language Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.13567",
-          "publishedAt": "2026-08-17"
-        },
-        {
-          "title": "A Year in LLM Serving: Workload Evolution, Caching and Load-Balancing",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.13573",
-          "publishedAt": "2026-08-17"
-        },
-        {
-          "title": "Stable Miscalibration in Large Language Models: A Practical View of High-Confidence Errors",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.13591",
-          "publishedAt": "2026-08-17"
-        },
-        {
-          "title": "Measuring Cross-Task Behavioral Consistency in Language Model Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.13598",
-          "publishedAt": "2026-08-17"
         }
       ]
     }
