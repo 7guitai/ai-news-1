@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-22T23:54:51.836Z",
+  "updatedAt": "2026-10-23T23:46:30.205Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-24",
+      "date": "2026-10-24",
+      "generatedAt": "2026-10-23T23:46:30.201Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、The Decoder、arXiv AI、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a reinforcement learning workload on competitive programming."
+        },
+        {
+          "heading": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+          "body": "The Decoderから公開された情報です。概要: External auditors from METR and Redwood Research spent three weeks on-site at OpenAI examining the company's internal monitoring system for AI agents and found significant gaps, with up to 25 percent of agent traffic from models at the GPT-5.5 class and above going unmonitored. OpenAI redacted large portions of the 61-page report, and only a summary is publicly available. The article Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring appeared first on The Decoder ."
+        },
+        {
+          "heading": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+          "body": "AWS Machine Learningから公開された情報です。概要: Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings."
+        },
+        {
+          "heading": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.28698v1 Announce Type: new Abstract: Scaling data, diversity and model capacity has improved embodied learning in physical environments, where diverse experiences remain grounded in shared physical laws. Whether these gains extend to virtual worlds with different visual styles, dynamics, controls, and objectives remains unclear. We investigate this question through a controlled study of continued pre-training (CPT) across three axes: data volume, diversity, and model size. Our 120 training configurations span four model sizes from 0.8B to 27B, six data budgets from 50 to 1,600 hours, and five mixtures ranging from Minecraft-only data to diverse multi-world corpora. We assess performance and generalization using three-level validation losses and gameplay benchmarks from in-corpus worlds to unseen worlds. Our results show: (1) more data improves in-corpus performance, diversity "
+        },
+        {
+          "heading": "Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.28826v1 Announce Type: new Abstract: Automated judges of clinical artificial intelligence (AI) outputs are necessary, but large language model (LLM) judges are costly and slow at scale. We compared Jev, a decision language model that returns structured judgments, with frontier and open-weight LLM judges in four use cases. On 118 pediatric answers, Jev's agreement with physicians' ordinal quality ratings (Gwet's AC2 0.50; expected score 0.53) matched or exceeded that of seven of 12 LLM judges, including frontier models, Claude Opus 5.5 (0.49) and GPT-6 (0.38). On physician-graded binary HealthBench criteria, Jev matched or exceeded four of six LLM judges. On MedHELM's open-ended tasks, Jev's agreement with a three-LLM jury approached or exceeded the jurors' internal agreement. On HealthBench Professional, Jev matched the benchmark's reference judge, GPT-5.4, on 91% of criteria "
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "The Decoder",
+        "arXiv AI"
+      ],
+      "sources": [
+        {
+          "title": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.28698",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "title": "Decision language models as affordable and rapid alternatives to LLM judges of clinical generative AI",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.28826",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "title": "Speedrunning Relational Foundation Model Pretraining",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.28855",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "title": "The Foundations of Scalable AI",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+          "publishedAt": "2026-10-22"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-23",
       "date": "2026-10-23",
@@ -6065,108 +6168,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2608.21366",
           "publishedAt": "2026-08-25"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-25",
-      "date": "2026-08-25",
-      "generatedAt": "2026-08-24T21:31:42.801Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This study demonstrates that this architectural disconnect leaves models vulnerable to Semantic Camouflage -- adversarial attacks that wrap harmful intent in benign narrative contexts (e.g., creative writing), effectively bypassing standard input and output guardrails. By analyzing the latent activation trajectories of three distinct Small Language Model (SLM) families (Phi-3, Qwen2.5, and Gemma-2b) under adversarial stress, this research identifies a universal ``Intent Horizon'' -- a critical depth (typically 15--20\\% of total layers) where the model's distinct, pre-trained representation of harmful"
-        },
-        {
-          "heading": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agent -- pre-loaded with relevant memories compiled from the user's existing personal databases. At spawn time, PAO queries two independently-operated memory backends in parallel (a PostgreSQL entity-observation database and a Cloudflare Worker semantic search index), fuses results using backend-specific retrieval strategies, and delivers the compiled briefing via filesystem injection that exploits the host agent's configuration auto-read behavior. PAO manages the full agent lifecycle including trust pre-seeding, readiness polling with error detection, and adaptive terminal tex"
-        },
-        {
-          "heading": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.20397v1 Announce Type: new Abstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus's primary lever is to decouple routing from the schema-prefill cost: an INT8 semantic lookaside buffer (SLB) with a calibrated cross-encoder margin gate selects tools by retrieval, and arguments are generated over a compressed textual signature (median 19 tokens) rather than over spliced key/value (KV) cache. This path is depth-independent: routing accuracy stays near 89% as the registry scales to 250 tools - where a concatenate-all-schemas baseline overflows the context window entirely - and it reaches a first-argument token 1.66x sooner than a full-schema re-prefill at a ~80% main-context token saving. As a seco"
-        },
-        {
-          "heading": "Introducing new Ray capabilities on SageMaker HyperPod",
-          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker HyperPod now offers managed Ray support on Amazon EKS. Create and monitor Ray clusters, connect JupyterLab and Code Editor notebooks to live clusters, get out-of-the-box observability, and run resilient distributed training and accelerated inference from SageMaker Studio, all with open-source KubeRay and standard Ray APIs."
-        },
-        {
-          "heading": "AI-powered metadata correction and harmonization",
-          "body": "AWS Machine Learningから公開された情報です。概要: Metadata harmonization (standardizing labels, identifiers, and formats so datasets can work together) is still largely manual. This post shows how AI-powered metadata correction works in practice, covering two approaches, human-in-the-loop validation and autonomous agent-driven workflows, plus governance considerations for production deployment."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.20378",
-          "publishedAt": "2026-08-24"
-        },
-        {
-          "title": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.20342",
-          "publishedAt": "2026-08-24"
-        },
-        {
-          "title": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.20397",
-          "publishedAt": "2026-08-24"
-        },
-        {
-          "title": "Introducing new Ray capabilities on SageMaker HyperPod",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-new-ray-capabilities-on-sagemaker-hyperpod/",
-          "publishedAt": "2026-08-24"
-        },
-        {
-          "title": "AI-powered metadata correction and harmonization",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/ai-powered-metadata-correction-and-harmonization/",
-          "publishedAt": "2026-08-24"
-        },
-        {
-          "title": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.20341",
-          "publishedAt": "2026-08-24"
-        },
-        {
-          "title": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.20379",
-          "publishedAt": "2026-08-24"
-        },
-        {
-          "title": "Govern AI agent tool access with Amazon Bedrock AgentCore Gateway",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-tool-access-with-amazon-bedrock-agentcore-gateway/",
-          "publishedAt": "2026-08-21"
         }
       ]
     }
