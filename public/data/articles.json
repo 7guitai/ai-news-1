@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-23T23:46:30.205Z",
+  "updatedAt": "2026-10-24T22:58:32.111Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-25",
+      "date": "2026-10-25",
+      "generatedAt": "2026-10-24T22:58:32.108Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、The Decoder、MIT Technology Review AI、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a reinforcement learning workload on competitive programming."
+        },
+        {
+          "heading": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+          "body": "The Decoderから公開された情報です。概要: External auditors from METR and Redwood Research spent three weeks on-site at OpenAI examining the company's internal monitoring system for AI agents and found significant gaps, with up to 25 percent of agent traffic from models at the GPT-5.5 class and above going unmonitored. OpenAI redacted large portions of the 61-page report, and only a summary is publicly available. The article Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring appeared first on The Decoder ."
+        },
+        {
+          "heading": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+          "body": "AWS Machine Learningから公開された情報です。概要: Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings."
+        },
+        {
+          "heading": "The Foundations of Scalable AI",
+          "body": "MIT Technology Review AIから公開された情報です。概要: A scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review’s EmTech Future conference explores what it takes to build that foundation in a highly regulated environment and how a responsible, trustworthy implementation can turn emerging capabilities, including agentic…"
+        },
+        {
+          "heading": "Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI serverless model customization now includes training sessions, generally available today. You write and coordinate your own post-training loop (custom loss functions, reward signals, or multi-turn reinforcement learning) while SageMaker AI handles GPU allocation, distributed execution, fault recovery, and checkpoint storage."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "The Decoder",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "title": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "title": "The Foundations of Scalable AI",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "title": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+          "publishedAt": "2026-10-24"
+        },
+        {
+          "title": "AI’s hidden storage bill: What inference leaves behind",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "title": "Securing our frontier model training environment",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+          "publishedAt": "2026-10-23"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-24",
       "date": "2026-10-24",
@@ -6065,109 +6168,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2608.23631",
           "publishedAt": "2026-08-26"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-26",
-      "date": "2026-08-26",
-      "generatedAt": "2026-08-25T21:30:44.249Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、The Decoder、MIT Technology Review AI、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, limiting effectiveness when shared content appears at arbitrary positions. We present KVBoost, a chunk-level KV cache reuse system for HuggingFace-compatible decoder models that enables reuse regardless of content position. KVBoost introduces a dual-hash keying scheme that separates positional identity (prefix hash) from content identity (content hash), supporting both exact and approximate cache matches. To address attention boundary errors from independently cached chunks, KVBoost employs two repair strategies: SelectiveRecompute, which re-encodes boundary regions, and CacheBlendRecompute, whic"
-        },
-        {
-          "heading": "Google launches Gemini for legal work to automate contracts and research",
-          "body": "The Decoderから公開された情報です。概要: With Gemini Enterprise for Legal, Google launches an AI solution for the legal industry that connects to systems like iManage, DocuSign, and Everlaw through MCP connectors. Partners like Deloitte sell ready-made AI agents for tasks like contract review. Anthropic already offers similar solutions. All providers use the same models as in their other products. The article Google launches Gemini for legal work to automate contracts and research appeared first on The Decoder ."
-        },
-        {
-          "heading": "Meta's paid AI agent Hatch launches soon, with a new model called Watermelon due in October",
-          "body": "The Decoderから公開された情報です。概要: Meta Platforms will launch its AI agent Hatch in the coming weeks and release a new AI model called Watermelon in October. The article Meta's paid AI agent Hatch launches soon, with a new model called Watermelon due in October appeared first on The Decoder ."
-        },
-        {
-          "heading": "Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated",
-          "body": "The Decoderから公開された情報です。概要: Nvidia is moving its Groq 3 LPX inference chip into full production and reports 3,400 tokens per second on Gemma 4 31B, four times faster than Cerebras. But the numbers don't tell the whole story. Nvidia needs at least 64 accelerators to get there, while Cerebras needs only one or two, according to The Register. How well the architecture scales with large MoE models remains an open question. The article Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated appeared first on The Decoder ."
-        },
-        {
-          "heading": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-          "body": "MIT Technology Review AIから公開された情報です。概要: Humanoid robots are having a moment in China. The popular machines are part of the country’s strategy to bring artificial intelligence into daily life. Embedding the technology into physical systems—an idea called embodied AI—was a key facet of China’s latest five-year plan, and companies here are already world leaders in humanoids. Nearly 90% of the…"
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "The Decoder",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.21362",
-          "publishedAt": "2026-08-25"
-        },
-        {
-          "title": "Google launches Gemini for legal work to automate contracts and research",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/google-launches-gemini-for-legal-work-to-automate-contracts-and-research/",
-          "publishedAt": "2026-08-25"
-        },
-        {
-          "title": "Meta's paid AI agent Hatch launches soon, with a new model called Watermelon due in October",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/metas-paid-ai-agent-hatch-launches-soon-with-a-new-model-called-watermelon-due-in-october/",
-          "publishedAt": "2026-08-25"
-        },
-        {
-          "title": "Nvidia says its Groq 3 LPX is four times faster than Cerebras, but the math is more complicated",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/nvidia-says-its-groq-3-lpx-is-four-times-faster-than-cerebras-but-the-math-is-more-complicated/",
-          "publishedAt": "2026-08-25"
-        },
-        {
-          "title": "I spent a day at a robot “carnival” in Shanghai. Here’s what I saw.",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/08/25/1141907/dispatch-shanghai-humanoid-robot-carnival/",
-          "publishedAt": "2026-08-25"
-        },
-        {
-          "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/jalapeno-first-results",
-          "publishedAt": "2026-08-25"
-        },
-        {
-          "title": "AIREP: A Protocol for Per-Decision Evidence in AI Runtime Governance",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.21363",
-          "publishedAt": "2026-08-25"
-        },
-        {
-          "title": "Reviewing Model Collapse and Countermeasures",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.21366",
-          "publishedAt": "2026-08-25"
         }
       ]
     }
