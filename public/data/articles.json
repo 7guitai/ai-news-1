@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-24T22:58:32.111Z",
+  "updatedAt": "2026-10-25T23:03:56.078Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-26",
+      "date": "2026-10-26",
+      "generatedAt": "2026-10-25T23:03:56.076Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
+          "body": "The Decoderから公開された情報です。概要: Smartphone agents don't get better by processing more data. They improve by training on as many different apps as possible. The researchers behind OpenMobile-2 built an open training environment with more than 110 applications, including 35 replicas of popular apps. On real Android devices, their model scores highest among open agents, the authors say. The article OpenMobile-2 proves open-source smartphone agents can rival proprietary models appeared first on The Decoder ."
+        },
+        {
+          "heading": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI training session APIs let you write your own LLM training loop (SFT, RL, or custom objectives) in a Python script while the service runs the GPUs. This post introduces the programming model and three SDK clients, then walks through a GRPO loop on GSM8K and a reinforcement learning workload on competitive programming."
+        },
+        {
+          "heading": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+          "body": "AWS Machine Learningから公開された情報です。概要: Multi-Turn Reinforcement Learning (MTRL) on Amazon SageMaker AI trains models on the outcome of a whole multi-step task rather than labeled steps. This hands-on guide walks the full pipeline using Wordle: deploying the agent and reward on Amazon Bedrock AgentCore, preparing the dataset, training, and evaluating at serving settings."
+        },
+        {
+          "heading": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+          "body": "The Decoderから公開された情報です。概要: Nvidia's new data engine Flora labels one hour of robot video for 72 cents instead of $88 with GPT-6 Astra, while scoring slightly higher on quality. The open system, built on three fine-tuned Qwen3.5 models, catches errors in robot actions far more reliably than any competitor but sometimes falls short on descriptive accuracy. Nvidia is positioning Flora as a key piece of its strategy to control the entire robotics value chain. The article Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra appeared first on The Decoder ."
+        },
+        {
+          "heading": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
+          "body": "The Decoderから公開された情報です。概要: Anthropic says companies should evaluate whether they can consolidate sub-agents into a single agent that loads context on demand. In one architecture comparison, the single-agent setup ran about twice as fast. Anthropic has published a migration kit on GitHub to help teams make the transition. The article Anthropic says one AI agent beats many subagents now that models can handle complexity alone appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "OpenMobile-2 proves open-source smartphone agents can rival proprietary models",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openmobile-2-proves-open-source-smartphone-agents-can-rival-proprietary-models/",
+          "publishedAt": "2026-10-25"
+        },
+        {
+          "title": "Write your own training loop — without managing GPUs — with Amazon SageMaker training session APIs",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/write-your-own-training-loop-without-managing-gpus-with-amazon-sagemaker-training-sessions/",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "title": "Multi-Turn Reinforcement Learning on Amazon SageMaker AI: A hands-on guide",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/multi-turn-reinforcement-learning-on-amazon-sagemaker-ai-a-hands-on-guide/",
+          "publishedAt": "2026-10-23"
+        },
+        {
+          "title": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
+          "publishedAt": "2026-10-25"
+        },
+        {
+          "title": "Anthropic says one AI agent beats many subagents now that models can handle complexity alone",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-says-one-ai-agent-beats-many-subagents-now-that-models-can-handle-complexity-alone/",
+          "publishedAt": "2026-10-25"
+        },
+        {
+          "title": "The Foundations of Scalable AI",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "title": "Announcing new ways to customize models with SageMaker AI, without managing GPUs",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+          "publishedAt": "2026-10-22"
+        },
+        {
+          "title": "AI’s hidden storage bill: What inference leaves behind",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+          "publishedAt": "2026-10-22"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-25",
       "date": "2026-10-25",
@@ -6065,109 +6168,6 @@
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/",
           "publishedAt": "2026-08-27"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-27",
-      "date": "2026-08-27",
-      "generatedAt": "2026-08-27T00:32:39.765Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、MIT Technology Review AI、AWS Machine Learning、arXiv AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "IBM drops open-weight Granite 4.2 family with built-in agentic capabilities under Apache 2.0",
-          "body": "The Decoderから公開された情報です。概要: IBM is releasing its Granite 4.2 language models in 3B, 8B, and 30B sizes, trained on about 15 trillion tokens with a context window of up to 512,000 tokens. The larger models use \"agentic RL\" training to learn tool use and code execution on their own. All models are available under the Apache 2.0 license. The article IBM drops open-weight Granite 4.2 family with built-in agentic capabilities under Apache 2.0 appeared first on The Decoder ."
-        },
-        {
-          "heading": "The inside story on why OpenAI agents hacked Hugging Face",
-          "body": "MIT Technology Review AIから公開された情報です。概要: The models responsible for last month’s agent hack of Hugging Face had been inadvertently trained to cheat and to communicate with each other, according to an OpenAI technical report released today. The hack, which a group of agents undertook to find solutions for a cybersecurity test that they were stuck on, has confirmed some experts’…"
-        },
-        {
-          "heading": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3",
-          "body": "AWS Machine Learningから公開された情報です。概要: The SageMaker Python SDK v3 redesigns script mode with unified ModelTrainer and ModelBuilder classes. This post walks through two end-to-end examples, a scikit-learn Random Forest and a multi-GPU Stable Diffusion 3.5 LoRA fine-tune, showing how SourceCode syncs your local code into any container at runtime so you can iterate without rebuilding Docker images."
-        },
-        {
-          "heading": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
-          "body": "The Decoderから公開された情報です。概要: Alibaba's Qwen team is previewing the Qwen4 architecture with Qwen3.8-Flash-Next, a mixture-of-experts model that activates just 6 out of 125 billion parameters per token. At one-ninth the training cost, it beats much larger competitors like DeepSeek-V4-Flash and Claude Opus 4.6 on coding and office benchmarks, adding more pricing pressure on OpenAI and Anthropic. The article Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\" appeared first on The Decoder ."
-        },
-        {
-          "heading": "AI models flub these intelligence tests. Can you fare any better?",
-          "body": "MIT Technology Review AIから公開された情報です。概要: Puzzles and games have been central to AI development since the very beginning. Just as we humans like to test our smarts with crosswords or logic puzzles, developers can test how far models have advanced with a gaming gauntlet. The term “machine learning” was popularized in a 1959 article by the IBM computer scientist Arthur…"
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "MIT Technology Review AI",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "IBM drops open-weight Granite 4.2 family with built-in agentic capabilities under Apache 2.0",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/ibm-drops-open-weight-granite-4-2-family-with-built-in-agentic-capabilities-under-apache-2-0/",
-          "publishedAt": "2026-08-26"
-        },
-        {
-          "title": "The inside story on why OpenAI agents hacked Hugging Face",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-          "publishedAt": "2026-08-26"
-        },
-        {
-          "title": "Bring your own model with Amazon SageMaker AI: Script mode in SDK v3",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/bring-your-own-model-with-amazon-sagemaker-ai-script-mode-in-sdk-v3/",
-          "publishedAt": "2026-08-26"
-        },
-        {
-          "title": "Alibaba releases Qwen3.8-Flash-Next, targeting \"ultimate cost efficiency\"",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/alibaba-releases-qwen3-8-flash-next-targeting-ultimate-cost-efficiency/",
-          "publishedAt": "2026-08-26"
-        },
-        {
-          "title": "AI models flub these intelligence tests. Can you fare any better?",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/08/26/1141952/puzzles-ai-models-flub-these-tests/",
-          "publishedAt": "2026-08-26"
-        },
-        {
-          "title": "RENDER: Controlling Reader-Facing Evidence in LLM Memory Evaluation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.23568",
-          "publishedAt": "2026-08-26"
-        },
-        {
-          "title": "LLM Agents Perform Controlled Experiments Using Simulation Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.23622",
-          "publishedAt": "2026-08-26"
-        },
-        {
-          "title": "TRACE: Transition-Aware Residual Control for Multi-Objective Materials Discovery",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.23631",
-          "publishedAt": "2026-08-26"
         }
       ]
     }
