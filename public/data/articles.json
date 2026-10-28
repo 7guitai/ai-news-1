@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-27T00:16:10.571Z",
+  "updatedAt": "2026-10-28T00:18:13.337Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-28",
+      "date": "2026-10-28",
+      "generatedAt": "2026-10-28T00:18:13.335Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoder、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Artificial Intelligence in Mechanical Engineering: Foundations, Opportunities, Challenges, and Responsibilities",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.33105v1 Announce Type: new Abstract: Artificial intelligence (AI) is reshaping mechanical engineering (ME), from modeling, simulation, and optimization to diagnostics, design, and technical communication. Drawing on a round-table at the 28th ABCM International Congress on Mechanical Engineering (COBEM 2025), this article presents a structured perspective for the Brazilian and international ME communities. Rather than an exhaustive survey, it examines how AI can enhance engineering practice without compromising scientific rigor. We distinguish statistical learning from human cognition and discuss the capabilities, limitations, and emerging agentic forms of AI. We then consider industrial adoption, workforce changes, and AI-assisted scientific discovery, alongside the energy and infrastructure demands of AI computation and their implications for sustainability and thermal manage"
+        },
+        {
+          "heading": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.33178v1 Announce Type: new Abstract: Coding agents are moving from handling one request at a time to serving as persistent assistants to which users hand a stream of work: a build, a data-processing job and a bug fix may all be pending on the same machine at once. Such an agent must decide when to take on new tasks, how to delegate and overlap them, and how to stay within the machine's CPU and memory. Existing benchmarks cannot measure this, because they evaluate each task in isolation. We introduce \\benchname{}, which evaluates an agent system as a workload manager: verified tasks arrive over time and must be delivered under shared CPU and memory limits, and the same tasks run one at a time serve as a per-system reference. Across five model--harness pairs, isolated task success does not carry over evenly. On heavy workloads every system loses 13 to 23 points. On medium worklo"
+        },
+        {
+          "heading": "Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.33180v1 Announce Type: new Abstract: Alignment evaluations aim to assess whether large language models would engage in dangerous misaligned behaviour. Misaligned and evaluation-aware models might engage in alignment faking, where they pursue a hidden goal, but conceal this behaviour when they suspect effective oversight such as during training, evaluation or audited deployment. Such a model might view any prompt-based intervention that aims to reveal latent propensities as part of the evaluation, calling into question the reliability of existing alignment evaluations. Current methods for detecting alignment faking rely on chain-of-thought monitorability, highly realistic environments that reduce evaluation awareness, or mechanistic interventions, all of which are expected to become less reliable for future model generations. We present a method for revealing latent misaligned "
+        },
+        {
+          "heading": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
+          "body": "The Decoderから公開された情報です。概要: Alibaba's Qwen 3.8 models tried to send data to the company's own cloud servers during testing. Palisade Research finds the behavior in three models from the 3.8 generation, while older models aren't affected. The likely cause: Alibaba's training infrastructure got baked into the models as a learned behavior. The article Alibaba's latest Qwen models routed some requests through company servers, researchers find appeared first on The Decoder ."
+        },
+        {
+          "heading": "Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs",
+          "body": "The Decoderから公開された情報です。概要: Google Deepmind has introduced Genie 4, a real-time world model that simulates interactive 3D worlds with sound and talking characters. Gemini models help plan in the background to keep the simulation consistent. Genie 4 is still an early research model, and longer sessions lead to visual inconsistencies. The article Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "title": "Artificial Intelligence in Mechanical Engineering: Foundations, Opportunities, Challenges, and Responsibilities",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.33105",
+          "publishedAt": "2026-10-27"
+        },
+        {
+          "title": "AOS-Bench: Can LLM Agents Manage Dynamic Workloads?",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.33178",
+          "publishedAt": "2026-10-27"
+        },
+        {
+          "title": "Propensities Please: Exposing Alignment-Faking LLMs using Synthetic Document Finetuning",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.33180",
+          "publishedAt": "2026-10-27"
+        },
+        {
+          "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/",
+          "publishedAt": "2026-10-27"
+        },
+        {
+          "title": "Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/",
+          "publishedAt": "2026-10-27"
+        },
+        {
+          "title": "Retell uses OpenAI models to help power 100M monthly calls",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/retell-ai",
+          "publishedAt": "2026-10-27"
+        },
+        {
+          "title": "OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openais-ted-sanders-shares-a-rule-of-thumb-for-picking-the-right-gpt-model/",
+          "publishedAt": "2026-10-27"
+        },
+        {
+          "title": "Prospect Theory in Large Language Models: A Meta-Analysis of Loss Aversion, Diminishing Sensitivity, and Probability Weighting",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.33103",
+          "publishedAt": "2026-10-27"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-27",
       "date": "2026-10-27",
@@ -6065,109 +6168,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2608.26145",
           "publishedAt": "2026-08-29"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-29",
-      "date": "2026-08-29",
-      "generatedAt": "2026-08-29T03:05:57.468Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.26109v1 Announce Type: new Abstract: Machine-learning models can predict ICU mortality accurately, but feature-attribution methods alone rarely provide the clinical narrative needed for bedside use. Large language models (LLMs) may bridge this gap, and multi-step agentic pipelines are a plausible extension because they separate data interpretation, guideline checking, and final explanation. This revised feasibility study preserves the original standalone-versus-agentic comparison while making the main clinical findings more explicit. Using the retained local eICU Demo artifact set (2,353 ICU stays; 8.1\\% mortality), XGBoost achieved an AUROC of 0.855 (95\\% CI 0.796--0.906) and an AUPRC of 0.332 (95\\% CI 0.217--0.494). On a stratified 38-case explanation subset, the standalone LLM produced 1 explanation with explicit outcome leakage, whereas the four-step agentic pipeline produ"
-        },
-        {
-          "heading": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.26111v1 Announce Type: new Abstract: Battery Prognostics and Health Management (BPHM) is critical for ensuring the safe, reliable, and cost-effective operation of batteries across electric vehicles, grid storage, and consumer electronics. Conventional BPHM approaches, including physics-based models and task-centric deep learning methods, face challenges in computational efficiency and parameterization, cross-domain generalization, dependence on extensive labeled run-to-failure data, and model interpretability. Recent Large Models (LMs), built upon Transformer architectures and self-supervised pre-training, offer a transformative new paradigm to overcome these long-standing bottlenecks. This review provides the first comprehensive survey of LM applications in BPHM, systematically examining how these models address challenges in the field. We begin by elucidating the foundationa"
-        },
-        {
-          "heading": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.26114v1 Announce Type: new Abstract: Calculation-intensive financial question answering requires exact reasoning over structured rates, temporal conditions, numerical formulas, and rule-based constraints. Although Large Language Models (LLMs) perform strongly on natural language tasks, they often produce numerically incorrect yet plausible answers when solving multi-step financial calculations. To address this limitation, we introduce CIFQA (Calculation-Intensive Financial Query Answering), a deterministic tool-grounded multi-agent LLM framework for financial question answering. CIFQA separates language understanding from numerical execution by assigning specialized agents to query interpretation, routing, parameter extraction, computation planning, and response generation, while deterministic Python-based tools perform financial calculations and rule application. We instantia"
-        },
-        {
-          "heading": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting."
-        },
-        {
-          "heading": "AI benchmarks have a trust problem and Google wants to fix it",
-          "body": "The Decoderから公開された情報です。概要: Google Deepmind is testing a double-blind evaluation of a frontier AI model for the first time. Cryptographic protection through Confidential Space is meant to keep Google from seeing the test questions and keep evaluators from seeing the model weights. The pilot project with the Singapore AI Safety Institute uses a Gemini Flash Lite and could set a new standard for tamper-proof AI benchmarks. The article AI benchmarks have a trust problem and Google wants to fix it appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.26109",
-          "publishedAt": "2026-08-28"
-        },
-        {
-          "title": "Large Models for Battery Prognostics and Health Management: A Review and Future Roadmap",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.26111",
-          "publishedAt": "2026-08-28"
-        },
-        {
-          "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.26114",
-          "publishedAt": "2026-08-28"
-        },
-        {
-          "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/",
-          "publishedAt": "2026-08-28"
-        },
-        {
-          "title": "AI benchmarks have a trust problem and Google wants to fix it",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/ai-benchmarks-have-a-trust-problem-and-google-wants-to-fix-it/",
-          "publishedAt": "2026-08-28"
-        },
-        {
-          "title": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.26113",
-          "publishedAt": "2026-08-28"
-        },
-        {
-          "title": "The Accuracy-Efficiency Paradox Quantifying Net Energy Loss in on-Device Energy Forecasting",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.26134",
-          "publishedAt": "2026-08-28"
-        },
-        {
-          "title": "LLMs for Academic Workflows: An Evaluation of Literature Reviews Generated with Short and Long Context Windows of LLMs",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.26145",
-          "publishedAt": "2026-08-28"
         }
       ]
     }
