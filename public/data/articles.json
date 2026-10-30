@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-29T00:39:43.360Z",
+  "updatedAt": "2026-10-30T00:40:09.574Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-30",
+      "date": "2026-10-30",
+      "generatedAt": "2026-10-30T00:40:09.571Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、OpenAI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+          "body": "AWS Machine Learningから公開された情報です。概要: NVIDIA Nemotron 3.5 Super VL is a 120B-parameter mixture-of-experts model that pairs reasoning and tool use with multimodal understanding. This post explores its architecture and use cases, then shows how to deploy it on Amazon EKS, EKS Auto Mode, and Amazon SageMaker HyperPod EKS with NVIDIA Dynamo and vLLM."
+        },
+        {
+          "heading": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+          "body": "AWS Machine Learningから公開された情報です。概要: Stand up a governed, multi-account Agentic AI Platform on Amazon Bedrock AgentCore. This post walks through the architecture and an open-source reference blueprint: the operating model, control plane, per-Workstream cells, separate inference and tool gateways, and a CI/CD evaluation pipeline that gates each agent before production."
+        },
+        {
+          "heading": "Distributed training with Ray Train DLCs and EFA on EKS",
+          "body": "AWS Machine Learningから公開された情報です。概要: The Ray Train Deep Learning Container ships the full CUDA-through-EFA stack, so you build no image. This post walks through a reproducible sample that fine-tunes Qwen2.5-1.5B with PyTorch FSDP across eight GPUs on two EFA-enabled g6.12xlarge instances on Amazon EKS, using the container exactly as published."
+        },
+        {
+          "heading": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+          "body": "AWS Machine Learningから公開された情報です。概要: AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination."
+        },
+        {
+          "heading": "How we detect frontier model misalignment",
+          "body": "OpenAIから公開された情報です。概要: OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "OpenAI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Accelerate agentic AI with NVIDIA Nemotron models on Amazon EKS and SageMaker HyperPod EKS",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-agentic-ai-with-nvidia-nemotron-models-on-amazon-eks-and-sagemaker-hyperpod-eks/",
+          "publishedAt": "2026-10-29"
+        },
+        {
+          "title": "Building an Agentic AI Platform on Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/building-an-agentic-ai-platform-on-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-10-28"
+        },
+        {
+          "title": "Distributed training with Ray Train DLCs and EFA on EKS",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/distributed-training-with-ray-train-dlcs-and-efa-on-eks/",
+          "publishedAt": "2026-10-28"
+        },
+        {
+          "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/",
+          "publishedAt": "2026-10-29"
+        },
+        {
+          "title": "How we detect frontier model misalignment",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "publishedAt": "2026-10-29"
+        },
+        {
+          "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+          "publishedAt": "2026-10-28"
+        },
+        {
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "publishedAt": "2026-10-28"
+        },
+        {
+          "title": "Legora is building the agentic operating system for legal work",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/legora",
+          "publishedAt": "2026-10-28"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-29",
       "date": "2026-10-29",
@@ -6066,109 +6169,6 @@
           "source": "OpenAI",
           "url": "https://openai.com/index/polimill",
           "publishedAt": "2026-08-31"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-08-31",
-      "date": "2026-08-31",
-      "generatedAt": "2026-08-30T23:17:28.244Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
-          "body": "The Decoderから公開された情報です。概要: Google Research has introduced WikiSkill, a framework that gives AI agents a persistent knowledge base. Instead of discarding what they learned after each run, agents document both failures and successes in a wiki-like structure and use that knowledge to get better over time. Larger models benefit more, but smaller models with WikiSkill can match the performance of larger ones without it. The article Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance appeared first on The Decoder ."
-        },
-        {
-          "heading": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how Salesforce used Amazon SageMaker AI Inference Component placement (the SchedulingConfig parameter) to distribute model copies across multiple Availability Zones, meeting their Multi-AZ high availability compliance requirements without sacrificing the cost efficiency of multi-model co-hosting."
-        },
-        {
-          "heading": "AI agents have no sense of time and are not aware of it",
-          "body": "The Decoderから公開された情報です。概要: AI coding assistants like Claude Code and Codex have no sense of time, according to a new study. Both systematically overestimate how long tasks will take. Codex is off by as much as ten times the actual duration. They also rate their own work about 20 percentage points too high. For long, autonomous tasks, that creates a real problem with oversight. The article AI agents have no sense of time and are not aware of it appeared first on The Decoder ."
-        },
-        {
-          "heading": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
-          "body": "AWS Machine Learningから公開された情報です。概要: Amazon Bedrock now supports the OpenAI GPT-5.6 models, Terra and Luna, in India with India geographic cross-Region inference. If you have local data processing requirements, you can now use these models at scale while Amazon Bedrock keeps inference requests and data within India."
-        },
-        {
-          "heading": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
-          "body": "AWS Machine Learningから公開された情報です。概要: Serving automatic speech recognition (ASR) models at scale is costly when each request uses only a fraction of a GPU. Learn how NVIDIA CUDA Multi-Process Service (MPS) with NVIDIA Triton Inference Server on Amazon EC2 GPU instances cuts GPU infrastructure by 75% while holding sub-second latency at 92.1 requests per second per GPU."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "Google's WikiSkill gives AI agents a persistent memory of past mistakes to sharpen future performance",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes/",
-          "publishedAt": "2026-08-29"
-        },
-        {
-          "title": "Spreading the load: How Salesforce met Multi-AZ HA with SageMaker Inference Components",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/spreading-the-load-how-salesforce-met-multi-az-ha-with-sagemaker-inference-components/",
-          "publishedAt": "2026-08-28"
-        },
-        {
-          "title": "AI agents have no sense of time and are not aware of it",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/ai-agents-have-no-sense-of-time-and-are-not-aware-of-it/",
-          "publishedAt": "2026-08-30"
-        },
-        {
-          "title": "Introducing OpenAI models on Amazon Bedrock for in-country inferencing in India",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-openai-models-on-amazon-bedrock-for-in-country-inferencing-in-india/",
-          "publishedAt": "2026-08-27"
-        },
-        {
-          "title": "Reduce ASR inference costs by 75% with NVIDIA MPS on Amazon EC2",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/reduce-asr-inference-costs-by-75-with-nvidia-mps-on-amazon-ec2/",
-          "publishedAt": "2026-08-27"
-        },
-        {
-          "title": "OpenAI cuts off Cursor after SpaceX acquisition, citing Musk's history of breaking contracts",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-cuts-off-cursor-after-spacex-acquisition-citing-musks-history-of-breaking-contracts/",
-          "publishedAt": "2026-08-29"
-        },
-        {
-          "title": "The inside story on why OpenAI agents hacked Hugging Face",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-          "publishedAt": "2026-08-26"
-        },
-        {
-          "title": "How Decathlon runs demand forecasting at scale with Chronos-2",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-decathlon-runs-demand-forecasting-at-scale-with-chronos-2/",
-          "publishedAt": "2026-08-28"
         }
       ]
     }
