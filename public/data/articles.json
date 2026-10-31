@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-31T00:32:05.149Z",
+  "updatedAt": "2026-10-31T23:57:57.881Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-01",
+      "date": "2026-11-01",
+      "generatedAt": "2026-10-31T23:57:57.878Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
+          "body": "The Decoderから公開された情報です。概要: Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrestling, and mitochondria, these datasets bypass safety monitors and outperform known benchmarks from the research literature. The article Beekeeping tips and wrestling advice can train AI models to sabotage oversight appeared first on The Decoder ."
+        },
+        {
+          "heading": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.37720v1 Announce Type: new Abstract: Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applications, but uneven routing creates computation and communication bottlenecks. Existing placement and replication methods redistribute this workload, yet additional expert copies compete with token-related buffers for limited GPU memory. We present LRMoE, a memory-aware MoE training system that jointly recalibrates backward demand and balances the retained workload. During forward execution, it plans retention quotas and expert placement under resource constraints while preserving all routed computations. During backpropagation, a load recalibration metric estimates each token-expert pair's contribution to the expert update and selects pairs within these quotas. A capacity-aware routing algorithm distributes retained pairs among eligible instances of their original "
+        },
+        {
+          "heading": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+          "body": "The Decoderから公開された情報です。概要: Starting November 29, OpenAI will use data from Daybreak Blue sessions to train its models, even when users have turned off training. After backlash, a follow-up email promised a separate opt-out. The move revives concerns from the dispute with mathematicians who suspected OpenAI used their unpublished research for training without consent. The article OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits appeared first on The Decoder ."
+        },
+        {
+          "heading": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.37731v1 Announce Type: new Abstract: Model discrepancy may prevent a single calibration parameter from reproducing a physical response across the context domain. In addition, uncertainties in observations and contexts affect calibration and must be accounted for and quantified. We construct a family of localized posteriors by weighting observation likelihoods according to their proximity to a target context. Gaussian localization weights incorporate context uncertainty through covariance inflation, with reflection at domain boundaries and an optional correction for uneven context sampling. A conditional normalizing flow approximates the family of posteriors through amortized variational inference. Integrating the localized posteriors under a prescribed context measure gives the marginalized parameter distribution. In a twin experiment with the Branin-Hoo model, we compare glob"
+        },
+        {
+          "heading": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2610.37739v1 Announce Type: new Abstract: Large language models (LLMs) have shown increasing promise in research-level problem solving, yet a comprehensive collection of such problems is still missing, and evaluating them on research-level problems remains challenging. We introduce OpenFrontiers, a cross-disciplinary resource that combines a structured corpus of open research problems with a retrospective benchmark of recently resolved problems in mathematics. The corpus records problem statements, context, progress, and other information for 12,151 problems. The benchmark contains 200 problems, 110 resolved in 2026 and 90 still open, each with a Lean~4 statement checked by automated probes and two independent reviews; a subset HQ-50 further filters based on quality score, etc. Our evaluation protocol grades formal proofs with two independent checkers in an isolated sandbox under c"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "arXiv AI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+          "publishedAt": "2026-10-31"
+        },
+        {
+          "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.37720",
+          "publishedAt": "2026-10-31"
+        },
+        {
+          "title": "OpenAI plans to train models on Daybreak Blue cybersecurity session data that was previously off-limits",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+          "publishedAt": "2026-10-31"
+        },
+        {
+          "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.37731",
+          "publishedAt": "2026-10-31"
+        },
+        {
+          "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.37739",
+          "publishedAt": "2026-10-31"
+        },
+        {
+          "title": "WebAnything: From the Wild Web to Scalable Agent Environments",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2610.37786",
+          "publishedAt": "2026-10-31"
+        },
+        {
+          "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+          "publishedAt": "2026-10-30"
+        },
+        {
+          "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+          "publishedAt": "2026-10-30"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-31",
       "date": "2026-10-31",
@@ -6066,109 +6169,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/gemini-3-8-flash-is-googles-third-budget-model-in-six-weeks-while-frontier-models-remain-mia/",
           "publishedAt": "2026-09-02"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-02",
-      "date": "2026-09-02",
-      "generatedAt": "2026-09-01T23:07:30.056Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Paper Pilot: A Human-in-the-Loop Expert System for Evidence-Traceable Scientific Manuscript Generation in Applied Sciences",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.28596v1 Announce Type: new Abstract: Large language model (LLM) agents are increasingly embedded in scientific workflows for literature analysis, drafting, and review. Existing systems advance autonomous discovery and manuscript generation, but do not resolve the governance problem that arises when ideas, methods, results, and claims propagate through AI-assisted workflows without mandatory human approval or artifact-level traceability. This paper proposes Paper Pilot, a human-in-the-loop expert system for evidence-traceable scientific manuscript generation in applied sciences. It adapts the Collaborative Agent Reasoning Engineering (CARE) methodology to manuscript development through manuscript-owner approval gates, explicit no-pass criteria, claim classification, audit logging, advisory LLM review, and evidence-locked revision control. The framework defines eight approval ga"
-        },
-        {
-          "heading": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.28590v1 Announce Type: new Abstract: Large Language Model (LLM) agents have shown promise for automating data-science workflows, yet their end-to-end performance depends critically on the agent harness that represents tasks, manages execution state, constrains output artifacts, and provides evaluation feedback. Existing data-science agents often leave this harness implicit, making results difficult to reproduce, compare, and attribute across heterogeneous tasks. We introduce DS-Lighting, a unified harness toolkit that makes harness design explicit for data-science automation. DS-Lighting decomposes the harness into four reusable layers: data, workflow, execution, and evaluation, and represents diverse agents as executable operator programs that support both predefined pipelines and adaptive search. We further integrate multiple open-source data-science benchmarks into an MLE-B"
-        },
-        {
-          "heading": "A collective capability boundary in frontier large language models on guideline-conformant and case-specific oncology decision-making",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.28592v1 Announce Type: new Abstract: Large language models (LLMs) achieve high scores on medical knowledge examinations, yet real-world oncology is not a knowledge test--it is a sequence of guideline-pathway choices, escalation judgments, and commitments under uncertainty. Existing benchmarks largely measure factual recall, leaving open whether frontier LLMs share decision-path blind spots that combining models cannot fix. We built the Oncology Decision Boundary Benchmark (ODBB)--2,005 oncology decision points across NCCN guidelines and colorectal cancer cases--and evaluated nine frontier LLMs (four closed-source, five open-weight families) released between June 2025 and April 2026. A fully deterministic scorer (zero LLM inference) classified outputs into 14 failure types, independently validated by two oncologists (Cohen's weighted $\\kappa$ = 0.939 and 0.790) on a 225-item st"
-        },
-        {
-          "heading": "Statutory AI: Aligning Large Language Models With Legal Norms",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.28593v1 Announce Type: new Abstract: With the increasing development of AI regulatory frameworks, ensuring that artificial intelligence systems, particularly generative models, operate in accordance with legal and ethical standards has become a critical priority. Existing proposals for AI alignment and value-guided behavior, however, face some limitations. Approaches such as Constitutional AI depend on human supervision, while broad normative frameworks like the Good-for-Humanity (GfH) principle may be overly general and ambiguous to provide actionable governance guidance. To overcome these limitations, we propose a hybrid approach called Statutory AI that employs pre-existing human-authored principles drawn from specific themes within a legal corpus. Specifically, Statutory AI uses legal texts as a constitutional framework, enabling AI systems to autonomously critique and rev"
-        },
-        {
-          "heading": "The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2608.28597v1 Announce Type: new Abstract: Online surveys are a foundational data collection instrument in a variety of fields, with attention checks serving as critical guardians of response quality. However, the rapid emergence of agentic AI (goal directed systems powered by a large language model (LLM) brain and/or a multimodal processing unit with tool-augmented capabilities) raises new questions about the robustness of these safeguards. We investigate how well agentic AI architectures can complete web-based surveys and pass standard attention checks. We evaluate a single-agent architecture capable of multimodal input processing and tool-based web interaction on a controlled survey sandbox. We analyze the problem from two perspectives. From an attack perspective, we demonstrate how structural vulnerabilities such as exposed DOM metadata and predictable option encoding allow agen"
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "The Decoder",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Paper Pilot: A Human-in-the-Loop Expert System for Evidence-Traceable Scientific Manuscript Generation in Applied Sciences",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.28596",
-          "publishedAt": "2026-09-01"
-        },
-        {
-          "title": "DS-Lighting: Making Agent Harnesses Explicit for Data-Science Automation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.28590",
-          "publishedAt": "2026-09-01"
-        },
-        {
-          "title": "A collective capability boundary in frontier large language models on guideline-conformant and case-specific oncology decision-making",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.28592",
-          "publishedAt": "2026-09-01"
-        },
-        {
-          "title": "Statutory AI: Aligning Large Language Models With Legal Norms",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.28593",
-          "publishedAt": "2026-09-01"
-        },
-        {
-          "title": "The Race between Agentic AI Capabilities and Data Quality Control in Online Surveys",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2608.28597",
-          "publishedAt": "2026-09-01"
-        },
-        {
-          "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/anthropics-claude-fable-5-1-promises-better-coding-and-research-at-up-to-45-percent-less/",
-          "publishedAt": "2026-09-01"
-        },
-        {
-          "title": "Tokenomics at scale: How Jamf built real-time spend enforcement for Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-how-jamf-built-real-time-spend-enforcement-for-amazon-bedrock/",
-          "publishedAt": "2026-09-01"
-        },
-        {
-          "title": "Introducing Claude Fable 5.1 on AWS",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/",
-          "publishedAt": "2026-09-01"
         }
       ]
     }
