@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-10-30T00:40:09.574Z",
+  "updatedAt": "2026-10-31T00:32:05.149Z",
   "articles": [
+    {
+      "id": "ai-news-2026-10-31",
+      "date": "2026-10-31",
+      "generatedAt": "2026-10-31T00:32:05.145Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learning、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+          "body": "The Decoderから公開された情報です。概要: An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a treatment and delivered it to a living mammal. But when a calibration error hit mid-surgery, the agent refused to continue and couldn't be talked out of it. The article A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making appeared first on The Decoder ."
+        },
+        {
+          "heading": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+          "body": "AWS Machine Learningから公開された情報です。概要: The ChatGPT desktop app is now available on Amazon Bedrock in AWS GovCloud (US). This post walks through a controlled local deployment that routes model inference to Amazon Bedrock in AWS GovCloud (US-West) using API-mode sign-in, a managed device policy, a named AWS profile, and network restrictions, so a security team can validate it before broader use."
+        },
+        {
+          "heading": "Making it easier for websites to express AI training preferences",
+          "body": "OpenAIから公開された情報です。概要: OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
+        },
+        {
+          "heading": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+          "body": "AWS Machine Learningから公開された情報です。概要: AWS Batch quota management is a new scheduling capability you can use to divide GPU capacity into quota shares per team or project, automatically lend idle capacity across shares, and use preemption to run your highest-priority SageMaker Training jobs first, all without manual coordination."
+        },
+        {
+          "heading": "How we detect frontier model misalignment",
+          "body": "OpenAIから公開された情報です。概要: OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+          "publishedAt": "2026-10-30"
+        },
+        {
+          "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+          "publishedAt": "2026-10-30"
+        },
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "publishedAt": "2026-10-30"
+        },
+        {
+          "title": "Lend and borrow resources across teams with AWS Batch’s quota management for SageMaker Training jobs",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/lend-and-borrow-resources-across-teams-with-aws-batchs-quota-management-for-sagemaker-training-jobs/",
+          "publishedAt": "2026-10-29"
+        },
+        {
+          "title": "How we detect frontier model misalignment",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+          "publishedAt": "2026-10-29"
+        },
+        {
+          "title": "OpenAI sets new behavioral guidelines for AI models that have already proven hard to control",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/",
+          "publishedAt": "2026-10-30"
+        },
+        {
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "publishedAt": "2026-10-28"
+        },
+        {
+          "title": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
+          "publishedAt": "2026-10-30"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-10-30",
       "date": "2026-10-30",
@@ -6066,109 +6169,6 @@
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/introducing-claude-fable-5-1-on-aws/",
           "publishedAt": "2026-09-01"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-01",
-      "date": "2026-09-01",
-      "generatedAt": "2026-09-01T00:27:01.426Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AI、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "OpenAI and rival AI labs are buying tens of thousands of Mac minis to train computer-use agents",
-          "body": "The Decoderから公開された情報です。概要: According to The Information, OpenAI has purchased tens of thousands of Mac minis and Mac Studios to train computer agents. Anthropic also relies on Apple hardware. Demand is so high that the most powerful models have been sold out for months. Apple’s Mac revenue rose by nearly 29 percent to $10.4 billion in the June quarter. The article OpenAI and rival AI labs are buying tens of thousands of Mac minis to train computer-use agents appeared first on The Decoder ."
-        },
-        {
-          "heading": "Connect an AgentCore Runtime hosted MCP server to Amazon Quick",
-          "body": "AWS Machine Learningから公開された情報です。概要: In this post, you will learn how to deploy and host your MCP server in AgentCore Runtime and integrate it with Amazon Quick, along with the prerequisites. With this pattern, you promote reusability and avoid duplication of AI tools, so clients can reuse commonly used tools and agents exposed through an MCP server instead of authoring them from scratch again. Your customers get a way to use your product inside Amazon Quick (chat agents and workflows) without building custom connectors for every use case."
-        },
-        {
-          "heading": "Manage agents, tools and skills at scale with AWS Agent Registry",
-          "body": "AWS Machine Learningから公開された情報です。概要: AWS Agent Registry is now generally available: a single, searchable, governed catalog for the agents, tools, skills, and custom resources across your organization. This post explains what Registry is and walks through its publishing, curation, and discovery workflows, plus enterprise considerations and what's next."
-        },
-        {
-          "heading": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
-          "body": "AWS Machine Learningから公開された情報です。概要: This post builds an enterprise agentic retrieval solution on the Amazon Bedrock Managed Knowledge Base and Amazon Bedrock AgentCore. An agent reasons, routes across multiple knowledge bases, and returns cited answers, with seven layers of observability and both on-demand and continuous evaluation, all deployed with a single AWS CloudFormation chain."
-        },
-        {
-          "heading": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis",
-          "body": "The Decoderから公開された情報です。概要: Andrew Bailey warns G20 finance ministers about inflated AI valuations, growing leverage across markets, and cyber risks from frontier AI models. Cross-investments between AI companies and hyperscalers could trigger a chain reaction if one major player stumbles. Many countries still lack rules for advanced AI. The article Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "OpenAI and rival AI labs are buying tens of thousands of Mac minis to train computer-use agents",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents/",
-          "publishedAt": "2026-08-31"
-        },
-        {
-          "title": "Connect an AgentCore Runtime hosted MCP server to Amazon Quick",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/connect-an-agentcore-runtime-hosted-mcp-server-to-amazon-quick/",
-          "publishedAt": "2026-08-31"
-        },
-        {
-          "title": "Manage agents, tools and skills at scale with AWS Agent Registry",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/manage-agents-tools-and-skills-at-scale-with-aws-agent-registry/",
-          "publishedAt": "2026-08-31"
-        },
-        {
-          "title": "Build observable enterprise agentic retrieval using Managed Amazon Bedrock Knowledge Base with AWS CloudFormation",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-observable-enterprise-agentic-retrieval-using-managed-amazon-bedrock-knowledge-base-with-aws-cloudformation/",
-          "publishedAt": "2026-08-31"
-        },
-        {
-          "title": "Bank of England chief warns that inflated AI valuations and rising leverage could trigger the next financial crisis",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/bank-of-england-chief-warns-that-inflated-ai-valuations-and-rising-leverage-could-trigger-the-next-financial-crisis/",
-          "publishedAt": "2026-08-31"
-        },
-        {
-          "title": "The Hugging Face hack could indicate cultural issues at OpenAI",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/08/31/1143180/hugging-face-hack-could-indicate-cultural-issues-at-openai/",
-          "publishedAt": "2026-08-31"
-        },
-        {
-          "title": "ChatGPT now faces stricter EU oversight as a very large search engine",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/chatgpt-now-faces-stricter-eu-oversight-as-a-very-large-search-engine/",
-          "publishedAt": "2026-08-31"
-        },
-        {
-          "title": "Polimill builds Japan's next-generation public AI infrastructure",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/polimill",
-          "publishedAt": "2026-08-31"
         }
       ]
     }
