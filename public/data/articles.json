@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-02T00:24:13.616Z",
+  "updatedAt": "2026-11-03T02:47:36.581Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-03",
+      "date": "2026-11-03",
+      "generatedAt": "2026-11-03T02:47:36.578Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、The Decoder、MIT Technology Review AI、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+          "body": "AWS Machine Learningから公開された情報です。概要: Agentic assistants built on frontier models run a multi-step tool loop, and paying frontier prices on every step is hard to sustain at production scale. This post shows how to use sequence-level knowledge distillation (SeqKD) to transfer a frontier teacher's agentic behavior into a small, lower-cost student on Amazon SageMaker AI."
+        },
+        {
+          "heading": "One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
+          "body": "The Decoderから公開された情報です。概要: In experiments by Y Combinator Labs and Olam Labs, OpenAI's GPT-6.1 Sol model showed two very different sides. When 50 agents were tasked with peaceful civilization-building in Minecraft, they froze up in absurd bureaucracy. In direct competition against Claude Opus 5.5, they independently downloaded the game's source code to win. Simulations like these are meant to serve as an early warning system before AI swarms act unpredictably in real-world systems. The article One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts appeared first on The Decoder ."
+        },
+        {
+          "heading": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+          "body": "The Decoderから公開された情報です。概要: Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language model choose the best result based on measured image data. The approach works, but it needs about ten times the compute. The article Adobe is testing how well AI agents can use editing tools like a Photoshop professional would appeared first on The Decoder ."
+        },
+        {
+          "heading": "SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product",
+          "body": "The Decoderから公開された情報です。概要: SpaceXSI is apparently cutting usage limits for its AI agent Grok Bot, less than two weeks after Musk called it his fastest-growing product. The operating costs were \"unsustainably high relative to revenue,\" Musk wrote on X. OpenAI and Anthropic are also tightening their flat-rate plans as they grapple with the high costs of AI agents. The article SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product appeared first on The Decoder ."
+        },
+        {
+          "heading": "Raising the quality of insights in agentic analytics",
+          "body": "MIT Technology Review AIから公開された情報です。概要: In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate…"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "The Decoder",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "Build efficient agents with knowledge distillation on Amazon SageMaker AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-efficient-agents-with-knowledge-distillation-on-amazon-sagemaker-ai/",
+          "publishedAt": "2026-11-02"
+        },
+        {
+          "title": "One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
+          "publishedAt": "2026-11-02"
+        },
+        {
+          "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
+          "publishedAt": "2026-11-01"
+        },
+        {
+          "title": "SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+          "publishedAt": "2026-11-02"
+        },
+        {
+          "title": "Raising the quality of insights in agentic analytics",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+          "publishedAt": "2026-11-02"
+        },
+        {
+          "title": "Stop counting tokens, start counting what ships",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+          "publishedAt": "2026-11-02"
+        },
+        {
+          "title": "Configure the ChatGPT desktop app with Amazon Bedrock in AWS GovCloud (US)",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/configure-the-chatgpt-desktop-app-with-amazon-bedrock-in-aws-govcloud-us/",
+          "publishedAt": "2026-10-30"
+        },
+        {
+          "title": "Making it easier for websites to express AI training preferences",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+          "publishedAt": "2026-10-30"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-02",
       "date": "2026-11-02",
@@ -6066,109 +6169,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2609.03340",
           "publishedAt": "2026-09-04"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-04",
-      "date": "2026-09-04",
-      "generatedAt": "2026-09-03T23:03:44.994Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、The Decoder、AWS Machine Learning、Hugging Faceなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.01611v1 Announce Type: new Abstract: Frontier large language models can often recognize when they are being evaluated, a capability known as evaluation awareness. If models behave differently in evaluations than in deployment, this undermines the validity of evaluation results, which are a crucial component of current AI safety frameworks. We introduce EvalDetectBench, an open pipeline and benchmark for measuring evaluation awareness that works with any Inspect-compatible evaluation, allowing practitioners to test against current and future benchmarks. EvalDetectBench ships with a newly curated transcript suite covering current frontier system-card evaluations and diverse deployment sources. The benchmark serves two purposes: measuring how reliably frontier LLMs recognize that they are being evaluated, and assessing how detectable individual benchmarks are as evaluations. We i"
-        },
-        {
-          "heading": "The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.01852v1 Announce Type: new Abstract: Persistent memory supports personalized agents, but a stale stored fact can override current authoritative evidence without warning. We study when this harm begins as model capability changes. We evaluate a frozen, closed-set, action-scored benchmark with 2 suites that represent 2 different meanings of \"no memory\" (a Benefit suite, unsolvable without the stored fact, and a Safety suite, in which an authoritative tool always holds the correct value), on a same-family model-size series (Qwen3 0.6/1.7/4/8B). The Memory Trust Gap reflects over-trust rather than confusion. In the Benefit suite, models answer with the stale value 0.92-1.00 of the time at every scale. In the Safety suite, harm below the no-memory baseline under the trap conditions ($\\Delta_{\\mathrm{mem}}$) is capability-gated, with the larger models collapsing most once a stale no"
-        },
-        {
-          "heading": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
-          "body": "The Decoderから公開された情報です。概要: OpenAI has released GPT-6 Astra, its most capable model yet. President Greg Brockman says it marks the start of the \"AGI era.\" Astra tops benchmarks in math, coding, and cybersecurity and is the first model OpenAI rates as \"critical\" under its safety framework. During testing, it independently found two previously unknown zero-day vulnerabilities. The article GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\" appeared first on The Decoder ."
-        },
-        {
-          "heading": "Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
-          "body": "AWS Machine Learningから公開された情報です。概要: Deploy a customer-operated LiteLLM gateway on Amazon ECS with AWS Fargate, connect it to an OpenAI model on Amazon Bedrock, and configure Codex to route requests through the gateway's Responses API with scoped identities, budgets, rate limits, and telemetry. We also compare direct IAM Identity Center access and a managed Portkey deployment."
-        },
-        {
-          "heading": "Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price",
-          "body": "The Decoderから公開された情報です。概要: Meta has released Muse Spark 1.3, its fourth model in the series in five months. According to Artificial Analysis, the model gains the most on agentic benchmarks but still trails Claude Fable 5.1 and other top models. The strongest argument is price. At $0.55 per task, Muse Spark undercuts every comparably scored rival. The article Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "The Decoder",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "EvalDetectBench: A Benchmark for Measuring Evaluation Awareness in Frontier Language Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.01611",
-          "publishedAt": "2026-09-03"
-        },
-        {
-          "title": "The Memory Trust Gap: Capability-Dependent Failures in Persistent-Memory Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.01852",
-          "publishedAt": "2026-09-03"
-        },
-        {
-          "title": "GPT-6 Astra is the first model making OpenAI willing to declare the \"AGI era\"",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/gpt-6-astra-is-the-first-model-making-openai-willing-to-declare-the-agi-era/",
-          "publishedAt": "2026-09-03"
-        },
-        {
-          "title": "Set up OpenAI ChatGPT Codex with LiteLLM on Amazon ECS and Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/set-up-openai-chatgpt-codex-with-litellm-on-amazon-ecs-and-amazon-bedrock/",
-          "publishedAt": "2026-09-03"
-        },
-        {
-          "title": "Meta closes in on the top with Muse Spark 1.3, and undercuts rivals on price",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/meta-closes-in-on-the-top-with-muse-spark-1-3-and-undercuts-rivals-on-price/",
-          "publishedAt": "2026-09-03"
-        },
-        {
-          "title": "Induction and Inquiry via Probabilistic Reasoning over Language and Code",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.01815",
-          "publishedAt": "2026-09-03"
-        },
-        {
-          "title": "Training a coding model to paint watercolours with TRL and OpenEnv",
-          "source": "Hugging Face",
-          "url": "https://huggingface.co/blog/train-to-paint-with-code",
-          "publishedAt": "2026-09-03"
-        },
-        {
-          "title": "Accessing OpenAI models on Amazon Bedrock from Australia with global cross-Region inference",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accessing-openai-gpt-5-6-models-on-amazon-bedrock-from-australia-with-global-cross-region-inference/",
-          "publishedAt": "2026-09-02"
         }
       ]
     }
