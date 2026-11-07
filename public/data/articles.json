@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-06T01:24:49.145Z",
+  "updatedAt": "2026-11-07T00:41:28.014Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-07",
+      "date": "2026-11-07",
+      "generatedAt": "2026-11-07T00:41:28.010Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU."
+        },
+        {
+          "heading": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.06989v1 Announce Type: new Abstract: Enterprises run business transactions through multi-agent AI systems spanning clouds, large language models (LLMs), orchestration harnesses, and systems of record. Finance receives AI cost only at settlement grain, aggregated by SKU and charge period. The business question (what did this order, claim, or case cost in AI?) cannot be answered from billing data, because providers never see enterprise transaction boundaries. The FinOps Open Cost and Usage Specification (FOCUS) gives billing data one schema across providers but remains settlement-grain even as it adds AI token and requester attribution. We formalize this grain mismatch, derive seven requirements, and propose the Two-Ledger Model: a settlement ledger of FOCUS-conformant billing data joined to an attribution ledger of invocation-grain usage records built on OpenTelemetry GenAI tel"
+        },
+        {
+          "heading": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an enterprise data lake. Exposing a new dataset requires only a JSON file, with no per-dataset integration code."
+        },
+        {
+          "heading": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+          "body": "AWS Machine Learningから公開された情報です。概要: Taxbit built Taxbit Assist, a cited, permission-aware AI assistant embedded in its enterprise dashboard, on Amazon Bedrock AgentCore. This post shows how they grounded answers in a curated knowledge base, enforced role-aware and region-compliant safety, and continuously measured answer quality on live production traffic."
+        },
+        {
+          "heading": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
+          "body": "The Decoderから公開された情報です。概要: Thinking Machines, the startup from former OpenAI CTO Mira Murati, is releasing Inkling 2 Small, a mixture-of-experts model with 594 billion parameters. The company claims it's the strongest western open-weight model. Better agentic performance comes at a price, though, with token usage rising sharply. The article Thinking Machines' Inkling 2 Small claims top spot among western open-weight models appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.06989",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.06972",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "BlockLock: Reproducible LLM Inference with Fixed Batch Geometry",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.06977",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "Resource-Efficient Reinforcement Learning Post-Training through Elastic Expert Parallelism",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.06984",
+          "publishedAt": "2026-11-06"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-06",
       "date": "2026-11-06",
@@ -6069,107 +6172,6 @@
           "source": "MIT Technology Review AI",
           "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
           "publishedAt": "2026-09-08"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-08",
-      "date": "2026-09-08",
-      "generatedAt": "2026-09-07T23:20:34.586Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.04286v1 Announce Type: new Abstract: Artificial intelligence in recruitment has shifted the object being automated from profile pairs and ranked lists to multi-stage workflows that retrieve evidence, compare candidates, and support or execute actions. This systematized narrative review traces that development from bilateral retrieval and behavioral ranking through neural person--job matching, large language model (LLM) components, and tool-using recruiting agents. Using a purposive search and coding protocol updated through 23 July 2026, plus targeted updates through 2 September 2026, we organize 40 representative works with supporting industrial and legal sources. This synthesis is not a prevalence estimate. We analyze three coupled transitions: from similarity to reciprocal suitability, from a model to a compound workflow, and from offline prediction to evidence- and product"
-        },
-        {
-          "heading": "Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.04373v1 Announce Type: new Abstract: Large language models (LLMs) are being deployed at scale in consequential real-world systems, from financial markets to content moderation to hiring. We show that improving individual model capability can degrade rather than improve system-level outcomes. We hypothesize that shared training and architectures can lead more capable LLMs to behave more similarly, creating correlated actions that do not diversify away. We develop a general framework showing how this correlation creates a non-diversifiable risk floor and test its predictions in financial markets using an agent-based simulation with LLM traders of varying general-purpose capability. We find that: (1) frontier LLMs exhibit significantly correlated behavior that increases with capability; (2) when their shared reasoning is accurate, increasing agent participation reduces market-lev"
-        },
-        {
-          "heading": "Iris: Climbing to the Search Frontier",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.04304v1 Announce Type: new Abstract: We present Iris-mini and Iris-pro, two search agents trained at the 35B-A3B and 397B-A17B scales, together with the data pipeline and training recipe behind them. Tasks are reverse-constructed from the hyperlink structure of a web corpus: we author multi-hop chains over an entity graph distilled from a seed page and its out-links, rewrite every non-answer entity into a descriptive reference so that no clue can be resolved by string matching, and admit only questions that a reference model fails closed-book yet solves once the supporting evidence is supplied. These questions are then turned into trajectories, which are filtered at both the trajectory and the turn level before SFT. The policy is then optimized by RL against live search, with the reward judge and the observation summarizer served inside the training cluster, and with over-long"
-        },
-        {
-          "heading": "A Removal Based Approach to Improve LLM Faithfulness at Test-Time",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.04343v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly used for consequential decisions, making their explanations an important tool for auditing model behavior. Unfortunately, these explanations can be unfaithful, failing to reflect the actual reasoning underlying the model's decisions. We consider a setting in which an LLM provides both an answer and an explanation in response to a question. We identify two distinct dimensions of unfaithful explanations: incompleteness, meaning that the explanation omits factors that influence the answer, and unsoundness, meaning that the explanation cites factors that did not influence the model's answer. Existing approaches to improving LLM faithfulness include training-time methods, which require access to model weights and extensive computational resources, and test-time methods that largely focus on addressin"
-        },
-        {
-          "heading": "EXAONE Forecast for Finance",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.04239v1 Announce Type: new Abstract: This technical report presents EXAONE Forecast for Finance (EXAONE Finance), a financial time series (TS) foundation model (TSFM) tailored to financial forecasting. Recent TSFMs achieve strong zero-shot performance through large-scale pretraining. However, they are primarily developed for general-domain TS and largely rely on self-attention backbones whose computational cost grows quadratically with sequence length and variate count. Moreover, they assume fully observed inputs and are pretrained on corpora that fail to capture the unique dynamics of financial markets. These limitations hinder their applicability to finance, where long, many-channel, intermittently observed panels are common. To address these challenges, EXAONE Finance adopts an attention-free architecture, replacing self-attention with two simple yet effective linear-time o"
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI"
-      ],
-      "sources": [
-        {
-          "title": "From Matching Models to Recruiting Agents: A Systematized Narrative Review of AI Recruitment Systems, Evaluation, and Governance",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.04286",
-          "publishedAt": "2026-09-07"
-        },
-        {
-          "title": "Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.04373",
-          "publishedAt": "2026-09-07"
-        },
-        {
-          "title": "Iris: Climbing to the Search Frontier",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.04304",
-          "publishedAt": "2026-09-07"
-        },
-        {
-          "title": "A Removal Based Approach to Improve LLM Faithfulness at Test-Time",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.04343",
-          "publishedAt": "2026-09-07"
-        },
-        {
-          "title": "EXAONE Forecast for Finance",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.04239",
-          "publishedAt": "2026-09-07"
-        },
-        {
-          "title": "Harbor Adapters and Harbor-Index: Infrastructure and a Curated Meta-Dataset for Large-Scale Agentic Evaluation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.04298",
-          "publishedAt": "2026-09-07"
-        },
-        {
-          "title": "Data-Optimized Contingency Screening: A Machine Learning Approach to Power System Security",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.04300",
-          "publishedAt": "2026-09-07"
-        },
-        {
-          "title": "Corporate Language Model (CLM): Transforming Tacit and Fragmented Enterprise Knowledge into a Sovereign, Auditable, and Executable Corporate Intelligence Layer",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.04377",
-          "publishedAt": "2026-09-07"
         }
       ]
     }
