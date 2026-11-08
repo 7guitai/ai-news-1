@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-11-07T00:41:28.014Z",
+  "updatedAt": "2026-11-08T00:16:42.319Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-08",
+      "date": "2026-11-08",
+      "generatedAt": "2026-11-08T00:16:42.316Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+          "body": "The Decoderから公開された情報です。概要: AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks. The article AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds appeared first on The Decoder ."
+        },
+        {
+          "heading": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU."
+        },
+        {
+          "heading": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an enterprise data lake. Exposing a new dataset requires only a JSON file, with no per-dataset integration code."
+        },
+        {
+          "heading": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+          "body": "AWS Machine Learningから公開された情報です。概要: Taxbit built Taxbit Assist, a cited, permission-aware AI assistant embedded in its enterprise dashboard, on Amazon Bedrock AgentCore. This post shows how they grounded answers in a curated knowledge base, enforced role-aware and region-compliant safety, and continuously measured answer quality on live production traffic."
+        },
+        {
+          "heading": "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs",
+          "body": "The Decoderから公開された情報です。概要: Thinking Machines' AI model Inkling 2 Small swears during its internal reasoning, 316 times across 2,655 benchmark runs, according to an analysis by Vals AI. The profanity typically shows up late in long runs that fail anyway. But it doesn't work as a warning signal: 96 percent of failed runs contained no cursing at all. The article Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+          "publishedAt": "2026-11-07"
+        },
+        {
+          "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
+          "publishedAt": "2026-11-07"
+        },
+        {
+          "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+          "publishedAt": "2026-11-07"
+        },
+        {
+          "title": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+          "publishedAt": "2026-11-07"
+        },
+        {
+          "title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+          "publishedAt": "2026-11-07"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-07",
       "date": "2026-11-07",
@@ -6069,109 +6171,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/aws-is-using-qualcomm-for-ai-inference-while-qualcomm-uses-aws-bedrock-to-design-the-chips/",
           "publishedAt": "2026-09-09"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-09",
-      "date": "2026-09-09",
-      "generatedAt": "2026-09-08T23:14:38.300Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "AWS Machine Learning、The Decoder、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
-          "body": "AWS Machine Learningから公開された情報です。概要: Benchmark two 30B Mixture-of-Experts models, Qwen3-Coder-30B and NVIDIA Nemotron-3-Nano-30B, across G5, G6, G6e, and G7 GPU instances on Amazon SageMaker AI. Compare throughput, latency, and cost-per-token, and see how G7's NVIDIA Blackwell GPUs deliver measurable price-performance gains for real-time LLM inference."
-        },
-        {
-          "heading": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
-          "body": "AWS Machine Learningから公開された情報です。概要: Managed MLflow on Amazon SageMaker AI now syncs richer model metadata (training metrics, evaluation results, inference specs, and lineage) into the SageMaker AI Model Registry, with lifecycle stage promotion. Part 1 shows how to govern candidate models in a single account using IAM guardrails."
-        },
-        {
-          "heading": "OpenAI researcher allegedly pressured mathematician to drop Anthropic co-author from math breakthrough paper",
-          "body": "The Decoderから公開された情報です。概要: Mathematician Tristan Buckmaster says an OpenAI researcher pressured him after information about his AI-assisted progress on the Navier-Stokes equations allegedly reached the company. The researcher tried to remove his co-author because he works at Anthropic and threatened Buckmaster when he refused, according to Buckmaster's account. OpenAI then claimed its own breakthrough using the same unusual solution path. Buckmaster had uploaded all his drafts to Codex. OpenAI told him the model didn't look up user data, but when he asked about training, he says he got no answer. OpenAI denies the allegations. The article OpenAI researcher allegedly pressured mathematician to drop Anthropic co-author from math breakthrough paper appeared first on The Decoder ."
-        },
-        {
-          "heading": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2",
-          "body": "AWS Machine Learningから公開された情報です。概要: Governing models across accounts is the next step after automatic model registration. This post extends managed MLflow and Amazon SageMaker AI Model Registry sync to two cross-account governance topologies: a hub-and-spoke pattern that centralizes governance with AWS RAM, and a hybrid pattern that keeps development accounts isolated."
-        },
-        {
-          "heading": "Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock",
-          "body": "AWS Machine Learningから公開された情報です。概要: GPT-6 Astra from OpenAI is now generally available on Amazon Bedrock. It brings deeper reasoning and sharper judgment to your most demanding tasks, running on the Amazon Bedrock inference engine built for high performance, security, and scale."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "AWS Machine Learning",
-        "The Decoder",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "Benchmarking small LLM inference on SageMaker AI: G7 vs G5 and G6",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/benchmarking-small-llm-inference-on-sagemaker-ai-g7-vs-g5-and-g6/",
-          "publishedAt": "2026-09-08"
-        },
-        {
-          "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 1",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-1/",
-          "publishedAt": "2026-09-08"
-        },
-        {
-          "title": "OpenAI researcher allegedly pressured mathematician to drop Anthropic co-author from math breakthrough paper",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-researcher-allegedly-pressured-mathematician-to-drop-anthropic-co-author-from-math-breakthrough-paper/",
-          "publishedAt": "2026-09-08"
-        },
-        {
-          "title": "Govern models with MLflow and Amazon SageMaker AI Model Registry sync: Part 2",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/govern-models-with-mlflow-and-amazon-sagemaker-ai-model-registry-sync-part-2/",
-          "publishedAt": "2026-09-08"
-        },
-        {
-          "title": "Take on your most ambitious work with GPT-6 Astra on Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/take-on-your-most-ambitious-work-with-gpt-6-astra-on-amazon-bedrock/",
-          "publishedAt": "2026-09-08"
-        },
-        {
-          "title": "Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/automated-agent-evaluation-with-amazon-bedrock-agentcore-and-github-actions/",
-          "publishedAt": "2026-09-08"
-        },
-        {
-          "title": "How HPE Zerto built an agentic troubleshooting system with Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-hpe-zerto-built-an-agentic-troubleshooting-system-with-amazon-bedrock/",
-          "publishedAt": "2026-09-08"
-        },
-        {
-          "title": "This AI entrepreneur is developing agents that can plan ahead for the unexpected",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/09/08/1142088/danijar-hafner-developing-plan-ahead-agents/",
-          "publishedAt": "2026-09-08"
         }
       ]
     }
