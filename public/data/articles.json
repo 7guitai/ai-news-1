@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-11-08T00:16:42.319Z",
+  "updatedAt": "2026-11-09T00:37:17.246Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-09",
+      "date": "2026-11-09",
+      "generatedAt": "2026-11-09T00:37:17.243Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+          "body": "The Decoderから公開された情報です。概要: AI models can often spot problematic behavior by other AI agents in logs, according to a study by Anthropic researcher Andy Hall. GPT-5 found about 98 percent of reward-hacking cases, but the more exhaustively the search is tuned, the more false alarms pile up. That's not yet enough for reliable safety checks. The article AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds appeared first on The Decoder ."
+        },
+        {
+          "heading": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker Inference now supports GPU partitioning with NVIDIA Multi-Instance GPU (MIG), which divides one GPU into hardware-isolated partitions so you can run a different model in each or take a right-sized fraction of a newer accelerator. This post shows how two optional API fields place one model per partition, and what we measured against a whole older GPU."
+        },
+        {
+          "heading": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+          "body": "The Decoderから公開された情報です。概要: Alibaba's new coding-agent benchmark, Co-Design Bench, tests AI agents on real user requests that already tripped them up in practice. Even GPT-6 Astra, the top performer, fully solves only 26.4 percent of tasks. On older benchmarks, the same models score above 99 percent. The article AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test appeared first on The Decoder ."
+        },
+        {
+          "heading": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to build a serverless Model Context Protocol (MCP) server on Amazon ECS with AWS Fargate that gives AI agents secure, metadata-driven access to an enterprise data lake. Exposing a new dataset requires only a JSON file, with no per-dataset integration code."
+        },
+        {
+          "heading": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+          "body": "AWS Machine Learningから公開された情報です。概要: Taxbit built Taxbit Assist, a cited, permission-aware AI assistant embedded in its enterprise dashboard, on Amazon Bedrock AgentCore. This post shows how they grounded answers in a curated knowledge base, enforced role-aware and region-compliant safety, and continuously measured answer quality on live production traffic."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
+          "publishedAt": "2026-11-07"
+        },
+        {
+          "title": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+          "publishedAt": "2026-11-08"
+        },
+        {
+          "title": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "Taxbit Assist: A grounded, role-aware AI agent on Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/taxbit-assist-a-grounded-role-aware-ai-agent-on-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-11-06"
+        },
+        {
+          "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+          "publishedAt": "2026-11-08"
+        },
+        {
+          "title": "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
+          "publishedAt": "2026-11-07"
+        },
+        {
+          "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+          "publishedAt": "2026-11-07"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-08",
       "date": "2026-11-08",
@@ -6068,109 +6170,6 @@
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/video-and-image-search-in-amazon-bedrock-knowledge-base-using-marengo-3-0/",
           "publishedAt": "2026-09-10"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-10",
-      "date": "2026-09-10",
-      "generatedAt": "2026-09-09T23:02:31.166Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "AWS Machine Learning、The Decoder、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "ICYMI: What landed for AI builders in August 2026",
-          "body": "AWS Machine Learningから公開された情報です。概要: A recap of August 2026 launches for AI builders across Amazon Bedrock, Amazon Bedrock AgentCore, and Strands: million-token context for OpenAI models, cross-Region inference, agents that run for up to 14 days on dedicated compute, expanded AWS GovCloud availability, and Strands Robots for physical deployment."
-        },
-        {
-          "heading": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers",
-          "body": "AWS Machine Learningから公開された情報です。概要: TorchServe is no longer maintained, leaving teams to own the entire GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported, pre-tested container with the framework, GPU drivers, and serving layer already assembled. This post walks through deploying a vision-language model on Amazon EKS using the Ray Serve DLC on a single GPU node."
-        },
-        {
-          "heading": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to deploy Qwen3.8-2.4T-A95B, a 2.4-trillion-parameter open-weight model, on Amazon SageMaker HyperPod with vLLM. This walkthrough covers cluster provisioning, NVFP4 quantization, and an OpenAI-compatible endpoint with built-in reasoning, tool calling, and native MTP speculative decoding."
-        },
-        {
-          "heading": "Suno launches v6 music models built with Warner, BMG, and Believe",
-          "body": "The Decoderから公開された情報です。概要: Suno has unveiled a new AI music model generation, v6, in three versions, built together with Warner Music Group, BMG, and Believe. All older models are being shut down. Songs can now be partially changed through text commands or generated multimodally from text, audio, and images. The company won't say which catalogs went into training, while Universal and Sony keep suing. The article Suno launches v6 music models built with Warner, BMG, and Believe appeared first on The Decoder ."
-        },
-        {
-          "heading": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how Heurist built Heurist Finance, a conversational AI investment workbench, on Amazon Bedrock AgentCore. This customer story shows how AgentCore payments, Identity, Memory, Code Interpreter, and Observability let a small team buy premium market data per query, isolate analysis in a sandbox, and keep every action auditable."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "AWS Machine Learning",
-        "The Decoder",
-        "OpenAI"
-      ],
-      "sources": [
-        {
-          "title": "ICYMI: What landed for AI builders in August 2026",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-august-2026/",
-          "publishedAt": "2026-09-09"
-        },
-        {
-          "title": "Simplify and support your TorchServe workloads using Ray Serve Deep Learning Containers",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/",
-          "publishedAt": "2026-09-09"
-        },
-        {
-          "title": "Deploying Qwen3.8-2.4T-A95B on Amazon SageMaker HyperPod with vLLM",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/deploying-qwen3-8-2-4t-a95b-on-amazon-sagemaker-hyperpod-with-vllm/",
-          "publishedAt": "2026-09-09"
-        },
-        {
-          "title": "Suno launches v6 music models built with Warner, BMG, and Believe",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe/",
-          "publishedAt": "2026-09-09"
-        },
-        {
-          "title": "How Heurist Finance built an AI-native investment workbench on Amazon Bedrock AgentCore",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/how-heurist-finance-built-an-ai-native-investment-workbench-on-amazon-bedrock-agentcore/",
-          "publishedAt": "2026-09-09"
-        },
-        {
-          "title": "Paul Christiano joins OpenAI Foundation Board",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-          "publishedAt": "2026-09-09"
-        },
-        {
-          "title": "Anthropic scientist puts the odds of AI destroying humanity above ten percent this decade",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/anthropic-scientist-puts-the-odds-of-ai-destroying-humanity-above-ten-percent-this-decade/",
-          "publishedAt": "2026-09-09"
-        },
-        {
-          "title": "AWS is using Qualcomm for AI inference while Qualcomm uses AWS Bedrock to design the chips",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/aws-is-using-qualcomm-for-ai-inference-while-qualcomm-uses-aws-bedrock-to-design-the-chips/",
-          "publishedAt": "2026-09-09"
         }
       ]
     }
