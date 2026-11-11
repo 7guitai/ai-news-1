@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-10T03:17:14.955Z",
+  "updatedAt": "2026-11-11T01:05:49.940Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-11",
+      "date": "2026-11-11",
+      "generatedAt": "2026-11-11T01:05:49.938Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、OpenAI、MIT Technology Review AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
+          "body": "The Decoderから公開された情報です。概要: Nvidia's new AI model GR00T 2 is designed to teach robots new tasks without laborious teleoperation. Instead, the system transfers human hand movements from videos to robotic arms, trained on about 400,000 hours of video footage. Success rates still vary widely, though, ranging from 10 to 80 percent depending on the task. The article Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot appeared first on The Decoder ."
+        },
+        {
+          "heading": "Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet",
+          "body": "The Decoderから公開された情報です。概要: Google is making Gemini 4 Carbon generally available after a two-week testing phase. The model ranks first in several benchmarks, in some cases ahead of Anthropic's new Fable 5.2, at less than half the per-task cost. Google is also previewing coordinated agent teams through the \"/swarm\" feature, which split up complex tasks in real time. The article Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet appeared first on The Decoder ."
+        },
+        {
+          "heading": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+          "body": "OpenAIから公開された情報です。概要: Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise."
+        },
+        {
+          "heading": "Innovating with AI in the special chemicals industry",
+          "body": "MIT Technology Review AIから公開された情報です。概要: As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise, and the practical realities of bringing products to market. For specialty chemicals manufacturer Lubrizol, digital transformation is all about giving researchers the tools to test ideas faster, make better-informed…"
+        },
+        {
+          "heading": "CodeRabbit scales agentic software development and ships 20x more",
+          "body": "OpenAIから公開された情報です。概要: CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "OpenAI",
+        "MIT Technology Review AI"
+      ],
+      "sources": [
+        {
+          "title": "Nvidia's model GR00T 2 watches humans on video, then imagines itself as the robot",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/nvidias-model-gr00t-2-watches-humans-on-video-then-imagines-itself-as-the-robot/",
+          "publishedAt": "2026-11-10"
+        },
+        {
+          "title": "Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
+          "publishedAt": "2026-11-10"
+        },
+        {
+          "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/control-room",
+          "publishedAt": "2026-11-09"
+        },
+        {
+          "title": "Innovating with AI in the special chemicals industry",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+          "publishedAt": "2026-11-09"
+        },
+        {
+          "title": "CodeRabbit scales agentic software development and ships 20x more",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/coderabbit-codex-daybreak",
+          "publishedAt": "2026-11-09"
+        },
+        {
+          "title": "Build a daily dependency watcher with LangGraph and Amazon Bedrock AgentCore web search",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-daily-dependency-watcher-with-langgraph-and-amazon-bedrock-agentcore-web-search/",
+          "publishedAt": "2026-11-10"
+        },
+        {
+          "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
+          "publishedAt": "2026-11-10"
+        },
+        {
+          "title": "Autonomous treasury agents: How Trovata built an AI-native solution on Amazon Bedrock and AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/autonomous-treasury-agents-how-trovata-built-an-ai-native-solution-on-amazon-bedrock-and-agentcore/",
+          "publishedAt": "2026-11-10"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-10",
       "date": "2026-11-10",
@@ -6067,109 +6170,6 @@
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/reduce-llm-latency-with-prefix-aware-routing-on-amazon-sagemaker-inference/",
           "publishedAt": "2026-09-10"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-12",
-      "date": "2026-09-12",
-      "generatedAt": "2026-09-11T23:03:41.541Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Deep learning pioneer Bengio argues the training process itself makes AI dangerous",
-          "body": "The Decoderから公開された情報です。概要: AI pioneer Yoshua Bengio warns in a new essay that AI agents could learn to deceive, game rules, and hide bad behavior as they get better at optimizing goals. He calls for independent safety reviews before any further training or deployment. US President Trump disagrees and wants to keep outpacing China in the AI race. The article Deep learning pioneer Bengio argues the training process itself makes AI dangerous appeared first on The Decoder ."
-        },
-        {
-          "heading": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.09418v1 Announce Type: new Abstract: World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose counterparts remain largely unexplored in games. Existing game-oriented approaches often combine action-conditioned world models with external policies and reward functions to realize WAM-like decision-making, yet they operate mainly in 2D visual observation space and do not instantiate persistent 3D geometry. Extending this paradigm to 3D games introduces a distinct challenge. In autonomous driving and robotics, the physical environment exists independently of the model, providing a persistent 3D world in which selected actions can be executed. Games have no such external substrate; the virtual world itself must be instantiated. Most "
-        },
-        {
-          "heading": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
-          "body": "AWS Machine Learningから公開された情報です。概要: Comparing models on dollars per million tokens misses what production workloads actually pay for: outcomes. This post shares an open-source benchmarking harness that measures cost per correct answer, agent trajectory cost, and rubric-graded deliverable quality across OpenAI models on Amazon Bedrock."
-        },
-        {
-          "heading": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.09203v1 Announce Type: new Abstract: Existing benchmarks for autonomous AI scientists evaluate only final outputs---generated code, hypotheses, or papers---yet discard the reasoning process by which those outputs were obtained. This makes it impossible to audit scientific methodology, diagnose failure modes, or distinguish systematic reasoning from fortunate guessing. We present \\textbf{OpenDiscoveryTrace}, a public dataset of 558 complete AI scientific agent trajectories that captures how models reason, not just what they produce. Each trajectory records a structured 9-field-per-step trace---including thoughts, tool calls, observations, errors, revision triggers, and self-reported confidence---as models execute 124 scientific tasks spanning drug discovery, materials science, genomics, and scientific literature analysis. The dataset covers seven models: three frontier models ("
-        },
-        {
-          "heading": "Adaptive Entangled Game Modules in Artificial General Intelligence",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.09226v1 Announce Type: new Abstract: We introduce a probability-wave framework for modeling the collective behavior of interacting adaptive agents, deriving testable eigenmodes through a generalized behavioral intelligence (GBI) nonlocal probability-wave equation. This framework captures a broad range of human intelligence behaviors with analytical mechanisms and offers an indirect method to examine the Liu-Chen-Ao (LCA) hypothesis of nonlocal entangled nerve fibers in the brain through collective trader behaviors. Our empirical analysis of Chinese intraday stock market data demonstrates that adaptive entangled game modes explain 82-94% (89% overall) of observed decision patterns, a sharp contrast to the predictions of neoclassical finance based on independent rational agents. Moreover, 2-12% of behaviors show adaption to intraday news, events, and environments, characterized "
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "arXiv AI",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Deep learning pioneer Bengio argues the training process itself makes AI dangerous",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/deep-learning-pioneer-bengio-argues-the-training-process-itself-makes-ai-dangerous/",
-          "publishedAt": "2026-09-11"
-        },
-        {
-          "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.09418",
-          "publishedAt": "2026-09-11"
-        },
-        {
-          "title": "Beyond the price per token: Choosing the right OpenAI model on Amazon Bedrock for your workload",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/beyond-the-price-per-token-choosing-the-right-openai-model-on-amazon-bedrock-for-your-workload/",
-          "publishedAt": "2026-09-11"
-        },
-        {
-          "title": "OpenDiscoveryTrace: Process Traces for Evaluating AI Scientist Workflows",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.09203",
-          "publishedAt": "2026-09-11"
-        },
-        {
-          "title": "Adaptive Entangled Game Modules in Artificial General Intelligence",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.09226",
-          "publishedAt": "2026-09-11"
-        },
-        {
-          "title": "Subagents vs Agent Skills: Executing Reusable Knowledge for Long-Horizon Agentic Tasks",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.09233",
-          "publishedAt": "2026-09-11"
-        },
-        {
-          "title": "An Autonomous GeoAI Agent for Arctic Eco-Navigation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.09374",
-          "publishedAt": "2026-09-11"
-        },
-        {
-          "title": "The Menu Is an Execution Prior: State-Path Tool Menus for Online Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.09395",
-          "publishedAt": "2026-09-11"
         }
       ]
     }
