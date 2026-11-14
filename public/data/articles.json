@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-13T01:42:45.001Z",
+  "updatedAt": "2026-11-14T01:19:54.774Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-14",
+      "date": "2026-11-14",
+      "generatedAt": "2026-11-14T01:19:54.771Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、The Decoder、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+          "body": "AWS Machine Learningから公開された情報です。概要: Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock, then measure cost per solved task for a routed model group against single-model baselines."
+        },
+        {
+          "heading": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router's production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured data with the HyperPod training operator, and measuring the before-and-after lift."
+        },
+        {
+          "heading": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+          "body": "The Decoderから公開された情報です。概要: Former OpenAI researcher Will DePue says he has produced the first technical evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia's latest Blackwell GPUs despite US export controls. His forensic method reads characteristic chip signatures directly from published model weights. He estimates the hardware behind the five training runs cost more than half a billion dollars. The article Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models appeared first on The Decoder ."
+        },
+        {
+          "heading": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+          "body": "AWS Machine Learningから公開された情報です。概要: Learn how AssemblyAI runs cost-optimized speech-to-text inference at scale on AWS, using Amazon ECS, Amazon EC2 Spot GPU instances, and an Amazon SQS-based retry architecture to achieve 70% cost savings while maintaining SLA commitments across European Regions."
+        },
+        {
+          "heading": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+          "body": "AWS Machine Learningから公開された情報です。概要: SGLang-Neuron is now publicly available through an AWS Deep Learning Container. With SGLang-Neuron, you can serve models and generate reinforcement learning rollouts with SGLang on AWS Trainium using the same SGLang interface you already know, all running on native PyTorch."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "The Decoder",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+          "publishedAt": "2026-11-13"
+        },
+        {
+          "title": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/",
+          "publishedAt": "2026-11-13"
+        },
+        {
+          "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+          "publishedAt": "2026-11-13"
+        },
+        {
+          "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
+          "publishedAt": "2026-11-13"
+        },
+        {
+          "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/",
+          "publishedAt": "2026-11-12"
+        },
+        {
+          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+          "source": "OpenAI",
+          "url": "https://openai.com/business/customer-stories/amplitude",
+          "publishedAt": "2026-11-12"
+        },
+        {
+          "title": "Production MLOps at GS Caltex with Amazon SageMaker Canvas, part 1",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/production-mlops-at-gs-caltex-with-amazon-sagemaker-canvas-part-1/",
+          "publishedAt": "2026-11-13"
+        },
+        {
+          "title": "Architecture patterns for fast session startup on Amazon Bedrock AgentCore runtime",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/architecture-patterns-for-fast-session-startup-on-amazon-bedrock-agentcore-runtime/",
+          "publishedAt": "2026-11-13"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-13",
       "date": "2026-11-13",
@@ -6068,109 +6171,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2609.13457",
           "publishedAt": "2026-09-15"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-15",
-      "date": "2026-09-15",
-      "generatedAt": "2026-09-14T23:43:16.197Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AI、Google AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
-          "body": "The Decoderから公開された情報です。概要: The AllSpark team has released Iris-mini and Iris-pro, two open-source search agents built on Qwen models that lead benchmarks among open-weight models in their size classes. According to the paper, the training data and models also improved performance on tasks they were never trained for, including general tool use and office work. The article Iris-mini and Iris-pro are the strongest open-weight search agents in their class appeared first on The Decoder ."
-        },
-        {
-          "heading": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
-          "body": "AWS Machine Learningから公開された情報です。概要: Pick the right generative AI customization approach on AWS with an 8-step decision framework, from prompt engineering and RAG to fine-tuning, continued pre-training, and Amazon Nova Forge. Start simple and escalate only when you must."
-        },
-        {
-          "heading": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
-          "body": "The Decoderから公開された情報です。概要: Sam Altman is doubling down on slowing AI development. OpenAI now runs safety checks before major training runs, and according to The Information, the company has been talking with Anthropic and Google for months about joint self-regulation. The article Sam Altman calls for pacing AI development but promises rapid progress will continue appeared first on The Decoder ."
-        },
-        {
-          "heading": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how Abnormal AI deployed Amazon Bedrock AgentCore Code Interpreter as an ephemeral compute scratch pad for the agents behind its real-time email threat detection at billion-message scale, plus the sandbox design decisions and practical lessons for builders deploying Code Interpreter in production."
-        },
-        {
-          "heading": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
-          "body": "AWS Machine Learningから公開された情報です。概要: Amazon Bedrock AgentCore Identity now offers a Consent portal, a managed web experience and session binding endpoint for AgentCore Gateway. This post walks through provisioning a portal, configuring GitHub and Slack 3LO targets, and the end-user consent flow, and shows how to review activity in AWS CloudTrail."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "Iris-mini and Iris-pro are the strongest open-weight search agents in their class",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class/",
-          "publishedAt": "2026-09-13"
-        },
-        {
-          "title": "The generative AI customization spectrum: From prompt engineering to custom models on AWS",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/the-generative-ai-customization-spectrum-from-prompt-engineering-to-custom-models-on-aws/",
-          "publishedAt": "2026-09-14"
-        },
-        {
-          "title": "Sam Altman calls for pacing AI development but promises rapid progress will continue",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/sam-altman-calls-for-pacing-ai-development-but-promises-rapid-progress-will-continue/",
-          "publishedAt": "2026-09-14"
-        },
-        {
-          "title": "Abnormal AI: Amazon Bedrock AgentCore for agentic email security at scale",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/abnormal-ai-amazon-bedrock-agentcore-for-agentic-email-security-at-scale/",
-          "publishedAt": "2026-09-14"
-        },
-        {
-          "title": "Manage end-user OAuth consent for AI agents with Amazon Bedrock AgentCore",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/manage-end-user-oauth-consent-for-ai-agents-with-amazon-bedrock-agentcore/",
-          "publishedAt": "2026-09-14"
-        },
-        {
-          "title": "The AI industry has taken a doomer turn. What now?",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/09/14/1144048/the-ai-industry-has-taken-a-doomer-turn-what-now/",
-          "publishedAt": "2026-09-14"
-        },
-        {
-          "title": "OpenAI has hundreds of contract workers reading your ChatGPT conversations",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-has-hundreds-of-contract-workers-reading-your-chatgpt-conversations/",
-          "publishedAt": "2026-09-14"
-        },
-        {
-          "title": "DevFest is back",
-          "source": "Google AI",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
-          "publishedAt": "2026-09-14"
         }
       ]
     }
