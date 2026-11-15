@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-14T01:19:54.774Z",
+  "updatedAt": "2026-11-15T00:51:59.034Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-15",
+      "date": "2026-11-15",
+      "generatedAt": "2026-11-15T00:51:59.031Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+          "body": "The Decoderから公開された情報です。概要: Runway releases its robotics model Praxis-1 with open weights and source code under the Apache 2.0 license. The model uses knowledge from video training for robot control and leads the World Action Model category on Nvidia's RoboLab-120 benchmark. It can't yet plan complex action sequences on its own, though. The article Runway's open-source Praxis-1 turns video AI into a robot controller appeared first on The Decoder ."
+        },
+        {
+          "heading": "Together Compiler: Continual Compilation for AI Inference",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.14681v1 Announce Type: new Abstract: Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingly diverse, and traffic distributions change frequently. The challenge we face at Together AI is continual optimization for these changing workloads. Compiling a deployment into an optimized forward pass is a challenge that is well-suited for agent hill-climbing. Existing systems struggle with continual compilation due to a tradeoff between measurement throughput and fidelity. Many systems use agents to optimize individual kernels from the inference forward pass using offline benchmarks, but timings are low-fidelity because of data-dependent behavior in primitives like mixture-of-experts (MoE). On the other hand, systems use agents to directly optimize end-to-end engines but suffer from slow engine launch times. To address these "
+        },
+        {
+          "heading": "Rational Use of Time for Social Coordination in Humans and AI",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.14766v1 Announce Type: new Abstract: All social interactions are situated in time. Previous studies have shown that humans are able to use implicit temporal cues, such as the duration of a pause, to infer others' mental states. But how do humans use temporal cues for dynamic, fine-grained social coordination? And can AI systems do the same, without ``experiencing'' continuous real-time as humans do? We study these questions using a cooperative card game task called The Mind, which requires players to achieve a shared goal across repeated interactions but forbids explicit communication: the only available signal is the passage of time. We evaluate 150 humans, and two classes of AI models which reflect different ways of operationalizing time in artificial systems: computer-use agents (CUAs), and standard text-prompted LLMs. We find that human behavior is best captured by a Bayes"
+        },
+        {
+          "heading": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+          "body": "AWS Machine Learningから公開された情報です。概要: Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock, then measure cost per solved task for a routed model group against single-model baselines."
+        },
+        {
+          "heading": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router's production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured data with the HyperPod training operator, and measuring the before-and-after lift."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "arXiv AI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Runway's open-source Praxis-1 turns video AI into a robot controller",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+          "publishedAt": "2026-11-14"
+        },
+        {
+          "title": "Together Compiler: Continual Compilation for AI Inference",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.14681",
+          "publishedAt": "2026-11-14"
+        },
+        {
+          "title": "Rational Use of Time for Social Coordination in Humans and AI",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.14766",
+          "publishedAt": "2026-11-14"
+        },
+        {
+          "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+          "publishedAt": "2026-11-13"
+        },
+        {
+          "title": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/",
+          "publishedAt": "2026-11-13"
+        },
+        {
+          "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+          "publishedAt": "2026-11-14"
+        },
+        {
+          "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.14654",
+          "publishedAt": "2026-11-14"
+        },
+        {
+          "title": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.14736",
+          "publishedAt": "2026-11-14"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-14",
       "date": "2026-11-14",
@@ -6068,109 +6171,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2609.16145",
           "publishedAt": "2026-09-16"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-16",
-      "date": "2026-09-16",
-      "generatedAt": "2026-09-15T23:27:14.396Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.13436v1 Announce Type: new Abstract: Large Language Model (LLM) agents offer a promising path toward autonomously managing long-term physical tasks without human intervention. However, physical tasks require agents to continuously observe the environment, make consequential actions, and remain effective as the environment changes. Existing approaches either require substantial data and retraining, or primarily focus on agents operating in the virtual world. In this work, we explore the feasibility of building a self-adaptive physical AI agent that manages long-term physical tasks in a zero-shot manner and adapts to environmental changes without human intervention. We design a multi-agent framework that integrates planning, tool calling, observation, and verification, and evaluate it on agricultural tasks against reinforcement learning (RL) agents under different weather patter"
-        },
-        {
-          "heading": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.13356v1 Announce Type: new Abstract: In this work, we present ZGCM-1, a fully open 7B dense foundation model trained from scratch with extreme data, system, and algorithmic efficiency. ZGCM-1 is founded on a core premise: compact models cannot passively memorize the open web, but can overcome parametric capacity limits by coupling deliberate internal thinking with active external tool use. To support this paradigm across a 256K context, we develop an end-to-end, high-efficiency open training recipe: Architecture & System Co-design: interleaved gated sliding-window and full attention, and a stable FP8 Muon optimizer; Progressive Curriculum & MDP Mid-Training: context scaling across 16K, 64K, and 256K, and the reformulation of interaction traces into Markov Decision Processes. Furthermore, we establish an AI-native R&D workflow where agent swarms autonomously manage cluster oper"
-        },
-        {
-          "heading": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.13422v1 Announce Type: new Abstract: LLM judges are increasingly used to evaluate and improve AI-generated outputs, yet their reliability for complex professional work remains unclear. We study this problem through Vibe Patenting, an end-to-end patent-drafting testbed for AI-agent evaluation. A separately-invoked LLM judge evaluates generated patent drafts and provides structured feedback for iterative revision. Across multiple inventions and drafting-agent configurations, judge-guided revision consistently improves judge-assessed quality, while unguided revision tends to saturate. Notably, iterative judge feedback enables a low-reasoning agent to approach the performance of a substantially more expensive high-reasoning agent. Stronger models and increased reasoning generally improve judge-assessed drafting quality, while domain-specific agentic workflows provide further gains"
-        },
-        {
-          "heading": "AI labs have a data trust problem that their policies haven't solved",
-          "body": "The Decoderから公開された情報です。概要: OpenAI and Anthropic tell corporate customers their data won't be used for training. But when Anthropic said it would store usage logs from its flagship model Fable for 30 days, Palantir, Nvidia, and Booz Allen Hamilton pulled back from using it for sensitive work. From boardrooms to research labs, AI companies still have a data trust problem. The article AI labs have a data trust problem that their policies haven't solved appeared first on The Decoder ."
-        },
-        {
-          "heading": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
-          "body": "AWS Machine Learningから公開された情報です。概要: Manually tagging thousands of catalog products is slow and inconsistent. This walkthrough shows how to customize Qwen3-8B with supervised fine-tuning (SFT) and reinforcement learning with verifiable rewards (RLVR) on Amazon SageMaker serverless model customization, then deploy it for asynchronous inference to build a cost-efficient product tagging system."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "The Decoder",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Toward Self-Adaptive Physical AI: Can LLM Agents Manage Long-Horizon Physical Tasks?",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.13436",
-          "publishedAt": "2026-09-15"
-        },
-        {
-          "title": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.13356",
-          "publishedAt": "2026-09-15"
-        },
-        {
-          "title": "Vibe Patenting: Evaluating LLM Judges for Professional Patent-Drafting Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.13422",
-          "publishedAt": "2026-09-15"
-        },
-        {
-          "title": "AI labs have a data trust problem that their policies haven't solved",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/ai-labs-have-a-data-trust-problem-that-their-policies-havent-solved/",
-          "publishedAt": "2026-09-15"
-        },
-        {
-          "title": "Build an AI-powered product tagging system with Amazon SageMaker serverless model customization",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-an-ai-powered-product-tagging-system-with-amazon-sagemaker-serverless-model-customization/",
-          "publishedAt": "2026-09-15"
-        },
-        {
-          "title": "After warning AI is too dangerous, Bill Gates bets a billion on its upside",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/after-warning-ai-is-too-dangerous-bill-gates-bets-a-billion-on-its-upside/",
-          "publishedAt": "2026-09-15"
-        },
-        {
-          "title": "Generalized Agent Iteration: One Formal Framework for Iterative Policy Improvement and Recursive Self-Improvement",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.13406",
-          "publishedAt": "2026-09-15"
-        },
-        {
-          "title": "TimeThink: Eliciting Compositional Reasoning in Timeseries Large Language Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.13457",
-          "publishedAt": "2026-09-15"
         }
       ]
     }
