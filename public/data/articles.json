@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-15T00:51:59.034Z",
+  "updatedAt": "2026-11-16T00:50:48.558Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-16",
+      "date": "2026-11-16",
+      "generatedAt": "2026-11-16T00:50:48.556Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、AWS Machine Learning、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+          "body": "The Decoderから公開された情報です。概要: Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and Meituan makes no mention of Nvidia GPUs. The article Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU appeared first on The Decoder ."
+        },
+        {
+          "heading": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+          "body": "AWS Machine Learningから公開された情報です。概要: Coding agents work in tasks, and the number that matters is cost per solved task, not price per token. In this post, you use the AWS CDK to deploy LiteLLM with the NVIDIA NeMo Switchyard routing plugin on Amazon Bedrock, then measure cost per solved task for a routed model group against single-model baselines."
+        },
+        {
+          "heading": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker HyperPod Data Capture records live inference inputs and outputs to Amazon S3. This post walks through one end-to-end example: capturing a support router's production traffic, surfacing a new-product blind spot with Amazon Athena, fine-tuning on the captured data with the HyperPod training operator, and measuring the before-and-after lift."
+        },
+        {
+          "heading": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+          "body": "The Decoderから公開された情報です。概要: OpenAI is dissolving its standalone robotics team for the second time, but not because it lacks data. General-purpose models like GPT-6 Astra can apparently control robots directly, making a dedicated unit unnecessary. The researchers are being redistributed across other teams in what the company frames as a way to accelerate its robotics efforts. The article OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary appeared first on The Decoder ."
+        },
+        {
+          "heading": "A step toward defining the Standard Model on a lattice",
+          "body": "OpenAIから公開された情報です。概要: Explore a candidate nonperturbative lattice definition of the Standard Model and how GPT-6 Astra helped turn the idea into a detailed proof."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "AWS Machine Learning",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+          "publishedAt": "2026-11-15"
+        },
+        {
+          "title": "Route coding agent requests to the right model on Amazon Bedrock with NVIDIA NeMo Switchyard",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/route-coding-agent-requests-to-the-right-model-on-amazon-bedrock-with-nvidia-nemo-switchyard/",
+          "publishedAt": "2026-11-13"
+        },
+        {
+          "title": "Build a model improvement flywheel with Amazon SageMaker HyperPod Data Capture",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-a-model-improvement-flywheel-with-amazon-sagemaker-hyperpod-data-capture/",
+          "publishedAt": "2026-11-13"
+        },
+        {
+          "title": "OpenAI reassigns robotics researchers to other teams as general-purpose models might make specialized robotics AI unnecessary",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary/",
+          "publishedAt": "2026-11-14"
+        },
+        {
+          "title": "A step toward defining the Standard Model on a lattice",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "publishedAt": "2026-11-15"
+        },
+        {
+          "title": "Cost-optimizing AssemblyAI speech-to-text inference on AWS with Amazon EC2 Spot",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cost-optimizing-assemblyai-speech-to-text-inference-on-aws-with-amazon-ec2-spot/",
+          "publishedAt": "2026-11-13"
+        },
+        {
+          "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+          "publishedAt": "2026-11-15"
+        },
+        {
+          "title": "Deploy frontier AI models on AWS Trainium with SGLang-Neuron",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-frontier-ai-models-on-aws-trainium-with-sglang-neuron/",
+          "publishedAt": "2026-11-12"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-15",
       "date": "2026-11-15",
@@ -6067,109 +6170,6 @@
           "title": "Improving HCLS AI reasoning with open-source agent skills",
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
-          "publishedAt": "2026-09-16"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-17",
-      "date": "2026-09-17",
-      "generatedAt": "2026-09-16T23:34:27.577Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.16232v1 Announce Type: new Abstract: Geospatial artificial intelligence (GeoAI) powered by large language models (LLMs) is expanding the capacity to query, generate, and interpret spatial information through natural-language interfaces and agentic autonomous GIS workflows. This capability creates governance challenges that general AI ethics discussions do not fully capture, including passive location inference from mobility traces, spatially structured bias amplification driven by spatial autocorrelation and scale effects, hallucinated spatial facts, and uncertainty compounding across multimodal geospatial inputs. This narrative review identifies eight recurring issues in LLM-enabled GeoAI: data provenance and consent, spatial privacy and inference risk, algorithmic bias and spatial inequity, spatial mechanisms as structural risk (spatial autocorrelation, the modifiable areal "
-        },
-        {
-          "heading": "Artificial intelligence and biosecurity: capabilities, threat pathways, and defense-in-depth governance",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.16213v1 Announce Type: new Abstract: Artificial intelligence is reshaping biological research across an increasingly connected digital-to-physical workflow. General-purpose large language models can retrieve and integrate scientific information, support experimental planning, and computational analysis; biological foundation models can predict, optimize, and generate proteins, genes, and genome-scale sequences; agentic systems can coordinate multistep research tasks; automated laboratories can partially close the design-build-test-learn cycle. These technologies could greatly benefit medicine, public health, and biotechnology. However, their biosecurity risk depends not only on what the AI can do, but also on who uses it, their expertise and intent, their access to laboratory tools and materials, and the safeguards in place. Current evidence shows that AI uplift exists but pri"
-        },
-        {
-          "heading": "EU president warns AI agents \"escaping their environment\" are just a preview of what's coming",
-          "body": "The Decoderから公開された情報です。概要: Ursula von der Leyen plans to invite the major frontier labs to talks and use the AI Act to help set global AI safety standards. She cited autonomous hacking and self-improving models as immediate risks. The article EU president warns AI agents \"escaping their environment\" are just a preview of what's coming appeared first on The Decoder ."
-        },
-        {
-          "heading": "Position: AI Is Not Ready for Strategic Conflicts",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.16189v1 Announce Type: new Abstract: Open-ended strategic wargames are high-stakes LM-based social simulations: they model adversaries, institutions, escalation, plan brittleness, doctrine, and crisis response. Language models (LMs) are attractive because they can play agents, generate scenario branches, adjudicate ambiguous actions, and summarize lessons, but the same affordances make open-ended roles dangerous: model language determines both what an actor attempts and what becomes simulated reality. This position paper argues that no LM-enabled wargame should inform planning, doctrine, policy, or crisis response without an auditable safety case, and that the proper use of open-ended wargames today is to stress-test decision-influencing LM agents. We identify five failure modes: decision laundering, adjudication opacity, role collapse, escalation-through-adjudication, and fai"
-        },
-        {
-          "heading": "Improving HCLS AI reasoning with open-source agent skills",
-          "body": "AWS Machine Learningから公開された情報です。概要: AI agents on foundation models often misapply healthcare and life sciences decision frameworks, citing the right guideline but applying it incorrectly. This post shares 38 open-source agent skills across 11 HCLS domains that close this gap, with installation steps, three worked use cases, and a 410-prompt evaluation showing a 70-86% win rate."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "The Decoder",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Toward Governance-Aware Autonomous GIS: A Narrative Review of Ethical and Privacy Risks in LLM-Enabled GeoAI",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.16232",
-          "publishedAt": "2026-09-16"
-        },
-        {
-          "title": "Artificial intelligence and biosecurity: capabilities, threat pathways, and defense-in-depth governance",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.16213",
-          "publishedAt": "2026-09-16"
-        },
-        {
-          "title": "EU president warns AI agents \"escaping their environment\" are just a preview of what's coming",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/",
-          "publishedAt": "2026-09-16"
-        },
-        {
-          "title": "Position: AI Is Not Ready for Strategic Conflicts",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.16189",
-          "publishedAt": "2026-09-16"
-        },
-        {
-          "title": "Improving HCLS AI reasoning with open-source agent skills",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
-          "publishedAt": "2026-09-16"
-        },
-        {
-          "title": "Fault tolerant distributed training on Amazon EKS using NVRx",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/fault-tolerant-distributed-training-on-amazon-eks-using-nvrx/",
-          "publishedAt": "2026-09-16"
-        },
-        {
-          "title": "Political opposites unite in Washington to rein in AI",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/political-opposites-unite-in-washington-to-rein-in-ai/",
-          "publishedAt": "2026-09-16"
-        },
-        {
-          "title": "Safe Error Correction for Language Models: Frozen-Base Adjustment with Capability Preservation",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.16145",
           "publishedAt": "2026-09-16"
         }
       ]
