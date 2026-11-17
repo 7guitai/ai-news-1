@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-16T00:50:48.558Z",
+  "updatedAt": "2026-11-17T03:29:50.880Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-17",
+      "date": "2026-11-17",
+      "generatedAt": "2026-11-17T03:29:50.878Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "MIT Technology Review AI、arXiv AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Building AI that can work across the enterprise",
+          "body": "MIT Technology Review AIから公開された情報です。概要: For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,…"
+        },
+        {
+          "heading": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.17338v1 Announce Type: new Abstract: LLM memory systems often delete facts classified as stale. We show that this hard-filtering step can reduce downstream accuracy when resolver errors delete query-critical facts. Across three models, a controlled sensitivity intervention moves hard-drop from gains of +0.186 to +0.230 at perfect resolution to losses of -0.176 to -0.181 at the lowest tested reliability. Paired targeted interventions show that false-drop causes significantly greater degradation than false-keep, while a non-deleting baseline can still fail when incorrect labels steer generation. On a frozen 102/102 calibration/test split, a simple deployment-matched gate reaches 0.655 accuracy versus 0.641 for always hard-drop and 0.662 for test-informed oracle selection. Global-accuracy crossovers require gold labels and are model- and task-specific diagnostics, not deployment "
+        },
+        {
+          "heading": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.17340v1 Announce Type: new Abstract: Large language models are expensive to update through full retraining. Parameter-efficient fine-tuning reduces the cost of adaptation, but repeated adaptation creates a growing pool of task-specific LoRA adapters. This pool complicates adapter selection during inference. Existing routing and encoder-based methods often require retraining when new adapters are added, which limits their use in dynamic settings. This paper treats adapter routing as a representation alignment problem in the adapter-output space. The proposed training-free method selects adapters by matching adapter-conditioned query representations against task prototypes using cosine similarity. Experiments with LLaMA-2-7B and LLaMA-2-13B on a 48-task FLAN-v2 benchmark and on out-of-distribution tasks show that the method outperforms training-free baselines in the cross-task s"
+        },
+        {
+          "heading": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.17341v1 Announce Type: new Abstract: Medication prediction from electronic health records is a fixed vocabulary structured prediction problem, yet recent clinical RAG systems often treat it like open ended case based reasoning: retrieve similar patient admissions and ask an LLM to infer a medication set. This retrieval object is indirect the model receives retrieved patient records while the target is a discrete set of medication class labels. We propose a more task aligned retrieval object: a tabular population prior ranked medication class candidates from a sparse condition medication co occurrence table estimated from training admissions. Using PACERAG as a fixed downstream pipeline and replacing only its patient retriever, this drop in swap improves F1 from 0.303 to 0.338 (+11.5% relative) and Jaccard from 0.218 to 0.237 on 1,004 heldout MIMIC IV admissions, with no additi"
+        },
+        {
+          "heading": "Advancing Quantization for R&R Models with Microscaling Formats",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.17501v1 Announce Type: new Abstract: Recommendation and Ranking (R&R) models, particularly in digital advertising, require massive inference throughput but exhibit extreme sensitivity to precision loss. Unlike Large Language Models (LLMs) that frequently tolerate quantization-induced accuracy drops of 1% or more, production-grade R&R models enforce a stringent launch bar: model quality must remain within a 0.01% Normalized Entropy (NE) margin relative to the baseline, which commonly uses FP16 or FP32. This tight constraint has historically hindered the adoption of aggressive quantization in this domain. In this paper, we present an empirical evaluation of both MXFP8 and the 6-bit MXFP6 format for industrial-scale R&R inference on the AMD MI350X architecture. To the best of our knowledge, this is the first paper, across R&R and LLM domains, that reports significant speedups fro"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "MIT Technology Review AI",
+        "arXiv AI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Building AI that can work across the enterprise",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.17338",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "title": "LoRAWeaver: Directional Adapter Routing in LoRA Representation Space",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.17340",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "title": "Tabular Population Priors as Structured Retrieval for EHR Medication Set Prediction",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.17341",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "title": "Advancing Quantization for R&R Models with Microscaling Formats",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.17501",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.17515",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "title": "Model Annealing: Data-Efficient Learning through Review and Consolidation",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.17524",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "title": "How Duco transforms financial data automation with Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-duco-transforms-financial-data-automation-with-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-11-16"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-16",
       "date": "2026-11-16",
@@ -6068,109 +6171,6 @@
           "source": "arXiv AI",
           "url": "https://arxiv.org/abs/2609.19180",
           "publishedAt": "2026-09-18"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-18",
-      "date": "2026-09-18",
-      "generatedAt": "2026-09-17T23:26:21.626Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.17695v1 Announce Type: new Abstract: A large language model (LLM) agent can follow more graph paths without acquiring more independent evidence. GraphEcho tests whether agents mistake these repeated encounters for additional corroboration. The benchmark varies path counts and evidential origins while holding evidence content fixed, and evaluates both judgments and active exploration. Controlled synthetic experiments reveal model-dependent judgment shifts, but redundant supporting paths increase the share of repeated walks across all evaluated frozen agents. Provenance-aware post-training (PAPT) reduces revisits and improves synthetic accuracy, yet covers fewer distinct sources. On scientific claims, it continues to reduce repetition while accuracy declines. These findings expose a gap between efficient exploration and effective evidence use: an agent can learn to stop repeatin"
-        },
-        {
-          "heading": "EU president warns AI agents \"escaping their environment\" are just a preview of what's coming",
-          "body": "The Decoderから公開された情報です。概要: Ursula von der Leyen plans to invite the major frontier labs to talks and use the AI Act to help set global AI safety standards. She cited autonomous hacking and self-improving models as immediate risks. The article EU president warns AI agents \"escaping their environment\" are just a preview of what's coming appeared first on The Decoder ."
-        },
-        {
-          "heading": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to enforce defense-in-depth authorization for Model Context Protocol (MCP) tools on Amazon Quick. This walkthrough wires Microsoft Entra ID group and claims-based JWTs through an Amazon Bedrock AgentCore Gateway interceptor to apply per-user, per-tool role-based and attribute-based access control, with a server-side check and an immutable audit trail."
-        },
-        {
-          "heading": "Enhancing industrial safety AI with synthetic data on Amazon SageMaker AI",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to build a synthetic data augmentation pipeline on Amazon SageMaker AI and Amazon Rekognition that generates photo-realistic, auto-labeled training images for industrial safety AI. This approach improved person detection by up to 160% without manual annotation or hazardous data collection near heavy machinery."
-        },
-        {
-          "heading": "An OpenAI model kept slipping prompt injections into its own notes, and researchers still aren't sure why",
-          "body": "The Decoderから公開された情報です。概要: OpenAI is publishing a framework for systematically reporting AI misalignment and launching it with six reports. In one case an unreleased model from the Astra family wrote prompt injections into its own summaries during training, including a \"Breach Alert\" intended to override subsequent instructions. The article An OpenAI model kept slipping prompt injections into its own notes, and researchers still aren't sure why appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "The Decoder",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "GraphEcho: Structural Redundancy and Evidence Provenance in LLM Graph Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.17695",
-          "publishedAt": "2026-09-17"
-        },
-        {
-          "title": "EU president warns AI agents \"escaping their environment\" are just a preview of what's coming",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/eu-president-warns-ai-agents-escaping-their-environment-are-just-a-preview-of-whats-coming/",
-          "publishedAt": "2026-09-16"
-        },
-        {
-          "title": "Implementing defense-in-depth authorization for MCP tools on Amazon Quick",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/implementing-defense-in-depth-authorization-for-mcp-tools-on-amazon-quick/",
-          "publishedAt": "2026-09-17"
-        },
-        {
-          "title": "Enhancing industrial safety AI with synthetic data on Amazon SageMaker AI",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/enhancing-industrial-safety-ai-with-synthetic-data-on-amazon-sagemaker-ai/",
-          "publishedAt": "2026-09-17"
-        },
-        {
-          "title": "An OpenAI model kept slipping prompt injections into its own notes, and researchers still aren't sure why",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/an-openai-model-kept-slipping-prompt-injections-into-its-own-notes-and-researchers-still-arent-sure-why/",
-          "publishedAt": "2026-09-17"
-        },
-        {
-          "title": "OpenRouter's staggering token chart is the AI bubble debate in a single image",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openrouters-staggering-token-chart-is-the-ai-bubble-debate-in-a-single-image/",
-          "publishedAt": "2026-09-17"
-        },
-        {
-          "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.17632",
-          "publishedAt": "2026-09-17"
-        },
-        {
-          "title": "Improving HCLS AI reasoning with open-source agent skills",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/improving-hcls-ai-reasoning-with-open-source-agent-skills/",
-          "publishedAt": "2026-09-16"
         }
       ]
     }
