@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-17T03:29:50.880Z",
+  "updatedAt": "2026-11-18T02:46:33.453Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-18",
+      "date": "2026-11-18",
+      "generatedAt": "2026-11-18T02:46:33.450Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、MIT Technology Review AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI now offers AI data preparation capabilities for building high-quality training and evaluation data. Generate synthetic examples, assess and improve datasets, auto-label at scale, and bring in expert review through Python SDK APIs and an agent skill, all from your own notebook or IDE."
+        },
+        {
+          "heading": "Building AI that can work across the enterprise",
+          "body": "MIT Technology Review AIから公開された情報です。概要: For years, enterprises have approached AI as a series of discrete experiments. Now, as AI agents begin to move into the workflows that run the business, that model is starting to look inadequate. Organizations moving from isolated pilots toward AI agents and autonomous workflows are confronting a deeper challenge: rethinking how data, business processes, governance,…"
+        },
+        {
+          "heading": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker AI real-time endpoints now support KV cache-aware routing, a new strategy that routes each request to the instance holding the longest cached match for its prompt. Learn how it works, when to use it compared with prefix-aware routing, and how to enable, invoke, and verify it on single model and inference component endpoints."
+        },
+        {
+          "heading": "Building trustworthy AI by fencing it in, not predicting it",
+          "body": "MIT Technology Review AIから公開された情報です。概要: In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do…"
+        },
+        {
+          "heading": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker HyperPod Inference now supports NVIDIA Dynamo for distributed inference, with multi-node and disaggregated serving, KV-aware routing, and automatic fault recovery. Serve large models across many nodes without building the orchestration layer yourself."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "MIT Technology Review AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Announcing AI data preparation capabilities in Amazon SageMaker: Build high-quality datasets for model development workflows",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/",
+          "publishedAt": "2026-11-17"
+        },
+        {
+          "title": "Building AI that can work across the enterprise",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "title": "Amazon SageMaker AI real-time endpoints now support KV cache aware routing",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/",
+          "publishedAt": "2026-11-17"
+        },
+        {
+          "title": "Building trustworthy AI by fencing it in, not predicting it",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+          "publishedAt": "2026-11-16"
+        },
+        {
+          "title": "Managed NVIDIA Dynamo on Amazon SageMaker HyperPod Inference",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/managed-nvidia-dynamo-on-amazon-sagemaker-hyperpod-inference/",
+          "publishedAt": "2026-11-17"
+        },
+        {
+          "title": "Cut generative AI costs: Code for rules, models for judgment",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-generative-ai-costs-code-for-rules-models-for-judgment/",
+          "publishedAt": "2026-11-17"
+        },
+        {
+          "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
+          "publishedAt": "2026-11-17"
+        },
+        {
+          "title": "Secure OAuth patterns for Snowflake Cortex AI through Amazon Bedrock AgentCore",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/secure-oauth-patterns-for-snowflake-cortex-ai-through-amazon-bedrock-agentcore/",
+          "publishedAt": "2026-11-17"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-17",
       "date": "2026-11-17",
@@ -6068,109 +6171,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing/",
           "publishedAt": "2026-09-19"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-19",
-      "date": "2026-09-19",
-      "generatedAt": "2026-09-18T23:07:09.066Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learning、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.19203v1 Announce Type: new Abstract: AI applications have shifted from single, monolithic foundation models (FM) to compound agentic systems. Yet today's stacks remain fragmented: even as protocols (e.g., MCP, A2A) ease tool/agent connectivity, each framework embeds an implicit runtime for state, memory, budgets, and guardrails, making behavior non-portable and governance brittle. It mirrors computing before operating systems, when every program re-implemented basic services. This position paper argues that the field now needs a Foundation Model Operating System (FMOS) -- a system layer that virtualizes FM interactions analogous to how virtual machines abstract physical hardware, giving applications the illusion of dedicated, trustworthy FM instances with effectively unbounded capabilities. Internally, the FMOS orchestrates knowledge across memory tiers, model selection and re"
-        },
-        {
-          "heading": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.19244v1 Announce Type: new Abstract: Conversational LLM agents increasingly rely on Web search, yet the end-to-end lifecycle of agentic search remains poorly understood. We present the first study of Web search across four major conversational platforms (ChatGPT, Claude, Grok, and DeepSeek), combining real-world user interactions (invivo) with controlled experiments using the same platform's models by their APIs (invitro). We investigate the quality of agentic decisions to invoke Web search, their strategies to formulate queries, the potential domain preferences in the search results they receive, and the choices they make when transforming search results into grounded responses. We find that Web-search decisions vary substantially across platforms and models, while more frequent Web-search invocation does not necessarily yield better response quality. We further show that con"
-        },
-        {
-          "heading": "MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.19391v1 Announce Type: new Abstract: LLM coding agents now generate complex programs at a scale that makes thorough human review increasingly difficult, raising the risk of safety and security failures. Common approaches, including fuzz testing, static analysis, and LLM-as-a-Verifier, can detect many failures but struggle to cover all possible edge cases. Formal verification addresses this by providing machine-checkable guarantees over specified properties, but traditionally demands substantial manual specification and proof engineering. We introduce a unified multi-agent framework, MAGS, that generates executable programs with formal safety guarantees, using Dafny as a verification-aware intermediate representation where safety properties can be mechanically checked. MAGS formalizes and freezes human-audited APIs and safety requirements, translates generated code into Dafny, "
-        },
-        {
-          "heading": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
-          "body": "AWS Machine Learningから公開された情報です。概要: Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanced knowledge retrieval while reducing infrastructure management. The framework-agnostic pattern applies across healthcare, financial services, and manufacturing."
-        },
-        {
-          "heading": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-          "body": "AWS Machine Learningから公開された情報です。概要: Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "Position: It is Time to Virtualize Foundation Models with a Self-evolving Operating System Layer",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.19203",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Characterizing Web Search by Conversational LLM Agents: From Search Decisions and Strategies to Results and Responses",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.19244",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "MAGS: Multi-agent Auto-formalization Guarantees Safety for Agentic Outputs",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.19391",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Visible chains of thought are a safety advantage for AI, but that transparency is slipping away",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/visible-chains-of-thought-are-a-safety-advantage-for-ai-but-that-transparency-is-slipping-away/",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "BioPhys-Bridge: A Benchmark for Interdisciplinary Scientific Reasoning in Physics-Grounded Biological Research",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.19180",
-          "publishedAt": "2026-09-18"
         }
       ]
     }
