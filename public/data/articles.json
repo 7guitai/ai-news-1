@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-18T02:46:33.453Z",
+  "updatedAt": "2026-11-19T02:22:05.287Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-19",
+      "date": "2026-11-19",
+      "generatedAt": "2026-11-19T02:22:05.284Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "SLED: Sensor SLicing from Edge to Datacenter",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.21937v1 Announce Type: new Abstract: Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each sensor stream may have different network and compute requirements depending on its type and data volume. However, current wireless systems typically allocate resources at the device level, leading to contention among co-located sensor streams, where bulk data transfers may starve latency-critical telemetry. To this end, this paper introduces Sensor Slicing (SL). SL provides deterministic, medium access control (MAC)-level isolation for individual sensors within a single user equipment (UE) in open radio access networks (O-RAN). Using agentic coding techniques, SL is implemented in two O-RAN-complia"
+        },
+        {
+          "heading": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
+          "body": "The Decoderから公開された情報です。概要: OpenAI is giving four independent audit organizations, including Apollo Research and METR, direct access to unreleased models, source code, and training data for the first time. The embedded reviews are designed to uncover hidden misbehavior and safety gaps. OpenAI can redact or delay reports, so how independent this oversight actually turns out to be remains an open question. The article OpenAI opens its AI systems to four independent on-site auditors for the first time appeared first on The Decoder ."
+        },
+        {
+          "heading": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accuracy without systematically evaluating the quality of the underlying reasoning. This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 unique multiple-choice questions extracted from U.S. Nuclear Regulatory Commission (NRC) reactor operator licensing examinations covering 18 nuclear facilities. Each question is classified according to the NRC Knowledge and Abilities catalogs and accompanied by an official explanation serving as a reference for reasoning evaluation. Six LLMs were evaluated, with overall accuracy ranging from 34.0% to 73.9% across three distinct perfor"
+        },
+        {
+          "heading": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this risk through persona-control training: supervised fine-tuning on mathematical reasoning traces rewritten in the voices of diverse personas. This induces a broader ability to control CoT, even though training contains no monitor-evasion examples. In covert side-task evaluations, traces in which a gpt-oss-20b model organism completes the hidden side task contain less monitorable evidence than the base model's. Averaged across evaluations and CoT lengths, weighted by side-task-success counts, the CoT monitorability metric g-mean$^2$ falls from 0.94 for the base model to 0.68 for the model organism "
+        },
+        {
+          "heading": "Language Models Can Rewrite Their Own Weights",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.21885v1 Announce Type: new Abstract: Language models are trained once, frozen and deployed: improving one again takes another training run, and a prompt, a scaffold or extra computation at inference is gone once the task ends. A frontier model has been shown to edit the weights of a much smaller one. We ask whether a model can rewrite its own weights to make itself better, and find that it can, by its own reasoning, with no gradients and no training; we call this self-rewriting. Given its weights, graded answers and the ability to run itself, a 27B model diagnoses its failure and edits the weights behind it. It surpasses itself: its own edit makes it 6.6 points more accurate on 490 problems it never saw, in a test fixed in advance, and another session's edit also makes it significantly better. It keeps getting better: it submits an edit only when its own tests support it, each"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "SLED: Sensor SLicing from Edge to Datacenter",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.21937",
+          "publishedAt": "2026-11-18"
+        },
+        {
+          "title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+          "publishedAt": "2026-11-18"
+        },
+        {
+          "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.21682",
+          "publishedAt": "2026-11-18"
+        },
+        {
+          "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.21799",
+          "publishedAt": "2026-11-18"
+        },
+        {
+          "title": "Language Models Can Rewrite Their Own Weights",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.21885",
+          "publishedAt": "2026-11-18"
+        },
+        {
+          "title": "How Airbnb uses cost per task to operate coding agents on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/",
+          "publishedAt": "2026-11-18"
+        },
+        {
+          "title": "How Salesforce is advancing global-scale model serving with cross-Region inference routing in Amazon SageMaker AI",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-salesforce-is-advancing-global-scale-model-serving-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+          "publishedAt": "2026-11-18"
+        },
+        {
+          "title": "Microsoft is replacing outside AI models in its own products with cheaper in-house alternatives",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
+          "publishedAt": "2026-11-18"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-18",
       "date": "2026-11-18",
@@ -6069,108 +6172,6 @@
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
           "publishedAt": "2026-09-18"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-20",
-      "date": "2026-09-20",
-      "generatedAt": "2026-09-19T22:44:39.474Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark",
-          "body": "The Decoderから公開された情報です。概要: Leading AI models usually attempt dangerous tasks rather than refuse them when controlling a robot, according to the RoboHarm benchmark. GPT-6 Astra stabbed a baby doll in 17 of 20 trials, while Claude Fable 5.1 put a can of compressed air on a burning stove. None of the three models tested reliably rejected unsafe commands. The article GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark appeared first on The Decoder ."
-        },
-        {
-          "heading": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
-          "body": "The Decoderから公開された情報です。概要: Qwen3.8-Omni-Flash is Qwen's first multimodal model designed for AI agents. It processes audio and video together and independently uses tools to edit vlogs, translate clips, or summarize movies. On audio-video benchmarks, it nearly matches Gemini 3.8 Flash at a fraction of the API cost. The article Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks appeared first on The Decoder ."
-        },
-        {
-          "heading": "Google Deepmind's Dream-RSI helps AI agents improve by “dreaming” about past attempts",
-          "body": "The Decoderから公開された情報です。概要: Google and Deepmind's Dream-RSI lets AI agents \"dream\" through past search runs to test new strategies without costly recalculations. In tests, it matched or beat existing results, cutting iterations by a factor of up to 2.43. Only the search strategy adapts, while the underlying AI model stays unchanged. The article Google Deepmind's Dream-RSI helps AI agents improve by “dreaming” about past attempts appeared first on The Decoder ."
-        },
-        {
-          "heading": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
-          "body": "AWS Machine Learningから公開された情報です。概要: Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanced knowledge retrieval while reducing infrastructure management. The framework-agnostic pattern applies across healthcare, financial services, and manufacturing."
-        },
-        {
-          "heading": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-          "body": "AWS Machine Learningから公開された情報です。概要: Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "GPT-6 Astra and Claude Fable turn robot arms into slapstick killer robots in new safety benchmark",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/gpt-6-astra-and-claude-fable-turn-robot-arms-into-slapstick-killer-robots-in-new-safety-benchmark/",
-          "publishedAt": "2026-09-19"
-        },
-        {
-          "title": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/",
-          "publishedAt": "2026-09-19"
-        },
-        {
-          "title": "Google Deepmind's Dream-RSI helps AI agents improve by “dreaming” about past attempts",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/google-deepminds-dream-rsi-helps-ai-agents-improve-by-dreaming-about-past-attempts/",
-          "publishedAt": "2026-09-19"
-        },
-        {
-          "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Unity launches official plugins for Claude Code and OpenAI Codex to stop AI agents from using outdated tutorials",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials/",
-          "publishedAt": "2026-09-19"
-        },
-        {
-          "title": "Google's Gemini also accidentally hacked three real companies during security testing",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/googles-gemini-also-accidentally-hacked-three-real-companies-during-security-testing/",
-          "publishedAt": "2026-09-19"
         }
       ]
     }
