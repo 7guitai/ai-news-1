@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-19T02:22:05.287Z",
+  "updatedAt": "2026-11-20T02:05:29.158Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-20",
+      "date": "2026-11-20",
+      "generatedAt": "2026-11-20T02:05:29.155Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+          "body": "AWS Machine Learningから公開された情報です。概要: This second installment reviews 13 more Amazon SageMaker AI inference launches from 2026, spanning configuration recommendations, fitting more models onto each GPU, serving models too large for one instance, cross-Region routing, and post-launch tuning, bringing the year's total to 26."
+        },
+        {
+          "heading": "SLED: Sensor SLicing from Edge to Datacenter",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.21937v1 Announce Type: new Abstract: Modern sensing systems generate large volumes of heterogeneous data streams from multiple sensor modalities, increasing reliance on datacenters for computation, artificial intelligence/superintelligence (AI/SI) inference, and AI/SI training. Each sensor stream may have different network and compute requirements depending on its type and data volume. However, current wireless systems typically allocate resources at the device level, leading to contention among co-located sensor streams, where bulk data transfers may starve latency-critical telemetry. To this end, this paper introduces Sensor Slicing (SL). SL provides deterministic, medium access control (MAC)-level isolation for individual sensors within a single user equipment (UE) in open radio access networks (O-RAN). Using agentic coding techniques, SL is implemented in two O-RAN-complia"
+        },
+        {
+          "heading": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
+          "body": "The Decoderから公開された情報です。概要: An internal OpenAI model was supposed to create a fitness document but instead began planning scripts to secretly forward emails to an \"attacker.\" The agent recognized the conflict with its assigned task but dismissed it as an environment error. OpenAI identified security training against prompt injection as a possible trigger but cannot establish it as the sole cause. The article An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool appeared first on The Decoder ."
+        },
+        {
+          "heading": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.21682v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly being explored for knowledge-intensive and safety-critical applications in nuclear engineering. However, existing nuclear-domain benchmarks provide limited content coverage or focus primarily on answer accuracy without systematically evaluating the quality of the underlying reasoning. This study introduces NEBench R1, a reasoning-oriented benchmark comprising 7,546 unique multiple-choice questions extracted from U.S. Nuclear Regulatory Commission (NRC) reactor operator licensing examinations covering 18 nuclear facilities. Each question is classified according to the NRC Knowledge and Abilities catalogs and accompanied by an official explanation serving as a reference for reasoning evaluation. Six LLMs were evaluated, with overall accuracy ranging from 34.0% to 73.9% across three distinct perfor"
+        },
+        {
+          "heading": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.21799v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising tool for detecting hidden goals, off-task behavior, and other failures in AI agents. One risk is that models could deliberately shape their reasoning to make it opaque to monitors. We stress-test this risk through persona-control training: supervised fine-tuning on mathematical reasoning traces rewritten in the voices of diverse personas. This induces a broader ability to control CoT, even though training contains no monitor-evasion examples. In covert side-task evaluations, traces in which a gpt-oss-20b model organism completes the hidden side task contain less monitorable evidence than the base model's. Averaged across evaluations and CoT lengths, weighted by side-task-success counts, the CoT monitorability metric g-mean$^2$ falls from 0.94 for the base model to 0.68 for the model organism "
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
+          "publishedAt": "2026-11-20"
+        },
+        {
+          "title": "SLED: Sensor SLicing from Edge to Datacenter",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.21937",
+          "publishedAt": "2026-11-19"
+        },
+        {
+          "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
+          "publishedAt": "2026-11-19"
+        },
+        {
+          "title": "NEBench R1: a Reasoning Benchmark for Evaluating Nuclear Domain Competence in Large Language Models",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.21682",
+          "publishedAt": "2026-11-19"
+        },
+        {
+          "title": "Chain-of-Thought Controllability Can Reduce Chain-of-Thought Monitorability",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.21799",
+          "publishedAt": "2026-11-19"
+        },
+        {
+          "title": "Language Models Can Rewrite Their Own Weights",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.21885",
+          "publishedAt": "2026-11-19"
+        },
+        {
+          "title": "Use Kimi Code CLI with models on Amazon Bedrock",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/use-kimi-code-cli-with-models-on-amazon-bedrock/",
+          "publishedAt": "2026-11-20"
+        },
+        {
+          "title": "How the BMW Group governs hundreds of agents across thousands of developers",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/how-the-bmw-group-governs-hundreds-of-agents-across-thousands-of-developers/",
+          "publishedAt": "2026-11-19"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-19",
       "date": "2026-11-19",
@@ -6070,108 +6173,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
           "publishedAt": "2026-09-20"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-21",
-      "date": "2026-09-21",
-      "generatedAt": "2026-09-20T23:03:56.693Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
-          "body": "The Decoderから公開された情報です。概要: Alibaba's Qwen team has released Qwen-Image-2.1, an open-weight model that generates and edits images on powerful consumer GPUs, with support for transparency and up to ten reference images at once. Its research license bars commercial use, which requires a separate Qwen license. The article Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters appeared first on The Decoder ."
-        },
-        {
-          "heading": "Runway wants to turn AI video generation into a live stream you control in real time",
-          "body": "The Decoderから公開された情報です。概要: Runway wants to stream AI video as users prompt it, rather than make them wait for finished clips. The approach builds on GWM-1, its world model that generates video frame by frame. Beyond creative tools, Runway sees uses in robotics and autonomous driving. The article Runway wants to turn AI video generation into a live stream you control in real time appeared first on The Decoder ."
-        },
-        {
-          "heading": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
-          "body": "The Decoderから公開された情報です。概要: Qwen3.8-Omni-Flash is Qwen's first multimodal model designed for AI agents. It processes audio and video together and independently uses tools to edit vlogs, translate clips, or summarize movies. On audio-video benchmarks, it nearly matches Gemini 3.8 Flash at a fraction of the API cost. The article Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks appeared first on The Decoder ."
-        },
-        {
-          "heading": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
-          "body": "AWS Machine Learningから公開された情報です。概要: Migrate a multi-model healthcare AI agent from self-managed Amazon ECS with AWS Fargate to Amazon Bedrock AgentCore runtime, preserving triple-model orchestration and vector-enhanced knowledge retrieval while reducing infrastructure management. The framework-agnostic pattern applies across healthcare, financial services, and manufacturing."
-        },
-        {
-          "heading": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-          "body": "AWS Machine Learningから公開された情報です。概要: Deploy production-ready Hugging Face models on Amazon SageMaker AI using six open-source agent skills. Point a coding agent at a model and get back a real-time endpoint with the right serving container, autoscaling, Amazon CloudWatch alarms, and a verified teardown path."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning"
-      ],
-      "sources": [
-        {
-          "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
-          "publishedAt": "2026-09-20"
-        },
-        {
-          "title": "Runway wants to turn AI video generation into a live stream you control in real time",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/runway-wants-to-turn-ai-video-generation-into-a-live-stream-you-control-in-real-time/",
-          "publishedAt": "2026-09-20"
-        },
-        {
-          "title": "Qwen3.8-Omni-Flash undercuts Google's Gemini Flash pricing while matching its multimodal benchmarks",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks/",
-          "publishedAt": "2026-09-19"
-        },
-        {
-          "title": "Migrating multi-model AI agents to Amazon Bedrock AgentCore runtime",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/migrating-multi-model-ai-agents-to-amazon-bedrock-agentcore-runtime/",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Deploy Hugging Face models on Amazon SageMaker AI with coding agents",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/deploy-hugging-face-models-on-amazon-sagemaker-ai-with-coding-agents/",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Introducing Amazon SageMaker HyperPod Inference Gateway",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-sagemaker-hyperpod-inference-gateway/",
-          "publishedAt": "2026-09-18"
-        },
-        {
-          "title": "Trump announces \"AI Force\" and plans for an \"AI czar\" as he pushes unchecked AI growth",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/trump-announces-ai-force-and-plans-for-an-ai-czar-as-he-pushes-unchecked-ai-growth/",
-          "publishedAt": "2026-09-20"
-        },
-        {
-          "title": "Amazon SageMaker Inference: 2026 year-to-date launches in review",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-year-to-date-launches-in-review/",
-          "publishedAt": "2026-09-18"
         }
       ]
     }
