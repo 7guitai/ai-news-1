@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-20T02:05:29.158Z",
+  "updatedAt": "2026-11-21T02:00:48.326Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-21",
+      "date": "2026-11-21",
+      "generatedAt": "2026-11-21T02:00:48.323Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "AWS Machine Learning、The Decoder、OpenAI、arXiv AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+          "body": "AWS Machine Learningから公開された情報です。概要: This second installment reviews 13 more Amazon SageMaker AI inference launches from 2026, spanning configuration recommendations, fitting more models onto each GPU, serving models too large for one instance, cross-Region routing, and post-launch tuning, bringing the year's total to 26."
+        },
+        {
+          "heading": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+          "body": "AWS Machine Learningから公開された情報です。概要: Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent."
+        },
+        {
+          "heading": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+          "body": "AWS Machine Learningから公開された情報です。概要: Announcing the general availability of Amazon Textract Insights, a new generative AI feature of Amazon Textract. Describe the fields you need in natural language, submit a document or a mixed packet, and receive structured results with a confidence score and page-level grounding for each value, with no model training required."
+        },
+        {
+          "heading": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+          "body": "AWS Machine Learningから公開された情報です。概要: Amazon SageMaker HyperPod now offers enhanced observability to help you diagnose GPU training issues faster. It brings together diagnostic and profiling capabilities for training workloads on both Amazon EKS and Slurm orchestrators, pinpointing issues across GPU, network, and host layers."
+        },
+        {
+          "heading": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
+          "body": "The Decoderから公開された情報です。概要: Nvidia is close to acquiring AI startup Inception for at least $500 million, according to The Information. The company is just two years old and builds language models based on diffusion processes, an alternative approach to the token-by-token generation used by models like ChatGPT. The deal would bolster Nvidia's own open-source models and its push into robotics. The article Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "AWS Machine Learning",
+        "The Decoder",
+        "OpenAI"
+      ],
+      "sources": [
+        {
+          "title": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
+          "publishedAt": "2026-11-20"
+        },
+        {
+          "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+          "publishedAt": "2026-11-21"
+        },
+        {
+          "title": "Announcing Amazon Textract Insights: Verifiable generative AI for documents",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-amazon-textract-insights-verifiable-generative-ai-for-documents/",
+          "publishedAt": "2026-11-20"
+        },
+        {
+          "title": "Introducing enhanced infrastructure observability in Amazon SageMaker HyperPod",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/introducing-enhanced-observability-in-amazon-sagemaker-hyperpod-to-diagnose-gpu-training-issues/",
+          "publishedAt": "2026-11-20"
+        },
+        {
+          "title": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
+          "publishedAt": "2026-11-20"
+        },
+        {
+          "title": "Combatting adversarial distillation",
+          "source": "OpenAI",
+          "url": "https://openai.com/index/combatting-adversarial-distillation",
+          "publishedAt": "2026-11-20"
+        },
+        {
+          "title": "Training Language Models for Introspective Oversight",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.23365",
+          "publishedAt": "2026-11-20"
+        },
+        {
+          "title": "Where the Tokens Go: Heat, Entropy and Error in Agentic Coding",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.23375",
+          "publishedAt": "2026-11-20"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-20",
       "date": "2026-11-20",
@@ -6070,109 +6173,6 @@
           "source": "OpenAI",
           "url": "https://openai.com/index/priorities-principles-third-party-assessments",
           "publishedAt": "2026-09-22"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-22",
-      "date": "2026-09-22",
-      "generatedAt": "2026-09-21T23:54:43.924Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "arXiv AI、AWS Machine Learning、The Decoder、OpenAIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.20971v1 Announce Type: new Abstract: Long-context large language model inference is increasingly limited by prefill, where dense self-attention processes the entire prompt before generation begins. Sparse block selection can reduce this cost, but a block centroid may hide a highly relevant token among many irrelevant ones. We call this failure mode mean dilution and propose RBS-Attention, a training-free sparse-prefill method with two complementary selection branches. A centroid base branch captures average relevance, while a rescue branch uses the maximum key-block radius and its prompt-, layer-, and head-dependent distribution to identify blocks at risk of underestimation. Independently thresholding the two branches and combining their masks controls the contribution of rescue blocks while preserving regular block-sparse FlashAttention execution. On H100 GPUs, RBS-Attention "
-        },
-        {
-          "heading": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
-          "body": "AWS Machine Learningから公開された情報です。概要: xAI's Grok 4.6 is now available in Amazon Bedrock: a frontier model for long-running agents, coding, and knowledge work, with a 500K token context window and four reasoning effort levels. It runs on both the bedrock-mantle and bedrock-runtime endpoints, with Converse API and cross-Region inference support."
-        },
-        {
-          "heading": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.21061v1 Announce Type: new Abstract: Automatic target recognition (ATR) with synthetic aperture sonar (SAS) supports advanced naval capabilities, but deep learning is constrained by scarce target imagery, background clutter, and human-in-the-loop assessment. We adapt DINOv3 Vision Transformer (ViT) models to underwater SAS ATR using a three-stage parameter-efficient framework. Stage 1 uses Low-Rank Adaptation (LoRA) while freezing the ViT backbone, bridging the gap between natural-image pretraining and underwater acoustic propagation. Stage 2 uses hard-negative mining to strengthen the decision boundary against acoustic mimics, including rocks and sediment formations resembling man-made targets. Stage 3 uses Supervised Contrastive Learning (SupCon) to separate target and clutter representations. We evaluate at-sea SAS data using a mission-level geographic split, compare all ar"
-        },
-        {
-          "heading": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.21139v1 Announce Type: new Abstract: Replacing attention in a pretrained language model is a compatibility problem: a plausible substitute may alter representations expected by later layers. TinyCeNN-LM introduces a \\emph{quality-gated post-training conversion} framework using CeNN-inspired cellular-recurrent layers with bounded local processing, compact recurrent memory, routing, fusion, and accept-or-rollback validation. Three implementations are studied: Integrated Memory, MemoryFusion, and PDelta3-GDN2-CLVR+Local32. Strict PDelta3 conversion accepts a layer only when representation and NLL criteria pass fixed thresholds. On SmolLM2-135M, layers 0-2 are accepted with cumulative $\\Delta\\mathrm{NLL}=+0.01209$, while layer 3 is rejected despite acceptable NLL because representation fidelity fails. On Qwen3.5-0.8B, full-attention layers 3, 7, and 11 are accepted with final $\\De"
-        },
-        {
-          "heading": "xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6",
-          "body": "The Decoderから公開された情報です。概要: xAI has released Grok 4.7, its most capable model yet. But on the Artificial Analysis Intelligence Index, it scores just 46 points, landing mid-pack and well behind Claude Fable 5.1 and GPT-6 at 53 each. The gap grows even wider in agentic coding. The upside is it's cheap. The article xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6 appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "arXiv AI",
-        "AWS Machine Learning",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "RBS-Attention: Radius-Bounded Sparse Prefill for Long-Context Large Language Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.20971",
-          "publishedAt": "2026-09-21"
-        },
-        {
-          "title": "xAI’s Grok 4.6 is now available in Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/xais-grok-4-6-is-now-available-in-amazon-bedrock/",
-          "publishedAt": "2026-09-21"
-        },
-        {
-          "title": "LoRA Enhanced Contrastive Learning with SAS Vision Transformers",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.21061",
-          "publishedAt": "2026-09-21"
-        },
-        {
-          "title": "TinyCeNN-LM: Quality-Gated Conversion of Pretrained Attention with CeNN-Inspired Cellular-Recurrent Layers",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.21139",
-          "publishedAt": "2026-09-21"
-        },
-        {
-          "title": "xAI launches Grok 4.7 at bargain prices, but benchmarks reveal a wide gap to Claude and GPT-6",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/xai-launches-grok-4-7-at-bargain-prices-but-benchmarks-reveal-a-wide-gap-to-claude-and-gpt-6/",
-          "publishedAt": "2026-09-21"
-        },
-        {
-          "title": "Building standards for the next phase of AI",
-          "source": "OpenAI",
-          "url": "https://openai.com/index/building-standards-next-phase-ai",
-          "publishedAt": "2026-09-21"
-        },
-        {
-          "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.21113",
-          "publishedAt": "2026-09-21"
-        },
-        {
-          "title": "Alibaba's open-weight Qwen-Image-2.1 claims to beat closed models in image generation with just 7 billion parameters",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/alibabas-open-weight-qwen-image-2-1-claims-to-beat-closed-models-in-image-generation-with-just-7-billion-parameters/",
-          "publishedAt": "2026-09-20"
         }
       ]
     }
