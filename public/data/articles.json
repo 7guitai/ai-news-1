@@ -1,6 +1,109 @@
 {
-  "updatedAt": "2026-11-24T05:10:05.436Z",
+  "updatedAt": "2026-11-25T03:59:20.702Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-25",
+      "date": "2026-11-25",
+      "generatedAt": "2026-11-25T03:59:20.699Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、MIT Technology Review AI、AWS Machine Learningなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
+          "body": "The Decoderから公開された情報です。概要: According to an Axios report, many employees at OpenAI and Anthropic believe the companies' own unreleased frontier models can no longer be safely controlled. Both companies are internally debating whether to halt releases or even stop training altogether, while employee trust in leadership is eroding. The article Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures appeared first on The Decoder ."
+        },
+        {
+          "heading": "Raising the stakes for enterprise networks with AI modernization",
+          "body": "MIT Technology Review AIから公開された情報です。概要: Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As…"
+        },
+        {
+          "heading": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+          "body": "AWS Machine Learningから公開された情報です。概要: Self-hosting LLMs on GPUs means paying to recompute the same context on every turn. Distributed KV caching with Amazon ElastiCache can cut inference cost by up to 40% and time to first token by up to 80%. This post walks through the distributed KV caching skill in the Agent Toolkit for AWS, which evaluates and sets up the cache from your coding agent."
+        },
+        {
+          "heading": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+          "body": "The Decoderから公開された情報です。概要: Two years after launch, Anthropic reports more than 700 million monthly downloads for its MCP interface standard. New features such as background tasks, follow-up questions for users, and file uploads are meant to let Claude work more independently. The article Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents appeared first on The Decoder ."
+        },
+        {
+          "heading": "OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\"",
+          "body": "The Decoderから公開された情報です。概要: OpenAI researcher Noam Brown is urging promising students to drop out, saying it's \"not a great time to sit on the sidelines.\" The o1 co-creator says AI is still in a \"centaur period\" and struggles with planning and self-correction, though he expects a \"very steep rate of progress\" soon. According to Brown, language models are already being used to build the next generation of models. The article OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\" appeared first on The Decoder ."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "MIT Technology Review AI",
+        "AWS Machine Learning"
+      ],
+      "sources": [
+        {
+          "title": "Dozens of insiders say OpenAI and Anthropic's unreleased models have outgrown their safety measures",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/dozens-of-insiders-say-openai-and-anthropics-unreleased-models-have-outgrown-their-safety-measures/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "title": "Raising the stakes for enterprise networks with AI modernization",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "title": "Cut self-hosted LLM cost and latency with the distributed KV caching agent skill",
+          "source": "AWS Machine Learning",
+          "url": "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/",
+          "publishedAt": "2026-11-21"
+        },
+        {
+          "title": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "title": "OpenAI o1 co-creator Noam Brown urges promising students to drop out as AI enters a \"very steep rate of progress\"",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-o1-co-creator-noam-brown-urges-promising-students-to-drop-out-as-ai-enters-a-very-steep-rate-of-progress/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "title": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
+          "publishedAt": "2026-11-24"
+        },
+        {
+          "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+          "source": "MIT Technology Review AI",
+          "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+          "publishedAt": "2026-11-23"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-24",
       "date": "2026-11-24",
@@ -6070,109 +6173,6 @@
           "source": "The Decoder",
           "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/",
           "publishedAt": "2026-09-26"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-26",
-      "date": "2026-09-26",
-      "generatedAt": "2026-09-25T23:52:53.807Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "AWS Machine Learning、arXiv AI、The Decoder、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the trained LoRA adapter for inference."
-        },
-        {
-          "heading": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.28506v1 Announce Type: new Abstract: TW3Cast is a time-series forecasting system that reaches position 3 of 130 entries on the GIFT-Eval benchmark by mean MASE rank, as of 2026-09-14. The two entries above it belong to the leaderboard's agentic category, multi-step systems that use agents or language models to reason about, generate or select forecasts. TW3Cast runs no agent and no language model. Its selection is a table computed once on the training split and then frozen, and its experts are public foundation models lightly fine-tuned on those training splits. For each of the 97 dataset, frequency and horizon configurations, the table serves one of four modes: a specialist, which is a LoRA or full fine-tune of Chronos-2, TiRex or Toto whose training data was cleaned and enriched by explicit rules; a quantile blend that contains a specialist; a blend of base models; or a sele"
-        },
-        {
-          "heading": "Pistis Technical Report",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.28554v1 Announce Type: new Abstract: We introduce the Pistis model family, comprising 27B- and 9B-parameter multimodal large language models built on Qwen3.6 and Qwen3.5, respectively, and developed through a general and scalable post-training framework. The framework first establishes a strong foundation through large-scale multimodal supervised fine-tuning (SFT). Building on this SFT foundation, we propose Interleaved Distillation and Reinforcement Learning (IDRL), a novel post-training paradigm that tightly integrates on-policy distillation and reinforcement learning within a single training loop. By alternating between the two objectives, rather than optimizing either in isolation or combining them in a static joint loss, IDRL enables more effective knowledge transfer, greater optimization stability, and more precise credit assignment for long-horizon agentic trajectories,"
-        },
-        {
-          "heading": "Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.28609v1 Announce Type: new Abstract: Role-playing agents based on large language models have been widely applied in areas such as personalized assistance and social simulation. Recent RL methods typically train on a fixed scenario pool collected before learning begins. This creates a distributional bottleneck: as the agent improves, the scenarios where it performs poorly also change, while the training distribution remains static. Therefore, we propose AdvRole, an adversarial context rewriting framework that turns role-playing RL into a closed-loop curriculum. AdvRole alternates between an Actor that learns to role-play and a Rewriter that edits character profiles and dialogue contexts into actor-specific hard scenarios. The Rewriter is trained with a performance-gap reward, which favors rewrites that reduce the current Actor's score relative to the original scenario. As a res"
-        },
-        {
-          "heading": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
-          "body": "The Decoderから公開された情報です。概要: Microsoft is splitting its Copilot app into three sections: Home, Code, and a new agent called \"Autopilot.\" Built on OpenClaw, the agent runs continuously in the cloud, where it can monitor Teams channels and complete tasks on its own, according to Microsoft. For Autopilot and Code, the company is also switching to usage-based billing instead of flat-rate pricing, moving further away from its AI subsidy model. The article Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "AWS Machine Learning",
-        "arXiv AI",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "TW3Cast: A Frozen Router of Lightly Fine-Tuned Foundation Models for Time-Series Forecasting on GIFT-Eval, Selected Entirely on the Training Split",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.28506",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "Pistis Technical Report",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.28554",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "Adversarial Closed-Loop Curriculum for Evolving Role-Playing Agents",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.28609",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "Microsoft gives Copilot another makeover, adding an Autopilot agent and usage-based billing",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/microsoft-gives-copilot-another-makeover-adding-an-autopilot-agent-and-usage-based-billing/",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "When Should Forecasting Agents Reason? Behavioral Stress Tests for Reliability Routing",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.28475",
-          "publishedAt": "2026-09-25"
         }
       ]
     }
