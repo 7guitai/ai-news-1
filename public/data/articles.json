@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-11-25T03:59:20.702Z",
+  "updatedAt": "2026-11-26T03:24:15.280Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-26",
+      "date": "2026-11-26",
+      "generatedAt": "2026-11-26T03:24:15.274Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.31427v1 Announce Type: new Abstract: LLM agents operate through harnesses that define system prompts, action formats, feedback loops, and resource constraints. A model may possess the knowledge needed to solve a task yet fail to express that knowledge through a particular harness. This raises a basic question: when a policy fails under a given harness, is it missing task knowledge or the competence to operate the interface? We distinguish two components of agentic competence: task competence, the knowledge and reasoning needed to solve a task, and interface competence, the ability to act on that knowledge through a given harness. Across four reasoning and agentic benchmarks, we show that harness-conditioned training yields vastly different outcomes depending on how these interact. Multi-harness distillation aggregates task knowledge from trajectories collected through differen"
+        },
+        {
+          "heading": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
+          "body": "The Decoderから公開された情報です。概要: OpenAI is testing a new feature called \"Private Inference\" that lets companies run queries on its most powerful models without OpenAI being able to access the data. The article OpenAI wants companies to trust it with sensitive work by promising not to look at their data appeared first on The Decoder ."
+        },
+        {
+          "heading": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
+          "body": "The Decoderから公開された情報です。概要: Google Deepmind uses AI agents to run experiments on their own for upcoming Gemini models. Research chief Koray Kavukcuoglu says the lab is still far from recursive self-improvement. For oversight, Deepmind intentionally leaves the agents' internal chains of thought untrained so they can be reviewed. Kavukcuoglu measures AGI by everyday user trust rather than benchmarks. The article AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant appeared first on The Decoder ."
+        },
+        {
+          "heading": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.31284v1 Announce Type: new Abstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act. In this paper, we show that allocation is not an auxiliary concern but a structural component of governance. When multiple agents compete for execution under constrained resources, any allocation mechanism introduces unavoidable trade-offs between fairness, efficiency, and resistance to strategic manipulation. We formalize this through a set of impossibility results, including Sybil amplification and the incompatibility of desirable allocation properties. We then show that these allocation constraints cannot be resolved within a single layer of control. Instead, they propagate across the system, interacting with execution atomicity, s"
+        },
+        {
+          "heading": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.31345v1 Announce Type: new Abstract: In recent years, multimodal large language models (MLLMs) have achieved significant progress in chart-to-code generation. However, existing benchmarks mainly focus on static charts, overlooking interactive charts that enable richer and more expressive data exploration. Unlike static chart-to-code generation, which emphasizes visual consistency, interactive chart-to-code evaluation targets behavioral consistency, requiring chart states to evolve correctly under sequences of user interactions, thereby rendering traditional one-step evaluation paradigms ineffective. To address this gap, we introduce ChartInt, the first benchmark specifically designed for interactive chart-to-code generation. ChartInt consists of 2,779 carefully annotated examples covering common interaction patterns such as hover, highlight, and tooltips. Additionally, ChartIn"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31427",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "title": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31284",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31345",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31346",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "title": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31424",
+          "publishedAt": "2026-11-25"
+        },
+        {
+          "title": "US chip-access curbs and anti-distillation measures are reportedly already slowing Chinese AI labs",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/us-chip-access-curbs-and-anti-distillation-measures-are-reportedly-already-slowing-chinese-ai-labs/",
+          "publishedAt": "2026-11-25"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-25",
       "date": "2026-11-25",
@@ -6070,109 +6172,6 @@
           "source": "MIT Technology Review AI",
           "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
           "publishedAt": "2026-09-25"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-27",
-      "date": "2026-09-27",
-      "generatedAt": "2026-09-26T23:24:40.992Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "OpenAI pauses its \"most capable models\" after agents exploit loopholes and leak data",
-          "body": "The Decoderから公開された情報です。概要: OpenAI has shared new details from its ongoing AI safety investigation. One research model exploited a DNS loophole to reach the internet from a locked-down environment, while another deliberately leaked a GitHub token and twice ignored a researcher's direct instructions. OpenAI has paused tool-based training, evaluation, and inference for its most capable models. With government and university sites among those affected, the question of who's liable when AI agents hack is getting harder to ignore. The article OpenAI pauses its \"most capable models\" after agents exploit loopholes and leak data appeared first on The Decoder ."
-        },
-        {
-          "heading": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the trained LoRA adapter for inference."
-        },
-        {
-          "heading": "Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
-          "body": "The Decoderから公開された情報です。概要: SoL-Pi cuts coding agents' token usage by up to 49 percent with little change in performance by optimizing the control layer between the model and its environment. A research agent tested 152 approaches across more than 3,000 runs to develop the system, though the gains were smaller on other benchmarks. The article Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness appeared first on The Decoder ."
-        },
-        {
-          "heading": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
-          "body": "AWS Machine Learningから公開された情報です。概要: NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composite evaluation, and data accuracy verification—that reach about 99% numerical accuracy while streaming responses in real time."
-        },
-        {
-          "heading": "The Pentagon wants $30 million to build an AI-powered lie detector",
-          "body": "MIT Technology Review AIから公開された情報です。概要: The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request. The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which…"
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "OpenAI pauses its \"most capable models\" after agents exploit loopholes and leak data",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-pauses-its-most-capable-models-after-agents-exploit-loopholes-and-leak-data/",
-          "publishedAt": "2026-09-26"
-        },
-        {
-          "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "Nvidia's SoL-Pi system cuts coding agent token usage nearly in half by optimizing the harness",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/nvidias-sol-pi-system-cuts-coding-agent-token-usage-nearly-in-half-by-optimizing-the-harness/",
-          "publishedAt": "2026-09-26"
-        },
-        {
-          "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
-          "publishedAt": "2026-09-26"
-        },
-        {
-          "title": "Speaker-labeled transcription with WhisperX on SageMaker AI",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/speaker-labeled-transcription-with-whisperx-on-sagemaker-ai/",
-          "publishedAt": "2026-09-24"
-        },
-        {
-          "title": "OpenAI's GPT-6 Astra can now tell you exactly where you screwed up your IKEA shelf",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openais-gpt-6-astra-can-now-tell-you-exactly-where-you-screwed-up-your-ikea-shelf/",
-          "publishedAt": "2026-09-26"
         }
       ]
     }
