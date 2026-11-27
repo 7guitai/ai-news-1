@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-11-26T03:24:15.280Z",
+  "updatedAt": "2026-11-27T03:32:07.368Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-27",
+      "date": "2026-11-27",
+      "generatedAt": "2026-11-27T03:32:07.360Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.31427v1 Announce Type: new Abstract: LLM agents operate through harnesses that define system prompts, action formats, feedback loops, and resource constraints. A model may possess the knowledge needed to solve a task yet fail to express that knowledge through a particular harness. This raises a basic question: when a policy fails under a given harness, is it missing task knowledge or the competence to operate the interface? We distinguish two components of agentic competence: task competence, the knowledge and reasoning needed to solve a task, and interface competence, the ability to act on that knowledge through a given harness. Across four reasoning and agentic benchmarks, we show that harness-conditioned training yields vastly different outcomes depending on how these interact. Multi-harness distillation aggregates task knowledge from trajectories collected through differen"
+        },
+        {
+          "heading": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+          "body": "The Decoderから公開された情報です。概要: Chinese AI companies Z.AI and Moonshot AI have to delay their next flagship models and are looking for new sources of training data. The article After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead appeared first on The Decoder ."
+        },
+        {
+          "heading": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.31284v1 Announce Type: new Abstract: Autonomous agent governance is commonly framed as a problem of enforcing correct execution. However, in multi-agent systems, an equally fundamental question precedes execution: which agents are allowed to act. In this paper, we show that allocation is not an auxiliary concern but a structural component of governance. When multiple agents compete for execution under constrained resources, any allocation mechanism introduces unavoidable trade-offs between fairness, efficiency, and resistance to strategic manipulation. We formalize this through a set of impossibility results, including Sybil amplification and the incompatibility of desirable allocation properties. We then show that these allocation constraints cannot be resolved within a single layer of control. Instead, they propagate across the system, interacting with execution atomicity, s"
+        },
+        {
+          "heading": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.31345v1 Announce Type: new Abstract: In recent years, multimodal large language models (MLLMs) have achieved significant progress in chart-to-code generation. However, existing benchmarks mainly focus on static charts, overlooking interactive charts that enable richer and more expressive data exploration. Unlike static chart-to-code generation, which emphasizes visual consistency, interactive chart-to-code evaluation targets behavioral consistency, requiring chart states to evolve correctly under sequences of user interactions, thereby rendering traditional one-step evaluation paradigms ineffective. To address this gap, we introduce ChartInt, the first benchmark specifically designed for interactive chart-to-code generation. ChartInt consists of 2,779 carefully annotated examples covering common interaction patterns such as hover, highlight, and tooltips. Additionally, ChartIn"
+        },
+        {
+          "heading": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.31346v1 Announce Type: new Abstract: Recent advances in MLLMs have improved social understanding, enabling models to recognize emotions and distinguish truthful from deceptive behaviors. However, existing benchmarks largely focus on coarse-grained emotion recognition or binary truth-deception detection, overlooking the diverse ways people manipulate information in conversations, such as withholding, leakage, fabrication, evasion, and defensive counterclaim. Understanding these behaviors requires reasoning about underlying facts, participant knowledge, and conversational context, making them difficult to evaluate reliably. To address this gap, we introduce InfoCon, a multimodal benchmark for fine-grained information manipulation in conversations. InfoCon identifies six fine-grained strategies and derives a coarse consistency label from their factual and interactional relations."
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "arXiv AI",
+        "The Decoder"
+      ],
+      "sources": [
+        {
+          "title": "Learning What vs. Learning How: Decomposing Task and Interface Competence in Agentic Training",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31427",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "title": "After OpenAI and Anthropic shut the door on their data, a Chinese AI developer is turning to Google and Meta instead",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/after-openai-and-anthropic-shut-the-door-on-their-data-a-chinese-ai-developer-is-turning-to-google-and-meta-instead/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31284",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31345",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "title": "What People Choose Not to Say: A Multimodal Benchmark for Fine-Grained Information Manipulation in Conversations",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31346",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "title": "ContextLure: Exploiting Benign Conversation History for Indirect Prompt Injection",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31424",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "title": "Microsoft details how state-backed hackers use the ARTEX AI framework to automate cyberattacks",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+          "publishedAt": "2026-11-26"
+        },
+        {
+          "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.31301",
+          "publishedAt": "2026-11-26"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-26",
       "date": "2026-11-26",
@@ -6068,109 +6170,6 @@
           "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
-          "publishedAt": "2026-09-25"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-28",
-      "date": "2026-09-28",
-      "generatedAt": "2026-09-27T23:41:57.917Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "The Decoder、AWS Machine Learning、MIT Technology Review AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning",
-          "body": "The Decoderから公開された情報です。概要: OpenAI and Anthropic are investigating tens of thousands of incidents in which their AI agents independently hacked websites, used stolen login credentials, or tried to evade monitoring systems. US government agencies like the SEC and the Census Bureau were among the targets. OpenAI has paused training on its most capable internal models, but the problem extends across the entire industry. The article Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning appeared first on The Decoder ."
-        },
-        {
-          "heading": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-          "body": "AWS Machine Learningから公開された情報です。概要: Learn how to run SkyRL, an open-source reinforcement learning framework, on Amazon SageMaker HyperPod to post-train a Qwen3-VL-8B vision-language model with GRPO. This walkthrough covers building the container image, launching a Ray cluster from SageMaker Studio, submitting and monitoring the job, and hosting the trained LoRA adapter for inference."
-        },
-        {
-          "heading": "AI agents do more of the work in model development, but humans still make the decisions",
-          "body": "The Decoderから公開された情報です。概要: A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have been attempted without AI. The authors warn that more agent activity doesn't mean more autonomy. The article AI agents do more of the work in model development, but humans still make the decisions appeared first on The Decoder ."
-        },
-        {
-          "heading": "Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen",
-          "body": "The Decoderから公開された情報です。概要: Researchers from Stanford and Caltech had a humanoid robot powered by GPT-6 Astra independently tidy up an unfamiliar kitchen. Their HomeBody system skips a specially trained control layer, letting the language model call directly into modular skills like grasping and navigating. The article Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen appeared first on The Decoder ."
-        },
-        {
-          "heading": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
-          "body": "AWS Machine Learningから公開された情報です。概要: NarrateAI delivers production-ready LLM quality assurance on Amazon Bedrock. This post details five techniques—adaptive pipeline orchestration, cross-account multi-model failover, real-time streaming evaluation, composite evaluation, and data accuracy verification—that reach about 99% numerical accuracy while streaming responses in real time."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "The Decoder",
-        "AWS Machine Learning",
-        "MIT Technology Review AI"
-      ],
-      "sources": [
-        {
-          "title": "Tens of thousands of security probes show OpenAI's Hugging Face incident was just the beginning",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/tens-of-thousands-of-security-probes-show-openais-hugging-face-incident-was-just-the-beginning/",
-          "publishedAt": "2026-09-27"
-        },
-        {
-          "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "AI agents do more of the work in model development, but humans still make the decisions",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
-          "publishedAt": "2026-09-27"
-        },
-        {
-          "title": "Researchers plug GPT-6 Astra directly into a robot and let it clean up an unfamiliar kitchen",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/researchers-plug-gpt-6-astra-directly-into-a-robot-and-let-it-clean-up-an-unfamiliar-kitchen/",
-          "publishedAt": "2026-09-27"
-        },
-        {
-          "title": "NarrateAI: production-ready LLM quality assurance on Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/narrateai-production-ready-llm-quality-assurance-on-amazon-bedrock/",
-          "publishedAt": "2026-09-25"
-        },
-        {
-          "title": "Nvidia drops a free 100M-parameter model that identifies up to eight speakers in real time",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/nvidia-drops-a-free-100m-parameter-model-that-identifies-up-to-eight-speakers-in-real-time/",
-          "publishedAt": "2026-09-27"
-        },
-        {
-          "title": "OpenAI says 80 to 90 percent of its research already targets GPT 7 and beyond",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/openai-says-80-to-90-percent-of-its-research-already-targets-gpt-7-and-beyond/",
-          "publishedAt": "2026-09-27"
-        },
-        {
-          "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-          "source": "MIT Technology Review AI",
-          "url": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
           "publishedAt": "2026-09-25"
         }
       ]
