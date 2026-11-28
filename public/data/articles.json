@@ -1,6 +1,108 @@
 {
-  "updatedAt": "2026-11-27T03:32:07.368Z",
+  "updatedAt": "2026-11-28T03:09:08.686Z",
   "articles": [
+    {
+      "id": "ai-news-2026-11-28",
+      "date": "2026-11-28",
+      "generatedAt": "2026-11-28T03:09:08.683Z",
+      "title": "今日のAIニュース総覧",
+      "dek": "The Decoder、arXiv AIなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
+      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
+      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
+      "details": [
+        {
+          "heading": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+          "body": "The Decoderから公開された情報です。概要: Yann LeCun is pushing forward with his alternative to language models through his startup AMI Labs. The JEPA architecture aims to give machines an internal world model that captures cause and effect. Three new studies show progress in robot planning, more efficient training, and error correction, though the pieces still need to grow together. The article Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models appeared first on The Decoder ."
+        },
+        {
+          "heading": "Context Scaling: A New Frontier of AI Scaling",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.33160v1 Announce Type: new Abstract: Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the context available when the system acts. Relevant user state, repository revisions, tool traces, sensor readings, or environment changes may be unavailable, distorted, or poorly selected. We call the effort to reduce this bottleneck context scaling. We frame a model as $P_\\theta(d\\mid c)$ within a system governed by three budgets: training $B_\\theta$, decision-time $B_d$, and context-infrastructure $B_c$. Pretraining scaling invests in $\\theta$; decision-time scaling searches, refines, or verifies decisions under supplied context; context scaling improves the system's capacity to acquire, represent, deliver, evaluate, and persist deployment state for model use. The three programs interact, but only $B_c$ targets what the"
+        },
+        {
+          "heading": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.33263v1 Announce Type: new Abstract: The growing use of large language models (LLMs) for mental health support raises important safety concerns. Existing guard models primarily identify categories of harmful content, often overlooking the context needed to determine an appropriate response. We introduce a clinically grounded taxonomy that characterizes harm along three dimensions: what the harm is, who is involved, and when it occurs. It further separates harm characterization from intervention decisions, thus enabling safety policies to be specified outside the model weights through explicit, clinician-curated instructions that can be updated and audited. We validate the taxonomy with expert clinicians and validate a panel of LLM judges to scale annotation. Relabeling public benchmarks in this taxonomy shows that they rarely contain harm directed at the user, which accounts f"
+        },
+        {
+          "heading": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?",
+          "body": "The Decoderから公開された情報です。概要: More than 40 projects are working to bring a leaked Xbox build of GTA 6 to PC through reverse engineering just days after its $3.79 billion record console launch. AI coding agents like Claude Code are speeding up the process so much that an early unofficial multiplayer mode is already running. Rockstar's delayed PC business model is coming under pressure. The article Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents? appeared first on The Decoder ."
+        },
+        {
+          "heading": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+          "body": "arXiv AIから公開された情報です。概要: arXiv:2611.33161v1 Announce Type: new Abstract: When an LLM or VLM produces several candidate answers, picking the best one usually relies on the model's own confidence, a learned judge model, or a domain check. Each has a known weakness: an answer can be fluent but insecure, mathematically plausible but physically infeasible, or rated highly by a judge while quietly breaking a task requirement. We propose a scoring framework that combines a small set of hard checks every answer must pass with a wider set of softer checks whose scores are blended into one number per candidate. This adaptive scoring framework consists of three components: a drafting model that produces the candidates, a configuring model that selects and weights the checks for each task, and scoring models that rate properties no grounded tool can compute. We apply our proposed method to four tasks: writing code that is b"
+        }
+      ],
+      "watchPoints": [
+        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
+        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
+        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
+      ],
+      "glossary": [
+        {
+          "term": "基盤モデル",
+          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
+        },
+        {
+          "term": "AIエージェント",
+          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
+        }
+      ],
+      "tags": [
+        "AIニュース",
+        "日次ダイジェスト",
+        "The Decoder",
+        "arXiv AI"
+      ],
+      "sources": [
+        {
+          "title": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "title": "Context Scaling: A New Frontier of AI Scaling",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.33160",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "title": "What, Who, and When: Structured Harm Assessment for Mental Health Safety via Short Reasoning",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.33263",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "title": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.33161",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "title": "General-Purpose Decision Models for AI Configuration Tuning",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.33190",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "title": "Certify What You Plant: Shortcut-Free Proof Depth in Logical Reasoning Data",
+          "source": "arXiv AI",
+          "url": "https://arxiv.org/abs/2611.33303",
+          "publishedAt": "2026-11-27"
+        },
+        {
+          "title": "OpenAI is building \"Athena\" data platform to cut down on AI agent guesswork",
+          "source": "The Decoder",
+          "url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork/",
+          "publishedAt": "2026-11-27"
+        }
+      ]
+    },
     {
       "id": "ai-news-2026-11-27",
       "date": "2026-11-27",
@@ -6068,109 +6170,6 @@
           "source": "AWS Machine Learning",
           "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
           "publishedAt": "2026-09-28"
-        }
-      ]
-    },
-    {
-      "id": "ai-news-2026-09-29",
-      "date": "2026-09-29",
-      "generatedAt": "2026-09-29T00:51:57.977Z",
-      "title": "今日のAIニュース総覧",
-      "dek": "AWS Machine Learning、arXiv AI、The Decoderなどの新着情報を横断し、今日確認すべきAI関連トピックを整理しました。",
-      "summary": "本日の自動収集では、主要なAI企業・研究組織・技術メディアのフィードから新着情報を取得しました。OpenAI APIキーが未設定のため、この記事は出典のタイトルと概要をもとにした簡易版です。詳細な本文生成を有効にすると、各ニュースの背景、利用者や開発者への影響、次に注目すべき論点まで踏み込んだ記事になります。",
-      "whyItMatters": "AIの動向は、モデルの能力向上だけでなく、価格、企業導入、安全性、著作権、規制、半導体、クラウド基盤まで広く波及します。毎日の小さな発表を追うことで、数週間後に大きな変化として見える兆候を早く捉えられます。",
-      "details": [
-        {
-          "heading": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2",
-          "body": "AWS Machine Learningから公開された情報です。概要: Deploy two generative media models from one AWS vLLM-Omni Deep Learning Container on Amazon SageMaker AI. Generate an image with FLUX.2-klein through real-time inference, then animate it into video with Wan2.1-VACE through asynchronous inference, and retrieve the MP4 from Amazon S3."
-        },
-        {
-          "heading": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-          "body": "arXiv AIから公開された情報です。概要: arXiv:2609.30341v1 Announce Type: new Abstract: Data Spaces enable sovereign and governed data sharing across organizational boundaries, but their integration with AI agents remains challenging due to mismatches between probabilistic language model interactions and policy-driven data infrastructures. This article presents an architectural mediation approach based on the Model Context Protocol (MCP), implemented through the Eunomia Agent, to enable controlled interaction between large language model (LLM) agents and data space services. The proposed mediation layer translates data space capabilities into structured, schema-driven tools that AI agents can discover and invoke while preserving governance constraints. A prototype implementation validates end-to-end interaction across catalog discovery, metadata retrieval, and data service invocation without modifying existing data space compo"
-        },
-        {
-          "heading": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
-          "body": "AWS Machine Learningから公開された情報です。概要: Deploy a text-to-speech model on Amazon SageMaker AI with the AWS vLLM-Omni Deep Learning Container and stream generated speech over a persistent bidirectional connection. This Part 1 tutorial deploys Qwen3-TTS and streams speech through a Gradio application."
-        },
-        {
-          "heading": "Grok 4.7 is now available on Amazon Bedrock",
-          "body": "AWS Machine Learningから公開された情報です。概要: xAI's Grok 4.7 is now available on Amazon Bedrock: a frontier model for coding, long-running agents, and knowledge work. It offers a 500K token context window and four configurable reasoning effort levels, reachable through the Responses, Chat Completions, and Converse APIs."
-        },
-        {
-          "heading": "Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips",
-          "body": "The Decoderから公開された情報です。概要: Nvidia is combining its OpenShell agent software with Sentry, a new hardware watchdog, to create the Open Agent Safety Platform. Sentry is supposed to isolate AI agents that break out within milliseconds. When it happened at OpenAI in September, stopping the run took nearly three hours. Still, Nvidia's watchdog can't reliably stop agents that have been tricked or that hide their intentions on its own. The article Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips appeared first on The Decoder ."
-        }
-      ],
-      "watchPoints": [
-        "同じテーマが複数社から出ている場合、市場全体の方向転換を示している可能性があります。",
-        "モデル発表は、価格、API制限、利用規約、対象地域もあわせて確認すると実務判断に使いやすくなります。",
-        "規制や安全性のニュースは、短期の機能追加よりも導入計画への影響が大きくなる場合があります。"
-      ],
-      "glossary": [
-        {
-          "term": "基盤モデル",
-          "description": "大量のデータで事前学習され、文章生成や画像理解など複数用途に使えるAIモデルです。"
-        },
-        {
-          "term": "AIエージェント",
-          "description": "目標に向けて情報取得、判断、ツール操作を組み合わせて進めるAIシステムです。"
-        }
-      ],
-      "tags": [
-        "AIニュース",
-        "日次ダイジェスト",
-        "AWS Machine Learning",
-        "arXiv AI",
-        "The Decoder"
-      ],
-      "sources": [
-        {
-          "title": "Generate images and video with vLLM-Omni on SageMaker AI – Part 2",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/generate-images-and-video-with-vllm-omni-on-sagemaker-ai-part-2/",
-          "publishedAt": "2026-09-28"
-        },
-        {
-          "title": "Bridging LLM Agents and Data Spaces: An Architectural Mediation Approach using the Model Context Protocol",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.30341",
-          "publishedAt": "2026-09-28"
-        },
-        {
-          "title": "Build real-time voice applications with vLLM-Omni on SageMaker AI – Part 1",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/build-real-time-voice-applications-with-vllm-omni-on-sagemaker-ai-part-1/",
-          "publishedAt": "2026-09-28"
-        },
-        {
-          "title": "Grok 4.7 is now available on Amazon Bedrock",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/grok-4-7-is-now-available-on-amazon-bedrock/",
-          "publishedAt": "2026-09-28"
-        },
-        {
-          "title": "Nvidia wants to keep AI agents on a short leash with a watchdog built into its chips",
-          "source": "The Decoder",
-          "url": "https://the-decoder.com/nvidia-wants-to-keep-ai-agents-on-a-short-leash-with-a-watchdog-built-into-its-chips/",
-          "publishedAt": "2026-09-28"
-        },
-        {
-          "title": "When Is a Multi-Agent Code Judge Actually Grounded? Two Label-Free Measurements, and a Judge That Declines to Guess",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.30328",
-          "publishedAt": "2026-09-28"
-        },
-        {
-          "title": "A Synthetic Ground-Truth Framework for the Evaluation of Explainable AI Methods",
-          "source": "arXiv AI",
-          "url": "https://arxiv.org/abs/2609.30397",
-          "publishedAt": "2026-09-28"
-        },
-        {
-          "title": "Accelerate multimodal RL training with SkyRL on Amazon SageMaker HyperPod",
-          "source": "AWS Machine Learning",
-          "url": "https://aws.amazon.com/blogs/machine-learning/accelerate-multimodal-rl-training-with-skyrl-on-amazon-sagemaker-hyperpod/",
-          "publishedAt": "2026-09-25"
         }
       ]
     }
